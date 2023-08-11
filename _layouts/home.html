@@ -1,114 +1,38 @@
-{% include head.html %}
+---
+layout: default
+---
 
-<body>
-    {% include header.html %}
-
-    <div class="content">
-        <div class="l-content">
-            <div class="news-text">
-                <h2 class="news-head">НОВОСТИ</h2>
-                <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
-            </div>
-            <div class="news">
-                <a href="#" class="news_ico">
-                    <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
-                    <img class="n-block-img" src="{{ '/assets/img/may_upd_127x.png' | relative_url }}">
-                </a>
-            </div>
-            <div class="img-content">
-                <h5 class="img-headlink">
-                    <a href="#" class="img-link">PLACEHOLDER HEAD</a>
-                </h5>
-                <p class="n-img-desc">
-                    Placeholder desc
-                </p>
-                <p class="n-img-date">
-                    66.66.6666
-                </p>
-            </div>
-            <hr class="b-hr">
-            <div class="news">
-                <a href="#" class="news_ico">
-                    <img class="n-block-img" src="{{ '/assets/img/may_upd_127x.png' | relative_url }}">
-                </a>
-            </div>
-            <div class="img-content">
-                <h5 class="img-headlink">
-                    <a href="#" class="img-link">PLACEHOLDER HEAD</a>
-                </h5>
-                <p class="n-img-desc">
-                    Placeholder desc
-                </p>
-                <p class="n-img-date">
-                    66.66.6666
-                </p>
-            </div>
-            <hr class="b-hr">
-            <div class="wide">
-                <div class="wide-content">
-                    <div class="wide-text">
-                        <a class="o-wide-text" href="#">
-                            <img width="209" height="135" src="{{ '/assets/img/join-clan.jpg' | relative_url }}">
-                            <span class="text-pos">
-                                <span class="text-head">PLACEHOLDER</span>
-                                <span class="text"></span>
-                            </span>
-                            <span class="blackout"></span>
-                        </a>
-                    </div>
-                    <div class="wide-text">
-                        <a class="o-wide-text" href="#">
-                            <img width="209" height="135" src="{{ '/assets/img/join-clan.jpg' | relative_url }}">
-                            <span class="text-pos">
-                                <span class="text-head">PLACEHOLDER</span>
-                                <span class="text"></span>
-                            </span>
-                            <span class="blackout"></span>
-                        </a>
-                    </div>
-                    <div class="wide-text">
-                        <a class="o-wide-text" href="#">
-                            <img width="209" height="135" src="{{ '/assets/img/join-clan.jpg' | relative_url }}">
-                            <span class="text-pos">
-                                <span class="text-head">PLACEHOLDER</span>
-                                <span class="text"></span>
-                            </span>
-                            <span class="blackout"></span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="r-content">
+<div class="content">
+    <div class="l-content">
+        {% include posts.html %}
+    </div>
+    <div class="r-content">
+        <a class="ad-img" href="#">
+            <img src="{{ '/assets/img/wot_243_ru.jpg' | relative_url }}" height="243" width="242">
+            <span class="blackout"></span>
+        </a>
+        <div class="img-text">
             <a class="ad-img" href="#">
-                <img src="{{ '/assets/img/wot_243_ru.jpg' | relative_url }}" height="243" width="242">
-                <span class="blackout"></span>
+                <img src="{{ '/assets/img/com_mods.png' | relative_url }}">
+                <span class="text-pos">
+                    <span class="text-head">WGMODS</span>
+                    <span class="blackout"></span>
+                </span>
             </a>
-            <div class="img-text">
-                <a class="ad-img" href="#">
-                    <img src="{{ '/assets/img/com_mods.png' | relative_url }}">
-                    <span class="text-pos">
-                        <span class="text-head">WGMODS</span>
-                        <span class="blackout"></span>
-                    </span>
+        </div>
+        <div>
+            <hr style="width: 80%; margin: 10px auto 0 auto;">
+            <h3 style="margin-top: 10px; margin-bottom: 5px;">Мы в социальных сетях:</h3>
+        </div>
+        <ul class="social-icons">
+            <li class="social-icons_item">
+                <a class="social-icons_link" href="https://openvk.su/mrb" title="Mr. Bendy OVK">
+                    <img class="social-icons_img" src="{{ '/assets/img/ovk_28x.png' | relative_url }}">
                 </a>
-            </div>
-            <div>
-                <hr style="width: 80%; margin: 10px auto 0 auto;">
-                <h3 style="margin-top: 10px; margin-bottom: 5px;">Мы в социальных сетях:</h3>
-            </div>
-            <ul class="social-icons">
-                <li class="social-icons_item">
-                    <a class="social-icons_link" href="https://openvk.su/mrb" title="Mr. Bendy OVK">
-                        <img class="social-icons_img" src="{{ '/assets/img/ovk_28x.png' | relative_url }}">
-                    </a>
-                </li>
-            </ul>
-            <div>
-                <h3 style="margin-top: 0;">Присоединяйся!</h3>
-            </div>
+            </li>
+        </ul>
+        <div>
+            <h3 style="margin-top: 0;">Присоединяйся!</h3>
         </div>
     </div>
-
-    {% include footer.html %}
-</body>
+</div>

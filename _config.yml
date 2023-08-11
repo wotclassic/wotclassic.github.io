@@ -31,13 +31,13 @@ repository: A1Asriel/AsrielBot-site1
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       layout: "post"
-#   - scope:
-#       path: ""
-#     values:
-#       layout: "default"
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"

@@ -1,8 +1,8 @@
 ---
 permalink: /404.html
+title: Страница не найдена
 ---
-{% include head.html %}
-{% include header.html %}
+
 <style type="text/css" media="screen">
   .container {
     margin: 10px auto;
@@ -26,7 +26,7 @@ permalink: /404.html
     <h1 style="margin-top: 15px;"> СТРАНИЦА НЕ НАЙДЕНА </h1>
     <div class="b-content" style="margin-top: 15px;">
       <h2>Такой страницы не существует или адрес введён неверно.</h2>
-      <p style="margin: 15px 0px 0px;"><a href="./index.html">На главную</a></p>
+      <p style="margin: 15px 0px 0px;"><a href="{{ '/' | relative_url }}">На главную</a></p>
     </div>
 
     <div class="clr">
@@ -34,4 +34,3 @@ permalink: /404.html
     </div>
   </div>
 </div>
-{% include footer.html %}
