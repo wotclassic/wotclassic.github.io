@@ -1,0 +1,37 @@
+---
+permalink: /404.html
+---
+{% include head.html %}
+{% include header.html %}
+<style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="content">
+  <div class="l-container-wrapper" style="margin: 60px 80px 65px;">
+    <!--content-->
+
+    <img class="img-error" src="{{ '/assets/img/404.jpg' | relative_url }}" alt="">
+    <h1 style="margin-top: 15px;"> СТРАНИЦА НЕ НАЙДЕНА </h1>
+    <div class="b-content" style="margin-top: 15px;">
+      <h2>Такой страницы не существует или адрес введён неверно.</h2>
+      <p style="margin: 15px 0px 0px;"><a href="./index.html">На главную</a></p>
+    </div>
+
+    <div class="clr">
+      <!-- -->
+    </div>
+  </div>
+</div>
+{% include footer.html %}

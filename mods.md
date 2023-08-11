@@ -1,0 +1,4 @@
+---
+layout: mods
+title: Моды
+---

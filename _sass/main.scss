@@ -1,0 +1,612 @@
+a, abbr, acronym, address, applet, b, big, blockquote, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, tfoot, th, thead, tr, tt, u, ul, var {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: 0 0;
+}
+
+html {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #f25322;
+    transition: color .15s ease-out;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+h1 {
+    font-family: "WarHeliosCondC","Arial Narrow",Arial,sans-serif;
+    font-stretch: normal;
+    font-size: 32px;
+    color: #fff;
+    font-weight: normal;
+    text-shadow: #000 0 1px 0;
+    margin: 4px 0 18px;
+}
+
+h2 {
+    font-family: "WarHeliosCondC","Arial Narrow",Arial,sans-serif;
+    font-stretch: normal;
+    font-size: 26px;
+    color: #fff;
+    font-weight: normal;
+    padding: 0;
+}
+
+h3 {
+    font-family: "WarHeliosCondC","Arial Narrow",Arial,sans-serif;
+    font-stretch: normal;
+    font-size: 21px;
+    color: #fff;
+    font-weight: normal;
+    margin: 24px 0 15px;
+    padding: 0;
+}
+
+h5, .b-header-h5 {
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    font-stretch: normal;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 16px 0 8px;
+    padding: 0;
+}
+
+body, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+}
+
+body {
+    color: #b1b2b2;
+    font: 12px/20px "robotoregular", "Arial Narrow", Arial, sans-serif;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    background: url(../img/back.png) top no-repeat, url(../img/sparkles.png) 50% 0 #1c1c1e;
+}
+
+.brand-header {
+    background: #050505;
+    position: relative;
+    height: 37px;
+}
+
+.mb-logo {
+    display: inline-block;
+    opacity: 50%;
+    margin: 8px 0px;
+    margin-left: 10px;
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    vertical-align: middle;
+    background: url(../img/MB_logo.png) no-repeat 0 50%;
+}
+
+.mb-logo:hover {
+    opacity: 100%;
+}
+
+.brand-link {
+    color: #b1b2b2;
+    font-size: 13px;
+    line-height: 37px;
+    border: none;
+    vertical-align: top;
+    height: 37px;
+    margin: 0 10px;
+    vertical-align: top;
+}
+
+.brand-link:hover {
+	color: #fff
+}
+
+.navigation-header {
+    background-color: rgba(39, 39, 41, .85);
+}
+
+.navigation-link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 16px;
+    position: relative;
+    white-space: normal;
+    background-color: transparent;
+    color: #aaaaab;
+    font: 14px/66px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navigation-link-active:after {
+    content: "";
+    background-color: #fab81b;
+    top: auto;
+    width: auto;
+    height: 2px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.navigation-link-active {
+    color: #fff;
+}
+
+.navigation-link:hover {
+    color: #fff;
+}
+
+.navigation-head-centr {
+    max-width: 1000px;
+    margin: 0 auto ;
+    height: 66px;
+    padding: 0 25px 0 28px;
+}
+
+.content-wrapper {
+    width: 955px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.nav-logo {
+    height: 66px;
+    display: inline-block;
+    opacity: 50%;
+    background: url(../img/mini_wot_white.svg) no-repeat 0 50%;
+    background-size: 16px 21px;
+    width: 16px;
+    padding: 0 7px;
+}
+
+.nav-logo:hover {
+    opacity: 100%;
+}
+
+.wotc-logo {
+    background: url(../img/wotc_logo.png);
+    background-size: 100% 100%;
+    display: block;
+    width: 360px;
+    height: 205px;
+    top: 70px;
+}
+
+.content {
+    clear: both;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    width: 1000px;
+    line-height: 1;
+}
+
+.l-content {
+    float: left;
+    margin: 25px 0 25px 25px;
+    width: 686px;
+    position: relative;
+    z-index: 0;
+    vertical-align: baseline
+}
+
+.r-content {
+    float: right;
+    width: 244px;
+    margin: 25px 0 0 20px;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.news_ico {
+    display: block;
+    float: left;
+    border: 1px #000000 solid;
+    position: relative;
+    zoom: 1;
+}
+
+.n-import-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 22px;
+}
+
+.n-block-img {
+    float: left;
+    max-height: 135px;
+    width: 100px;
+}
+
+.news-text {
+    clear: both;
+    zoom: 1;
+    margin: 0 0 20px;
+}
+
+.news-head {
+    text-transform: uppercase;
+    font-size: 21px;
+    line-height: 1;
+    margin: 0 14px 0 0;
+    max-width: 492px;
+    display: inline-block;
+}
+
+.img-content {
+    margin-left: 117px;
+}
+
+.img-headlink {
+    font-size: 19px;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    font-stretch: condensed;
+    font-weight: normal;
+    line-height: 22px;
+    margin: 0 0 8px;
+    padding: 0;
+}
+
+.n-img-desc {
+    margin: 0 0 10px;
+}
+
+.n-img-date {
+    line-height: 14px;
+    overflow: hidden;
+    color: #606061;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+.img-link {
+    color: #f9d088;
+}
+
+.img-link:hover {
+    color: #ffe7ba;
+}
+
+hr {
+    background: url(../img/delimeter.png) no-repeat center top;
+    border: none;
+    height: 2px;
+    margin: 20px -25px;
+    display: block;
+    overflow: hidden;
+}
+
+.ad-img {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    border: 1px #000 solid;
+    margin: 0 0 10px 0;
+}
+
+.blackout {
+    border: 1px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    right: 1px;
+    bottom: 1px;
+    background: url(../img/b-b4r-bg.png) no-repeat -1000px -1000px;
+    display: block;
+}
+
+.blackout:hover {
+        border: 1px solid rgba(255,255,255,0.08); 
+        background-position: 0 0;
+        background-repeat: repeat
+}
+
+.img-text {
+    margin: 0 0 10px 0;
+    display: block;
+    text-decoration: none;
+}
+
+.text-pos {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 62px 10px 10px 10px;
+    background: url(../img/bg-text-img.png) no-repeat;
+}
+
+.text-head {
+    font-size: 16px;
+    color: #dcdcdc;
+    padding: 0;
+    margin: 0 0 5px 0;
+    text-decoration: none;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    display: block;
+}
+
+.social-icons {
+    padding: 6px 0 10px 0;
+    overflow: hidden;
+}
+
+.social-icons_img {
+    height: 28px;
+    width: 28px;
+    opacity: 0.85;
+}
+
+.social-icons_img:hover {
+    opacity: 1
+}
+
+.social-icons_link {
+    display: inline-block;
+    zoom: 1;
+    filter: alpha(opacity=85);
+    opacity: .85;
+    box-shadow: 0 0 1px rgba(0,0,0,0.33);
+    height: 28px;
+    width: 28px;
+}
+
+.social-icons_item {
+    float: left;
+    margin: 0 7px 7px 0;
+}
+
+.wide {
+    background: #121213;
+    border: 1px #1c1b1d solid;
+    padding: 0 12px;
+    margin: 20px 0;
+    overflow: hidden;
+    text-align: center;
+    display: block;
+    clear: both;
+    position: relative;
+}
+
+.wide-nostyle {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wide-content {
+    margin: 0 0 10px -10px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.wide-text {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: top;
+    margin: 10px 0 0 10px;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: normal;
+}
+
+.o-wide-text {
+    text-decoration: none;
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 12px;
+    color: #dcdcdc;
+    text-decoration: none;
+}
+
+.orange-arrow {
+        display: inline-block;
+        background: url(../img/orange_arrow.png) 100% 0 no-repeat;
+        line-height: 13px;
+        padding-right: 9px;
+        bottom: 3px;
+        position: relative;
+}
+
+.footer {
+    background: #101010;
+    position: relative;
+    clear: both;
+    top: 15px;
+}
+
+.footer-social {
+    position: relative;
+}
+
+.footer-social::before {
+    left: 0;
+    background: #393d3f;
+}
+
+.footer-social::after {
+    right: 0;
+    background: #cc181e;
+}
+
+.footer-social:after, .footer-social:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+
+.social-big {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: relative;
+}
+
+.social-big_item {
+    font: 11px/14px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    float: left;
+    vertical-align: top;
+    height: 83px;
+    width: 25%;
+}
+
+.social-link {
+    height: 83px;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+    padding-left: 10px;
+    background: #393d3f;
+    transition: background .15s ease-out;
+    display: inline-block;
+}
+
+.social-ico {
+    width: 34px;
+    margin-right: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-ico-wot {
+    width: 27px;
+    height: 35px;
+    margin-right: 0;
+    background: url(../img/logo_mini_white.png) no-repeat;
+    background-size: contain;
+    display: block;
+}
+
+.social-big-info {
+    text-align: left;
+    white-space: normal;
+    margin-right: 48px;
+    font: 13px/17px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 0 0 3px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.social-big-text {
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    letter-spacing: .5px;
+}
+
+.social-big-item {
+    height: 83px;
+    width: 25%;
+    font: 11px/14px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    vertical-align: top;
+}
+
+.footer-holder {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+.footer-links {
+    padding-top: 34px;
+    padding-bottom: 22px;
+}
+
+.footer-links::before {
+    display: table;
+    content: '';
+}
+
+.footer-links::after {
+    clear: both;
+    display: table;
+    content: '';
+
+}
+
+.footer-menu {
+    width: 82%;
+    float: right;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.footer-menu-link {
+    margin-right: 50px;
+    color: #dad7d6;
+    display: inline-block;
+    font: 12px "robotocondensedregular", "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+    margin: 0 20px 22px 0;
+    white-space: nowrap;
+}
+
+.footer-logo {
+    width: 18%;
+    padding: 0 15px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.footer-logo-link {
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+    display: block;
+    background: url(../img/lesta_logo.png);
+    background-size: 100% 100%;
+    width: 132px;
+    height: 70px;
+    margin-top: -10px;
+}
+
+.footer-bottom {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.footer-copyright {
+    color: #646464;
+    font-family: "robotocondensedregular", "Arial Narrow", Arial, sans-serif;
+}
