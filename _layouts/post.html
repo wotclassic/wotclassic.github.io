@@ -21,8 +21,8 @@ layout: default
                                 class="news-comment">Обсудить на форуме</a>
                         </div>
                         <div class="b-junction_navigation">
-                            {% assign next_url = page.next.url | relative_url %}
-                            {% assign prev_url = page.previous.url | relative_url %}
+                            {% assign prev_url = page.next.url | relative_url %}
+                            {% assign next_url = page.previous.url | relative_url %}
                             <a class="b-junction_pager {% if prev_url == nil %}b-junction_pager__disable{% endif %}" {% if prev_url != nil %}href="{{ prev_url }}"{% endif %}>
                                 &nbsp;<span class="b-junction_pager-ico"></span>
                             </a>

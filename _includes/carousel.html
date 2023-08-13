@@ -1,0 +1,82 @@
+<div class="carousel-container">
+    <span class="carousel-control"></span>
+    <span class="carousel-control carousel-control_right"></span>
+    {% assign i = 0 %}
+    {% for slide in include.slides %}
+        <div class="carousel-slide {% if i == 0 %}slide-active{% endif %}">
+            <a href="{{ slide.url | absolute_url }}"><img width="684" height="243" src="{{ slide.image | relative_url }}"><span class="b-b4r_blackout"></span></a>
+            <a class="carousel-text" href="{{ slide.url | absolute_url }}">
+                <span class="carousel-title">{{ slide.title }}</span>
+                <span class="carousel-desc">{{ slide.desc }}</span>
+            </a>
+        </div>
+        {% assign i = i | plus: 1 %}
+    {% endfor %}
+    <ul class="carousel-dots">
+        {% assign i = 0 %}
+        {% for slide in include.slides %}
+            <li class="carousel-dot {% if i == 0 %}dot-active{% endif %}"></li>
+            {% assign i = i | plus: 1 %}
+        {% endfor %}
+    </ul>
+</div>
+
+<script>
+    function sleep(ms) {
+        return new Promise(function(resolve) { setTimeout(resolve, ms) });
+    }
+
+    var cur_slide_num = 0;
+    var slides = document.querySelectorAll('.carousel-slide');
+    var dots = document.querySelectorAll('.carousel-dot');
+    var left_arrow = document.querySelector('.carousel-control');
+    var right_arrow = document.querySelector('.carousel-control_right');
+    var anim_duration = 1000;
+    var is_playing = false;
+
+    slides.forEach(function (slide, i) {
+        var className = 'carousel-text_'+i;
+        text = slide.querySelector('.carousel-text');
+        document.styleSheets[0].insertRule('.' + className + `:hover { bottom: ${text.clientHeight}px; }`, 0);
+        if (i > 0) slide.style.display = 'none';
+        text.classList.add(className);
+    })
+
+    async function slide_to(num) {
+        if (cur_slide_num === num) return;
+        var cur_slide = slides[cur_slide_num];
+        var new_slide = slides[num];
+        var cur_dot = dots[cur_slide_num];
+        var new_dot = dots[num];
+        is_playing = true;
+        cur_slide.classList.remove('slide-active');
+        new_slide.style.display="block";
+        cur_dot.classList.remove('dot-active');
+        new_dot.classList.add('dot-active');
+        await sleep(250);
+        new_slide.classList.add('slide-active');
+        await sleep(750);
+        cur_slide.style.display="none";
+        is_playing = false;
+        cur_slide_num = num;
+    }
+
+    left_arrow.addEventListener('click', function() {
+        if (is_playing) return;
+        if (cur_slide_num === 0) slide_to(slides.length-1);
+        else slide_to(cur_slide_num-1);
+        return;
+    });
+    right_arrow.addEventListener('click', function() {
+        if (is_playing) return;
+        if (cur_slide_num === slides.length-1) slide_to(0);
+        else slide_to(cur_slide_num+1);
+        return;
+    });
+    dots.forEach(function(dot, i) {
+        dot.addEventListener('click', function() {
+            if (is_playing) return;
+            slide_to(i);
+        });
+    });
+</script>

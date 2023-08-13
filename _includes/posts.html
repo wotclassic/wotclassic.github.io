@@ -1,43 +1,41 @@
-<div class="l-content">
-    <div class="news-text">
-        {% if page.url == '/' %}
-            <h2 class="news-head">НОВОСТИ</h2>
-            <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
-        {% else %}
-            <h1>НОВОСТИ</h1>
-        {% endif %}
-    </div>
-    {% assign post_num = 1 %}
-
-    {% if paginator != nil %}
-        {% assign posts = paginator.posts %}
-    {% else %}
-        {% assign posts = site.posts %}
-    {% endif %}
-    {% for post in posts | limit: 10 %}
-        {% if post_num == 6 and paginator == nil %}
-            {% include suggestion-panel.html %}
-        {% endif %}
-        <div class="news">
-            <a href="{{ post.url | relative_url }}" class="news_ico">
-                {% if post.tags contains "important" %}
-                    <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
-                {% endif %}
-                <img class="n-block-img" src="{{ post.image | default: '/assets/img/announcement_127x.jpg' | relative_url }}">
-            </a>
-        </div>
-        <div class="img-content">
-            <h5 class="img-headlink"><a href="{{ post.url | relative_url }}" class="img-link">{{ post.title }}</a></h5>
-            <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
-            <p class="n-img-date">{{ post.date | date: "%d.%m.%Y" }}</p>
-        </div>
-        <hr class="b-hr">
-        {% assign post_num = post_num | plus: 1 %}
-    {% endfor %}
-    {% if post_num < 6 and paginator == nil %}
-        {% include suggestion-panel.html %}
-    {% endif %}
+<div class="news-text">
     {% if page.url == '/' %}
-        <a href="{{ '/news' | relative_url }}" class="orange-arrow">Другие новости</a>
+        <h2 class="news-head">НОВОСТИ</h2>
+        <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
+    {% else %}
+        <h1>НОВОСТИ</h1>
     {% endif %}
 </div>
+{% assign post_num = 1 %}
+
+{% if paginator != nil %}
+    {% assign posts = paginator.posts %}
+{% else %}
+    {% assign posts = site.posts %}
+{% endif %}
+{% for post in posts | limit: 10 %}
+    {% if post_num == 6 and paginator == nil %}
+        {% include suggestion-panel.html %}
+    {% endif %}
+    <div class="news">
+        <a href="{{ post.url | relative_url }}" class="news_ico">
+            {% if post.tags contains "important" %}
+                <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
+            {% endif %}
+            <img class="n-block-img" src="{{ post.image | default: '/assets/img/announcement_127x.jpg' | relative_url }}">
+        </a>
+    </div>
+    <div class="img-content">
+        <h5 class="img-headlink"><a href="{{ post.url | relative_url }}" class="img-link">{{ post.title }}</a></h5>
+        <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
+        <p class="n-img-date">{{ post.date | date: "%d.%m.%Y" }}</p>
+    </div>
+    <hr class="b-hr">
+    {% assign post_num = post_num | plus: 1 %}
+{% endfor %}
+{% if post_num < 6 and paginator == nil %}
+    {% include suggestion-panel.html %}
+{% endif %}
+{% if page.url == '/' %}
+    <a href="{{ '/news' | relative_url }}" class="orange-arrow">Другие новости</a>
+{% endif %}
