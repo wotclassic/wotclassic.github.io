@@ -4,7 +4,7 @@
     {% assign i = 0 %}
     {% for slide in include.slides %}
         <div class="carousel-slide {% if i == 0 %}slide-active{% endif %}">
-            <a href="{{ slide.url | absolute_url }}"><img width="684" height="243" src="{{ slide.image | relative_url }}"><span class="b-b4r_blackout"></span></a>
+            <a href="{{ slide.url | absolute_url }}"><img width="684" height="243" src="{{ slide.image | relative_url }}"></a>
             <a class="carousel-text" href="{{ slide.url | absolute_url }}">
                 <span class="carousel-title">{{ slide.title }}</span>
                 <span class="carousel-desc">{{ slide.desc }}</span>
@@ -19,6 +19,7 @@
             {% assign i = i | plus: 1 %}
         {% endfor %}
     </ul>
+    <span class="blackout" style="z-index: 3; pointer-events: none;"></span>
 </div>
 
 <script>
@@ -37,7 +38,7 @@
     slides.forEach(function (slide, i) {
         var className = 'carousel-text_'+i;
         text = slide.querySelector('.carousel-text');
-        document.styleSheets[0].insertRule('.' + className + `:hover { bottom: ${text.clientHeight}px; }`, 0);
+        document.styleSheets[0].insertRule('.' + className + `:hover { bottom: ${text.clientHeight}px; transition-delay: 0.3s; }`, 0);
         if (i > 0) slide.style.display = 'none';
         text.classList.add(className);
     })
