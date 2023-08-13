@@ -1688,3 +1688,96 @@ table {
     background-position: 0 -10px;
     cursor: default;
 }
+
+.l-pager {
+    display: inline-block;
+    zoom: 1;
+    font-size: 12px;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    margin: 17px 0;
+}
+
+.b-pager, .b-content .b-pager {
+    margin: 0;
+    padding: 0;
+}
+
+.b-pager_item, .b-content .b-pager_item {
+    background: none;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.b-pager_arr {
+    display: block;
+    padding: 3px 0 0;
+    height: 21px;
+    width: 50px;
+    background: url(./css/scss/content/pager/img/bg-pager-arrow.png) 0 0 no-repeat;
+    font-size: 11px;
+    color: #606061;
+    text-align: center;
+}
+
+.b-pager_arr:hover {
+    background-position: 0 -24px;
+    text-decoration: none;
+}
+
+.b-pager_arr.disabled {
+    background-position: 0 -48px;
+    cursor: default;
+    color: #3d3d3d;
+}
+
+.b-pager_arr.disabled .b-pager_arr-text {
+    color: #333;
+    cursor: default;
+}
+
+.b-pager_arr-text {
+    color: #f26522;
+    font-size: 14px;
+}
+
+.b-pager_item__pages, .b-content .b-pager_item__pages {
+    padding: 0px 7px;
+    white-space: nowrap;
+}
+
+.b-pager_item, .b-content .b-pager_item {
+    background: none;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.b-pager_link.current {
+    text-decoration: none;
+    background: #151516;
+    border: 1px #474747 solid;
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+    box-shadow: none;
+}
+
+.b-pager_link {
+    padding: 5px 7px;
+    float: left;
+    border: 1px #090a0b solid;
+    box-shadow: 0 0 2px #5d5d61 inset;
+    background: url(./css/scss/content/pager/img/pager-bg.gif) repeat-x 0 100% #1d1d1e;
+    color: #f25322;
+    margin: 0 1px;
+}
+
+.b-pager_link:hover {
+    color: #ff7432;
+    background: url(./css/scss/content/pager/img/pager-bg-hover.gif) repeat-x 0 100% #292929;
+    box-shadow: 0 0 2px #86868b inset;
+    text-decoration: none
+}

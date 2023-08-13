@@ -5,6 +5,23 @@ layout: default
 <div class="content">
     <div class="l-content">
         {% include posts.html %}
+        <div class="l-pager paginator">
+            <ul class="b-pager">
+                <li class="b-pager_item">
+                    <a class="b-pager_arr disabled"><span class="b-pager_arr-text">←</span>
+                    </a>
+                </li>
+                <li class="b-pager_item b-pager_item__pages">
+                    <a class="b-pager_link current">1</a>
+                    <a class="b-pager_link" href="./news_page2.html">2</a>
+                    <a class="b-pager_link" href="./news_page3.html">3</a>
+                </li>
+                <li class="b-pager_item">
+                    <a class="b-pager_arr" href="./news_page2.html"> <span class="b-pager_arr-text">→</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
     {% include categories-sidebar.html %}
 </div>
