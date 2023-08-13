@@ -1,56 +1,43 @@
-<div class="news-text">
-    <h2 class="news-head">НОВОСТИ</h2>
-    <a href="./news.html" class="orange-arrow">Все новости</a>
-</div>
-{% assign post_num = 1 %}
-{% for post in site.posts limit:10 %}
-    {% if post_num == 6 %}
-        <div class="wide">
-            <div class="wide-content">
-                <div class="wide-text">
-                    <a class="o-wide-text" href="#">
-                        <img width="209" height="135" src="{{ '/assets/img/join-clan.jpg' | relative_url }}">
-                        <span class="text-pos">
-                            <span class="text-head">PLACEHOLDER</span>
-                            <span class="text"></span>
-                        </span>
-                        <span class="blackout"></span>
-                    </a>
-                </div>
-                <div class="wide-text">
-                    <a class="o-wide-text" href="#">
-                        <img width="209" height="135" src="{{ '/assets/img/join-clan.jpg' | relative_url }}">
-                        <span class="text-pos">
-                            <span class="text-head">PLACEHOLDER</span>
-                            <span class="text"></span>
-                        </span>
-                        <span class="blackout"></span>
-                    </a>
-                </div>
-                <div class="wide-text">
-                    <a class="o-wide-text" href="#">
-                        <img width="209" height="135" src="{{ '/assets/img/join-clan.jpg' | relative_url }}">
-                        <span class="text-pos">
-                            <span class="text-head">PLACEHOLDER</span>
-                            <span class="text"></span>
-                        </span>
-                        <span class="blackout"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
+<div class="l-content">
+    <div class="news-text">
+        {% if page.url == '/' %}
+            <h2 class="news-head">НОВОСТИ</h2>
+            <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
+        {% else %}
+            <h1>НОВОСТИ</h1>
+        {% endif %}
+    </div>
+    {% assign post_num = 1 %}
+
+    {% if paginator != nil %}
+        {% assign posts = paginator.posts %}
+    {% else %}
+        {% assign posts = site.posts %}
     {% endif %}
-    <div class="news">
-        <a href="{{ post.url | relative_url }}" class="news_ico">
-            <img class="n-import-icon" src="assets/img/important-news-ico.png">
-            <img class="n-block-img" src="assets/img/may_upd_127x.png">
-        </a>
-    </div>
-    <div class="img-content">
-        <h5 class="img-headlink"><a href="{{ post.url | relative_url }}" class="img-link">{{ post.title }}</a></h5>
-        <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
-        <p class="n-img-date">{{ post.date | date: "%d.%m.%Y" }}</p>
-    </div>
-    <hr class="b-hr">
-    {% assign post_num = post_num | plus: 1 %}
-{% endfor %}
+    {% for post in posts | limit: 10 %}
+        {% if post_num == 6 and paginator == nil %}
+            {% include suggestion-panel.html %}
+        {% endif %}
+        <div class="news">
+            <a href="{{ post.url | relative_url }}" class="news_ico">
+                {% if post.tags contains "important" %}
+                    <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
+                {% endif %}
+                <img class="n-block-img" src="{{ post.image | default: '/assets/img/announcement_127x.jpg' | relative_url }}">
+            </a>
+        </div>
+        <div class="img-content">
+            <h5 class="img-headlink"><a href="{{ post.url | relative_url }}" class="img-link">{{ post.title }}</a></h5>
+            <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
+            <p class="n-img-date">{{ post.date | date: "%d.%m.%Y" }}</p>
+        </div>
+        <hr class="b-hr">
+        {% assign post_num = post_num | plus: 1 %}
+    {% endfor %}
+    {% if post_num < 6 and paginator == nil %}
+        {% include suggestion-panel.html %}
+    {% endif %}
+    {% if page.url == '/' %}
+        <a href="{{ '/news' | relative_url }}" class="orange-arrow">Другие новости</a>
+    {% endif %}
+</div>

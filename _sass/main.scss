@@ -1,5 +1,48 @@
 $subpath: "/wotclassic";
 
+@font-face {
+    font-family: robotocondensedbold;
+    src: url($subpath + '/assets/font/robotocondensed-bold-webfont.eot');
+    src: url($subpath + '/assets/font/robotocondensed-bold-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/robotocondensed-bold-webfont.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: robotocondensedregular;
+    src: url($subpath + '/assets/font/robotocondensed-regular-webfont.eot');
+    src: url($subpath + '/assets/font/robotocondensed-regular-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/robotocondensed-regular-webfont.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: robotoregular;
+    src: url($subpath + '/assets/font/roboto-regular-webfont.eot');
+    src: url($subpath + '/assets/font/roboto-regular-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/roboto-regular-webfont.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal
+}
+
+@font-face {
+    font-family: 'WarHeliosCondC';
+    src: url($subpath + '/assets/font/warhelioscondc-webfont.eot');
+    src: url($subpath + '/assets/font/warhelioscondc-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/warhelioscondc-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'WarHeliosCondCBold';
+    src: url($subpath + '/assets/font/warhelioscondcbold-webfont.eot');
+    src: url($subpath + '/assets/font/warhelioscondcbold-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/warhelioscondcbold-webfont.woff') format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+
 a,
 abbr,
 acronym,
@@ -77,6 +120,10 @@ a {
     text-decoration: none;
     color: #f25322;
     transition: color .15s ease-out;
+}
+
+a:hover {
+    color: #ff7e00
 }
 
 ol,
@@ -213,8 +260,6 @@ body {
     background-color: transparent;
     color: #aaaaab;
     font: 14px/66px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
-    font-family: Roboto Condensed;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
@@ -230,11 +275,16 @@ body {
     bottom: 0;
 }
 
+
 .navigation-link-active {
     color: #fff;
 }
 
 .navigation-link:hover {
+    color: #fab81b
+}
+
+.navigation-link-active:hover {
     color: #fff;
 }
 
@@ -242,7 +292,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     height: 66px;
-    padding: 0 25px 0 28px;
+    padding: 0px 0px 0 65px;
 }
 
 .content-wrapper {
@@ -437,6 +487,11 @@ body {
     line-height: 14px;
 }
 
+.img-imp-link:hover {
+    color: #f9d088;
+    text-decoration: underline;
+}
+
 hr {
     background: url($subpath + '/assets/img/delimeter.png') no-repeat center top;
     border: none;
@@ -449,9 +504,14 @@ hr {
 .ad-img {
     position: relative;
     display: block;
+    overflow: hidden;
     cursor: pointer;
-    border: 1px #000 solid;
     margin: 0 0 10px 0;
+}
+
+.ad-img img, .b4r.r-img-text img, .wide-content img {
+    border: 1px #000 solid;
+    display: block;
 }
 
 .blackout {
@@ -694,7 +754,7 @@ hr {
     text-align: center;
     white-space: nowrap;
     box-sizing: border-box;
-    padding-left: 10px;
+    padding-left: 13px;
     font-size: 0;
     line-height: 0;
     transition: background .15s ease-out;
@@ -726,7 +786,7 @@ hr {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 .social-ico-wot {
@@ -753,14 +813,14 @@ hr {
     text-align: left;
     white-space: normal;
     margin-right: 48px;
-    font: 13px/17px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
-    font-family: Roboto Condensed;
-    font-weight: bold;
+    font: 14px/17px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    line-height: 18px;
+    text-align: left;
+    white-space: normal;
     display: inline-block;
     vertical-align: middle;
-    padding: 0 0 0 3px;
     color: #fff;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .social-big-text {
@@ -1014,15 +1074,12 @@ hr {
     background: url($subpath + '/assets/img/red_message.png') no-repeat 0 0;
 }
 
-.message-money,
-.message-warning,
-.message-info,
-.message-error {
+.message-money, .message-warning, .message-info, .message-error {
     color: #babcbf;
     line-height: 150%;
     margin: 0 0 12px;
     min-height: 26px;
-    padding: 15px 13px 13px 48px;
+    padding: 15px 13px 30px 48px;
     word-wrap: break-word;
 }
 
@@ -1205,27 +1262,9 @@ hr {
     top: -9px;
 }
 
-.b-junction_pager {
-    background: #1d1d1e;
-    box-shadow: 0 0 1px rgba(255,255,255,0.35) inset, 0 1px 0 rgba(255,255,255,0.05) inset, 0 0 12px rgba(0,0,0,0.12);
-    border: 1px #090a0b solid;
-    border-radius: 3px;
-    color: #979899;
-    float: left;
-    font-weight: bold;
-    height: 27px;
-    margin-left: 3px;
-    line-height: 27px;
-    padding: 0 12px;
-    text-transform: uppercase;
-    -webkit-transition: all .1s ease-in-out;
-    transition: all .1s ease-in-out;
-}
-
 .b-junction_pager:first-child .b-junction_pager-ico {
     background-position: 50% -10px;
     margin-left: -9px;
-    left: -9px;
 }
 
 .b-junction_pager-ico {
@@ -1236,16 +1275,12 @@ hr {
     filter: alpha(opacity=80);
     opacity: .8;
     position: relative;
-    top: -3px;
     width: 18px;
 }
 
-
-.b-junction_pager__disable {
-    background: #1d1d1e url($subpath + '/assets/img/pager-bg-disable.png') 0 0 repeat-x;
-    box-shadow: 0 0 1px rgba(255,255,255,0.35) inset, 0 1px 0 rgba(255,255,255,0.04) inset, 0 0 12px rgba(0,0,0,0.05);
-    color: #666768;
-    cursor: default;
+.b-junction_pager__disable .b-junction_pager-ico {
+    filter: alpha(opacity=60);
+    opacity: .6;
 }
 
 .b-junction_pager {
@@ -1263,14 +1298,6 @@ hr {
     text-transform: uppercase;
     -webkit-transition: all .1s ease-in-out;
     transition: all .1s ease-in-out;
-}
-
-.b-hr-block span {
-    width: 120px;
-    background: url($subpath + '/assets/img/hr-block.png') 100% 0;
-    margin-right: -120px;
-    height: 59px;
-    float: right;
 }
 
 .b-junction_pager:hover {
@@ -1283,6 +1310,32 @@ hr {
 .b-junction_pager:hover .b-junction_pager-ico {
     filter: alpha(opacity=100);
     opacity: 1
+}
+
+.b-junction_pager__disable {
+    background: #1d1d1e url($subpath + '/assets/img/pager-bg-disable.png') 0 0 repeat-x;
+    box-shadow: 0 0 1px rgba(255,255,255,0.35) inset, 0 1px 0 rgba(255,255,255,0.04) inset, 0 0 12px rgba(0,0,0,0.05);
+    color: #666768;
+    cursor: default;
+}
+
+.b-junction_pager__disable:hover {
+    background: #1d1d1e url(../img/pager-bg-disable.png) 0 0 repeat-x;
+    box-shadow: 0 0 1px rgba(255,255,255,0.35) inset,0 1px 0 rgba(255,255,255,0.04) inset,0 0 12px rgba(0,0,0,0.05);
+    color: #666768
+}
+
+.b-junction_pager__disable:hover .b-junction_pager-ico {
+    filter: alpha(opacity=60);
+    opacity: .6
+}
+
+.b-hr-block span {
+    width: 120px;
+    background: url($subpath + '/assets/img/hr-block.png') 100% 0;
+    margin-right: -120px;
+    height: 59px;
+    float: right;
 }
 
 .big {

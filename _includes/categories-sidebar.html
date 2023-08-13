@@ -1,0 +1,23 @@
+<div class="r-content">
+    <div class="news-category news-category-menu">
+        <div class="news-wrapper">
+            <div class="news-arrow"></div>
+            <h2 class="header-block header-block-indent">КАТЕГОРИИ</h2>
+            <ul class="news-list">
+                <li>
+                    <a href="{{ '/news/important/' | relative_url }}">
+                        <span>Важные новости</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="news-list">
+                <li>
+                    <a href="{{ '/news/' | relative_url }}">
+                        <span>Все новости</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {% include important_categories-sidebar.html %}
+</div>
