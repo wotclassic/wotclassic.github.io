@@ -4,6 +4,7 @@ layout: default
 
 <div class="content">
     <div class="l-content">
+        {% include carousel.html slides=site.data.carousel.community %}
         <div>
             <div class="b-hr-layoutfix">
                 <div class="b-hr-block"><span></span></div>
@@ -58,23 +59,23 @@ layout: default
                     <table style="width: 100%;">
                         <tbody>
                             <tr></tr>
-                            <div class="b4r r-img-text">
-                                <a class="link b4r-link-img-text img" href="#">
-                                    <img src="{{ '/assets/img/reading_newspaper_338x139.jpg' | relative_url }}" width="336" height="139">
-                                    <span class="text-pos-com">
-                                        <span class="text-head">PLACEHOLDER-NAME</span>
-                                    </span>
-                                    <span class="blackout"></span>
-                                </a>
+                            <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
+                                {% include block.html text="ФАН-РЕСУРСЫ" url="/fan_pages" image="/assets/img/reading_newspaper_338x139.jpg" width="336" height="139" %}
                             </div>
-                            <div class="b4r r-img-text">
-                                <a class="link b4r-link-img-text img" href="#">
-                                    <img src="{{ '/assets/img/reading_newspaper_338x139.jpg' | relative_url }}" width="336" height="139">
-                                    <span class="text-pos-com">
-                                        <span class="text-head">PLACEHOLDER-NAME</span>
-                                    </span>
-                                    <span class="blackout"></span>
-                                </a>
+                            <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
+                                {% include block.html text="ВИКИ" url="https://wiki.lesta.ru/ru/Tank:Мир_Танков" image="/assets/img/com_wiki.png" width="336" height="139" %}
+                            </div>
+                            <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
+                                {% include block.html text="ФОРУМ" url="/" image="/assets/img/placeholder_2.png" width="336" height="139" %}
+                            </div>
+                            <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
+                                {% include block.html text="ФОРУМ" url="/" image="/assets/img/reading_newspaper_338x139.jpg" width="336" height="139" %}
+                            </div>
+                            <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
+                                {% include block.html text="ФОРУМ" url="/" image="/assets/img/reading_newspaper_338x139.jpg" width="336" height="139" %}
+                            </div>
+                            <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
+                                {% include block.html text="ФОРУМ" url="/" image="/assets/img/reading_newspaper_338x139.jpg" width="336" height="139" %}
                             </div>
                         </tbody>
                     </table>
@@ -83,33 +84,10 @@ layout: default
         </div>
     </div>
     <div class="r-content">
-        <div class="img-text">
-            <a class="ad-img" href="#">
-                <img src="{{ '/assets/img/com_mods.png' | relative_url }}" width="242" height="92">
-                <span class="text-pos">
-                    <span class="text-head">WGMODS</span>
-                </span>
-                <span class="blackout"></span>
-            </a>
-        </div>
-        <div class="img-text">
-            <a class="ad-img" href="#">
-                <img src="{{ '/assets/img/com_mods.png' | relative_url }}">
-                <span class="text-pos">
-                    <span class="text-head">WGMODS</span>
-                </span>
-                <span class="blackout"></span>
-            </a>
-        </div>
-        <div class="img-text">
-            <a class="ad-img" href="#">
-                <img src="{{ '/assets/img/com_mods.png' | relative_url }}">
-                <span class="text-pos">
-                    <span class="text-head">WGMODS</span>
-                </span>
-                <span class="blackout"></span>
-            </a>
-        </div>
+        {% include block.html text="ФОРУМ" url="http://forum.tanki.su/index.php?/topic/2134176-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/forum242.jpg" %}
+        {% include block.html text="KOREAN RANDOM" url="https://koreanrandom.com/forum/topic/65511-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/korean_random.png" %}
+        {% include block.html text="WGMODS" url="https://wgmods.net/search/?title=WoT%20это%20Классика!" image="/assets/img/com_mods.png" %}
+
         {% include socials.html %}
 
         <ul class="social-list">

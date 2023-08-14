@@ -15,7 +15,19 @@
 {% endif %}
 {% for post in posts | limit: 10 %}
     {% if post_num == 6 and paginator == nil %}
-        {% include suggestion-panel.html %}
+        <div class="wide">
+            <div class="wide-content">
+                <div class="wide-text">
+                    {% include block.html text="ФОРУМ" url="http://forum.tanki.su/index.php?/topic/2134176-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/join-clan.jpg" width="209" height="135" %}
+                </div>
+                <div class="wide-text">
+                    {% include block.html text="ФОРУМ" url="http://forum.tanki.su/index.php?/topic/2134176-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/join-clan.jpg" width="209" height="135" %}
+                </div>
+                <div class="wide-text">
+                    {% include block.html text="ФОРУМ" url="http://forum.tanki.su/index.php?/topic/2134176-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/join-clan.jpg" width="209" height="135" %}
+                </div>
+            </div>
+        </div>
     {% endif %}
     <div class="news">
         <a href="{{ post.url | relative_url }}" class="news_ico">
@@ -41,5 +53,5 @@
     {% include suggestion-panel.html %}
 {% endif %}
 {% if page.url == '/' %}
-    <a href="{{ '/news' | relative_url }}" class="orange-arrow">Другие новости</a>
+    <a href="{{ '/news/2' | relative_url }}" class="orange-arrow">Другие новости</a>
 {% endif %}

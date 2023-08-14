@@ -8,19 +8,8 @@ layout: default
         {% include posts.html %}
     </div>
     <div class="r-content">
-        <a class="ad-img" href="#">
-            <img src="{{ '/assets/img/wot_243_ru.jpg' | relative_url }}" height="243" width="242">
-            <span class="blackout"></span>
-        </a>
-        <div class="img-text">
-            <a class="ad-img" href="#">
-                <img src="{{ '/assets/img/com_mods.png' | relative_url }}">
-                <span class="text-pos">
-                    <span class="text-head">WGMODS</span>
-                </span>
-                <span class="blackout"></span>
-            </a>
-        </div>
+        {% include block.html url="#" image="/assets/img/wot_243_ru.jpg" %}
+        {% include block.html text="WGMODS" url="#" image="/assets/img/com_mods.png" %}
         {% include socials.html %}
         <div>
             <h3 style="margin-top: 0;">Присоединяйся!</h3>
