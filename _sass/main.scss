@@ -724,16 +724,6 @@ hr {
     top: 0;
 }
 
-.footer-social::before {
-    left: 0;
-    background: #393d3f;
-}
-
-.footer-social::after {
-    right: 0;
-    background: #ff0000;
-}
-
 .social-big {
     max-width: 950px;
     margin: 0 auto;
@@ -764,22 +754,58 @@ hr {
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
+    position: relative;
+}
+
+:root {
+    --wot-color: #393d3f;
+    --discord-color: #7289DA;
+    --vk-color: #5b89b2;
+    --yt-color: #cc181e;
 }
 
 .social-link_wot {
-    background: #393d3f;
+    background: var(--wot-color);
+    &:hover {
+        background: #505659;
+    }
 }
 
 .social-link_discord {
-    background: #5865F2;
+    background: var(--discord-color);
+    &:hover {
+        background: #8495d6;
+    }
 }
 
 .social-link_vk {
-    background: #0077FF;
+    background: var(--vk-color);
+    &:hover {
+        background: #668db3;
+    }
 }
 
 .social-link_yt {
-    background: #FF0000;
+    background: var(--yt-color);
+    &:hover {
+        background: #f1242b;
+    }
+}
+
+.footer-social::before {
+    background: var(--wot-color);
+}
+
+.footer-social::after {
+    right: 0;
+    background: var(--yt-color);
+}
+
+.social-ico-container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .social-ico {
@@ -789,26 +815,33 @@ hr {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
-    margin-top: 24px;
 }
 
 .social-ico-wot {
-    background: url(../img/logo_mini_white.png) no-repeat;
+    background: url(../img/mini_wot_white.svg) no-repeat;
+    width: 27px;
+    height: 35px;
     background-size: contain;
 }
 
 .social-ico-discord {
-    background: url(../img/logo_mini_white.png) no-repeat;
+    background: url(../img/discord_old.svg) no-repeat;
+    width: 40px;
+    height: 40px;
     background-size: contain;
 }
 
 .social-ico-vk {
-    background: url(../img/logo_mini_white.png) no-repeat;
+    background: url(../img/vk.svg) no-repeat;
+    width: 38px;
+    height: 23px;
     background-size: contain;
 }
 
 .social-ico-yt {
-    background: url(../img/logo_mini_white.png) no-repeat;
+    background: url(../img/yt.svg) no-repeat;
+    width: 40px;
+    height: 34px;
     background-size: contain;
 }
 
@@ -823,12 +856,10 @@ hr {
     display: inline-block;
     vertical-align: middle;
     color: #fff;
-    margin-top: 25px;
 }
 
 .social-big-text {
     text-transform: uppercase;
-    margin-bottom: 4px;
     letter-spacing: .5px;
 }
 
