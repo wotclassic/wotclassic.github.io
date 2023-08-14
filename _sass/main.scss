@@ -148,6 +148,7 @@ h2 {
     font-size: 26px;
     color: #fff;
     font-weight: normal;
+    margin: 16px 0 14px;
     padding: 0;
 }
 
@@ -254,7 +255,6 @@ body {
 .navigation-link {
     display: inline-block;
     vertical-align: top;
-    margin: 0 16px;
     position: relative;
     white-space: normal;
     background-color: transparent;
@@ -293,6 +293,10 @@ body {
     margin: 0 auto;
     height: 66px;
     padding: 0px 0px 0 65px;
+
+    a {
+        margin: 0 25px
+    }
 }
 
 .content-wrapper {
@@ -308,7 +312,6 @@ body {
     background: url($subpath + '/assets/img/mini_wot_white.svg') no-repeat 0 50%;
     background-size: 16px 21px;
     width: 16px;
-    padding: 0 7px;
 }
 
 .nav-logo:hover {
@@ -1791,6 +1794,10 @@ table {
     font-size: 13px;
     background: #202020;
     color: #c0c0c0;
+}
+
+.news-content p {
+    margin-bottom: 10px;
 }
 
 @import 'indev.scss';
