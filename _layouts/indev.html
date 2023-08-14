@@ -2,24 +2,26 @@
 layout: default
 ---
 
-<div class="content">
-    <div class="l-content">
-        <div class="b-content">
-            <h1>В РАЗРАБОТКЕ</h1>
+<div style="overflow-x: hidden;">
+    <div class="content">
+        <div class="l-content">
             <div class="b-content">
-                <div style="width: 950px; font-size: 15px; line-height: 1.33; color: #b1b2b2; margin-bottom: 45px;">
-                    <p>«В разработке» — в данном разделе публикуется актуальная информация о модах находящихся в
-                        разработке проекта WoT это Классика!. Также вы можете здесь узнать какие моды или обновления
-                        к ним уже реализованы и над какими мы еще работаем. Читайте «В разработке» дабы не
-                        пропускать интересную информацию мира WoT это Классика!.</p>
+                <h1>В РАЗРАБОТКЕ</h1>
+                <div class="b-content">
+                    <div style="width: 950px; font-size: 15px; line-height: 1.33; color: #b1b2b2; margin-bottom: 45px;">
+                        <p>«В разработке» — в данном разделе публикуется актуальная информация о модах находящихся в
+                            разработке проекта WoT это Классика!. Также вы можете здесь узнать какие моды или обновления
+                            к ним уже реализованы и над какими мы еще работаем. Читайте «В разработке» дабы не
+                            пропускать интересную информацию мира WoT это Классика!.</p>
+                    </div>
+                    {% include indev/devmain.html blocks=site.data.indev.main %}
                 </div>
-                {% include indev/devmain.html blocks=site.data.indev.main %}
-            </div>
-            <div class="b-content">
-                {% include indev/devpast.html blocks=site.data.indev.past %}
-            </div>
-            <div class="b-content">
-                {% include indev/devnow.html blocks=site.data.indev.now %}
+                <div class="b-content">
+                    {% include indev/devpast.html blocks=site.data.indev.past %}
+                </div>
+                <div class="b-content">
+                    {% include indev/devnow.html blocks=site.data.indev.now %}
+                </div>
             </div>
         </div>
     </div>

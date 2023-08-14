@@ -209,6 +209,7 @@ body {
     font: 12px/20px "robotoregular", "Arial Narrow", Arial, sans-serif;
     font-family: Arial, "Helvetica CY", Helvetica, sans-serif;
     background: url($subpath + '/assets/img/back.png') top no-repeat, url($subpath + '/assets/img/sparkles.png') 50% 0 #1c1c1e;
+    min-width: 1000px;
 }
 
 .brand-header {

@@ -9,18 +9,21 @@
 #devMain {
     position: relative;
     z-index: 2;
-    height: 233px;
+    height: 100%;
+    padding-top: 9px;
+    margin-top: 45px;
     margin-bottom: 45px;
+    padding-bottom: 31px;
     text-align: center;
 }
 
 #devMain:after, #devMain:before {
     content: "";
     position: absolute;
-    height: 233px;
-    width: 100.3%;
-    top: -20px;
-    background: rgba(0,0,0,.5);
+    height: 100%;
+    width: 100%;
+    top: -1px;
+    background: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
 
