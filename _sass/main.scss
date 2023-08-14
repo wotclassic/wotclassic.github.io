@@ -1,9 +1,7 @@
-$subpath: "/wotclassic";
-
 @font-face {
     font-family: robotocondensedbold;
-    src: url($subpath + '/assets/font/robotocondensed-bold-webfont.eot');
-    src: url($subpath + '/assets/font/robotocondensed-bold-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/robotocondensed-bold-webfont.woff') format("woff");
+    src: url('/assets/font/robotocondensed-bold-webfont.eot');
+    src: url('/assets/font/robotocondensed-bold-webfont.eot') format("embedded-opentype"),url('/assets/font/robotocondensed-bold-webfont.woff') format("woff");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal
@@ -11,8 +9,8 @@ $subpath: "/wotclassic";
 
 @font-face {
     font-family: robotocondensedregular;
-    src: url($subpath + '/assets/font/robotocondensed-regular-webfont.eot');
-    src: url($subpath + '/assets/font/robotocondensed-regular-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/robotocondensed-regular-webfont.woff') format("woff");
+    src: url('/assets/font/robotocondensed-regular-webfont.eot');
+    src: url('/assets/font/robotocondensed-regular-webfont.eot') format("embedded-opentype"),url('/assets/font/robotocondensed-regular-webfont.woff') format("woff");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal
@@ -20,8 +18,8 @@ $subpath: "/wotclassic";
 
 @font-face {
     font-family: robotoregular;
-    src: url($subpath + '/assets/font/roboto-regular-webfont.eot');
-    src: url($subpath + '/assets/font/roboto-regular-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/roboto-regular-webfont.woff') format("woff");
+    src: url('/assets/font/roboto-regular-webfont.eot');
+    src: url('/assets/font/roboto-regular-webfont.eot') format("embedded-opentype"),url('/assets/font/roboto-regular-webfont.woff') format("woff");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal
@@ -29,16 +27,16 @@ $subpath: "/wotclassic";
 
 @font-face {
     font-family: 'WarHeliosCondC';
-    src: url($subpath + '/assets/font/warhelioscondc-webfont.eot');
-    src: url($subpath + '/assets/font/warhelioscondc-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/warhelioscondc-webfont.woff') format("woff");
+    src: url('/assets/font/warhelioscondc-webfont.eot');
+    src: url('/assets/font/warhelioscondc-webfont.eot') format("embedded-opentype"),url('/assets/font/warhelioscondc-webfont.woff') format("woff");
     font-weight: normal;
     font-style: normal
 }
 
 @font-face {
     font-family: 'WarHeliosCondCBold';
-    src: url($subpath + '/assets/font/warhelioscondcbold-webfont.eot');
-    src: url($subpath + '/assets/font/warhelioscondcbold-webfont.eot') format("embedded-opentype"),url($subpath + '/assets/font/warhelioscondcbold-webfont.woff') format("woff");
+    src: url('/assets/font/warhelioscondcbold-webfont.eot');
+    src: url('/assets/font/warhelioscondcbold-webfont.eot') format("embedded-opentype"),url('/assets/font/warhelioscondcbold-webfont.woff') format("woff");
     font-weight: normal;
     font-style: normal
 }
@@ -208,7 +206,7 @@ body {
     color: #b1b2b2;
     font: 12px/20px "robotoregular", "Arial Narrow", Arial, sans-serif;
     font-family: Arial, "Helvetica CY", Helvetica, sans-serif;
-    background: url($subpath + '/assets/img/back.png') top no-repeat, url($subpath + '/assets/img/sparkles.png') 50% 0 #1c1c1e;
+    background: url('/assets/img/back.png') top no-repeat, url('/assets/img/sparkles.png') 50% 0 #1c1c1e;
     min-width: 1000px;
 }
 
@@ -310,7 +308,7 @@ body {
     height: 66px;
     display: inline-block;
     opacity: 50%;
-    background: url($subpath + '/assets/img/mini_wot_white.svg') no-repeat 0 50%;
+    background: url('/assets/img/mini_wot_white.svg') no-repeat 0 50%;
     background-size: 16px 21px;
     width: 16px;
 }
@@ -320,7 +318,7 @@ body {
 }
 
 .wotc-logo {
-    background: url($subpath + '/assets/img/wotc_logo.png');
+    background: url('/assets/img/wotc_logo.png');
     background-size: 100% 100%;
     display: block;
     width: 360px;
@@ -495,7 +493,7 @@ body {
 }
 
 hr {
-    background: url($subpath + '/assets/img/delimeter.png') no-repeat center top;
+    background: url('/assets/img/delimeter.png') no-repeat center top;
     border: none;
     height: 2px;
     margin: 20px -25px;
@@ -523,7 +521,7 @@ hr {
     left: 1px;
     right: 1px;
     bottom: 1px;
-    background: url($subpath + '/assets/img/b-b4r-bg.png') no-repeat -1000px -1000px;
+    background: url('/assets/img/b-b4r-bg.png') no-repeat -1000px -1000px;
     display: block;
 }
 
@@ -575,7 +573,7 @@ hr {
     left: 0;
     right: 0;
     padding: 62px 10px 10px 10px;
-    background: url($subpath + '/assets/img/bg-text-img.png') no-repeat;
+    background: url('/assets/img/bg-text-img.png') no-repeat;
 }
 
 .text-pos-com {
@@ -585,7 +583,7 @@ hr {
     left: 0;
     right: 0;
     padding: 106px 10px 10px 10px;
-    background: url($subpath + '/assets/img/bg-text-img.png') no-repeat;
+    background: url('/assets/img/bg-text-img.png') no-repeat;
 }
 
 .text-head {
@@ -693,7 +691,7 @@ hr {
 
 .orange-arrow {
         display: inline-block;
-        background: url($subpath + '/assets/img/orange_arrow.png') 100% 0 no-repeat;
+        background: url('/assets/img/orange_arrow.png') 100% 0 no-repeat;
         line-height: 13px;
         padding-right: 9px;
         bottom: 3px;
@@ -928,7 +926,7 @@ hr {
     text-shadow: none;
     color: transparent;
     display: block;
-    background: url($subpath + '/assets/img/lesta_logo.png');
+    background: url('/assets/img/lesta_logo.png');
     background-size: 100% 100%;
     width: 132px;
     height: 70px;
@@ -951,7 +949,7 @@ hr {
 }
 
 .news-category {
-    background: url($subpath + '/assets/img/bg-context-menu_categories.png') 0 0 repeat-y;
+    background: url('/assets/img/bg-context-menu_categories.png') 0 0 repeat-y;
     border-bottom: 1px solid #000;
     margin-bottom: 23px;
     padding: 0;
@@ -961,7 +959,7 @@ hr {
 }
 
 .news-wrapper {
-    background: url($subpath + '/assets/img/bg-context-menu-top_categories.png') 0 0 no-repeat;
+    background: url('/assets/img/bg-context-menu-top_categories.png') 0 0 no-repeat;
     position: relative;
     padding: 0px 0px 14px 0;
 }
@@ -969,7 +967,7 @@ hr {
 .news-arrow {
     height: 24px;
     width: 7px;
-    background: url($subpath + '/assets/img/bg-arrow_categories.png') 0 0 no-repeat;
+    background: url('/assets/img/bg-arrow_categories.png') 0 0 no-repeat;
     position: absolute;
     left: -7px;
     top: 14px;
@@ -1001,7 +999,7 @@ hr {
 
 .news-list a:hover {
     text-decoration: underline;
-    background: url($subpath + '/assets/img/arrow.png') -244px 3px no-repeat;
+    background: url('/assets/img/arrow.png') -244px 3px no-repeat;
     color: #fff
 }
 
@@ -1009,21 +1007,21 @@ hr {
     color: #cacbcc;
     font-weight: bold;
     text-decoration: none;
-    background: url($subpath + '/assets/img/arrow.png') 0 3px no-repeat;
+    background: url('/assets/img/arrow.png') 0 3px no-repeat;
     padding: 0 0 0 18px;
     display: block;
     word-wrap: break-word;
 }
 
 .box-shadow {
-    background: url($subpath + '/assets/img/b-box-shadow-bg.png');
+    background: url('/assets/img/b-box-shadow-bg.png');
     border: 1px solid #000;
     margin: 0 0 25px;
     position: relative;
 }
 
 .box-shadow-header {
-    background: url($subpath + '/assets/img/b-box-shadow-bg-header.png') no-repeat;
+    background: url('/assets/img/b-box-shadow-bg-header.png') no-repeat;
     display: block;
     margin: 0;
     padding: 8px 14px 6px;
@@ -1047,7 +1045,7 @@ hr {
 }
 
 .box-shadow-content {
-    background: url($subpath + '/assets/img/b-box-shadow-light.png') no-repeat;
+    background: url('/assets/img/b-box-shadow-light.png') no-repeat;
     padding: 14px;
 }
 
@@ -1077,14 +1075,14 @@ hr {
 .news-comment {
     display: inline-block;
     padding: 0 0 2px 20px;
-    background: url($subpath + '/assets/img/comment-ico.png') no-repeat 0 0;
+    background: url('/assets/img/comment-ico.png') no-repeat 0 0;
     color: #cacbcc;
     margin-right: 12px;
 }
 
 .news-comment:hover {
     color: #fff;
-    background: url($subpath + '/assets/img/comment-ico.png') no-repeat 0 -20px
+    background: url('/assets/img/comment-ico.png') no-repeat 0 -20px
 }
 
 .news-content {
@@ -1093,19 +1091,19 @@ hr {
 }
 
 .message-info {
-    background: url($subpath + '/assets/img/blue_message.png') no-repeat 0 0;
+    background: url('/assets/img/blue_message.png') no-repeat 0 0;
 }
 
 .message-money {
-    background: url($subpath + '/assets/img/yellow_message.png') no-repeat;
+    background: url('/assets/img/yellow_message.png') no-repeat;
 }
 
 .message-warning {
-    background: url($subpath + '/assets/img/orange_message.png') no-repeat;
+    background: url('/assets/img/orange_message.png') no-repeat;
 }
 
 .message-error {
-    background: url($subpath + '/assets/img/red_message.png') no-repeat 0 0;
+    background: url('/assets/img/red_message.png') no-repeat 0 0;
 }
 
 .message-money, .message-warning, .message-info, .message-error {
@@ -1166,7 +1164,7 @@ hr {
 }
 
 .b-content hr {
-    background: url($subpath + '/assets/img/delimeter.png') no-repeat center top;
+    background: url('/assets/img/delimeter.png') no-repeat center top;
     border: none;
     height: 2px;
     clear: both;
@@ -1181,7 +1179,7 @@ hr {
 
 .b-button {
     display: inline-block;
-    background: url($subpath + '/assets/img/small-orange-button.png');
+    background: url('/assets/img/small-orange-button.png');
     height: 30px;
     margin-right: 35px;
     position: relative;
@@ -1197,7 +1195,7 @@ hr {
 .b-button_right {
     display: inline-block;
     border: medium none;
-    background: url($subpath + '/assets/img/small-orange-button.png') no-repeat 100% -60px;
+    background: url('/assets/img/small-orange-button.png') no-repeat 100% -60px;
     color: #fff;
     cursor: pointer;
     font-size: 13px;
@@ -1259,7 +1257,7 @@ hr {
 .b-content ul li {
     margin: 4px 0 5px;
     padding: 0 0 0 12px;
-    background: url($subpath + '/assets/img/list-style.gif') no-repeat 0 5px;
+    background: url('/assets/img/list-style.gif') no-repeat 0 5px;
 }
 
 .b-hr-layoutfix {
@@ -1273,7 +1271,7 @@ hr {
 
 .b-hr-block {
     display: block;
-    background: url($subpath + '/assets/img/hr-block.png') no-repeat;
+    background: url('/assets/img/hr-block.png') no-repeat;
     margin: 0 120px 0 0;
     height: 59px;
 }
@@ -1300,7 +1298,7 @@ hr {
 }
 
 .b-junction_pager-ico {
-    background: url($subpath + '/assets/img/pager_ico.png') 50% 0 no-repeat;
+    background: url('/assets/img/pager_ico.png') 50% 0 no-repeat;
     display: inline-block;
     height: 10px;
     margin-right: -5px;
@@ -1345,7 +1343,7 @@ hr {
 }
 
 .b-junction_pager__disable {
-    background: #1d1d1e url($subpath + '/assets/img/pager-bg-disable.png') 0 0 repeat-x;
+    background: #1d1d1e url('/assets/img/pager-bg-disable.png') 0 0 repeat-x;
     box-shadow: 0 0 1px rgba(255,255,255,0.35) inset, 0 1px 0 rgba(255,255,255,0.04) inset, 0 0 12px rgba(0,0,0,0.05);
     color: #666768;
     cursor: default;
@@ -1364,7 +1362,7 @@ hr {
 
 .b-hr-block span {
     width: 120px;
-    background: url($subpath + '/assets/img/hr-block.png') 100% 0;
+    background: url('/assets/img/hr-block.png') 100% 0;
     margin-right: -120px;
     height: 59px;
     float: right;
@@ -1427,7 +1425,7 @@ hr {
 }
 
 .big-orange-button {
-    background: url($subpath + '/assets/img/big-orange-button.png') no-repeat;
+    background: url('/assets/img/big-orange-button.png') no-repeat;
     border-radius: 3px;
     float: left;
     height: 46px;
@@ -1437,7 +1435,7 @@ hr {
 }
 
 .big-orange-button-right {
-    background: url($subpath + '/assets/img/big-orange-button.png') no-repeat 100% 0;
+    background: url('/assets/img/big-orange-button.png') no-repeat 100% 0;
     border: medium none;
     color: #fff;
     cursor: pointer;
@@ -1554,7 +1552,7 @@ hr {
     cursor: pointer;
     width: 113px;
     height: 113px;
-    background: url($subpath + '/assets/img/ico-video.png') no-repeat;
+    background: url('/assets/img/ico-video.png') no-repeat;
     margin: -56.5px 0 0 -56.5px;
     position: absolute;
     top: 50%;
@@ -1632,7 +1630,7 @@ table {
     right: 0;
     transition: cubic-bezier(0, 0.42, 0.58, 1) 0.2s;
     padding: 10px 12px 12px 12px;
-    background: url($subpath + '/assets/img/carousel-text-bg.png');
+    background: url('/assets/img/carousel-text-bg.png');
     border-top: 1px #000 solid;
     z-index: 2;
 }
@@ -1661,7 +1659,7 @@ table {
     padding-left: 5px;
     height: 173px;
     width: 26px;
-    background: url($subpath + '/assets/img/carousel-control.png') no-repeat;
+    background: url('/assets/img/carousel-control.png') no-repeat;
     background-origin: content-box;
     position: absolute;
     top: 0;
@@ -1707,7 +1705,7 @@ table {
     color: transparent;
     width: 10px;
     height: 10px;
-    background: url($subpath + '/assets/img/carousel-list.png') no-repeat;
+    background: url('/assets/img/carousel-list.png') no-repeat;
     cursor: pointer;
     margin: 0 3px;
     
@@ -1746,7 +1744,7 @@ table {
     padding: 3px 0 0;
     height: 21px;
     width: 50px;
-    background: url($subpath + '/assets/img/bg-pager-arrow.png') 0 0 no-repeat;
+    background: url('/assets/img/bg-pager-arrow.png') 0 0 no-repeat;
     font-size: 11px;
     color: #606061;
     text-align: center;
@@ -1791,14 +1789,14 @@ table {
     float: left;
     border: 1px #090a0b solid;
     box-shadow: 0 0 2px #5d5d61 inset;
-    background: url($subpath + '/assets/img/pager-bg.gif') repeat-x 0 100% #1d1d1e;
+    background: url('/assets/img/pager-bg.gif') repeat-x 0 100% #1d1d1e;
     color: #f25322;
     margin: 0 1px;
 }
 
 .b-pager_link:hover {
     color: #ff7432;
-    background: url($subpath + '/assets/img/pager-bg-hover.gif') repeat-x 0 100% #292929;
+    background: url('/assets/img/pager-bg-hover.gif') repeat-x 0 100% #292929;
     box-shadow: 0 0 2px #86868b inset;
     text-decoration: none
 }

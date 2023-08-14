@@ -1,15 +1,12 @@
 title: WoT это Классика
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/wotclassic" # the subpath of your site, e.g. /blog
-url: "https://muramiha.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-repository: A1Asriel/AsrielBot-site1
+description: >-
+  Серия модификаций "WoT это Классика!" возвращает атмосферу "те самые танки"
+  через интерфейсные, графические и звуковые моды. Они придают игре ностальгическое ощущение,
+  перенося вас во времена классической игры и воссоздавая те эмоции, что так привлекали игроков.
+baseurl: ""
+url: "https://muramiha.github.io"
 
-# Build settings
 plugins:
-  - jekyll-feed
   - jekyll-paginate-v2
 
 pagination:
