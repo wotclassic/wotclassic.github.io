@@ -1,9 +1,9 @@
 ---
 title: Самое глобальное обновление сайта «WoT это Классика!»
-date: 2021-05-22 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
+date: 2021-06-09 20:01:00 +0300
+tags: [important]
 ---
-<p style="display: none">Ремоделинг от kinasura выходит на новый уровень!</p>
+<p style="display: none">Переезд с Google Sites на GitHub Pages и самостоятельное написание кода сайта.</p>
 
 ![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
 
