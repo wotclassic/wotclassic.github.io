@@ -28,7 +28,11 @@
     <div class="img-content">
         <h5 class="img-headlink"><a href="{{ post.url | relative_url }}" class="img-link">{{ post.title }}</a></h5>
         <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
-        <p class="n-img-date">{{ post.date | date: "%d.%m.%Y" }}</p>
+        <p class="n-img-date">
+            {{ post.date | date: "%d.%m.%Y" }}
+            <a href="https://kr.cm/f/t/65511/" class="news-comment" style="margin-left: 10px;">Обсудить на форуме</a>
+        </p>
+        
     </div>
     <hr class="b-hr">
     {% assign post_num = post_num | plus: 1 %}

@@ -1,0 +1,11 @@
+<div id="devPast" class="oneBlock">
+    <h3>АРХИВ РАЗРАБОТКИ</h3>
+    {% for block in include.blocks %}
+        <div class="devNowBlock">
+            <a href="{{ block.url | absolute_url }}">
+                <img src="{{ block.image | relative_url }}"><span>{{ block.text }}</span>
+            </a>
+            <span class="related_time">Завершено: {{ block.date }}</span>
+        </div>
+    {% endfor %}
+</div>

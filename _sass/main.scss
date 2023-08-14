@@ -355,7 +355,6 @@ body {
     float: left;
     border: 1px #000000 solid;
     position: relative;
-    zoom: 1;
 }
 
 .news_ico_imp {
@@ -385,7 +384,6 @@ body {
 
 .news-text {
     clear: both;
-    zoom: 1;
     margin: 0 0 20px;
 }
 
@@ -408,7 +406,6 @@ body {
 
 .clearfix {
     clear: both;
-    zoom: 1;
 }
 
 .clearfix:after {
@@ -426,6 +423,7 @@ body {
 
 .news-imp {
     overflow: hidden;
+    height: 54px;
 }
 
 .b4r img {
@@ -613,7 +611,6 @@ hr {
 
 .social-icons_link {
     display: inline-block;
-    zoom: 1;
     filter: alpha(opacity=85);
     opacity: .85;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.33);
@@ -660,7 +657,6 @@ hr {
 
 .wide-text {
     display: inline-block;
-    zoom: 1;
     vertical-align: top;
     margin: 10px 0 0 10px;
     text-align: left;
@@ -680,7 +676,6 @@ hr {
 .o-wide-text {
     text-decoration: none;
     overflow: hidden;
-    zoom: 1;
     position: relative;
     display: block;
     cursor: pointer;
@@ -1147,7 +1142,6 @@ hr {
 
 .b-button {
     display: inline-block;
-    zoom: 1;
     background: url($subpath + '/assets/img/small-orange-button.png');
     height: 30px;
     margin-right: 35px;
@@ -1234,7 +1228,6 @@ hr {
     margin: 30px 0 -30px;
     overflow: hidden;
     position: relative;
-    zoom: 1;
     z-index: -1;
     clear: both;
 }
@@ -1691,7 +1684,6 @@ table {
 
 .l-pager {
     display: inline-block;
-    zoom: 1;
     font-size: 12px;
     font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
     margin: 17px 0;
@@ -1715,7 +1707,7 @@ table {
     padding: 3px 0 0;
     height: 21px;
     width: 50px;
-    background: url(./css/scss/content/pager/img/bg-pager-arrow.png) 0 0 no-repeat;
+    background: url($subpath + '/assets/img/bg-pager-arrow.png') 0 0 no-repeat;
     font-size: 11px;
     color: #606061;
     text-align: center;
@@ -1755,6 +1747,23 @@ table {
     float: left;
 }
 
+.b-pager_link {
+    padding: 5px 7px;
+    float: left;
+    border: 1px #090a0b solid;
+    box-shadow: 0 0 2px #5d5d61 inset;
+    background: url($subpath + '/assets/img/pager-bg.gif') repeat-x 0 100% #1d1d1e;
+    color: #f25322;
+    margin: 0 1px;
+}
+
+.b-pager_link:hover {
+    color: #ff7432;
+    background: url($subpath + '/assets/img/pager-bg-hover.gif') repeat-x 0 100% #292929;
+    box-shadow: 0 0 2px #86868b inset;
+    text-decoration: none
+}
+
 .b-pager_link.current {
     text-decoration: none;
     background: #151516;
@@ -1765,19 +1774,19 @@ table {
     box-shadow: none;
 }
 
-.b-pager_link {
-    padding: 5px 7px;
-    float: left;
-    border: 1px #090a0b solid;
-    box-shadow: 0 0 2px #5d5d61 inset;
-    background: url(./css/scss/content/pager/img/pager-bg.gif) repeat-x 0 100% #1d1d1e;
+.b-pager_ellipsis {
     color: #f25322;
-    margin: 0 1px;
+    padding: 6px 2px 0 2px;
+    float: left;
 }
 
-.b-pager_link:hover {
-    color: #ff7432;
-    background: url(./css/scss/content/pager/img/pager-bg-hover.gif) repeat-x 0 100% #292929;
-    box-shadow: 0 0 2px #86868b inset;
-    text-decoration: none
+.news-content blockquote {
+    padding: 13px 18px 13px 23px;
+    margin-bottom: 10px;
+    border-left: #c91f00 5px solid;
+    font-size: 13px;
+    background: #202020;
+    color: #c0c0c0;
 }
+
+@import 'indev.scss';

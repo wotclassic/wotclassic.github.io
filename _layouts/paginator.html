@@ -5,23 +5,38 @@ layout: default
 <div class="content">
     <div class="l-content">
         {% include posts.html %}
-        <div class="l-pager paginator">
-            <ul class="b-pager">
-                <li class="b-pager_item">
-                    <a class="b-pager_arr disabled"><span class="b-pager_arr-text">←</span>
-                    </a>
-                </li>
-                <li class="b-pager_item b-pager_item__pages">
-                    <a class="b-pager_link current">1</a>
-                    <a class="b-pager_link" href="./news_page2.html">2</a>
-                    <a class="b-pager_link" href="./news_page3.html">3</a>
-                </li>
-                <li class="b-pager_item">
-                    <a class="b-pager_arr" href="./news_page2.html"> <span class="b-pager_arr-text">→</span>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        {% if paginator.page_trail %}
+            <div class="l-pager paginator">
+                <ul class="b-pager">
+                    <li class="b-pager_item">
+                        <a class="b-pager_arr {% if paginator.page == paginator.first_page %}disabled"{% else %}" href="{{ paginator.previous_page_path | relative_url }}"{% endif %}><span class="b-pager_arr-text">←</span>
+                        </a>
+                    </li>
+                    <li class="b-pager_item b-pager_item__pages">
+                        {% if paginator.page_trail[0].num != paginator.first_page %}
+                            <a class="b-pager_link" href="{{ paginator.first_page_path | relative_url }}">{{ paginator.first_page }}</a>
+                            {% assign v = paginator.page_trail[0].num | minus: 1 %}
+                            {% if v > paginator.first_page %}
+                                <span class="b-pager_ellipsis">…</span>
+                            {% endif %}
+                        {% endif %}
+                        {% for trail in paginator.page_trail %}
+                            <a class="b-pager_link {% if trail.num == paginator.page %}current"{% else %}" href="{{ trail.path | relative_url }}"{% endif %}>{{ trail.num }}</a>
+                        {% endfor %}
+                        {% if paginator.page_trail[-1].num != paginator.last_page %}
+                            {% assign v = paginator.page_trail[-1].num | plus: 1 %}
+                            {% if v < paginator.last_page %}
+                                <span class="b-pager_ellipsis">…</span>
+                            {% endif %}
+                            <a class="b-pager_link" href="{{ paginator.last_page_path | relative_url }}">{{ paginator.last_page }}</a>
+                        {% endif %}
+                    </li>
+                    <li class="b-pager_item">
+                        <a class="b-pager_arr {% if paginator.page == paginator.last_page %}disabled"{% else %}" href="{{ paginator.next_page_path | relative_url }}"{% endif %}> <span class="b-pager_arr-text">→</span></a>
+                    </li>
+                </ul>
+            </div>
+        {% endif %}
     </div>
     {% include categories-sidebar.html %}
 </div>

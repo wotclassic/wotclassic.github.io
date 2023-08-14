@@ -9,7 +9,7 @@
                     <div class="news-imp">
                         <a href="{{ post.url | relative_url }}" class="news_ico_imp">
                             <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
-                            <img class="n-block-imp-img" src="{{ post.image | default: '/assets/img/announcement_127x.jpg' | relative_url }}" width="75" height="54">
+                            <img class="n-block-imp-img" src="{{ post.image | default: '/assets/img/announcement_127x.jpg' | relative_url }}" width="75">
                         </a>
                         <div class="img-imp-content">
                             <a href="{{ post.url | relative_url }}" class="img-imp-link">{{ post.title }}</a>

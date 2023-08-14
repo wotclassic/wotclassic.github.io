@@ -1,0 +1,10 @@
+<div id="devAlso" class="oneBlock">
+    <h3>СМОТРИТЕ ТАКЖЕ</h3>
+    {% for block in include.blocks %}
+        <div class="devNowBlock">
+            <a href="{{ block.url | absolute_url }}" target="_blank">
+                <img src="{{ block.image | relative_url }}"><span>{{ block.text }}</span>
+            </a>
+        </div>
+    {% endfor %}
+</div>

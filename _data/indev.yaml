@@ -1,0 +1,27 @@
+main:
+  - text: Старые скайбоксы 2.2
+    url: https://example.com
+    image: /assets/img/devmapsx465_2.png
+    date: 3 января
+  - text: Старые скайбоксы 2.2
+    url: https://example.com
+    image: /assets/img/devmapsx465_2.png
+    date: 3 января
+
+past:
+  - text: Старый интерфейс боя
+    url: https://example.com
+    image: /assets/img/devobidone325.png
+    date: 20 декабря 2022 года
+  - text: Старый интерфейс боя
+    url: https://example.com
+    image: /assets/img/devobidone325.png
+    date: 20 декабря 2022 года
+
+now:
+  - text: Архив обновлений
+    url: https://example.com
+    image: /assets/img/910x300.jpg
+  - text: Текущая версия игры
+    url: https://example.com
+    image: /assets/img/910x300.jpg

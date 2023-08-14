@@ -1,0 +1,17 @@
+<div id="devMain" class="oneblock">
+    {% for block in include.blocks %}
+        <div class="b4r-indev img-text" style="margin-right: 16px;">
+            <a class="link link-img-text" href="{{ block.url | absolute_url }}" target="_blank">
+                <img src="{{ block.image | relative_url }}" width="463" height="178">
+                <span class="text-pos" style="background: none;padding: 100px 10px 15px 20px;">
+                    <span class="b4r-header" style="font-size: 20px; text-shadow: 3px 2px 3px #000;">
+                        {{ block.text }}
+                    </span>
+                    <span class="b4r-header" style=" font-size: 14px; font-family: 'WarHeliosCondC';">
+                        Обновлено: {{ block.date }}
+                    </span>
+                </span>
+            </a>
+        </div>
+    {% endfor %}
+</div>

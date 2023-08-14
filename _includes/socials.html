@@ -1,0 +1,14 @@
+<div>
+    <hr style="width: 80%; margin: 10px auto 0 auto;">
+    <h3 style="margin-top: 10px; margin-bottom: 5px;">Мы в социальных сетях:</h3>
+</div>
+<ul class="social-icons">
+    {% for social in site.data.socials %}
+        {% if social[1].icon == nil %}{% continue %}{% endif %}
+        <li class="social-icons_item">
+            <a class="social-icons_link" href="{{ social[1].url }}">
+                <img class="social-icons_img" src="{{ social[1].icon | relative_url }}">
+            </a>
+        </li>
+    {% endfor %}
+</ul>
