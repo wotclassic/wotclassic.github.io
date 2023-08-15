@@ -13,7 +13,7 @@ image: "/assets/img/may_upd_127x.png"
 
 ## Новый раздел
 
-[![Что-то]({{ '/assets/img/placeholder.png' | relative_url}}){: .pic-right.orange width="250" }](https://example.com)
+[![Что-то]({{ '/assets/img/placeholder.png' | relative_url}}){: .pic-left.orange width="250" }](/indev)
 
 Встречайте новый раздел "В разработке"! Здесь будут публиковаться новости модов которые находятся в разработке или обновления к ним. Также может пробегать информация по обновлению сайта. Следите за новостями!
 
