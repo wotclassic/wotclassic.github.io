@@ -4,6 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ site.title }} - {{ page.title }}</title>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="Description" content="{{ page.excerpt | strip_html | default: site.description | escape }}">
+    <meta property="og:description" content="{{ page.excerpt | strip_html | default: site.description | escape }}">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | default: site.description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta name="twitter:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ page.image | absolute_url | default: '/assets/img/wotc_logo.png' | absolute_url }}">
+    <meta name="thumbnail" content="{{ page.image | absolute_url | default: '/assets/img/wotc_logo.png' | absolute_url }}">
+    <meta name="twitter:image:src" content="{{ page.image | absolute_url | default: '/assets/img/wotc_logo.png' | absolute_url }}">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="icon" href="{{ '/assets/img/favicon_wot.ico' | relative_url }}" sizes="16x16">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
