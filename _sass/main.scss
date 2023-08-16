@@ -756,48 +756,46 @@ hr {
     position: relative;
 }
 
-:root {
-    --wot-color: #393d3f;
-    --discord-color: #7289DA;
-    --vk-color: #5b89b2;
-    --yt-color: #cc181e;
-}
+$wot-color: #393d3f;
+$discord-color: #7289DA;
+$vk-color: #5b89b2;
+$yt-color: #cc181e;
 
 .social-link_wot {
-    background: var(--wot-color);
+    background: $wot-color;
     &:hover {
         background: #505659;
     }
 }
 
 .social-link_discord {
-    background: var(--discord-color);
+    background: $discord-color;
     &:hover {
         background: #8495d6;
     }
 }
 
 .social-link_vk {
-    background: var(--vk-color);
+    background: $vk-color;
     &:hover {
         background: #668db3;
     }
 }
 
 .social-link_yt {
-    background: var(--yt-color);
+    background: $yt-color;
     &:hover {
         background: #f1242b;
     }
 }
 
 .footer-social::before {
-    background: var(--wot-color);
+    background: $wot-color;
 }
 
 .footer-social::after {
     right: 0;
-    background: var(--yt-color);
+    background: $yt-color;
 }
 
 .social-ico-container {
