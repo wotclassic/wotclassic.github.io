@@ -15,43 +15,9 @@ layout: default
             <h2 class="news-head-title">Фан-видео</h2>
         </div>
         <div class="img-signature">
-
-            <div class="img-signa-cont">
-                <a class="img-signa-link" href="#">
-                    <span class="img-signa-img" style="background-image: url({{ '/assets/img/video1.png' | relative_url }});"></span>
-                    <span class="icon-video"></span>
-                </a>
-                <h2 class="img-signa-name">
-                    <a class="img-signa-name-link" href="#">PLACEHOLDER_VIDEO</a>
-                </h2>
-                <div class="img-signa-statistic">
-                    <p class="img-signa-time">66.66.666</p>
-                </div>
-            </div>
-            <div class="img-signa-cont">
-                <a class="img-signa-link" href="#">
-                    <span class="img-signa-img" style="background-image: url({{ '/assets/img/video1.png' | relative_url }});"></span>
-                    <span class="icon-video"></span>
-                </a>
-                <h2 class="img-signa-name">
-                    <a class="img-signa-name-link" href="#">PLACEHOLDER_VIDEO</a>
-                </h2>
-                <div class="img-signa-statistic">
-                    <p class="img-signa-time">66.66.666</p>
-                </div>
-            </div>
-            <div class="img-signa-cont">
-                <a class="img-signa-link" href="#">
-                    <span class="img-signa-img" style="background-image: url({{ '/assets/img/video1.png' | relative_url }});"></span>
-                    <span class="icon-video"></span>
-                </a>
-                <h2 class="img-signa-name">
-                    <a class="img-signa-name-link" href="#">PLACEHOLDER_VIDEO</a>
-                </h2>
-                <div class="img-signa-statistic">
-                    <p class="img-signa-time">66.66.666</p>
-                </div>
-            </div>
+            {% include video-block.html text="PLACEHOLDER_VIDEO" url="#" image="/assets/img/video1.png" date="66.66.666" %}
+            {% include video-block.html text="PLACEHOLDER_VIDEO" url="#" image="/assets/img/video1.png" date="66.66.666" %}
+            {% include video-block.html text="PLACEHOLDER_VIDEO" url="#" image="/assets/img/video1.png" date="66.66.666" %}
         </div>
         <div class="wide wide-nobg">
             <div class="wide-content">
@@ -66,7 +32,7 @@ layout: default
                                 {% include block.html text="ВИКИ" url="https://wiki.lesta.ru/ru/Tank:Мир_Танков" image="/assets/img/com_wiki.png" width="336" height="139" %}
                             </div>
                             <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
-                                {% include block.html text="ФОРУМ" url="/" image="/assets/img/placeholder_2.png" width="336" height="139" %}
+                                {% include block.html text="КОМАНДА WOT ЭТО КЛАССИКА!" url="/modod" image="/assets/img/placeholder_2.png" width="336" height="139" %}
                             </div>
                             <div class="b4r r-img-text" style="margin: 0 0 0 8px;">
                                 {% include block.html text="ФОРУМ" url="/" image="/assets/img/reading_newspaper_338x139.jpg" width="336" height="139" %}
@@ -90,17 +56,16 @@ layout: default
 
         {% include socials.html %}
 
-        <ul class="social-list">
-            <a class="social-list-link" href="#">
-                <img class="social-list-img" src="{{ '/assets/img/youtube_28x.png' | relative_url }}">
-                Kinasura
-            </a>
-        </ul>
-        <ul class="social-list">
-            <a class="social-list-link" href="#">
-                <img class="social-list-img" src="{{ '/assets/img/youtube_28x.png' | relative_url }}">
-                Kinasura
-            </a>
-        </ul>
+        {% for person in site.data.socials %}
+            {% for link in person[1] %}
+            {% unless link[1].show_link %}{% continue %}{% endunless %}
+            <ul class="social-list">
+                <a class="social-list-link" href="{{ link[1].url | absolute_url }}">
+                    <img class="social-list-img" src="{{ link[1].icon | relative_url }}">
+                    {{ person[1].name }}
+                </a>
+            </ul>
+            {% endfor %}
+        {% endfor %}
     </div>
 </div>
