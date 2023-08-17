@@ -11,16 +11,15 @@ layout: default
         <div class="news-content">
             <div class="b-content">
                 {{ content }}
-                {% assign devposts = site.dev-posts | where_exp: "post", "post.title != page.title" %}
-                {% if devposts[0] %}
-                    <hr>
-                    <h3>ДРУГИЕ СТАТЬИ</h3>
-                    {% include indev/devnow.html blocks=devposts in_post=true %}
-                    <style>
-                        .devNowBlock { width: 210px; }
-                        .devNowBlock a span { font-size: 16px; }
-                    </style>
-                {% endif %}
+                {% assign indev = site.pages | find: "url", "/development" %}
+                {% assign devposts = site.dev-posts | where_exp: "post", "post.title != page.title" | push: indev %}
+                <hr>
+                <h3>ДРУГИЕ СТАТЬИ</h3>
+                {% include indev/devnow.html blocks=devposts in_post=true %}
+                <style>
+                    .devNowBlock { width: 210px; }
+                    .devNowBlock a span { font-size: 16px; }
+                </style>
                 <div class="b-hr-layoutfix">
                     <div class="b-hr-block"><span></span></div>
                 </div>
