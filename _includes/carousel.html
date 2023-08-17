@@ -32,7 +32,6 @@
     var is_playing = false;
 
     function setup_carousel() {
-
         for (var i = 0; i < slides.length; i++) {
             var className = 'carousel-text_'+i;
             text = slides[i].querySelector('.carousel-text');
@@ -86,5 +85,5 @@
         }, 1000)
     }
 
-    setup_carousel()
+    window.addEventListener('load', setup_carousel)
 </script>
