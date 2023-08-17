@@ -1,5 +1,6 @@
 <a class="ad-img" href="{{ include.url | absolute_url }}">
     <img src="{{ include.image | relative_url }}" height="{{ include.height }}" width="{{ include.width }}">
+    {% if include.is_new %}<img class="new-mod" src="{{ '/assets/img/icon-new.png' | relative_url }}">{% endif %}
     {% if include.text %}
         <span class="text-pos">
             <span class="text-head">{{ include.text }}</span>

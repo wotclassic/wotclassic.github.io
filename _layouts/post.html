@@ -35,5 +35,10 @@ layout: default
             </div>
         </div>
     </div>
-    {% include categories-sidebar.html %}
+    <div class="r-content">
+        {% assign category_names = "Важные новости|Все новости" | split: "|" %}
+        {% assign category_urls = "/news/important|/news" | split: "|" %}
+        {% include categories-sidebar.html category_names=category_names category_urls=category_urls %}
+        {% include important_categories-sidebar.html %}
+    </div>
 </div>

@@ -1,9 +1,9 @@
 <div id="devAlso" class="oneBlock">
-    <h3>СМОТРИТЕ ТАКЖЕ</h3>
+    {% unless include.in_post %}<h3>СМОТРИТЕ ТАКЖЕ</h3>{% endunless %}
     {% for block in include.blocks %}
         <div class="devNowBlock">
             <a href="{{ block.url | absolute_url }}" target="_blank">
-                <img src="{{ block.image | relative_url }}"><span>{{ block.text }}</span>
+                <img src="{{ block.image | relative_url }}"><span>{{ block.title }}</span>
             </a>
         </div>
     {% endfor %}

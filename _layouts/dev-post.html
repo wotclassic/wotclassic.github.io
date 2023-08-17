@@ -1,0 +1,78 @@
+---
+layout: default
+---
+<div class="content">
+    <div class="l-content">
+        <h1>{{ page.title }}</h1>
+        <div class="statist">
+            <div class="news-time">{{ page.status }}</div>
+            <a href="https://kr.cm/f/t/65511/" class="news-comment">Обсудить на форуме</a>
+        </div>
+        <div class="news-content">
+            <div class="b-content">
+                {{ content }}
+                {% assign devposts = site.dev-posts | where_exp: "post", "post.title != page.title" %}
+                {% if devposts[0] %}
+                    <hr>
+                    <h3>ДРУГИЕ СТАТЬИ</h3>
+                    {% include indev/devnow.html blocks=devposts in_post=true %}
+                    <style>
+                        .devNowBlock { width: 210px; }
+                        .devNowBlock a span { font-size: 16px; }
+                    </style>
+                {% endif %}
+                <div class="b-hr-layoutfix">
+                    <div class="b-hr-block"><span></span></div>
+                </div>
+                <div class="b-junction_forum">
+                    <a href="https://kr.cm/f/t/65511/"
+                        class="news-comment">Обсудить на форуме</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="r-content">
+        {% assign category_names = "|" | split: "|" %}
+        {% assign category_urls = "|" | split: "|" %}
+        {% for post in site.dev-posts %}
+            {% assign title = post.title | append: "|" | split: "|" %}
+            {% assign url = post.url | append: "|" | split: "|" %}
+            {% assign category_names = category_names | concat: title %}
+            {% assign category_urls = category_urls | concat: url %}
+        {% endfor %}
+        {% include categories-sidebar.html name="В РАЗРАБОТКЕ" url="/development" category_names=category_names category_urls=category_urls %}
+        <style>
+            .news-list a {
+                font-size: 13px;
+                color: #cacbcc;
+                font-weight: 700;
+                text-decoration: none;
+                padding: 0 5px 0 35px;
+                display: block;
+                background: none;
+            }
+
+            .news-list li {
+                line-height: 226.1%;
+                padding: 0;
+                margin: 0;
+            }
+
+            .news-list.active {
+                background: url({{"/assets/img/sidebar-open.png" | relative_url }}) repeat-y 0 0;
+            }
+            
+            .news-list a:hover {
+                text-decoration: underline;
+                background: none;
+                color: #fff;
+            }
+
+            .news-list.active a {
+                color: #fff;
+                cursor: default;
+                text-decoration: none;
+            }
+        </style>
+    </div>
+</div>

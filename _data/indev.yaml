@@ -19,9 +19,9 @@ past:
     date: 20 декабря 2022 года
 
 now:
-  - text: Архив обновлений
+  - title: Архив обновлений
     url: https://example.com
     image: /assets/img/910x300.jpg
-  - text: Текущая версия игры
+  - title: Текущая версия игры
     url: https://example.com
     image: /assets/img/910x300.jpg

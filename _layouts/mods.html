@@ -29,31 +29,17 @@ layout: default
     <div class="wide wide-top">
         <div class="wide-content">
             <div class="b4r r-img-text">
-                <a class="link link-img-text" href="#">
-                    <img class="new-mod" src="{{ '/assets/img/icon-new.png' | relative_url }}">
-                    <img width="214" height="132" src="{{ '/assets/img/old_battle.png' | relative_url }}" alt="">
-                    <span class="blackout"></span>
-                </a>
-            </div>
-        </div>
-
-        <div class="wide-content">
-            <div class="b4r r-img-text">
-                <a class="link link-img-text" href="#">
-                    <img width="214" height="132" src="{{ '/assets/img/old_battle.png' | relative_url }}" alt="">
-                    <span class="blackout"></span>
-                </a>
+                {% include block.html url="" image="/assets/img/old_battle.png" width="214" height="132" is_new=true %}
             </div>
         </div>
         <div class="wide-content">
             <div class="b4r r-img-text">
-                <a class="link link-img-text" href="#">
-                    <img width="214" height="132" src="{{ '/assets/img/old_battle.png' | relative_url }}" alt="">
-                    <span class="text-pos">
-                        <span class="text-head">В РАЗРАБОТКЕ</span>
-                    </span>
-                    <span class="blackout"></span>
-                </a>
+                {% include block.html url="" image="/assets/img/old_battle.png" width="214" height="132" %}
+            </div>
+        </div>
+        <div class="wide-content">
+            <div class="b4r r-img-text">
+                {% include block.html text="В РАЗРАБОТКЕ" url="/development" image="/assets/img/old_battle.png" width="214" height="132" %}
             </div>
         </div>
     </div>

@@ -39,6 +39,10 @@ pagination:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+collections:
+  dev-posts:
+    output: true
+
 defaults:
   - scope:
       path: ""
@@ -46,6 +50,12 @@ defaults:
     values:
       layout: "post"
       permalink: "/news/:title/"
+  - scope:
+      path: ""
+      type: "dev-posts"
+    values:
+      layout: "dev-post"
+      permalink: "/development/:title/"
   - scope:
       path: ""
     values:
