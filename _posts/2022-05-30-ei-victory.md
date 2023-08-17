@@ -1,11 +1,11 @@
 ---
 title: Первая победа!
 date: 2022-05-30 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
+image: "/assets/img/news/thumbnail/victory_127x.png"
 ---
 <p style="display: none">Победа в конкурсе от Escaped Ideas.</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/awards_243.jpg' | relative_url }})
 
 Танкисты!
 

@@ -1,11 +1,11 @@
 ---
 title: "Ноябрьское обновление портала: мелкие исправления и новый раздел"
 date: 2021-11-07 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
+image: "/assets/img/news/thumbnail/site_update_november_mini.png"
 ---
 <p style="display: none">Возрожденые шрифты и новый раздел.</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/site_update_november.png' | relative_url }})
 
 Танкисты!
 
@@ -13,7 +13,7 @@ image: "/assets/img/may_upd_127x.png"
 
 ## Новый раздел
 
-[![Что-то]({{ '/assets/img/placeholder.png' | relative_url}}){: .pic-left.orange width="250" }](/indev)
+[![Что-то]({{ '/assets/img/news/mods/indev.png' | relative_url}}){: .pic-left.orange width="200" }](/indev)
 
 Встречайте новый раздел "В разработке"! Здесь будут публиковаться новости модов которые находятся в разработке или обновления к ним. Также может пробегать информация по обновлению сайта. Следите за новостями!
 

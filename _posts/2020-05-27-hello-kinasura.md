@@ -1,12 +1,12 @@
 ---
 title: Новый разработчик «WoT это Классика!»
 date: 2020-05-27 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
+image: "/assets/img/news/thumbnail/people_127x.png"
 tags: [important]
 ---
-<p style="display: none">Теперь WэК! занимается не один человек</p>
+<p style="display: none">Теперь WэК! занимается не один человек.</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/gm_a.jpg' | relative_url }})
 
 Итак, сегодня в команду разработки «WoT это Классика!» пришел новый участник - kinasura, вот что он сказал:
 

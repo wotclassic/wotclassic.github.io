@@ -1,11 +1,11 @@
 ---
 title: "Октябрьское обновление портала: исправления и изменения"
 date: 2021-10-10 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
+image: "/assets/img/news/thumbnail/site_update_october_mini.png"
 ---
 <p style="display: none">"Живая" карусель, изменения на главной странице, сообщества и многое другое.</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/site_update_october.png' | relative_url }})
 
 Танкисты!
 
@@ -15,11 +15,17 @@ image: "/assets/img/may_upd_127x.png"
 
 Карусель новостей теперь можно пролистывать, переходить на новости World of Tanks или нашего проекта. Из минусов: описание новости статичное т.к. GitHub не очень любит такие особенности, но оставим мы её только у первого слайда, на некоторое время, дабы определить стоит ли оставлять и дорабатывать эту функцию дальше или убрать с сайта вовсе.
 
-![Что-то]({{ '/assets/img/placeholder.png' | relative_url}})
+![карусель]({{ '/assets/img/news/screens/carousel_update.png' | relative_url}})
 
 Также на боковой панели добавлены ссылки на сервер kinasura и наш DonationAlerts. В будущем мы будем добавлять больше ссылок.
 
-![Что-то]({{ '/assets/img/placeholder.png' | relative_url}})
+![сайдбар]({{ '/assets/img/news/screens/sidebar.png' | relative_url}})
+
+### Страница сообщество
+
+Карусель на странице сообщества также была обновлена, теперь там есть ссылки на WarSpot и Портал Волонтеров. Также добавлены ссылки на ресурсы Wargaming: Global Wiki, WarSpot, Фан-кит World of Tanks, Wargaming.fm и WoT Replays. Добавлен "разделитель" между каруселью и фан-видео.
+
+![сообщество]({{ '/assets/img/news/screens/community_page.png' | relative_url}}){: height="540px" }
 
 ### Другое
 

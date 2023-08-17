@@ -1,12 +1,11 @@
 ---
 title: «WэК!» присоединяется к десятилетию World of Tanks
 date: 2020-05-23 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
 tags: [important]
 ---
 <p style="display: none">Праздничная версия мода "логин" и обновление сайта.</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/announcement.png' | relative_url }})
 
 Танкисты!
 

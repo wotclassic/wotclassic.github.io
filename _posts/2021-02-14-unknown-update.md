@@ -4,7 +4,7 @@ date: 2021-02-14 20:01:00 +0300
 ---
 <p style="display: none">Обновление X?..</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/announcement.png' | relative_url }})
 
 Танкисты! Сегодня был обновлен сайт «WoT это Классика!», хотя, это только начальная версия. Но изменения есть, и их много! (наверное) Ладно, переходим к изменениям "Обновления Х"! Позже объясню почему.
 

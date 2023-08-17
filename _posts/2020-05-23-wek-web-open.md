@@ -4,7 +4,7 @@ date: 2020-05-23 20:00:00 +0300
 ---
 <p style="display: none">Открываемся!</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/announcement.png' | relative_url }})
 
 Танкисты!
 

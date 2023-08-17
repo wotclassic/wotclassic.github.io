@@ -1,11 +1,11 @@
 ---
 title: С Днем защитника Отечества!
 date: 2021-02-23 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
+image: "/assets/img/news/thumbnail/23_february_127x.png"
 ---
 <p style="display: none">Для самых милых и красивых.</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/23_february.jpg' | relative_url }})
 
 Поздравляем вас с Днем защитника Отечества!
 Команда "WэК!" поздравляет всех мужчин с этим замечательным праздником. Мы желаем вам всегда быть верными своему слову, беречь своих родных и близких и защищать то, что вам дорого. Будьте всегда решительны и сильны духом!

@@ -1,11 +1,11 @@
 ---
 title: WoT это Классика! Три года ностальгии
 date: 2022-12-14 20:01:00 +0300
-image: "/assets/img/may_upd_127x.png"
+image: "/assets/img/news/thumbnail/birthday_127x.png"
 ---
 <p style="display: none">Кто бы мог подумать что за три года так много всего изменится?</p>
 
-![Placeholder]({{ '/assets/img/placeholder.png' | relative_url }})
+![Placeholder]({{ '/assets/img/news/header/birthday.jpg' | relative_url }})
 
 Танкисты!
 
@@ -15,7 +15,7 @@ image: "/assets/img/may_upd_127x.png"
 
 - «WoT это Классика!» стартовал с мода на "Старый экран логина", и тогда он выглядел как-то так.
 
-картинка
+[![логин 2019 эдишон]({{ '/assets/img/news/screens/login_old.jpg' | relative_url}}){: height="540px" }](/assets/img/news/screens/login_old.jpg)
 
  Да... Тогда все только начиналось. Но стоит отметить что тогда мод становился популярным. За короткий срок мод достиг 100 скачиваний на WGmods, затем 200 и так далее...
 

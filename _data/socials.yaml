@@ -14,6 +14,10 @@ vk:
   url: https://vk.com/mr.bendy
   icon: /assets/img/vk_28x.png
 
+gd:
+  url: https://www.guilded.gg/i/kgNAXxV2
+  icon: /assets/img/gd_28x.png
+
 youtube:
   url: https://www.youtube.com/channel/UCl2HGM972UDUF3uzgLC5AuA
   icon: /assets/img/youtube_28x.png
