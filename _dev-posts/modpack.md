@@ -1,10 +1,12 @@
 ---
-title: Test
+title: Модпак
 status: "Обновлено: 17 августа"
-image: /assets/img/910x300.jpg
+image: /assets/img/indev/thumb/modpack.png
 ---
 
-## Lorem ipsum
+<p style="display: none">Открываемся!</p>
+
+![Placeholder]({{ '/assets/img/indev/head/modpack.png' | relative_url }})
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan ex blandit rhoncus ornare. Nulla porttitor neque lectus, ut aliquam mi efficitur in. Etiam malesuada enim leo, eget suscipit elit laoreet eget. Proin ut efficitur nisi. Duis nec auctor magna, vel euismod nunc. Aliquam in nibh sem. Praesent fermentum feugiat urna condimentum vulputate. Vestibulum quis hendrerit odio. Cras eget vestibulum metus.
 

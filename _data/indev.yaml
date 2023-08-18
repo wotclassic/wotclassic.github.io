@@ -1,27 +1,31 @@
 main:
-  - text: Старые скайбоксы 2.2
-    url: https://example.com
-    image: /assets/img/devmapsx465_2.png
-    date: 3 января
-  - text: Старые скайбоксы 2.2
-    url: https://example.com
-    image: /assets/img/devmapsx465_2.png
-    date: 3 января
+  - text: СТАРЫЕ СКАЙБОКСЫ
+    url: /development/ssb
+    image: /assets/img/indev/main/devmapsx465.png
+    date: 18 августа
+  - text: МОДПАК
+    url: /development/modpack
+    image: /assets/img/indev/main/devmodpackx465.png
+    date: 18 августа
+  - text: СТАРЫЙ ИНТЕРФЕЙС БОЯ
+    url: /development/battle_gui
+    image: /assets/img/indev/main/devbattleguix465.png
+    date: 19 августа
 
 past:
-  - text: Старый интерфейс боя
-    url: https://example.com
+  - text: Старый интерфейс боя 1.3
+    url: /development/battle_gui
     image: /assets/img/devobidone325.png
     date: 20 декабря 2022 года
-  - text: Старый интерфейс боя
-    url: https://example.com
-    image: /assets/img/devobidone325.png
-    date: 20 декабря 2022 года
+  - text: 'Старые скайбоксы 2.0: Первый пак'
+    url: /development/ssb
+    image: /assets/img/indev/done/devskyboxdone325.png
+    date: 14 ноября 2022 года
 
 now:
   - title: Архив обновлений
     url: https://example.com
-    image: /assets/img/910x300.jpg
+    image: /assets/img/indev/thumb/archive.png
   - title: Текущая версия игры
-    url: https://example.com
-    image: /assets/img/910x300.jpg
+    url: https://tanki.su/ru/update-1-21-1/
+    image: /assets/img/indev/thumb/actual_upd.png

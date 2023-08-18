@@ -17,6 +17,10 @@
     text-align: center;
 }
 
+#devMain:hover {
+    opacity: 1
+}
+
 #devMain:after, #devMain:before {
     content: "";
     position: absolute;

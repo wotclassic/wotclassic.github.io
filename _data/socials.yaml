@@ -37,7 +37,10 @@ kinasura:
     url: https://www.youtube.com/channel/UCziajM0GYrhmTr00GLrYlHg
     icon: /assets/img/youtube_28x.png
     show_link: true
-
+  discord:
+    url: https://discord.gg/Mm3wJTSwAs
+    icon: /assets/img/discord_28x.png
+    show_link: true
 
 vlbrtn:
   name: VLBRTN
@@ -51,10 +54,26 @@ vlbrtn:
     icon: /assets/img/tg_28x.png
     show_link: true
 
+  discord:
+    url: https://discord.gg/JqkyVMdcTW
+    icon: /assets/img/discord_28x.png
+    show_link: true
+
 
 pbody:
   name: Pbody -iwnl-
   youtube:
     url: https://www.youtube.com/channel/UC3lhm5gcXAyQLIo9cxijZ2w
     icon: /assets/img/youtube_28x.png
+    show_link: true
+
+  telegram:
+    url: https://t.me/Pbody_iwnl
+    icon: /assets/img/tg_28x.png
+    show_link: true
+
+
+  vk:
+    url: https://vk.com/streamers_baby
+    icon: /assets/img/vk_28x.png
     show_link: true
