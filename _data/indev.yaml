@@ -11,6 +11,10 @@ main:
     url: /development/battle_gui
     image: /assets/img/indev/main/devbattleguix465.png
     date: 19 августа
+  - text: АНГАРЫ
+    url: /development/hangars
+    image: /assets/img/indev/main/devhangarx465.png
+    date: 19 августа
 
 past:
   - text: Старый интерфейс боя 1.3
