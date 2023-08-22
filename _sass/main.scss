@@ -547,6 +547,15 @@ hr {
     overflow: hidden;
 }
 
+.b4r.r-img-text {
+    text-align: center;
+
+    .ad-img {
+        display: inline-block;
+        text-align: left;
+    }
+}
+
 .b4r {
     display: inline-block;
     vertical-align: top;
