@@ -1,0 +1,17 @@
+{% assign icons = include.icon_urls | split: "|" %}
+<div class="app-block">
+    <a href="{{ include.url | absolute_url }}">
+        <img src="{{ include.image }}" class="app-image">
+    </a>
+    <div class="app-info-text">
+        <a href="{{ include.url | absolute_url }}">
+            <div class="app-title">{{ include.title }}</div>
+        </a>
+        <p class="app-description">{{ include.desc }}</p>
+    </div>
+    <ul class="app-icons">
+        {% for icon in icons %}
+            <li><img src="{{ icon | relative_url }}"></li>
+        {% endfor %}
+    </ul>
+</div>
