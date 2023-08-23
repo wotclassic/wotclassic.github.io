@@ -1,22 +1,23 @@
 home:
 - title: Добро пожаловать на обновленный портал «WoT это Классика!»
   desc: Огромная куча изменений, улучшений и самое главное - автоматизация. Теперь писать посты проще, а значит что вы получите еще больше контента! 
-  url: https://example.com
+  url: /news/new-portal
   image: /assets/img/carousel/new_portal.png
 
 - title: Июльское обновление
   desc: Актуальная версия модов.
-  url: /404.html
+  url: https://www.youtube.com/watch?v=FzuebuLxEgw
   image: /assets/img/carousel1.png
 
 - title: Обновление 1.21.1
   desc: Отдыхай в Парке Горького прямо в ангаре, открывай праздничные контейнеры, собирай тематическую коллекцию и получай награды. Празднуем день рождения «Танков» вместе!
-  url: https://example.com
+  url: https://tanki.su/ru/update-1-21-1/
   image: /assets/img/carousel/1.21.1.png
 
 community:
 - title: Знакомтесь - команда «WoT это Классика!»
   desc: Кто-то их знает, кто-то понятия не имеет кто это, но все вы знаете их дело - вернуть вас в прошлое. Так давайте же познакомимся поближе!
+  url: /mododels
   image: /assets/img/placeholder_2.png
 
 - title: WarSpot.ru — место, где оживает военная история
