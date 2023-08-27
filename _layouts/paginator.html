@@ -4,7 +4,9 @@ layout: default
 
 <div class="content">
     <div class="l-content">
-        {% include posts.html %}
+        {% assign title = page.title %}
+        {% if page.title == "Все новости" %}{% assign title = "НОВОСТИ" %}{% endif %}
+        {% include posts.html title=title %}
         {% if paginator.page_trail %}
             <div class="l-pager paginator">
                 <ul class="b-pager">

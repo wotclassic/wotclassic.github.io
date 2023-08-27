@@ -3,7 +3,7 @@
         <h2 class="news-head">НОВОСТИ</h2>
         <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
     {% else %}
-        <h1>НОВОСТИ</h1>
+        <h1>{{ include.title | upcase | default: НОВОСТИ }}</h1>
     {% endif %}
 </div>
 {% assign post_num = 1 %}
