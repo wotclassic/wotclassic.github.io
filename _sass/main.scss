@@ -1916,4 +1916,14 @@ table {
     }
 }
 
+.imgblock-category {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    color: #cacbcc;
+}
+
+.imgblock-category:hover {
+    color: #fff
+}
+
 @import 'indev.scss';
