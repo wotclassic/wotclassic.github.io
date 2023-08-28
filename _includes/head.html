@@ -17,6 +17,7 @@
     <meta name="thumbnail" content="{{ page.image | absolute_url | default: '/assets/img/wotc_logo.png' | absolute_url }}">
     <meta name="twitter:image:src" content="{{ page.image | absolute_url | default: '/assets/img/wotc_logo.png' | absolute_url }}">
     <meta name="twitter:card" content="summary_large_image">
+    {% if page.url == '/' %}<meta name="yandex-verification" content="9ab2ac8c924174ef">{% endif %}
     <link rel="icon" href="{{ '/assets/img/favicon_wot.ico' | relative_url }}" sizes="16x16">
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
