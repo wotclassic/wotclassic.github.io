@@ -6,7 +6,8 @@ layout: default
         <h1>{{ page.title }}</h1>
         <div class="statist">
             <div class="news-time">{{ page.date | date: "%d.%m.%Y" }}</div>
-            <a href="/news/#{{ category | first }}" class="block-category">{{ page.categories }}</a>
+            {% assign category = page.categories[0] %}
+            <a href="{{ '/news/' | append: page.categories[0] | relative_url }}" class="block-category">{{ site.data.categories[category] }}</a>
             <a href="https://kr.cm/f/t/65511/" class="news-comment">Обсудить на форуме</a>
         </div>
         <div class="news-content">
@@ -37,8 +38,19 @@ layout: default
         </div>
     </div>
     <div class="r-content">
-        {% assign category_names = "Важные новости|Все новости" | split: "|" %}
-        {% assign category_urls = "/news/important|/news" | split: "|" %}
+        {% assign category_names = "" %}
+        {% assign category_urls = "" %}
+        {% for category in site.categories %}
+            {% assign category_name = category[0] %}
+            {% assign category_name = site.data.categories[category_name] %}
+            {% assign category_names = category_names | append: category_name | append: "|" %}
+            {% assign category_url = "/news/" | append: category[0] %}
+            {% assign category_urls = category_urls | append: category_url | append: "|" %}
+        {% endfor %}
+        {% assign category_names = category_names | append: "Важные новости|Все новости" %}
+        {% assign category_urls = category_urls | append: "/news/important|/news" %}
+        {% assign category_names = category_names | split: "|" %}
+        {% assign category_urls = category_urls | split: "|" %}
         {% include categories-sidebar.html category_names=category_names category_urls=category_urls %}
         {% include important_categories-sidebar.html %}
     </div>

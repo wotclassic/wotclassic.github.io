@@ -42,7 +42,8 @@
         <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
         <p class="n-img-date">
             {{ post.date | date: "%d.%m.%Y" }}
-            <a href="/news/{{ post.tags }}" class="imgblock-category">{{ post.categories[0] }}</a>
+            {% assign category = post.categories[0] %}
+            <a href="{{ '/news/' | append: post.categories[0] | relative_url }}" class="imgblock-category">{{ site.data.categories[category] }}</a>
             <a href="https://kr.cm/f/t/65511/" class="news-comment" style="margin-left: 10px;">Обсудить на форуме</a>
         </p>
         

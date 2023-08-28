@@ -5,6 +5,14 @@ layout: default
 <div class="content">
     <div class="l-content">
         {% assign title = page.title %}
+        {% assign path = page.url | split: "/" %}
+        {% for category in site.data.categories %}
+            {% if path contains category[0] %}
+                {% assign category = category[0] %}
+                {% assign title = category[1] %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
         {% if page.title == "Все новости" %}{% assign title = "НОВОСТИ" %}{% endif %}
         {% include posts.html title=title %}
         {% if paginator.page_trail %}
@@ -41,8 +49,19 @@ layout: default
         {% endif %}
     </div>
     <div class="r-content">
-        {% assign category_names = "Важные новости|Все новости" | split: "|" %}
-        {% assign category_urls = "/news/important|/news" | split: "|" %}
+        {% assign category_names = "" %}
+        {% assign category_urls = "" %}
+        {% for category in site.categories %}
+            {% assign category_name = category[0] %}
+            {% assign category_name = site.data.categories[category_name] %}
+            {% assign category_names = category_names | append: category_name | append: "|" %}
+            {% assign category_url = "/news/" | append: category[0] %}
+            {% assign category_urls = category_urls | append: category_url | append: "|" %}
+        {% endfor %}
+        {% assign category_names = category_names | append: "Важные новости|Все новости" %}
+        {% assign category_urls = category_urls | append: "/news/important|/news" %}
+        {% assign category_names = category_names | split: "|" %}
+        {% assign category_urls = category_urls | split: "|" %}
         {% include categories-sidebar.html category_names=category_names category_urls=category_urls %}
         {% include important_categories-sidebar.html %}
     </div>
