@@ -716,6 +716,10 @@ hr {
     color: #ff7432
 }
 
+.orange-arrow-top {
+    margin-top: 7px;
+}
+
 .footer {
     background: #101010;
     position: relative;
@@ -1918,12 +1922,25 @@ table {
 
 .imgblock-category {
     display: inline-block;
-    margin: 0 10px 0 0;
+    margin: 0px 0px 0px 10px;
     color: #cacbcc;
 }
 
 .imgblock-category:hover {
     color: #fff
+}
+
+.block-category {
+    color: #cacbcc;
+    display: inline-block;
+    zoom: 1;
+    line-height: 1.3;
+    margin: 0 12px 0 0;
+    text-decoration: none;
+}
+
+.block-category:hover {
+    color: #fff;
 }
 
 @import 'indev.scss';

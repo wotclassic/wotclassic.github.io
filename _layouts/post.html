@@ -6,6 +6,7 @@ layout: default
         <h1>{{ page.title }}</h1>
         <div class="statist">
             <div class="news-time">{{ page.date | date: "%d.%m.%Y" }}</div>
+            <a href="/news/#{{ category | first }}" class="block-category">{{ page.categories }}</a>
             <a href="https://kr.cm/f/t/65511/" class="news-comment">Обсудить на форуме</a>
         </div>
         <div class="news-content">

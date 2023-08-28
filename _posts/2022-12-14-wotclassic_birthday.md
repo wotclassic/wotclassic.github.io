@@ -1,6 +1,8 @@
 ---
 title: WoT это Классика! Три года ностальгии
 date: 2022-12-14 20:01:00 +0300
+tags: [notifications]
+category: Уведомления
 image: "/assets/img/news/thumbnail/birthday_127x.png"
 ---
 <p style="display: none">Кто бы мог подумать что за три года так много всего изменится?</p>

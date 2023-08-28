@@ -42,7 +42,7 @@
         <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
         <p class="n-img-date">
             {{ post.date | date: "%d.%m.%Y" }}
-            <span>{{ post.categories[0] }}</span>
+            <a href="/news/{{ post.tags }}" class="imgblock-category">{{ post.categories[0] }}</a>
             <a href="https://kr.cm/f/t/65511/" class="news-comment" style="margin-left: 10px;">Обсудить на форуме</a>
         </p>
         

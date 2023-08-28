@@ -28,7 +28,7 @@ past:
 
 now:
   - title: Архив обновлений
-    url: https://example.com
+    url: /updates
     image: /assets/img/indev/thumb/archive.png
   - title: Текущая версия игры
     url: https://tanki.su/ru/update-1-21-1/

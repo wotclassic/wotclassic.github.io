@@ -1,6 +1,8 @@
 ---
 title: Первая победа!
 date: 2022-05-30 20:01:00 +0300
+tags: [special-offers]
+category: Акции
 image: "/assets/img/news/thumbnail/victory_127x.png"
 ---
 <p style="display: none">Победа в конкурсе от Escaped Ideas.</p>

@@ -6,7 +6,6 @@ layout: default
         <h1>{{ page.title }}</h1>
         <div class="statist">
             <div class="news-time">{{ page.status }}</div>
-            <a href="https://kr.cm/f/t/65511/" class="news-comment">Обсудить на форуме</a>
         </div>
         <div class="news-content">
             <div class="b-content">
@@ -15,17 +14,12 @@ layout: default
                     .devNowBlock { width: 210px; }
                     .devNowBlock a span { font-size: 16px; }
                 </style>
-                <div class="b-hr-layoutfix">
-                    <div class="b-hr-block"><span></span></div>
-                </div>
-                <div class="b-junction_forum">
-                    <a href="https://kr.cm/f/t/65511/" class="news-comment">Обсудить на форуме</a>
-                </div>
             </div>
         </div>
     </div>
     <div class="r-content">
-        <h1>ДОБАВИТЬ СЮДА</h1>
+        {% include block.html text="СКАЧАТЬ ИГРУ" url="https://tanki.su/ru/game/" image="/assets/img/side/world_of_tanks_keyart.jpg" %}
+        {% include block.html text="В РАЗРАБОТКЕ" url="/development" image="/assets/img/side/in_dev_92_1.jpg" %}
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
         {% for post in site.archive %}
