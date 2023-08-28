@@ -3,6 +3,7 @@ title: Новый разработчик «WoT это Классика!»
 date: 2020-05-27 20:01:00 +0300
 image: "/assets/img/news/thumbnail/people_127x.png"
 tags: [important]
+category: events
 ---
 <p style="display: none">Теперь WэК! занимается не один человек.</p>
 

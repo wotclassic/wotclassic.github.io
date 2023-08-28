@@ -2,6 +2,7 @@
 title: С днем победы!
 date: 2021-05-09 20:01:00 +0300
 image: "/assets/img/news/thumbnail/9_may_127x.png"
+category: events
 ---
 <p style="display: none">Май - месяц воспоминаний, не так ли? Так почему бы не вспомнить старые добрые танки с "WэК!"?</p>
 

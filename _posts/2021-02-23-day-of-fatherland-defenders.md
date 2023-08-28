@@ -2,6 +2,7 @@
 title: С Днем защитника Отечества!
 date: 2021-02-23 20:01:00 +0300
 image: "/assets/img/news/thumbnail/23_february_127x.png"
+category: events
 ---
 <p style="display: none">Для самых милых и красивых.</p>
 

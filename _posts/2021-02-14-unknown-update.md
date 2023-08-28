@@ -1,6 +1,7 @@
 ---
 title: Новое обновление сайта!
 date: 2021-02-14 20:01:00 +0300
+category: updates
 ---
 <p style="display: none">Обновление X?..</p>
 

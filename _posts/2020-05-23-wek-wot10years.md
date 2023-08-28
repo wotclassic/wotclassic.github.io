@@ -2,6 +2,7 @@
 title: «WэК!» присоединяется к десятилетию World of Tanks
 date: 2020-05-23 20:01:00 +0300
 tags: [important]
+category: updates
 ---
 <p style="display: none">Праздничная версия мода "логин" и обновление сайта.</p>
 
