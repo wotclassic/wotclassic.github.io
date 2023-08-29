@@ -1264,12 +1264,12 @@ $yt-color: #cc181e;
     box-shadow: 0px 0px 7px 3px rgba(255, 122, 33, 1);
 }
 
-.b-content > ul {
+.b-content ul {
     padding: 0 0 0 11px;
     margin: 15px 0 20px;
 }
 
-.b-content > ul > li {
+.b-content ul li {
     margin: 4px 0 5px;
     padding: 0 0 0 12px;
     background: url('/assets/img/list-style.gif') no-repeat 0 5px;
@@ -1631,7 +1631,6 @@ table {
     height: 243px;
     opacity: 0;
     transition: ease-in-out 1s;
-    line-height: 1;
 }
 
 .slide-active {
@@ -1650,6 +1649,7 @@ table {
     background: url('/assets/img/carousel-text-bg.png');
     border-top: 1px #000 solid;
     z-index: 2;
+    line-height: 1;
 }
 
 .carousel-title {
@@ -1713,6 +1713,8 @@ table {
     letter-spacing: -3px;
     line-height: 0;
     word-spacing: -3px;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 .carousel-dot {
@@ -1722,9 +1724,10 @@ table {
     color: transparent;
     width: 10px;
     height: 10px;
-    background: url('/assets/img/carousel-list.png') no-repeat;
+    background: url('/assets/img/carousel-list.png') no-repeat !important;
     cursor: pointer;
-    margin: 0 3px;
+    margin: 0 3px !important;
+    padding: 0 !important;
     
     &:hover {
         background-position: 0 -10px;
