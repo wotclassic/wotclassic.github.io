@@ -1,0 +1,23 @@
+<table style="width: 100%;" border="0">
+    <tbody>
+        <tr>
+            <td>
+                <h3>{{ include.text }}</h3>
+            </td>
+            <td style="text-align: right;">
+                <h5>
+                    <img style="vertical-align: text-bottom;" src="{% if include.status == 'done' %}/assets/img/devdone.png{% else %}/assets/img/devindev.png{% endif %}">
+                    <span {% if include.status == 'done' %}style="color: #67af4c;">ЗАВЕРШЕНО{% else %}>В РАЗРАБОТКЕ{% endif %}</span>
+                </h5>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span style="color: #808080;">{% if include.status == 'done' %}Завершено{% else %}Обновлено{% endif %}: {{ include.date }}</span>
+            </td>
+            <td>
+                &nbsp;
+            </td>
+        </tr>
+    </tbody>
+</table>
