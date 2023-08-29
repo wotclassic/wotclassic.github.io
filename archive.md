@@ -1,12 +1,13 @@
 ---
 layout: archive-home
+title: Архив обновлений
 permalink: /updates
 ---
 
 ![Placeholder]({{ '/assets/img/news/header/notes.png' | relative_url }})
-{: style="margin-top: -48px;" }
+{: style="margin-top: -30px;" }
 
-Добро пожаловать в раздел «Архив разработки», танкисты!
+#### Добро пожаловать в раздел «Архив разработки», танкисты!
 
 В меню справа вы можете увидеть основные пункты данного раздела: 
 - «Старый экран логина»

@@ -3,7 +3,6 @@ layout: default
 ---
 <div class="content">
     <div class="l-content">
-        <h1>{{ page.title }}</h1>
         <div class="statist">
             <div class="news-time">{{ page.status }}</div>
         </div>
@@ -23,8 +22,10 @@ layout: default
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
         {% for post in site.archive %}
-            {% if category_names contains post.categories[0] %}{% continue %}{% endif %}
-            {% assign title = post.categories[0] | append: "|" | split: "|" %}
+            {% assign title = post.categories[0] %}
+            {% assign title = site.data.categories[title] %}
+            {% if category_names contains title %}{% continue %}{% endif %}
+            {% assign title = title | append: "|" | split: "|" %}
             {% assign url = post.url | append: "|" | split: "|" %}
             {% assign category_names = category_names | concat: title %}
             {% assign category_urls = category_urls | concat: url %}
