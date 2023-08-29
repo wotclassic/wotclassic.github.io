@@ -1730,12 +1730,12 @@ table {
     padding: 0 !important;
     
     &:hover {
-        background-position: 0 -10px;
+        background-position: 0 -10px !important;
     }
 }
 
 .dot-active {
-    background-position: 0 -10px;
+    background-position: 0 -10px !important;
     cursor: default;
 }
 
