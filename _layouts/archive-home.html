@@ -21,7 +21,7 @@ layout: default
         {% include block.html text="В РАЗРАБОТКЕ" url="/development" image="/assets/img/side/in_dev_92_1.jpg" %}
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
-        {% for post in site.archive %}
+        {% for post in site.archive reversed %}
             {% assign title = post.categories[0] %}
             {% assign title = site.data.categories[title] %}
             {% if category_names contains title %}{% continue %}{% endif %}

@@ -26,6 +26,8 @@ layout: default
             {% assign category_names = category_names | concat: title %}
             {% assign category_urls = category_urls | concat: url %}
         {% endfor %}
+        {% assign category_names = category_names | reverse %}
+        {% assign category_urls = category_urls | reverse %}
         {% include categories-sidebar.html name="АРХИВ ОБНОВЛЕНИЙ" url="/updates" category_names=category_names category_urls=category_urls %}
         <style>
             .news-list a {
