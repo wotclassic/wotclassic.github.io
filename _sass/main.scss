@@ -1264,12 +1264,12 @@ $yt-color: #cc181e;
     box-shadow: 0px 0px 7px 3px rgba(255, 122, 33, 1);
 }
 
-.b-content ul {
+.b-content > ul {
     padding: 0 0 0 11px;
     margin: 15px 0 20px;
 }
 
-.b-content ul li {
+.b-content > ul > li {
     margin: 4px 0 5px;
     padding: 0 0 0 12px;
     background: url('/assets/img/list-style.gif') no-repeat 0 5px;
@@ -1631,6 +1631,7 @@ table {
     height: 243px;
     opacity: 0;
     transition: ease-in-out 1s;
+    line-height: 1;
 }
 
 .slide-active {

@@ -25,7 +25,7 @@ image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 
 Первое что вы увидите зайдя на портал - обновленная карусель новостей. Теперь она стабильно работает и не имеет каких либо ошибок и отклонений от оригинальной карусели из портала World of Tanks 2016 года. Также её код был полностью переписан и оптимизирован.
 
-[![улучшенная карусель]({{ '/assets/img/news/screens/better_carousel_upd.png' | relative_url}}){: height="252px" }](/assets/img/news/screens/better_carousel_upd.png)
+{% include carousel.html slides=site.data.carousel.home %}
 
 #### Контент
 
