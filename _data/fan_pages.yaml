@@ -1,0 +1,37 @@
+Old of Tanks:
+  image: /assets/img/fan_pages/oot.png
+  categories: [Фан-ресурсы, Моды]
+  platform: windows
+  developer: Old-Modder Team
+  description: |
+    [Old of Tanks](https://muramiha.github.io/oldoftanks/) - проект возрождения WoT 2010-2014 годов на базе Panzer War! В нем будет полноценный офлайн режим с ветками прокачки, которые не будут ссылаться к определенной версии игры.
+    
+    Возможно добавление своей техники, либо танков, которые по тем или иным причинам планировались WG, но остались вне проекта.
+  assets: [/assets/img/announcement_127x.jpg, yt|NgyD9Zx0r_k, /assets/img/announcement_127x.jpg]
+  link: https://muramiha.github.io/oldoftanks/
+
+VMM:
+  image: /assets
+  categories: [Фан-ресурсы, Моды]
+  platform: web
+  developer: Vlad Maus Mods
+  description: |
+    VMM - На данном сайте вы сможете просмотреть все модификации от пользователя VLAD__MAUS(-а), и от других пользователей которые ему помогают. ( модификации от VLADMAUS находятся в статусе : CTM (Close Test Mod))
+    #### Что есть на сайте?
+    - Информация о модификациях от Vlad Maus / «WoT это Классика!»;
+    - Некоторые модификации от других пользователей.
+  assets: [/assets/img/announcement_127x.jpg, yt|NgyD9Zx0r_k, /assets/img/announcement_127x.jpg]
+  link: https://muramiha.github.io/oldoftanks/
+
+Унесенный громом войны:
+  image: /assets
+  categories: [Фан-ресурсы, Моды]
+  platform: web
+  developer: Vlad Maus Mods
+  description: |
+    VMM - На данном сайте вы сможете просмотреть все модификации от пользователя VLAD__MAUS(-а), и от других пользователей которые ему помогают. ( модификации от VLADMAUS находятся в статусе : CTM (Close Test Mod))
+    #### Что есть на сайте?
+    - Информация о модификациях от Vlad Maus / «WoT это Классика!»;
+    - Некоторые модификации от других пользователей.
+  assets: [/assets/img/announcement_127x.jpg, yt|NgyD9Zx0r_k, /assets/img/announcement_127x.jpg]
+  link: https://muramiha.github.io/oldoftanks/

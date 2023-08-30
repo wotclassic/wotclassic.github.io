@@ -1,0 +1,104 @@
+---
+layout: default
+---
+
+{% assign id = page.title %}
+{% assign data = site.data.fan_pages[id] %}
+
+<div class="content">
+    <div class="l-content" style="width: auto;">
+        <div>
+            {% if page.is_mod %}
+                <a href="{{ '/mods' | relative_url }}" class="orange-arrow" style="background: none;">← Моды</a>
+            {% else %}
+                <a href="{{ '/fan-pages' | relative_url }}" class="orange-arrow" style="background: none;">← Фан-ресурсы</a>
+            {% endif %}
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div class="b-app-general">
+            <div class="b-app-general_right-wrapper" style="margin-left: 145px;">
+                <div class="b-app-general_download">
+                    <a class="orange-button" href="{{ data.link }}" style="margin-top: 0px;">
+                        <span class="big-orange-button">
+                            <span class="big-orange-button-right" style="min-width: 170px; font-size: 22px;">Перейти</span>
+                        </span>
+                    </a>
+                    <div class="b-app-general_note"></div>
+                </div>
+            </div>
+            <article class="b-app-general_img">
+                    <img class="b-software-list_img" src="{{ data.image }}">
+            </article>
+            <table class="t-app-general">
+                <tbody>
+                    <tr>
+                        <td class="t-app-general_cell">Категории:</td>
+                        <td class="t-app-general_cell">{{ data.categories | join: ", " }}</td>
+                    </tr>
+                    <tr>
+                        <td class="t-app-general_cell">Платформы:</td>
+                        <td class="t-app-general_cell">
+                            <span class="t-app-general_platform">
+                                {% case data.platform %}
+                                    {% when 'windows' %}
+                                        <img src="/assets/img/win-icon.png" alt="Windows PC">Windows PC
+                                    {% when 'web' %}
+                                        <img src="/assets/img/www-icon.png" alt="Web">Web
+                                {% endcase %}
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="t-app-general_cell">Разработчик:</td>
+                        <td class="t-app-general_cell">{{ data.developer }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="l-tabs">
+            <ul class="b-tabs-list">
+                <li class="b-tabs-list_item js-tabs__active">
+                    <span class="b-tabs-list_link b-tabs-list_link__platform js-tabs-item">
+                        {% case data.platform %}
+                            {% when 'windows' %}
+                                <img src="/assets/img/win-icon.png" alt="Windows PC">Windows PC
+                            {% when 'web' %}
+                                <img src="/assets/img/www-icon.png" alt="Web">Web
+                        {% endcase %}
+                    </span>
+                </li>
+            </ul>
+            <div class="b-main-divider b-main-divider__long js-main-divider"></div>
+            <div id="js-www-tab-content" class="b-tabs js-tabs-content js-tabs-content__show" style="display: block;">
+                <h2 class="b-header-h2 b-header-h2__indent-bottom">Скриншоты и видеоролики</h2>
+                <div class="b-horizontal-carousel js-wg-carousel">
+                    <div class="b-horizontal-carousel_wrapper">
+                        <div class="b-horizontal-carousel_item-list js-gallery_list wgslider-webkit-acceleration wgslider-slide-animation" style="left: 0px;">
+                            {% for asset in data.assets %}
+                                {% assign yt = asset | split: "|" %}
+                                {% unless yt[0] == "yt" %}
+                                    <div class="b-horizontal-carousel_item js-gallery_item wgslider-webkit-acceleration">
+                                        <a class="b-horizontal-carousel_link js-fancybox-no-title" href="{{ asset | relative_url }}">
+                                            <img class="b-horizontal-carousel_img" src="{{ asset | relative_url }}">
+                                        </a>
+                                    </div>
+                                {% else %}
+                                    <div class="b-horizontal-carousel_item js-gallery_item wgslider-webkit-acceleration">
+                                        {% assign yt = yt[1] %}
+                                        {% include yt-embed.html id=yt width=309.45 height=176 %}
+                                    </div>
+                                {% endunless %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <div class="b-app-description b-app-description__open">
+                    <article>
+                        <h3>Описание</h3>
+                        {{ data.description | markdownify }}
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
