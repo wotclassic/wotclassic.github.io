@@ -292,6 +292,7 @@
 
 .b-app-description p {
     margin-bottom: 10px;
+    font-size: 15px;
 }
 
 .b-app-description h2, .b-app-description h3 {
@@ -309,4 +310,16 @@
     position: relative;
     top: 3px;
     margin-right: 5px;
+}
+
+.b-app-description ul {
+    margin-bottom: 32px;
+}
+
+.b-app-description ul li {
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background: url(/assets/img/list-marker.png) no-repeat 0 2px;
+    line-height: 133%;
+    font-size: 15px;
 }

@@ -2,7 +2,7 @@
     <tbody>
         <tr>
             <td>
-                <h3>{{ include.text }}</h3>
+                <h3 style="margin: 0px 0 0px;">{{ include.text }}</h3>
             </td>
             <td style="text-align: right;">
                 <h5>
@@ -11,7 +11,7 @@
                 </h5>
             </td>
         </tr>
-        <tr>
+        <tr style="padding-bottom: 25px; display: block;">
             <td>
                 <span style="color: #808080;">{% if include.status == 'done' %}Завершено{% else %}Обновлено{% endif %}: {{ include.date }}</span>
             </td>
