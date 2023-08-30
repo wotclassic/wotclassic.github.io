@@ -1,0 +1,10 @@
+{
+    "version": "1",
+    "api_version": 3,
+
+    "layout": {
+        "logo": "https://wotclassic.github.io/assets/img/wotc_tablo.png",
+        "color": "#000000",
+        "show_title": false
+    }
+}
