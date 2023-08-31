@@ -4,7 +4,7 @@ status: "Обновлено: 19 августа 2023 года"
 image: /assets/img/indev/thumb/hangars.png
 ---
 
-<p style="display: none">Открываемся!</p>
+<p style="display: none">Подробности о жизни ангаров мы рассказываем именно здесь.</p>
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
 
