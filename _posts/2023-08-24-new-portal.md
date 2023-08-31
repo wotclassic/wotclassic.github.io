@@ -68,7 +68,7 @@ image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 
 Теперь каждая страница имеет свой вебхук чтобы вы могли заранее ознакомиться с новостью.
 
-
+[![обновленные новости]({{ '/assets/img/news/screens/webhook.png' | relative_url}}){: height="219px" }](/assets/img/news/screens/webhook.png)
 
 ---
 
