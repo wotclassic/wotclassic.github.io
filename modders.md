@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Знакомтесь - команда «WoT это Классика!»!
+title: Знакомьтесь - команда «WoT это Классика!»
 permalink: /mododels
 date: 2023-03-12
 ---
