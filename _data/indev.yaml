@@ -14,7 +14,7 @@ main:
   - text: АНГАРЫ
     url: /development/hangars
     image: /assets/img/indev/main/devhangarx465.png
-    date: 19 августа
+    date: 31 августа
 
 past:
   - text: Старый интерфейс боя 1.3

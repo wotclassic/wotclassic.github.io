@@ -1,6 +1,6 @@
 ---
 title: Ангары
-status: "Обновлено: 19 августа 2023 года"
+status: "Обновлено: 31 августа 2023 года"
 image: /assets/img/indev/thumb/hangars.png
 ---
 
@@ -8,16 +8,13 @@ image: /assets/img/indev/thumb/hangars.png
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
 
-После выхода обновления 1.2 у нас не было идей чем можно еще заняться в интерфейсе, мы что-то тыкали, клацали и сделали. Пока что у нас практически готовы старые захваты базы, а так же ведется работа над старым счетчиком противника. Ну и небольшие изменения в таблице игроков, куда же без этого?
+{% include indev/status.html status="indev" text="Воскрешение ангаров" date="31 августа" %}
 
-## Небольшие изменения в таблице игроков
+Ангары вновь восстают из пепла! И не просто восстают, а еще и обновляются!  
 
-Исправлен баг с отображением текстуры таблицы, теперь тень не обрезана. Так же мы планируем передвинуть надписи "Союзники" "Противники."
+Мы полностью переработали освещение в базовом и премиум ангаре и теперь оно походит на патч 0.8.11, что позволит ностальгировать игрокам World of Tanks из 2014 года.
 
-[![табло]({{ '/assets/img/indev/screens/shot_1977.jpg' | relative_url}}){: height="387px" }](/assets/img/indev/screens/shot_1977.jpg)
-
-## Старый захват базы
-
-Вовзращение классического стиля захвата базы! Убрана вся лишняя информация, только процент захвата и не более.
-
-[![захват]({{ '/assets/img/indev/screens/shot_1978.jpg' | relative_url}}){: height="387px" }](/assets/img/indev/screens/shot_1978.jpg)
+[![обновленные новости]({{ '/assets/img/indev/screens/h1.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/h1.png)
+[![обновленные новости]({{ '/assets/img/indev/screens/h2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/h2.png)
+[![обновленные новости]({{ '/assets/img/indev/screens/hp1.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hp1.png)
+[![обновленные новости]({{ '/assets/img/indev/screens/hp2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hp2.png)
