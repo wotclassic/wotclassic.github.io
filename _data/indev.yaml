@@ -6,7 +6,7 @@ main:
   - text: МОДПАК
     url: /development/modpack
     image: /assets/img/indev/main/devmodpackx465.png
-    date: 18 августа
+    date: 20 июня
   - text: СТАРЫЙ ИНТЕРФЕЙС БОЯ
     url: /development/battle_gui
     image: /assets/img/indev/main/devbattleguix465.png
@@ -17,7 +17,7 @@ main:
     date: 1 сентября
 
 past:
-  - text: 'Старые скайбоксы: Вторая пак'
+  - text: 'Старые скайбоксы: Второй пак'
     url: /development/ssb
     image: /assets/img/indev/done/devskybox2done325.png
     date: 9 января 2023 года
