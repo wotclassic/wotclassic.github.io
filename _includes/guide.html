@@ -1,0 +1,22 @@
+<div class="wide wide-nobg wide-marg wide-text">
+    <div style="margin: 0 0 0px -24px;">
+        <a class="link link-img-text guide-margin" href="{{ include.image | relative_url }}">
+            <a href="{{ include.url | absolute_url }}">
+                <img style="border: 1px #000 solid;" src="{{ include.image | relative_url }}"
+                    width="327" height="133">
+                    <span class="guide-text">
+                        <span class="blackout"></span>
+                        <span class="text-head"
+                        style="font-family: 'WarHeliosCondC',Arial Narrow,arial,sans-serif; font-size: 24px; text-transform: uppercase; margin-bottom: 10px;">
+                        {{ include.text-head }}
+                        <img style="width: 15px; height: 18px; display: inline-block; border: none;"
+                        src="/assets/img/guide_arrow.png">
+                    </span>
+                    <span class="text" style="line-height: 16px;">
+                        {{ include.text }}
+                    </span>
+                </span>
+            </a>
+        </a>
+    </div>
+</div>

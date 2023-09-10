@@ -2000,5 +2000,60 @@ table {
     display: inline-block;
 }
 
+.guide-text {
+    padding: 25px 25px 10px 25px;
+    top: 0;
+    left: 0;
+    bottom: 3px;
+    right: 0;
+    position: absolute;
+    display: inline-block;
+}
+
+ .guide-text-style {
+    font-family: 'WarHeliosCondC',Arial Narrow,arial,sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+ }
+
+.guide-arrow {
+    width: 15px;
+    height: 18px;
+    display: inline-block;
+    border: none;
+}
+
+.guide-margin {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 0 20px;
+    text-align: left;
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: normal;
+}
+
+.wide-marg {
+    margin-top: 0px;
+    margin-right: 12px;
+}
+
+.media-head {
+    text-transform: initial;
+}
+
+.orange-arrow-big {
+    background: url(/assets/img/orange_arrow_big.png) 100% 0 no-repeat;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 11px;
+}
+
+.orange-arrow-big:hover {
+    background-position: 100% -15px;
+}
+
 @import 'indev.scss';
 @import 'fan-page.scss';

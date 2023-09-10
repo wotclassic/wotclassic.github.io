@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<div class="content">
+    <div class="l-content">
+        <h1 style="text-transform: uppercase;">{{ page.title }}</h1>
+        <div class="news-content">
+            <div class="b-content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    <div class="r-content">
+        {% assign category_names = "|" | split: "|" %}
+        {% assign category_urls = "|" | split: "|" %}
+        {% for post in site.dev-posts %}
+            {% assign title = post.title | append: "|" | split: "|" %}
+            {% assign url = post.url | append: "|" | split: "|" %}
+            {% assign category_names = category_names | concat: title %}
+            {% assign category_urls = category_urls | concat: url %}
+        {% endfor %}
+        {% include categories-sidebar.html name="РУКОВОДСТВО" url="/guide" category_names=category_names category_urls=category_urls %}
+        <style>
+            .news-list a {
+                font-size: 13px;
+                color: #cacbcc;
+                font-weight: 700;
+                text-decoration: none;
+                padding: 0 5px 0 35px;
+                display: block;
+                background: none;
+            }
+
+            .news-list li {
+                line-height: 226.1%;
+                padding: 0;
+                margin: 0;
+            }
+
+            .news-list.active {
+                background: url({{"/assets/img/sidebar-open.png" | relative_url }}) repeat-y 0 0;
+            }
+            
+            .news-list a:hover {
+                text-decoration: underline;
+                background: none;
+                color: #fff;
+            }
+
+            .news-list.active a {
+                color: #fff;
+                cursor: default;
+                text-decoration: none;
+            }
+        </style>
+    </div>
+</div>

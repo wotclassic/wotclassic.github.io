@@ -19,6 +19,10 @@ layout: default
                 Благодаря этим модификациям, вы сможете насладиться игрой, как в ее лучшие годы, и ощутить все
                 те эмоции, которые вы испытывали раньше.
             </p>
+            <a class="orange-arrow-big orange-arrow" href="/guide/main">
+                Полное описание
+            </a>
+            <br>
             <a class="orange-button" href="/mods/download">
                 <span class="big-orange-button">
                     <span class="big-orange-button-right">Скачать моды</span>
@@ -47,6 +51,8 @@ layout: default
         </div>
         <div class="wide-content">
             <div class="b4r r-img-text">
+                {% include block.html text="ОПИСАНИЕ ПРОЕКТА" url="/guide/main" image="/assets/img/mods/about.jpg" width="214" height="132" %}
+                {% include block.html text="РУКОВОДСТВО" url="/guide" image="/assets/img/mods/guide.jpg" width="214" height="132" %}
                 {% include block.html text="АРХИВ ОБНОВЛЕНИЙ" url="/updates" image="/assets/img/mods/notes.png" width="214" height="132" %}
                 {% include block.html text="В РАЗРАБОТКЕ" url="/development" image="/assets/img/mods/indev.jpg" width="214" height="132" %}
             </div>
