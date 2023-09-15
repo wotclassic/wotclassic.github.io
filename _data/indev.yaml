@@ -14,7 +14,7 @@ main:
   - text: АНГАРЫ
     url: /development/hangars
     image: /assets/img/indev/main/devhangarx465.png
-    date: 1 сентября
+    date: 15 сентября
 
 past:
   - text: 'Старые скайбоксы: Второй пак'
