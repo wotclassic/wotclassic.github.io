@@ -1,6 +1,6 @@
 ---
 title: 'Обзор ангара от Pbody -iwnl-!'
-date: 2023-09-18 00:03:00 +0300
+date: 2023-09-18 00:27:00 +0300
 category: announcements
 image: "/assets/img/news/thumbnail/video_icon_new_127x.jpg"
 ---
