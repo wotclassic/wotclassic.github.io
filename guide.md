@@ -17,5 +17,5 @@ permalink: /guide
 
 {% include guide.html text-head="Краткое руководство" text="Что нужно знать перед установкой." url="/guide/qs" image="/assets/img/guide/main/start_b.jpg" %}
 {% include guide.html text-head="Новичкам" text="В руководстве для новичков вы познакомитесь с проектом и замыслом «WoT это Классика!»" url="/guide/newcomers" image="/assets/img/guide/main/4.jpg" %}
+{% include guide.html text-head="Основное" text="В данном разделе вы найдёте наиболее важные руководства по модам и ответы на часто задаваемые вопросы." url="/guide/main" image="/assets/img/guide/main/4.png" %}
 {% include guide.html text-head="Обучающее видео" text="Этот раздел содержит видеоматериалы, которые помогут разобраться в установке и настройке модов." url="/guide/video" image="/assets/img/guide/main/videos.png" %}
-{% include guide.html text-head="PDF" text="Подробное руководство по модам в PDF формате." url="/development" image="/assets/img/guide/main/c_w.jpg" %}
