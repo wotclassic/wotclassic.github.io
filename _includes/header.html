@@ -27,7 +27,7 @@
 
         if (!isHidden && curScrollTop - (navbar.offsetHeight + brand_offset) > 0 && curScrollTop > lastScrollTop) hide();
         else if (isHidden && curScrollTop < lastScrollTop) unHide();
-        else if (curScrollTop - navbar.offsetHeight / 2 < 0) unstick();
+        else if (curScrollTop - brand_offset < 0) unstick();
 
         function hide() {
             navbar.style.top = "-66px";
