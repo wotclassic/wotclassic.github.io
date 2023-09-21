@@ -4,7 +4,7 @@
     <a class="brand-link" href="http://forum.worldoftanks.ru/index.php?/topic/2134176-«wot-это-классика»-ламповый-world-of-tanks/">Форум</a>
     <a class="brand-link" href="https://koreanrandom.com/forum/topic/65511-«wot-это-классика»-ламповый-world-of-tanks/">Korean Random</a>
 </div>
-<div class="navigation-header">
+<div class="navigation-header" id="navbar">
     <div class="navigation-head-centr">
         <a class="nav-logo" href="{{ '/' | relative_url }}" alt="WOT_logo"></a>
         <a class="navigation-link {% if page.url == "/" %}navigation-link-active{% endif %}" href="{{ '/' | relative_url }}">Главная</a>
@@ -12,6 +12,36 @@
         <a class="navigation-link {% if page.url == "/community.html" %}navigation-link-active{% endif %}" href="{{ '/community' | relative_url }}">Сообщество</a>
     </div>
 </div>
+<div style="display: none; height: 66px;" id="navbar_blank"></div>
+<script>
+    var navbar = document.getElementById("navbar");
+    var navbar_blank = document.getElementById("navbar_blank");
+    var lastScrollTop = 0;
+
+    window.onscroll = function() { navbarStick() };
+
+    function navbarStick() {
+        curScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+        if (curScrollTop - navbar.offsetHeight / 2 - 4 > 0) {
+            if (curScrollTop > lastScrollTop) {
+                navbar.style.transition = "top 0.2s ease-out 0s";
+                navbar.style.top = "-66px";
+            } else {
+                navbar.style.top = 0;
+            }
+            navbar.style.position = "fixed";
+            navbar.style.width = "100%";
+            navbar.style.zIndex = 2;
+            navbar_blank.style.display = "block";
+        } else {
+            navbar.style.position = "relative";
+            navbar.style.removeProperty("width");
+            navbar_blank.style.display = "none";
+        }
+        lastScrollTop = curScrollTop <= 0 ? 0 : curScrollTop;
+    }
+</script>
 <div>
     <div class="content-wrapper">
         <a title="World of Tanks Classic" class="wotc-logo" href="{{ '/' | relative_url }}"></a>
