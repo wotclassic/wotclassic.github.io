@@ -11,4 +11,4 @@ permalink: /guide/video
 Смотрите видеоролики и набирайтесь опыта!
 
 {% include guide.html text-head="Установка модов" text="Что, куда и как пихать - здесь." url="/guide/video/mod-setup" image="/assets/img/guide/main/start_b.jpg" %}
-{% include guide.html text-head="Настройка модов" text="Некоторые моды требуют дополнительной настройки в клиенте игры." url="/guide/mod-setup" image="/assets/img/guide/main/start_b.jpg" %}
+{% include guide.html text-head="Настройка модов" text="Некоторые моды требуют дополнительной настройки в клиенте игры." url="/guide/video/mod-settings" image="/assets/img/guide/main/start_b.jpg" %}
