@@ -1,6 +1,6 @@
 ---
 title: Сентябрьское обновление модов
-date: 2023-09-30 04:22:15 +0300
+date: 2023-09-30 18:34:15 +0300
 tags: [important]
 category: updates
 image: "/assets/img/news/thumbnail/sptmbr_upd_127x.png"
@@ -8,12 +8,12 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 ---
 <p style="display: none">Опять сентябрьские вечера, учеба, работа... Но выходит сентябрьское обновление с огромной кучей изменений которые украсят ваши вечерние игры в "танки"!</p>
 
-{% include yt-embed.html id="vJIFTgOFcJ0" %}
+{% include yt-embed.html id="D3KeZwwZBg4" %}
 
 Танкисты!
 {: style="margin-top: 10px" }
 
-Сентябрьское обновление уже [здесь](ссылка на видео)! А в нём скриптовые изменения интерфейса ангара, изменения в интерфейсе боя, карта "Сталинград" и много чего ещё! 
+Сентябрьское обновление уже [здесь](https://www.youtube.com/watch?v=D3KeZwwZBg4)! А в нём скриптовые изменения интерфейса ангара, изменения в интерфейсе боя, карта "Сталинград" и много чего ещё! 
 
 #### Содержание
 - **[Что нового?](#что-нового)**
@@ -22,6 +22,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 - **[Ангары](#ангары)**
   - **[Базовый и премиум ангар снова здесь!](#базовый-и-премиум-ангар-снова-здесь)**
 - **[Интерфейс боя](#интерфейс-боя)**
+  - **[Результат боя](#результат-боя)**
 - **[Скайбоксы](#скайбоксы)**
 - **[Террейны](#террейны)**
 - **[Эффекты](#эффекты)**
@@ -81,7 +82,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 ![ангары]({{ '/assets/img/news/mods/hangar922.png' | relative_url}}){: .pic-left.orange width="200" }
 Да, ангары вернулись, и не просто вернулись, а с большой обновкой! Самым крупным правкам подвергся премиумный ангар из патчей 0.9.Х.  
 Полностью перереализована база, была проведена переработка освещения, правильная установка декалей, источников света, карт отражений, тумана и эффектов.  
-Давайте сравним этот ангар в двух версиях игры, а именно 9.10 и 1.22. Если вы не видите отличий, значит нам удалось воссоздать ангар в полной мере.
+Давайте сравним этот ангар в двух версиях игры, а именно 9.22 и 1.22. 
 
 <div class="wrapper">
       <div class="images">
@@ -96,11 +97,13 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
       </div>
 </div>
 
-Обновление 9.10
+Обновление 9.22
 {: style="text-align: right; margin-top: 10px;"}
 
 Обновление 1.22
 {: style="margin-top: -25px;"}
+
+Если вы не видите отличий, значит нам удалось воссоздать ангар в полной мере.
 
 <script>
     const slider = document.querySelector(".slider input");
@@ -129,14 +132,14 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 .wrapper .images .img-1{
   height: 100%;
   width: 100%;
-  background: url("/assets/img/indev/screens/9.10.jpg") no-repeat;
+  background: url("/assets/img/news/screens/9.22.jpg") no-repeat;
   background-size: cover;
 }
 .wrapper .images .img-2{
   position: absolute;
   height: 100%;
   width: 50%;
-  background: url("/assets/img/indev/screens/1.22.jpg") no-repeat;    
+  background: url("/assets/img/news/screens/1.22.jpg") no-repeat;    
   background-size: cover;
 }
 .wrapper .slider{
@@ -211,7 +214,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 </style>
 
-#### Базовый и премиум ангар снова здесь!
+## Базовый и премиум ангар снова здесь!
 
 С их обновлением мы начинаем использовать версию 8.11, а не 8.2. Из изменений:
 - Новая база
@@ -222,14 +225,23 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 А благодаря новым шейдерам ангары будут выглядеть куда лучше!
 
+[![базовый]({{ '/assets/img/news/screens/basic.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/basic.png)
+[![премиум]({{ '/assets/img/news/screens/premium.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/premium.png)
+
 ---
 
 #### Интерфейс боя
 [![интерфейс боя]({{ '/assets/img/news/mods/old_battle_gui.png' | relative_url}}){: .pic-right.orange width="200" }](https://wgmods.net/6287/)
 В интерфейсе боя вас ждет старое меню списка игроков! Это только первоначальная версия, и мы ждем ваших отзывов о данном нововведении.  
 Для миникарт добавлены Сталинград и Провинция, также был обновлён Руинберг.  
-Результат боя претерпит заметные изменения, мы попытались воссоздать стиль старого варианта данного окна, но с современными решениями.
+
 [![таб]({{ '/assets/img/news/screens/tab.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/tab.png)
+
+## Результат боя
+Он претерпел заметные изменения, мы попытались воссоздать стиль старого варианта данного окна, но с современными решениями.
+
+[![результат]({{ '/assets/img/news/screens/battle_result.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/battle_result.png)
+
 
 ---
 
@@ -266,7 +278,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 - Тихий берег
 - Париж
 
-И как «сюрприз», комплекте со старыми террейнами идет мод на старый флагшток. Это будет наша первая попытка в SD-модель для общественного пользования.
+И как «сюрприз», в комплекте со старыми террейнами идет мод на старый флагшток. Это будет наша первая попытка в SD-модель для общественного пользования.
 {: style="margin-right: 215px" }
 
 ---
