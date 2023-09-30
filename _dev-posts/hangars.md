@@ -1,6 +1,6 @@
 ---
 title: Ангары
-status: "Обновлено: 15 сентября 2023 года"
+status: "Обновлено: 30 сентября 2023 года"
 image: /assets/img/indev/thumb/hangars.png
 ---
 
@@ -8,7 +8,7 @@ image: /assets/img/indev/thumb/hangars.png
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
 
-{% include indev/status.html status="indev" text="Воскрешение ангаров" date="15 сентября" %}
+{% include indev/status.html status="done" text="Воскрешение ангаров" date="30 сентября" %}
 
 Ангары вновь восстают из пепла! И не просто восстают, а еще и обновляются!  
 
@@ -47,6 +47,7 @@ image: /assets/img/indev/thumb/hangars.png
 
 Обновление 1.22
 {: style="margin-top: -25px;"}
+
 <script>
     const slider = document.querySelector(".slider input");
     const img = document.querySelector(".images .img-2");

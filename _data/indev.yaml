@@ -2,7 +2,7 @@ main:
   - text: СТАРЫЕ СКАЙБОКСЫ
     url: /development/ssb
     image: /assets/img/indev/main/devmapsx465.png
-    date: 1 сентября
+    date: 30 сентября
   - text: МОДПАК
     url: /development/modpack
     image: /assets/img/indev/main/devmodpackx465.png
@@ -14,9 +14,17 @@ main:
   - text: АНГАРЫ
     url: /development/hangars
     image: /assets/img/indev/main/devhangarx465.png
-    date: 15 сентября
+    date: 30 сентября
 
 past:
+  - text: 'Воскрешение ангаров'
+    url: /development/hangars
+    image: /assets/img/indev/done/devhangardone325.png
+    date: 30 сентября 2023 года
+  - text: 'Старые скайбоксы: обновление 3.2'
+    url: /development/ssb
+    image: /assets/img/indev/done/devskybox3done325.png
+    date: 30 сентября 2023 года
   - text: 'Старые скайбоксы: Второй пак'
     url: /development/ssb
     image: /assets/img/indev/done/devskybox2done325.png
