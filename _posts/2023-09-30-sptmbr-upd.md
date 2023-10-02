@@ -54,7 +54,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 Ну и самое интересное - старый выбор боя! В патче 1.13 его [переработали](https://tanki.su/ru/news/updates/1-13-details/#mode) до неузнаваемости, и вот, спустя долгое время, он снова с вами. Компактный, быстрый, старый – все как вы хотели. 
 {: style="margin-left: 215px" }
 
-[![выбор боя]({{ '/assets/img/news/screens/battle_selector.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/battle_selector.png)
+[![выбор боя]({{ '/assets/img/news/screens/battle_selector.png' | relative_url}}){:  width="100%" }](/assets/img/news/screens/battle_selector.png)
 
 ## Меню настроек
 
@@ -62,7 +62,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 1. Нажмите на кнопку в правом нижнем углу для настройки модов.
 2. Нажмите "Настройка модификаций." 
 
-[![настройка]({{ '/assets/img/news/screens/mod_settings.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/mod_settings.png)
+[![настройка]({{ '/assets/img/news/screens/mod_settings.png' | relative_url}}){:  width="100%" }](/assets/img/news/screens/mod_settings.png)
 
 Перед вами меню в котором вы можете настроить:
   - Отображение лутбоксов
@@ -71,7 +71,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
   - Отображение боевого пропуска
   - Старый выбор режима боя
 
-[![реально настройка]({{ '/assets/img/news/screens/mod_list.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/mod_list.png)
+[![реально настройка]({{ '/assets/img/news/screens/mod_list.png' | relative_url}}){:  width="100%" }](/assets/img/news/screens/mod_list.png)
 
 Обратите внимание: для применения изменений потребуется перезапуск клиента.
 {: .message-info}
@@ -225,8 +225,8 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 А благодаря новым шейдерам ангары будут выглядеть куда лучше!
 
-[![базовый]({{ '/assets/img/news/screens/basic.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/basic.png)
-[![премиум]({{ '/assets/img/news/screens/premium.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/premium.png)
+[![базовый]({{ '/assets/img/news/screens/basic.png' | relative_url}}){:  width="100%" }](/assets/img/news/screens/basic.png)
+[![премиум]({{ '/assets/img/news/screens/premium.png' | relative_url}}){:  width="100%" }](/assets/img/news/screens/premium.png)
 
 ---
 
@@ -235,12 +235,12 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 В интерфейсе боя вас ждет старое меню списка игроков! Это только первоначальная версия, и мы ждем ваших отзывов о данном нововведении.  
 Для миникарт добавлены Сталинград и Провинция, также был обновлён Руинберг.  
 
-[![таб]({{ '/assets/img/news/screens/tab.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/tab.png)
+[![таб]({{ '/assets/img/news/screens/tab.png' | relative_url}}){:  width="100%" }](/assets/img/news/screens/tab.png)
 
 ## Результат боя
 Он претерпел заметные изменения, мы попытались воссоздать стиль старого варианта данного окна, но с современными решениями.
 
-[![результат]({{ '/assets/img/news/screens/battle_result.png' | relative_url}}){: height="387px" }](/assets/img/news/screens/battle_result.png)
+[![результат]({{ '/assets/img/news/screens/battle_result.png' | relative_url}}){:  width="100%" }](/assets/img/news/screens/battle_result.png)
 
 
 ---
