@@ -4,7 +4,7 @@ title: Основное
 permalink: /guide/main
 ---
 
-<img class="pic-left fancybox-gallery-wot fancybox-image" title="WoT it's Classic!" src="/assets/img/guide/main/wotc_logo.png" alt="WoT it's Classic!" width="243">
+![WoT it's Classic!]({{ '/assets/img/guide/main/wotc_logo.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
 
 Серия модификаций под названием «WoT это Классика!» представляет собой сборку интерфейсных, графических и звуковых модов, созданных с целью восстановить непередаваемые впечатления от игры в "те самые танки". Эти модификации позволят вам глубоко погрузиться в атмосферу классической игры и воссоздать ностальгическое ощущение, которое когда-то магнетизировало множество игроков.
 
@@ -14,7 +14,7 @@ permalink: /guide/main
 
 ### Ностальгическая атмосфера танковых баталий
 
-<img class="pic-left fancybox-gallery-wot fancybox-image" title="Skybox" src="/assets/img/guide/screens/gamepage1.jpg" alt="Skybox" width="243">
+![Skybox]({{ '/assets/img/guide/screens/gamepage1.jpg' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
 
 Хотите получить огромный прирост ностальгии по старым добрым танкам? Тогда такие моды как: «старые скайбоксы», «старые террейны» и «старые эффекты» созданы для вас!
 
@@ -28,7 +28,7 @@ permalink: /guide/main
 
 ### Уютные, ламповые, родные - ангары
 
-<img class="pic-left fancybox-gallery-wot fancybox-image" title="Skybox" src="/assets/img/guide/main/p5.png" alt="Skybox" width="243">
+![Skybox]({{ '/assets/img/guide/main/p5.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
 
 Карты, конечно, хорошо, но место, где вы обслуживаете свои танки - еще важнее! Вас ждет три ангара, и все они хорошо знакомы ветеранам World of Tanks!
 
