@@ -1,0 +1,68 @@
+/* Обнуляем стандартные отступы и границы */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Стили для кнопки выпадающего меню */
+.dropbtn {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTIgNyIgd2lkdGg9IjgiIGhlaWdodD0iNSI+PHN0eWxlPi5zdDB7ZmlsbDojYWFhYWFifTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTEyIDJWMGgtMUw2IDQgMSAwSDB2Mmw1LjkgNUg2eiIvPjwvc3ZnPg==) 50% 50% no-repeat;
+    background-size: auto;
+    margin-left: 10px;
+    margin-right: -10px;
+    transition: background-color .2s ease-out;
+    padding: 0;
+}
+
+.dropbtn:hover {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTIgNyIgd2lkdGg9IjgiIGhlaWdodD0iNSI+PHN0eWxlPi5zdDB7ZmlsbDojM2MyZjEyfTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTEyIDJWMGgtMUw2IDQgMSAwSDB2Mmw1LjkgNUg2eiIvPjwvc3ZnPg==);
+    background-color: #fab81b;
+}
+
+input[type="checkbox" i] {
+	display: none;
+}
+
+/* Стили для контейнера с выпадающим содержимым */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Стили для выпадающего содержимого */
+.dropdown-content {
+	display: none;
+	position: absolute;
+    background-color: rgba(37,37,39,.93);
+    color: #aaaaab;
+    font-size: 14px;
+    min-width: 160px;
+}
+
+/* Стили для ссылок в выпадающем меню */
+.dropdown-content a {
+    color: #aaaaab;
+    font-size: 14px;
+    padding: 14px 25px;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
+}
+
+/* Стили для ссылок при наведении */
+.dropdown-content a:hover {
+	color: #fab81b;
+}
+
+/* Показываем выпадающее содержимое при активации чекбокса */
+#toggle:checked ~ .dropdown-content {
+  display: block;
+}
