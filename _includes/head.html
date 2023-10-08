@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes">
     <title>{{ site.title }} - {{ page.title }}</title>
-    <meta property="og:title" content="{{ page.title }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta name="twitter:title" content="{{ page.title }}">
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
     <meta name="Description" content="{{ page.excerpt | strip_html | default: site.description | escape }}">
     <meta property="og:description" content="{{ page.excerpt | strip_html | default: site.description | escape }}">
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | default: site.description | escape }}">
