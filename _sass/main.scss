@@ -2056,5 +2056,28 @@ table {
     background-position: 100% -15px;
 }
 
+.b-rss-link {
+    background: url(/assets/img/rss.png) no-repeat 100% 0;
+    color: #f25322;
+    float: right;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 100%;
+    margin-top: 7px;
+    padding-right: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: none;
+}
+
+.b-rss-link:hover {
+    background-position: 100% -11px;
+    color: #ff7432;
+}
+
+.b-rss-link:hover .b-rss-link_text {
+    text-decoration: underline;
+}
+
 @import 'indev.scss';
 @import 'fan-page.scss';

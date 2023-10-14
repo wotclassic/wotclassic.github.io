@@ -2,6 +2,7 @@
     {% if page.url == '/' %}
         <h2 class="news-head">НОВОСТИ</h2>
         <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
+        <a href="https://wotclassic.github.io/feed.xml" target="_blank" class="b-rss-link"><span class="b-rss-link_text">rss</span></a>
     {% else %}
         <h1>{{ include.title | upcase | default: НОВОСТИ }}</h1>
     {% endif %}
