@@ -13,7 +13,7 @@ layout: default
     <div class="r-content">
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
-        {% for post in site.dev-posts %}
+        {% for post in site.guide %}
             {% assign title = post.title | append: "|" | split: "|" %}
             {% assign url = post.url | append: "|" | split: "|" %}
             {% assign category_names = category_names | concat: title %}

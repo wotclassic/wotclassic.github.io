@@ -28,7 +28,7 @@ permalink: /guide/newcomers/mods-changes
 
 ### Изменения в интерфейсе
 
-![ui]({{ '/assets/img/guide/screens/gamepage1.jpg' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
+![ui]({{ '/assets/img/guide/newcomers/ui.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
 Интерфейс - самая важная часть World of Tanks, благодаря нему вы понимаете множество полезной информации. Но в последнее время там появляется множество мусора, поэтому мы готовы хоть неменого вернуть вам тот самый интерфейс, компактный и удобный.
 
 <br><br><br><br><br>
@@ -100,6 +100,8 @@ permalink: /guide/newcomers/mods-changes
 При входе в World of Tanks, игроки всегда оказываются в знакомой обстановке: танк стоит в лесу под открытым небом, недалеко видны военные палатки и на опушке леса солдаты устроили максимально комфортное и уютное место, похожее на дом, где можно отдохнуть перед предстоящими боями.
 Именно так выглядит ангар в наше время. Но моды «WoT это Классика!» возвращают Вам те самые ангары из 2009-2017, которые помогали еще больше расслабиться, и напоминали вам в какую игру Вы играете, так давайте посмотрим на них поближе!
 
+<br>
+
 #### Старый базовый ангар
 
 Первый ангар - это тот, который оставляет самое незабываемое впечатление и которому мы очень прикованы по душе. Мы не могли пройти мимо этого места. Многие танкисты до сих пор с огромной ностальгией вспоминают грязные стены этого маленького бункера.
@@ -122,7 +124,7 @@ permalink: /guide/newcomers/mods-changes
 
 ### Изменения на картах
 
-![maps]({{ '/assets/img/guide/screens/gamepage1.jpg' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
+![maps]({{ '/assets/img/guide/newcomers/ssb.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
 [Карты](https://tanki.su/ru/content/guide/map-guides/) являются неотъемлемой частью World of Tanks, и после обновления 1.0 они были кардинально [переработаны](https://tanki.su/ru/news/common/maps10part1/) в HD-версию.
 Моды серии «WoT это Классика!» возвращают на эти карты ощущение войны, которые было присуще старым версиям World of Tanks.
 
@@ -200,5 +202,5 @@ permalink: /guide/newcomers/mods-changes
 
 ### Старые звуки
 
-![sounds]({{ '/assets/img/guide/screens/gamepage1.jpg' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
-Модификации для улучшения, дополнения или замены музыки, звуков орудий и двигателей. Также сюда относятся альтернативные озвучки экипажа и озвучки срабатывания лампы "Шестое чувство".
+![sounds]({{ '/assets/img/guide/newcomers/sound.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
+Звуковая модификация из серии модов "WoT это Классика!", позволяющая на собственных ушах ощутить тарахтение двигателей тогдашних танков, [гром](https://kr.cm/f/t/62100/)ыхание выстрелов, лязг гусениц и прочие до боли знакомые настоящим олдам звуки.
