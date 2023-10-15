@@ -6,6 +6,63 @@ permalink: /guide/newcomers/about-mods
 
 Все моды для World of Tanks разделены на 4 вида, различных по установке и визуализации. За годы существования игры было создано большое количество модификаций, которые улучшали игру и делали её удобнее.
 
+<table class="t-table" style="width: 100%;" border="0">
+<tbody>
+<tr>
+<td id="" dir="" lang="" style="text-align: center; width: 20%;" scope="" align="center" valign=""><strong><a href="#ретекстурирование-и-ремоделлинг">Ретекстурирование и ремоделлинг</a></strong></td>
+<td id="" dir="" lang="" style="text-align: center; width: 20%;" scope="" align="center" valign=""><strong><a href="#звуковые-моды">Звуковые моды</a></strong></td>
+<td id="" dir="" lang="" style="text-align: center; width: 20%;" scope="" align="center" valign=""><strong><a href="#модификации-интерфейса">Модификации интерфейса</a></strong></td>
+<td id="" dir="" lang="" style="text-align: center; width: 20%;" scope="" align="center" valign=""><strong><a href="#модификации-ангара">Модификации ангара</a></strong></td>
+<td id="" dir="" lang="" style="text-align: center; width: 20%;" scope="" align="center" valign=""><strong><a href="#запрещенные-модификации">Запрещенные модификации</a></strong></td>
+</tr>
+</tbody>
+</table>
+
+<style>
+    .t-table {
+    border: 1px solid #343840;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+    width: 100%
+}
+
+.t-table__loading td {
+    opacity: .3
+}
+
+.t-table caption {
+    color: #fff;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 8px;
+    text-align: left
+}
+
+.t-table td {
+    background: url(./old-table/img/bg-hover.png) no-repeat 10000px 0 #0a0c0d;
+    border: 1px solid #2e3139;
+    color: #9fa0a1;
+    padding: 10px 13px 6px;
+    vertical-align: top
+}
+
+.t-table th {
+    color: #babcbf;
+    background: url(./old-table/img/th-bg.png) 0 100% repeat-x #090a0b;
+    border: 1px solid #2e3139;
+    border-top: 1px solid #545a69;
+    font-weight: bold;
+    line-height: 131%;
+    padding: 8px 13px;
+    text-align: left;
+    vertical-align: middle
+}
+
+</style>
+
 ---
 
 ### Ретекстурирование и ремоделлинг
