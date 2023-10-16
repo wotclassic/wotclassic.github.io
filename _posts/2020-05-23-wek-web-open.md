@@ -1,7 +1,7 @@
 ---
 title: Сайт «WoT это Классика!
 date: 2020-05-23 20:00:00 +0300
-category: updates
+category: site-update
 ---
 <p style="display: none">Открываемся!</p>
 

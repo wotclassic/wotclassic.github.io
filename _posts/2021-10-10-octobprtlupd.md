@@ -1,7 +1,7 @@
 ---
 title: "Октябрьское обновление портала: исправления и изменения"
 date: 2021-10-10 20:01:00 +0300
-category: updates
+category: site-update
 image: "/assets/img/news/thumbnail/site_update_october_mini.png"
 ---
 <p style="display: none">"Живая" карусель, изменения на главной странице, сообщества и многое другое.</p>

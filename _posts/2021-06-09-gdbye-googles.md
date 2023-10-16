@@ -2,7 +2,7 @@
 title: Самое глобальное обновление сайта «WoT это Классика!»
 date: 2021-06-09 20:01:00 +0300
 tags: [important]
-category: updates
+category: site-update
 ---
 <p style="display: none">Переезд с Google Sites на GitHub Pages и самостоятельное написание кода сайта.</p>
 

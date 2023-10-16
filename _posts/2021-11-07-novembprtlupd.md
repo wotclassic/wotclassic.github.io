@@ -1,7 +1,7 @@
 ---
 title: "Ноябрьское обновление портала: мелкие исправления и новый раздел"
 date: 2021-11-07 20:01:00 +0300
-category: updates
+category: site-update
 image: "/assets/img/news/thumbnail/site_update_november_mini.png"
 ---
 <p style="display: none">Возрожденые шрифты и новый раздел.</p>

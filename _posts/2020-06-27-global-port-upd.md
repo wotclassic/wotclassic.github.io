@@ -2,7 +2,7 @@
 title: Глобальное обновление сайта
 date: 2020-06-27 20:01:00 +0300
 tags: [important]
-category: updates
+category: site-update
 ---
 <p style="display: none">Отключение сайта привело несколько правок и новый пункт.</p>
 
