@@ -40,7 +40,7 @@ layout: default
     <div class="r-content">
         {% assign category_names = "" %}
         {% assign category_urls = "" %}
-        {% for category in site.categories %}
+        {% for category in site.categories reversed %}
             {% assign category_name = category[0] %}
             {% assign category_name = site.data.categories[category_name] %}
             {% assign category_names = category_names | append: category_name | append: "|" %}
