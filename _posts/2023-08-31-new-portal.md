@@ -1,7 +1,7 @@
 ---
 title: Августовское обновление портала. Новый портал wotclassic.github.io запущен!
 date: 2023-08-31 20:44:00 +0300
-category: updates
+category: site-update
 image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: guidee
 title: Руководство для новичков
-permalink: /guide/newcomers
+category: newcomers
 ---
 
 ![manual]({{ '/assets/img/guide/newcomers/science.jpg' | relative_url }})

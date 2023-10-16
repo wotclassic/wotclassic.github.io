@@ -1,7 +1,7 @@
 ---
 layout: guidee
 title: Обучающее видео
-permalink: /guide/video
+category: video
 ---
 
 ![manual]({{ '/assets/img/guide/videos/replay_banner_684_280_1.jpg' | relative_url }})

@@ -1,7 +1,7 @@
 ---
 layout: guidee
 title: Основное
-permalink: /guide/main
+category: main
 ---
 
 ![WoT it's Classic!]({{ '/assets/img/guide/main/wotc_logo.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
