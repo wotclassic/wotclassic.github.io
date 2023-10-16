@@ -1,7 +1,7 @@
 home:
 - title: "В разработке: планы на освещение"
   desc: Приоткроем занавесу тайны, связанную с освещением.
-  url: /development/
+  url: /development
   image: /assets/img/carousel/indev_upd.png
 
 - title: Внимание Европа, скажите привет Google Drive!
