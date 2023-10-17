@@ -1,23 +1,25 @@
 home:
+- title: Обновление 1.22.1
+  desc: Загляни в Царство теней с такими знакомыми и одновременно такими чужими героями, ворвись в масштабные баталии Линии фронта на 7 уровне, сразись за ранги на «девятках» и собери все силы своего клана для большой битвы в новом событии в Укрепрайоне!
+  url: https://tanki.su/ru/update-1-22-1/
+  image: /assets/img/carousel/wot_upd.png
+
+- title: "Мирный-13: Потерянная надежда"
+  desc: С 18 октября по 2 ноября вам предстоит последнее сражение в Мирном-13.
+  url: https://worldoftanks.eu/ru/news/general-news/halloween-2023-regulations/
+  image: /assets/img/carousel/found_hope.png
+
 - title: "В разработке: планы на освещение"
   desc: Приоткроем занавесу тайны, связанную с освещением.
   url: /development
   image: /assets/img/carousel/indev_upd.png
 
-- title: Внимание Европа, скажите привет Google Drive!
-  desc: Теперь Европейские моды доступны к скачиванию с помощью сервиса Google Drive.
-  url: /news/eu-google-drive/
-  image: /assets/img/news/header/update.png
 
 - title: Сентябрьское обновление
   desc: Старый выбор боя, удаление лишних деталей интерфейса, обновление скайбоксов, террейнов и еще много чего интересного уже в сентябрьском обновлении!
   url: /news/sptmbr-upd
   image: /assets/img/carousel/mod_upd.png
 
-- title: Обновление 1.22
-  desc: Примите участие в международной технической выставке, станьте легендой события «Огненный волк», исследуйте новую боевую локацию «Сталинград», прокатитесь на британских колёсниках и оттянитесь по полной в игровом режиме «Полигон»!
-  url: https://tanki.su/ru/update-1-22
-  image: /assets/img/carousel/wot_upd.png
 
 community:
 - title: Знакомьтесь - команда «WoT это Классика!»
