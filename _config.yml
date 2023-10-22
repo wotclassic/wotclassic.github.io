@@ -56,6 +56,8 @@ collections:
     output: true
   archive:
     output: true
+  guide:
+    output: true
 
 defaults:
   - scope:
@@ -70,6 +72,12 @@ defaults:
     values:
       layout: "dev-post"
       permalink: "/development/:title/"
+  - scope:
+      path: ""
+      type: "guide"
+    values:
+      layout: "guidee"
+      permalink: "/guide/:title/"
   - scope:
       path: ""
       type: "archive"
