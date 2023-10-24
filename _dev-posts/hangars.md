@@ -17,7 +17,6 @@ image: /assets/img/indev/thumb/hangars.png
 - Изменены и добавлены новые источники освещения;
 - Добавлены новые объекты.
 
-[![ангар1]({{ '/assets/img/indev/screens/hpv2_1.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hpv2_1.png)
 [![ангар2]({{ '/assets/img/indev/screens/hpv2_2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hpv2_2.png)
 
 {% include indev/status.html status="done" text="Воскрешение ангаров" date="30 сентября" %}
