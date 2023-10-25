@@ -8,7 +8,7 @@ image: /assets/img/indev/thumb/hangars.png
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
 
-{% include indev/status.html status="done" text="Доработки премиум ангара v2" date="24 октября" %}
+{% include indev/status.html status="doe" text="Доработки премиум ангара v2" date="24 октября" %}
 
 Работа над ангарами ведется каждый день, и мы готовы показать Вам некоторые из изменений во всеми полюбившемся премиум ангаре v2!
 
