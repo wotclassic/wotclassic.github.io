@@ -14,7 +14,7 @@ main:
   - text: АНГАРЫ
     url: /development/hangars
     image: /assets/img/indev/main/devhangarx465.png
-    date: 24 октября
+    date: 31 октября
 
 past:
   - text: 'Воскрешение ангаров'

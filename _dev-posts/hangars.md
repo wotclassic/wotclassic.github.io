@@ -1,6 +1,6 @@
 ---
 title: Ангары
-status: "Обновлено: 24 октября 2023 года"
+status: "Обновлено: 31 октября 2023 года"
 image: /assets/img/indev/thumb/hangars.png
 ---
 
@@ -8,14 +8,16 @@ image: /assets/img/indev/thumb/hangars.png
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
 
-{% include indev/status.html status="doe" text="Доработки премиум ангара v2" date="24 октября" %}
+{% include indev/status.html status="doe" text="Доработки премиум ангара v2" date="31 октября" %}
 
 Работа над ангарами ведется каждый день, и мы готовы показать Вам некоторые из изменений во всеми полюбившемся премиум ангаре v2!
 
 - Немного изменена работа камеры;
 - Добавлены и отстроены все 3D звуки;
 - Изменены и добавлены новые источники освещения;
-- Добавлены новые объекты.
+- Добавлены новые объекты;
+- Сгенерированы новые cubemap;
+- Изменена громкость звуков.
 
 [![ангар2]({{ '/assets/img/indev/screens/hpv2_2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hpv2_2.png)
 
