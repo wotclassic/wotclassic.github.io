@@ -31,17 +31,6 @@ bendy:
     url: https://muramiha.github.io/
 
 
-kinasura:
-  name: kinasura
-  youtube:
-    url: https://www.youtube.com/channel/UCziajM0GYrhmTr00GLrYlHg
-    icon: /assets/img/youtube_28x.png
-    show_link: true
-  discord:
-    url: https://discord.gg/Mm3wJTSwAs
-    icon: /assets/img/discord_28x.png
-    show_link: true
-
 vlbrtn:
   name: VLBRTN
   youtube:
