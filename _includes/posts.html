@@ -2,7 +2,7 @@
     {% if page.url == '/' %}
         <h2 class="news-head">НОВОСТИ</h2>
         <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
-        <a href="https://wotclassic.github.io/feed.xml" target="_blank" class="b-rss-link"><span class="b-rss-link_text">rss</span></a>
+        <a href="{{ '/feed.xml' | relative_url }}" target="_blank" class="b-rss-link"><span class="b-rss-link_text">rss</span></a>
     {% else %}
         <h1>{{ include.title | upcase | default: НОВОСТИ }}</h1>
     {% endif %}
@@ -46,6 +46,9 @@
             {% assign category = post.categories[0] %}
             <a href="{{ '/news/' | append: post.categories[0] | relative_url }}" class="imgblock-category">{{ site.data.categories[category] }}</a>
             <a href="https://kr.cm/f/t/65511/" class="news-comment" style="margin-left: 10px;">Обсудить на форуме</a>
+            {% if post.last_modified_at %}
+                <i style="color: #606061;">Обновлено: {{ post.last_modified_at | date: "%d.%m.%Y" }}</i>
+            {% endif %}
         </p>
         
     </div>

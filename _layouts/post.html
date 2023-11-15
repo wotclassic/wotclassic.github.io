@@ -9,6 +9,9 @@ layout: default
             {% assign category = page.categories[0] %}
             <a href="{{ '/news/' | append: page.categories[0] | relative_url }}" class="block-category">{{ site.data.categories[category] }}</a>
             <a href="https://kr.cm/f/t/65511/" class="news-comment">Обсудить на форуме</a>
+            {% if page.last_modified_at %}
+                <i style="color: #606061;">Обновлено: {{ page.last_modified_at | date: "%d.%m.%Y" }}</i>
+            {% endif %}
         </div>
         <div class="news-content">
             <div class="b-content">
