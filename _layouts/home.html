@@ -3,11 +3,20 @@ layout: default
 ---
 
 <div class="content">
-    <div class="l-content">
-        <div class="ny-timer">
-            <span id="ny_time_left">0</span>
-            <span id="ny_date"> дней</span>
-        </div>
+    <div class="ny-timer">
+        <p class="ny_time_text">До начала:</p>
+        <span id="ny_time_left">0</span>
+        <span id="ny_date"> дней</span>
+            <div class="b-timer_content">
+                <span class="b-timer_strut">fixed height</span>
+                <div class="b-timer_info">
+                    <h1 class="b-timer_title">Готовимся к новому году!</h1>
+                    <p>
+                        Команда «WoT это Классика!» во всю готовится к новому году. <a class="orange-arrow-timer" href="https://web.archive.org/web/20161129162847/http://worldoftanks.ru/ru/news/pc-browser/1/wg_fest_faq/">Подробнее</a>
+                    </p>
+                </div>
+            </div>
+    </div>
         <script>
             function set_time() {
                 const currentDate = new Date();
@@ -24,6 +33,7 @@ layout: default
             }
             set_time();
         </script>
+    <div class="l-content">
         {% include carousel.html slides=site.data.carousel.home %}
         {% include posts.html %}
     </div>
