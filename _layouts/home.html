@@ -4,6 +4,26 @@ layout: default
 
 <div class="content">
     <div class="l-content">
+        <div class="ny-timer">
+            <span id="ny_time_left">0</span>
+            <span id="ny_date"> дней</span>
+        </div>
+        <script>
+            function set_time() {
+                const currentDate = new Date();
+                const newYearDate = new Date(2024, 0, 1);
+                const daysLeft = Math.floor((newYearDate - currentDate) / 1000 / 60 / 60 / 24);
+                document.getElementById("ny_time_left").innerHTML = daysLeft;
+                let dayText = " дней";
+                if (daysLeft % 10 === 1 && daysLeft % 100 !== 11) {
+                    dayText = " день";
+                } else if ((daysLeft % 10 === 2 && daysLeft % 100 !== 12) || daysLeft % 10 === 3 && daysLeft % 100 !== 13) {
+                    dayText = " дня";
+                }
+                document.getElementById("ny_date").innerHTML = dayText;
+            }
+            set_time();
+        </script>
         {% include carousel.html slides=site.data.carousel.home %}
         {% include posts.html %}
     </div>
