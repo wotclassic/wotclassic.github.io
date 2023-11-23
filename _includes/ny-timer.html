@@ -1,0 +1,125 @@
+<style>
+#ny_time_left {
+    font-size: 49px;
+    line-height: 38px;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    text-shadow: 0 2px #000;
+    vertical-align: top;
+    max-width: 150px;
+}
+
+#ny_date {
+    font-size: 37px;
+    line-height: normal;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    text-shadow: 0 2px #000;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.ny-timer {
+    background: url(/assets/img/timer_counter.png) no-repeat 10px -360px;
+    height: 103px;
+    background-position: 8px 0;
+    margin-right: 25px;
+    padding-left: 90px;
+    padding: 32px 0 0 89px;
+}
+
+.ny-timer-main {
+    display: inline-block;
+}
+
+.ny_time_text {
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #d2d7d9;
+    margin-left: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.b-timer_info {
+    display: inline-block;
+    font-size: 13px;
+    line-height: normal;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+.b-timer_title {
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.orange-arrow-timer {
+    display: inline-block;
+    background: url('/assets/img/orange_arrow.png') 100% 0 no-repeat;
+    line-height: 13px;
+    padding-right: 9px;
+    position: relative;
+}
+
+.orange-arrow-timer:hover {
+    background-position: 100% -22px;
+    color: #ff7432
+}
+</style>
+<div class="ny-timer">
+    <div class="ny-timer-main">
+        <div class="ny_time_text">До начала:</div>
+        <span id="ny_time_left">0</span>
+        <span id="ny_date">дней</span>
+    </div>
+    <div class="b-timer_info">
+        <h1 class="b-timer_title">Готовимся к новому году!</h1>
+        <p>
+            Команда «WoT это Классика!» во всю готовится к новому году. <a class="orange-arrow-timer" href="https://web.archive.org/web/20161129162847/http://worldoftanks.ru/ru/news/pc-browser/1/wg_fest_faq/">Подробнее</a>
+        </p>
+    </div>
+</div>
+<script>
+var timerInterval
+
+function setTime() {
+    const currentDate = new Date();
+    const newYearDate = new Date(2024, 0, 1);
+    const timeLeft = Math.floor((newYearDate - currentDate) / 1000);
+    const daysLeft = Math.floor(timeLeft / 60 / 60 / 24);
+
+    const nyDate = document.getElementById("ny_date");
+    const nyTimeLeft = document.getElementById("ny_time_left");
+    const timerMain = document.getElementsByClassName("ny-timer-main")[0];
+    const timerDiv = document.getElementsByClassName("ny-timer")[0];
+    
+    if (timeLeft <= 0) {
+        if (nyDate) nyDate.remove();
+        nyTimeLeft.innerHTML = "00:00:00";
+        timerMain.style.width = "160px";
+        timerDiv.style.backgroundPositionY = "-180px";
+        clearInterval(timerInterval);
+    } else if (timeLeft < 60*60*24) {
+        if (nyDate) nyDate.remove();
+        nyTimeLeft.innerHTML = formatTime(timeLeft);
+        timerMain.style.width = "160px";
+        timerDiv.style.backgroundPositionY = "-360px";
+    } else {
+        const dayText = (daysLeft % 10 === 1 && daysLeft % 100 !== 11) ? "день" : (daysLeft % 10 === 2 && daysLeft % 100 !== 12) || (daysLeft % 10 === 3 && daysLeft % 100 !== 13) ? "дня" : "дней";
+        nyDate.innerHTML = dayText;
+        nyTimeLeft.innerHTML = daysLeft;
+    }
+}
+
+function formatTime(time) {
+    function padNumber(num) {
+        return num.toString().padStart(2, '0');
+    }
+    const hours = Math.floor(time / 3600);
+    const minutes = Math.floor((time % 3600) / 60);
+    const seconds = Math.floor((time % 3600) % 60);
+    return `${padNumber(hours)}:${padNumber(minutes)}:${padNumber(seconds)}`;
+}
+
+setTime();
+timerInterval = setInterval(setTime, 1000);
+</script>
