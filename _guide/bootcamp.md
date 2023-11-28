@@ -13,9 +13,15 @@ title: Учебный полигон
 
 ---
 
-![WoT it's Classic!]({{ 'assets/img/guide/bootcamp/install.png' | relative_url }}){: .pic-right .fancybox-gallery-wot .fancybox-image width="243" }
+{% include video-tutorial.html url='/guide' text='Смотреть' %}
 
-#### Эпизод 1
-- а
-- аа
-- ааа
+#### Эпизод 1: скачивание и установка
+
+Здесь мы разберем:
+
+- Выбор региона
+- Где скачать моды?
+- Как скачать моды?
+- Как установить моды?
+
+А также познакомимся с проектом.

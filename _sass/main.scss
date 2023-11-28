@@ -2080,5 +2080,48 @@ table {
     text-decoration: underline;
 }
 
+.b-button-bootcamp {
+    display: inline-block;
+    background: url(/assets/img/guide/video/4.png);
+    background-position: 0 114px;
+    height: 114px;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.b-button-r-bootcamp {
+    display: inline-block;
+    color: #fff;
+    cursor: pointer;
+    font: 20px/45px "WarHeliosCondCBold", "Arial Narrow", arial, sans-serif;
+    font-weight: bold;
+    margin-left: -8px;
+    height: 30px;
+    line-height: 29px;
+    margin-right: -35px;
+    min-width: 175px;
+    overflow: visible;
+    padding: 42px 22px;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+}
+
+.b-button-r-bootcamp:hover {
+    color: #ffffff;
+    transition: color .0s ease-out;
+}
+
+.b-button-r-bootcamp:active {
+    color: #ffffffb6;
+}
+
+
+.b-button__coloredb:active {
+    background-position: 0 0px;
+}
+
 @import 'indev.scss';
 @import 'fan-page.scss';
