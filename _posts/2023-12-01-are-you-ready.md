@@ -1,6 +1,6 @@
 ---
 title: 'А ты готов к новому году?'
-date: 2023-11-30 13:28:15 +0300
+date: 2023-12-01
 tags: [important]
 category: updates
 image: "/assets/img/news/thumbnail/ny.png"
