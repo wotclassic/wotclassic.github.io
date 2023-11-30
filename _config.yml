@@ -58,6 +58,8 @@ collections:
     output: true
   guide:
     output: true
+  fan-pages:
+    output: true
 
 defaults:
   - scope:
@@ -84,6 +86,12 @@ defaults:
     values:
       layout: "archive-post"
       permalink: "/updates/:categories/:title/"
+  - scope:
+      path: ""
+      type: "fan-pages"
+    values:
+      layout: "fan-page"
+      permalink: "/fan-pages/:name/"
   - scope:
       path: ""
     values:

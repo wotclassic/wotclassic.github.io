@@ -2,9 +2,6 @@
 layout: default
 ---
 
-{% assign id = page.title %}
-{% assign data = site.data.fan_pages[id] %}
-
 <div class="content">
     <div class="l-content" style="width: auto;">
         <div>
@@ -18,7 +15,7 @@ layout: default
         <div class="b-app-general">
             <div class="b-app-general_right-wrapper" style="margin-left: 145px;">
                 <div class="b-app-general_download">
-                    <a class="orange-button" href="{{ data.link }}" style="margin-top: 0px;">
+                    <a class="orange-button" href="{{ page.link }}" style="margin-top: 0px;">
                         <span class="big-orange-button">
                             <span class="big-orange-button-right" style="min-width: 170px; font-size: 22px;">Перейти</span>
                         </span>
@@ -27,19 +24,19 @@ layout: default
                 </div>
             </div>
             <article class="b-app-general_img">
-                    <img class="b-software-list_img" src="{{ data.image }}">
+                    <img class="b-software-list_img" src="{{ page.image }}">
             </article>
             <table class="t-app-general">
                 <tbody>
                     <tr>
                         <td class="t-app-general_cell">Категории:</td>
-                        <td class="t-app-general_cell">{{ data.categories | join: ", " }}</td>
+                        <td class="t-app-general_cell">{{ page.categories | join: ", " }}</td>
                     </tr>
                     <tr>
                         <td class="t-app-general_cell">Платформы:</td>
                         <td class="t-app-general_cell">
                             <span class="t-app-general_platform">
-                                {% case data.platform %}
+                                {% case page.platform %}
                                     {% when 'windows' %}
                                         <img src="/assets/img/win-icon.png" alt="Windows PC">Windows PC
                                     {% when 'web' %}
@@ -50,7 +47,7 @@ layout: default
                     </tr>
                     <tr>
                         <td class="t-app-general_cell">Разработчик:</td>
-                        <td class="t-app-general_cell">{{ data.developer }}</td>
+                        <td class="t-app-general_cell">{{ page.developer }}</td>
                     </tr>
                 </tbody>
             </table>
@@ -59,7 +56,7 @@ layout: default
             <ul class="b-tabs-list">
                 <li class="b-tabs-list_item js-tabs__active">
                     <span class="b-tabs-list_link b-tabs-list_link__platform js-tabs-item">
-                        {% case data.platform %}
+                        {% case page.platform %}
                             {% when 'windows' %}
                                 <img src="/assets/img/win-icon.png" alt="Windows PC">Windows PC
                             {% when 'web' %}
@@ -74,7 +71,7 @@ layout: default
                 <div class="b-horizontal-carousel js-wg-carousel">
                     <div class="b-horizontal-carousel_wrapper">
                         <div class="b-horizontal-carousel_item-list js-gallery_list wgslider-webkit-acceleration wgslider-slide-animation" style="left: 0px;">
-                            {% for asset in data.assets %}
+                            {% for asset in page.assets %}
                                 {% assign yt = asset | split: "|" %}
                                 {% unless yt[0] == "yt" %}
                                     <div class="b-horizontal-carousel_item js-gallery_item wgslider-webkit-acceleration">
@@ -95,7 +92,7 @@ layout: default
                 <div class="b-app-description b-app-description__open">
                     <article>
                         <h3>Описание</h3>
-                        {{ data.description | markdownify }}
+                        {{ content }}
                     </article>
                 </div>
             </div>
