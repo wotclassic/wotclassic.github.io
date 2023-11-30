@@ -1,23 +1,5 @@
 <style>
-#ny_time_left {
-    font-size: 49px;
-    line-height: 38px;
-    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
-    text-shadow: 0 2px #000;
-    vertical-align: top;
-    max-width: 150px;
-}
-
-#ny_date {
-    font-size: 37px;
-    line-height: normal;
-    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
-    text-shadow: 0 2px #000;
-    text-transform: uppercase;
-    vertical-align: top;
-}
-
-.ny-timer {
+#ny_timer_wrapper {
     background: url(/assets/img/timer_counter.png) no-repeat 10px -360px;
     height: 103px;
     background-position: 8px 0;
@@ -26,11 +8,12 @@
     padding: 32px 0 0 89px;
 }
 
-.ny-timer-main {
+#ny_timer_main {
     display: inline-block;
+    vertical-align: top;
 }
 
-.ny_time_text {
+#ny_timer_text {
     width: -moz-fit-content;
     width: fit-content;
     color: #d2d7d9;
@@ -39,7 +22,25 @@
     margin-bottom: 10px;
 }
 
-.b-timer_info {
+#ny_timer_left {
+    font-size: 49px;
+    line-height: 38px;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    text-shadow: 0 2px #000;
+    vertical-align: top;
+    letter-spacing: 2px;
+}
+
+#ny_timer_date {
+    font-size: 37px;
+    line-height: normal;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    text-shadow: 0 2px #000;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+#ny_timer_info {
     display: inline-block;
     font-size: 13px;
     line-height: normal;
@@ -47,9 +48,20 @@
     margin-left: 30px;
 }
 
-.b-timer_title {
+#ny_timer_title {
     font-size: 25px;
     margin-bottom: 6px;
+}
+
+.ny-timer-colon {
+    display: inline-block;
+    font: 0/0 a;
+    color: transparent;
+    height: 17px;
+    margin: 14px 8px 0 5px;
+    vertical-align: top;
+    width: 4px;
+    background: url(/assets/img/timer_colon.png) no-repeat 0 0;
 }
 
 .orange-arrow-timer {
@@ -65,59 +77,75 @@
     color: #ff7432
 }
 </style>
-<div class="ny-timer">
-    <div class="ny-timer-main">
-        <div class="ny_time_text">До начала:</div>
-        <span id="ny_time_left">0</span>
-        <span id="ny_date">дней</span>
+<div id="ny_timer_wrapper">
+    <div id="ny_timer_main">
+        <div id="ny_timer_text">До начала:</div>
+        <span id="ny_timer_left">0</span>
+        <span id="ny_timer_date">дней</span>
     </div>
-    <div class="b-timer_info">
-        <h1 class="b-timer_title">Готовимся к новому году!</h1>
+    <div id="ny_timer_info">
+        <h1 id="ny_timer_title">Готовимся к Новому Году!</h1>
         <p>
-            Команда «WoT это Классика!» во всю готовится к новому году. <a class="orange-arrow-timer" href="{{ "/news/are-you-ready/" | relative_url }}">Подробнее</a>
+            <span id="ny_timer_desc">Команда «WoT это Классика!» во всю готовится к Новому Году.</span>
+            <a class="orange-arrow-timer" href="{{ "/news/are-you-ready/" | relative_url }}">Подробнее</a>
         </p>
     </div>
 </div>
 <script>
 var timerInterval
 
+const newYearDate = new Date(2024, 0, 1);
+const timerWrapper = document.getElementById("ny_timer_wrapper");
+const timerMain = document.getElementById("ny_timer_main");
+const timerText = document.getElementById("ny_timer_text");
+const timerLeft = document.getElementById("ny_timer_left");
+const timerDate = document.getElementById("ny_timer_date");
+const timerInfo = document.getElementById("ny_timer_info");
+const timerTitle = document.getElementById("ny_timer_title");
+const timerDesc = document.getElementById("ny_timer_desc");
+const timerLink = document.getElementsByClassName("orange-arrow-timer")[0];
+
 function setTime() {
     const currentDate = new Date();
-    const newYearDate = new Date(2024, 0, 1);
     const timeLeft = Math.floor((newYearDate - currentDate) / 1000);
     const daysLeft = Math.floor(timeLeft / 60 / 60 / 24);
 
-    const nyDate = document.getElementById("ny_date");
-    const nyTimeLeft = document.getElementById("ny_time_left");
-    const timerMain = document.getElementsByClassName("ny-timer-main")[0];
-    const timerDiv = document.getElementsByClassName("ny-timer")[0];
-    
     if (timeLeft <= 0) {
-        if (nyDate) nyDate.remove();
-        nyTimeLeft.innerHTML = "00:00:00";
-        timerMain.style.width = "160px";
-        timerDiv.style.backgroundPositionY = "-180px";
+        if (timerDate) timerDate.remove();
+        timerWrapper.style.background = "url(/assets/img/timer_counter_complete.png) no-repeat 4px 28px";
+        timerMain.style.color = "unset";
+        timerText.style.color = "#d2d7d9";
+        timerLeft.innerHTML = "00<span class='ny-timer-colon'>:</span>00<span class='ny-timer-colon'>:</span>00";
+        timerTitle.innerHTML = "С Новым Годом!";
+        timerDesc.innerHTML = "Команда «WoT это Классика!» во всю празднует Новый Год.";
+        timerLink.innerHTML = "Присоединяйся";
         clearInterval(timerInterval);
     } else if (timeLeft < 60*60*24) {
-        if (nyDate) nyDate.remove();
-        nyTimeLeft.innerHTML = formatTime(timeLeft);
-        timerMain.style.width = "160px";
-        timerDiv.style.backgroundPositionY = "-360px";
+        if (timerDate) timerDate.remove();
+        timerLeft.innerHTML = formatTime(timeLeft);
+        timerMain.style.width = "200px";
+        if (timeLeft < 60*60) {
+            timerWrapper.style.backgroundPositionY = "-360px";
+            timerMain.style.color = "#e5c773";
+            timerText.style.color = "unset";
+        } else
+            timerWrapper.style.backgroundPositionY = "-180px";
     } else {
         const dayText = (daysLeft % 10 === 1 && daysLeft % 100 !== 11) ? "день" : (daysLeft % 10 === 2 && daysLeft % 100 !== 12) || (daysLeft % 10 === 3 && daysLeft % 100 !== 13) ? "дня" : "дней";
-        nyDate.innerHTML = dayText;
-        nyTimeLeft.innerHTML = daysLeft;
+        timerDate.innerHTML = dayText;
+        timerLeft.innerHTML = daysLeft;
     }
 }
 
+function padNumber(num) {
+    return num.toString().padStart(2, '0');
+}
+
 function formatTime(time) {
-    function padNumber(num) {
-        return num.toString().padStart(2, '0');
-    }
     const hours = Math.floor(time / 3600);
     const minutes = Math.floor((time % 3600) / 60);
     const seconds = Math.floor((time % 3600) % 60);
-    return `${padNumber(hours)}:${padNumber(minutes)}:${padNumber(seconds)}`;
+    return `${padNumber(hours)}<span class="ny-timer-colon">:</span>${padNumber(minutes)}<span class="ny-timer-colon">:</span>${padNumber(seconds)}`;
 }
 
 setTime();
