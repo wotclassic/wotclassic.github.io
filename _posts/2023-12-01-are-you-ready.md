@@ -2,6 +2,7 @@
 title: 'А ты готов к новому году?'
 date: 2023-12-01
 tags: [important]
+last_modified_at: 2023-12-02 19:00:00 +0300
 category: updates
 image: "/assets/img/news/thumbnail/ny.png"
 image_small: "/assets/img/news/image_small/ny.png"
@@ -43,3 +44,19 @@ image_small: "/assets/img/news/image_small/ny.png"
 Раздел "В разработке" переехал из бокового меню в панель предложений.
 
 [![сюрпризы]({{ '/assets/img/news/screens/panel.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/panel.png)
+
+---
+
+### В Новый год — с праздничными ангарами!
+
+![сюрпризы]({{ '/assets/img/news/hrs/ny.png' | relative_url}}){: width="100%" }
+
+Целых **три** ангара по цене одного будут ждать вас в ближайшем обновлении, и не просто ангары, а части забытого World of Tanks.
+
+#### Базовый ангар 2010
+
+Откроет праздник самый первый ангар, который разработчики украшали для игроков в далеком 2010. Мало кто помнит, что тогда было, но мы освежим ветеранам игры память, а для новичков это станет прекрасной возможностью познакомиться с самым первым празднованием нового года в нашей игре!
+
+[![сюрпризы]({{ '/assets/img/news/screens/ny10.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny10.png)
+
+*Дальше - больше...*
