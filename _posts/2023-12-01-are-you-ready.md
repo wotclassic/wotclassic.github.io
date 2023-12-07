@@ -2,7 +2,7 @@
 title: 'А ты готов к новому году?'
 date: 2023-12-01
 tags: [important]
-last_modified_at: 2023-12-02 19:00:00 +0300
+last_modified_at: 2023-12-05 19:00:00 +0300
 category: updates
 image: "/assets/img/news/thumbnail/ny.png"
 image_small: "/assets/img/news/image_small/ny.png"
@@ -59,4 +59,10 @@ image_small: "/assets/img/news/image_small/ny.png"
 
 [![сюрпризы]({{ '/assets/img/news/screens/ny10.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny10.png)
 
-*Дальше - больше...*
+#### Премиум ангар 2011
+
+Здесь ещё интереснее: праздничная версия премиум ангара перенесет вас в теплый и уютный новогодний уголок. На улице гремят салюты, а внутри ангара играет приятная новогодняя музыка. Если вы хотите погреться в уютной обстановке - этот ангар как раз для вас!
+
+[![сюрпризы]({{ '/assets/img/news/screens/ny11.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny11.png)
+
+*Остался последний...*
