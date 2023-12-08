@@ -2,7 +2,7 @@
 title: 'А ты готов к новому году?'
 date: 2023-12-01
 tags: [important]
-last_modified_at: 2023-12-05 19:00:00 +0300
+last_modified_at: 2023-12-07 19:00:00 +0300
 category: updates
 image: "/assets/img/news/thumbnail/ny.png"
 image_small: "/assets/img/news/image_small/ny.png"
