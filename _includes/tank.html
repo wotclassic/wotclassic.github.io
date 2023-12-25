@@ -1,0 +1,16 @@
+<table class="t-profile t-profile__vehicle js-vehicle-table tablesorter tablesorter-default">
+    <tbody class="sortable" style="display: table-row-group;">
+        <tr class="t-profile_tankstype t-profile_tankstype__item t-profile_tankstype__nolink js-tr-dropdown-link">
+            <td class="td-armory-icon">
+                <div class="b-armory-wrapper b-armory-wrapper__{{ include.nation }}">
+                    <span class="b-armory-level">{{ include.level }}</span>
+                    <img class="png" src="{{ include.image | relative_url }}">
+                </div>
+                <span class="b-name-vehicle">
+                    <p style="color: #cacbcc;">{{ include.tank }}</p>
+                </span>
+            </td>
+            <td class="t-profile_center" style="padding-top: 12px;">{{ include.work }}</td>
+        </tr>
+    </tbody>
+</table>

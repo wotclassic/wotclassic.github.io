@@ -2123,5 +2123,98 @@ table {
     background-position: 0 0px;
 }
 
+.t-profile {
+    border-collapse: separate;
+    border-bottom: 1px solid #212123;
+    border-right: 1px solid #212123;
+    border-left: 1px solid #212123;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    line-height: 150%;
+    width: 100%;
+}
+
+.t-profile .t-profile_tankstype__item .td-armory-icon {
+    padding: 0;
+}
+
+.t-profile .t-profile_tankstype__item td {
+    color: #606061;
+}
+
+.t-profile .t-profile_tankstype__nolink td {
+    background: rgba(0,0,0,0.25);
+}
+
+.t-profile td {
+    border-bottom: 1px solid #0c0d0d;
+    border-top: 1px solid #212123;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+.b-armory-wrapper {
+    float: left;
+    height: 35px;
+    margin: 0 -35px 0 0;
+    padding: 5px 0 0 50px;
+    overflow: hidden;
+    position: relative;
+    width: 124px;
+}
+
+.b-armory-wrapper__usa {
+    background: url(/assets/img/mods/nation/usa.png) no-repeat;
+}
+
+.b-armory-wrapper__germany {
+    background: url(/assets/img/mods/nation/germany.png) no-repeat;
+}
+
+.b-armory-wrapper__ussr {
+    background: url(/assets/img/mods/nation/ussr.png) no-repeat;
+}
+
+.b-armory-wrapper__china {
+    background: url(/assets/img/mods/nation/china.png) no-repeat;
+}
+
+.b-armory-wrapper__france {
+    background: url(/assets/img/mods/nation/france.png) no-repeat;
+}
+
+.b-armory-wrapper__uk {
+    background: url(/assets/img/mods/nation/uk.png) no-repeat;
+}
+
+.b-armory-wrapper__japan {
+    background: url(/assets/img/mods/nation/japan.png) no-repeat;
+}
+
+.b-armory-level {
+    font-size: 12px;
+    color: #bbb7ac;
+    left: 22px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0 0 1px #000;
+    top: 11px;
+    width: 36px;
+}
+
+.b-name-vehicle {
+    display: block;
+    margin: 12px 14px 0 0;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.b-gray-link, .b-gray-text {
+    color: #cacbcc;
+}
+
+
+
 @import 'indev.scss';
 @import 'fan-page.scss';

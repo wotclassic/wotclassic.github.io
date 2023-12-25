@@ -15,3 +15,5 @@ category: events
 Пусть все сражения и войны проходят только в виртуальных мирах World of Tanks!
 
 С наилучшими пожеланиями, команда разработчиков «WoT это Классика!».
+
+![Placeholder]({{ '/assets/img/news/header/23_february.jpg' | relative_url }}) - завершено
