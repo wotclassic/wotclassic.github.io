@@ -1,5 +1,5 @@
 ---
-title: "Обзор декабрьского обновления и планы на 2024: смотрим обсуждаем у Pbody -iwnl-"
+title: "Обзор декабрьского обновления и планы на 2024: смотрим и обсуждаем у Pbody -iwnl-"
 date: 2023-12-24 13:08:05 +0300
 category: announcements
 image: "/assets/img/news/thumbnail/video_icon_new_127x.jpg"
