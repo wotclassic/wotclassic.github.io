@@ -27,7 +27,7 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="VI" tank="МТ-25" work="В разработке" image="/assets/img/mods/tanks/ussr/6/ussr-R101_MT25.png" %}
 
-{% include tank.html nation="ussr" level="V" tank="А-20" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/5/ussr-R12_A-20.png" %}
+{% include tank.html nation="ussr" level="V" tank="А-20" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/5/ussr-R12_A-20.png" %}
 
 {% include tank.html nation="ussr" level="IV" tank="БТ-7" work="В разработке" image="/assets/img/mods/tanks/ussr/4/ussr-R03_BT-7.png" %}
 
@@ -41,7 +41,7 @@ image: /assets/img/indev/thumb/sd.png
 
 ##### Премиум и коллекционная техника
 
-{% include tank.html nation="ussr" level="VI" tank="<span style='color: #fca558'>Т-50-2</span>" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R160_T_50_2.png" %}
+{% include tank.html nation="ussr" level="VI" tank="<span style='color: #fca558'>Т-50-2</span>" work="<span style='color: #467d0c; padding-left: 259px;'>Завершено как 3D-стиль</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R160_T_50_2.png" %}
 
 {% include tank.html nation="ussr" level="V" tank="<span style='color: #fca558'>Т-50</span>" work="В разработке" image="/assets/img/mods/tanks/ussr/5/ussr-R41_T-50.png" %}
 
@@ -53,11 +53,11 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="III" tank="<span style='color: #fca558'>БТ-СВ</span>" work="В разработке" image="/assets/img/mods/tanks/ussr/3/ussr-R34_BT-SV.png" %}
 
-{% include tank.html nation="ussr" level="III" tank="<span style='color: #fca558'>ЛТП</span>" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/3/ussr-R86_LTP.png" %}
+{% include tank.html nation="ussr" level="III" tank="<span style='color: #fca558'>ЛТП</span>" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/3/ussr-R86_LTP.png" %}
 
-{% include tank.html nation="ussr" level="II" tank="<span style='color: #fca558'>Т-26</span>" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/2/ussr-R09_T-26.png" %}
+{% include tank.html nation="ussr" level="II" tank="<span style='color: #fca558'>Т-26</span>" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/2/ussr-R09_T-26.png" %}
 
-{% include tank.html nation="ussr" level="II" tank="<span style='color: #fca558'>Тетрарх</span>" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/2/ussr-tetrarch_ll.png" %}
+{% include tank.html nation="ussr" level="II" tank="<span style='color: #fca558'>Тетрарх</span>" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/2/ussr-tetrarch_ll.png" %}
 
 #### Средние танки
 
@@ -73,7 +73,7 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="IX" tank="Т-54" work="В разработке" image="/assets/img/mods/tanks/ussr/9/ussr-R40_T-54.png" %}
 
-{% include tank.html nation="ussr" level="VIII" tank="Об. 416" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/8/ussr-R60_Object416.png" %}
+{% include tank.html nation="ussr" level="VIII" tank="Об. 416" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/8/ussr-R60_Object416.png" %}
 
 {% include tank.html nation="ussr" level="VIII" tank="Т-44" work="В разработке" image="/assets/img/mods/tanks/ussr/8/ussr-R20_T-44.png" %}
 
@@ -87,7 +87,7 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="V" tank="T-34" work="В разработке" image="/assets/img/mods/tanks/ussr/5/ussr-R04_T-34.png" %}
 
-{% include tank.html nation="ussr" level="IV" tank="T-28" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/4/ussr-R06_T-28.png" %}
+{% include tank.html nation="ussr" level="IV" tank="T-28" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/4/ussr-R06_T-28.png" %}
 
 ##### Премиум и коллекционная техника
 
@@ -107,7 +107,7 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="X" tank="ИС-4" work="В разработке" image="/assets/img/mods/tanks/ussr/10/ussr-R90_IS_4M.png" %}
 
-{% include tank.html nation="ussr" level="X" tank="ИС-7" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/10/ussr-R45_IS-7.png" %}
+{% include tank.html nation="ussr" level="X" tank="ИС-7" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/10/ussr-R45_IS-7.png" %}
 
 {% include tank.html nation="ussr" level="IX" tank="СТ-I" work="В разработке" image="/assets/img/mods/tanks/ussr/9/ussr-R63_ST_I.png" %}
 
@@ -129,11 +129,11 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="VI" tank="Т-150" work="В разработке" image="/assets/img/mods/tanks/ussr/6/ussr-R72_T150.png" %}
 
-{% include tank.html nation="ussr" level="VI" tank="КВ-2" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R77_KV2.png" %}
+{% include tank.html nation="ussr" level="VI" tank="КВ-2" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R77_KV2.png" %}
 
-{% include tank.html nation="ussr" level="VI" tank="КВ-1С" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R13_KV-1s.png" %}
+{% include tank.html nation="ussr" level="VI" tank="КВ-1С" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R13_KV-1s.png" %}
 
-{% include tank.html nation="ussr" level="V" tank="КВ-1" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/5/ussr-R05_KV.png" %}
+{% include tank.html nation="ussr" level="V" tank="КВ-1" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/5/ussr-R05_KV.png" %}
 
 ##### Премиум и коллекционная техника
 
@@ -143,7 +143,7 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="VII" tank="<span style='color: #fca558'>КВ-122</span>" work="В разработке" image="/assets/img/mods/tanks/ussr/7/ussr-R133_KV_122.png" %}
 
-{% include tank.html nation="ussr" level="VI" tank="<span style='color: #fca558'>КВ-85</span>" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R106_KV85.png" %}
+{% include tank.html nation="ussr" level="VI" tank="<span style='color: #fca558'>КВ-85</span>" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R106_KV85.png" %}
 
 {% include tank.html nation="ussr" level="VI" tank="<span style='color: #fca558'>М4-А2 Лозы</span>" work="В разработке" image="/assets/img/mods/tanks/ussr/6/ussr-R140_M4_Loza.png" %}
 
@@ -151,23 +151,23 @@ image: /assets/img/indev/thumb/sd.png
 
 #### ПТ-САУ
 
-{% include tank.html nation="ussr" level="X" tank="Об. 268" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/10/ussr-R88_Object268.png" %}
+{% include tank.html nation="ussr" level="X" tank="Об. 268" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/10/ussr-R88_Object268.png" %}
 
 {% include tank.html nation="ussr" level="X" tank="Об. 268/4" work="В разработке" image="/assets/img/mods/tanks/ussr/10/ussr-R149_Object_268_4.png" %}
 
-{% include tank.html nation="ussr" level="IX" tank="Об. 704" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/9/ussr-R53_Object_704.png" %}
+{% include tank.html nation="ussr" level="IX" tank="Об. 704" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/9/ussr-R53_Object_704.png" %}
 
 {% include tank.html nation="ussr" level="IX" tank="Об. 263" work="В разработке" image="/assets/img/mods/tanks/ussr/9/ussr-R93_Object263.png" %}
 
-{% include tank.html nation="ussr" level="VIII" tank="ИСУ-152" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/8/ussr-R47_ISU-152.png" %}
+{% include tank.html nation="ussr" level="VIII" tank="ИСУ-152" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/8/ussr-R47_ISU-152.png" %}
 
 {% include tank.html nation="ussr" level="VIII" tank="СУ-101" work="В разработке" image="/assets/img/mods/tanks/ussr/8/ussr-R58_SU-101.png" %}
 
-{% include tank.html nation="ussr" level="VII" tank="СУ-152" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/7/ussr-R18_SU-152.png" %}
+{% include tank.html nation="ussr" level="VII" tank="СУ-152" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/7/ussr-R18_SU-152.png" %}
 
 {% include tank.html nation="ussr" level="VII" tank="СУ-100М1" work="В разработке" image="/assets/img/mods/tanks/ussr/7/ussr-R74_SU100M1.png" %}
 
-{% include tank.html nation="ussr" level="VI" tank="СУ-100" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R17_SU-100.png" %}
+{% include tank.html nation="ussr" level="VI" tank="СУ-100" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/6/ussr-R17_SU-100.png" %}
 
 {% include tank.html nation="ussr" level="V" tank="СУ-85" work="В разработке" image="/assets/img/mods/tanks/ussr/5/ussr-R02_SU-85.png" %}
 
@@ -191,7 +191,7 @@ image: /assets/img/indev/thumb/sd.png
 
 #### САУ
 
-{% include tank.html nation="ussr" level="X" tank="Об. 261" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/10/ussr-R52_Object_261.png" %}
+{% include tank.html nation="ussr" level="X" tank="Об. 261" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/ussr/10/ussr-R52_Object_261.png" %}
 
 {% include tank.html nation="ussr" level="IX" tank="212А" work="В разработке" image="/assets/img/mods/tanks/ussr/9/ussr-R51_Object_212.png" %}
 
@@ -217,7 +217,7 @@ image: /assets/img/indev/thumb/sd.png
 
 #### ПТ-САУ
 
-{% include tank.html nation="germany" level="X" tank="WT auf E 100" work="<span style='color: #467d0c; padding-left: 25px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G98_Waffentrager_E100.png" %}
+{% include tank.html nation="germany" level="X" tank="WT auf E 100" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G98_Waffentrager_E100.png" %}
 
 <br>
 
