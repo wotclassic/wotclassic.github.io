@@ -63,9 +63,9 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="X" tank="К-91" work="В разработке" image="/assets/img/mods/tanks/ussr/10/ussr-R144_K_91.png" %}
 
-{% include tank.html nation="ussr" level="X" tank="Об. 140" work="В разработке" image="/assets/img/mods/tanks/ussr/10/ussr-R148_Object_430_U.png" %}
+{% include tank.html nation="ussr" level="X" tank="Об. 140" work="В разработке" image="/assets/img/mods/tanks/ussr/10/ussr-R97_Object_140.png" %}
 
-{% include tank.html nation="ussr" level="X" tank="Об. 430У" work="В разработке" image="/assets/img/mods/tanks/ussr/10/ussr-R97_Object_140.png" %}
+{% include tank.html nation="ussr" level="X" tank="Об. 430У" work="В разработке" image="/assets/img/mods/tanks/ussr/10/ussr-R148_Object_430_U.png" %}
 
 {% include tank.html nation="ussr" level="IX" tank="Об. 430 II" work="В разработке" image="/assets/img/mods/tanks/ussr/9/ussr-R104_Object_430_II.png" %}
 
