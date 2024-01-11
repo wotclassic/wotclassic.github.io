@@ -2,19 +2,23 @@ main:
   - text: СТАРЫЕ СКАЙБОКСЫ
     url: /development/ssb
     image: /assets/img/indev/main/devmapsx465.png
-    date: 30 сентября
+    date: 30 сентября 2023
   - text: МОДПАК
     url: /development/modpack
     image: /assets/img/indev/main/devmodpackx465.png
-    date: 20 июня
+    date: 20 июня 2023
   - text: СТАРЫЙ ИНТЕРФЕЙС БОЯ
     url: /development/battle_gui
     image: /assets/img/indev/main/devbattleguix465.png
-    date: 19 августа
+    date: 19 августа 2023
   - text: АНГАРЫ
     url: /development/hangars
     image: /assets/img/indev/main/devhangarx465.png
-    date: 4 ноября
+    date: 4 ноября 2023
+  - text: SD-МОДЕЛИ
+    url: /development/sd-progress
+    image: /assets/img/indev/main/sdx465.png
+    date: 11 января
 
 past:
   - text: 'Воскрешение ангаров'
