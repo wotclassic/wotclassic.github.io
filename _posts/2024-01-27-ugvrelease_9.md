@@ -1,5 +1,5 @@
 ---
-title: '"Унесенный громом войны: эпицентр" уже здесь!' 
+title: '"Унесенный громом войны: Эпицентр" уже здесь!' 
 date: 2024-01-27 18:40:05 +0300
 category: updates
 image: "/assets/img/news/thumbnail/ugv_r9.png"
