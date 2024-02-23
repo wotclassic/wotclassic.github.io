@@ -1,6 +1,6 @@
 ---
 title: 'Новый годный ангар!' 
-date: 2024-01-27 18:40:05 +0300
+date: 2024-02-10 18:40:05 +0300
 category: updates
 image: "/assets/img/news/thumbnail/ny_launcher_2013.png"
 ---
