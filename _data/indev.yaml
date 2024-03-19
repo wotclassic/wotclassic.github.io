@@ -3,18 +3,27 @@ main:
     url: /development/ssb
     image: /assets/img/indev/main/devmapsx465.png
     date: 30 сентября 2023
+  
   - text: МОДПАК
     url: /development/modpack
     image: /assets/img/indev/main/devmodpackx465.png
     date: 20 июня 2023
+  
   - text: СТАРЫЙ ИНТЕРФЕЙС БОЯ
     url: /development/battle_gui
     image: /assets/img/indev/main/devbattleguix465.png
     date: 19 августа 2023
+  
+  - text: СТАРЫЙ ИНТЕРФЕЙС АНГАРА
+    url: /development/hangar_gui
+    image: /assets/img/indev/main/devhangarguix465.png
+    date: 7 марта
+  
   - text: АНГАРЫ
     url: /development/hangars
     image: /assets/img/indev/main/devhangarx465.png
     date: 4 ноября 2023
+  
   - text: SD-МОДЕЛИ
     url: /development/sd-progress
     image: /assets/img/indev/main/sdx465.png
