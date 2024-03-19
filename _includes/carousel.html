@@ -85,5 +85,10 @@
         }, 1000)
     }
 
-    window.addEventListener('load', setup_carousel)
+    try {
+        document.fonts.ready.then(setup_carousel)
+    } catch (e) {
+        window.addEventListener('load', setup_carousel)
+    }
+
 </script>
