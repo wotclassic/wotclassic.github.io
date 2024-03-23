@@ -206,7 +206,7 @@ body {
     color: #b1b2b2;
     font: 12px/20px "robotoregular", "Arial Narrow", Arial, sans-serif;
     font-family: Arial, "Helvetica CY", Helvetica, sans-serif;
-    background: url('/assets/img/back.png') top no-repeat, url('/assets/img/sparkles.png') 50% 0 #1c1c1e;
+    background: black;
     min-width: 1000px;
 }
 
@@ -325,6 +325,7 @@ body {
     display: block;
     width: 360px;
     height: 205px;
+    margin-left: 300px;
     top: 70px;
 }
 
@@ -2213,7 +2214,60 @@ table {
     color: #cacbcc;
 }
 
+.l-img-signature {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -0.31em;
+    word-spacing: -0.43em;
+    margin: 0 0 0 -14px;
+}
 
+.b-img-signature {
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: normal;
+    display: inline-block;
+    margin: 0 0 -15px 14px;
+    vertical-align: top;
+    width: 217px;
+}
+
+.b-img-signature_link {
+    border: 1px solid transparent;
+    display: block;
+    height: 161px;
+    margin-bottom: 14px;
+    overflow: hidden;
+    position: relative;
+    width: 215px;
+}
+
+.b-img-signature_link:hover .b-img-signature_img {
+    opacity: 1;
+}
+
+.b-img-signature_img {
+    opacity: 0.85;
+    background-size: 300%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    display: block;
+    height: 161px;
+    width: 215px;
+    position: relative;
+}
+
+.b-img-signature_img:after {
+    bottom: 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
 
 @import 'indev.scss';
 @import 'fan-page.scss';
