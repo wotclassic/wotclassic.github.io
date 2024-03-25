@@ -206,7 +206,7 @@ body {
     color: #b1b2b2;
     font: 12px/20px "robotoregular", "Arial Narrow", Arial, sans-serif;
     font-family: Arial, "Helvetica CY", Helvetica, sans-serif;
-    background: black;
+    background: url('/assets/img/back.png') top no-repeat, url('/assets/img/sparkles.png') 50% 0 #1c1c1e;
     min-width: 1000px;
 }
 
@@ -325,7 +325,6 @@ body {
     display: block;
     width: 360px;
     height: 205px;
-    margin-left: 300px;
     top: 70px;
 }
 
