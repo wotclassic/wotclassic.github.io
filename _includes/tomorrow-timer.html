@@ -1,0 +1,100 @@
+<style>
+#ny_timer_wrapper {
+    background: url(/assets/img/timer_counter.png) no-repeat 10px -360px;
+    height: 103px;
+    background-position: 8px -180px;
+    margin-right: 25px;
+    padding-left: 90px;
+    padding: 32px 0 0 89px;
+}
+
+#ny_timer_main {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+}
+
+#ny_timer_text {
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #d2d7d9;
+    margin-left: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#ny_timer_left {
+    font-size: 49px;
+    line-height: 38px;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    text-shadow: 0 2px #000;
+    vertical-align: top;
+    letter-spacing: 2px;
+}
+
+#ny_timer_info {
+    display: inline-block;
+    font-size: 13px;
+    line-height: normal;
+    vertical-align: middle;
+    margin-left: 30px;
+    width: 338px;
+}
+
+#ny_timer_title {
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.ny-timer-colon {
+    display: inline-block;
+    font: 0/0 a;
+    color: transparent;
+    height: 17px;
+    margin: 14px 8px 0 5px;
+    vertical-align: top;
+    width: 4px;
+    background: url(/assets/img/timer_colon.png) no-repeat 0 0;
+}
+</style>
+<div id="ny_timer_wrapper">
+    <div id="ny_timer_main">
+        <div id="ny_timer_text">До обновления:</div>
+        <span id="ny_timer_left">0</span>
+    </div>
+    <div id="ny_timer_info">
+        <h1 id="ny_timer_title">Таймер обновлений™️</h1>
+        <p>
+            <span id="ny_timer_desc">Команда «WoT это Классика!» во всю готовит новое обновление!<br>Возвращайтесь, когда таймер достигнет нуля.</span>
+        </p>
+    </div>
+</div>
+<script>
+var timerInterval
+
+const updateDate = new Date(2030, 0, 0, 15);
+const timerLeft = document.getElementById("ny_timer_left");
+
+function setTime() {
+    const currentDate = new Date();
+    const timeLeft = Math.floor((updateDate - currentDate) / 1000);
+    const daysLeft = Math.floor(timeLeft / 60 / 60 / 24);
+    timerLeft.innerHTML = formatTime(timeLeft);
+}
+
+function padNumber(num) {
+    return num.toString().padStart(2, '0');
+}
+
+function formatTime(time) {
+    const hours = Math.floor(time / 3600) % 24;
+    const minutes = Math.floor((time % 3600) / 60);
+    const seconds = Math.floor((time % 3600) % 60);
+    if (!(hours || minutes || seconds))
+        return '24<span class="ny-timer-colon">:</span>00<span class="ny-timer-colon">:</span>00';
+    return `${padNumber(hours)}<span class="ny-timer-colon">:</span>${padNumber(minutes)}<span class="ny-timer-colon">:</span>${padNumber(seconds)}`;
+}
+
+setTime();
+timerInterval = setInterval(setTime, 1000);
+</script>
