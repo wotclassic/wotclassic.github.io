@@ -7,3 +7,14 @@ permalink: /when-update
 {: style="display: none"}
 
 {% include tomorrow-timer.html %}
+
+<br>
+
+{% include button.html url='https://youtu.be/9sxEAuozHrk' text='Скачать обновление!' %}
+{: .hidden-button }
+
+<style>
+  .hidden-button {
+    display: none;
+  }
+</style>

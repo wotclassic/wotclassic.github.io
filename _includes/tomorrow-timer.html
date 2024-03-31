@@ -76,10 +76,17 @@ const updateDate = new Date(2030, 0, 0, 15);
 const timerLeft = document.getElementById("ny_timer_left");
 
 function setTime() {
+    const button = document.getElementsByClassName("hidden-button")[0];
     const currentDate = new Date();
-    const timeLeft = Math.floor((updateDate - currentDate) / 1000);
-    const daysLeft = Math.floor(timeLeft / 60 / 60 / 24);
+    const timeLeft = Math.floor((updateDate - currentDate) / 1000 % 86400);
     timerLeft.innerHTML = formatTime(timeLeft);
+    if (button) {
+        if (timeLeft <= 0) {
+            button.style.display = 'block';
+        } else {
+            button.style.display = 'none';
+        }
+    }
 }
 
 function padNumber(num) {
@@ -90,8 +97,6 @@ function formatTime(time) {
     const hours = Math.floor(time / 3600) % 24;
     const minutes = Math.floor((time % 3600) / 60);
     const seconds = Math.floor((time % 3600) % 60);
-    if (!(hours || minutes || seconds))
-        return '24<span class="ny-timer-colon">:</span>00<span class="ny-timer-colon">:</span>00';
     return `${padNumber(hours)}<span class="ny-timer-colon">:</span>${padNumber(minutes)}<span class="ny-timer-colon">:</span>${padNumber(seconds)}`;
 }
 
