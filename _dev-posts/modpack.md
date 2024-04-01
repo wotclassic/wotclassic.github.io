@@ -4,7 +4,7 @@ status: "Обновлено: 20 июня 2023 года"
 image: /assets/img/indev/thumb/modpack.png
 ---
 
-<p style="display: none">Самое ожидаемое событие в мире «TO это Классика!» - модпак. И здесь вы можете следить за его разработкой.</p>
+<p style="display: none">Самое ожидаемое событие в мире «WoT это Классика!» - модпак. И здесь вы можете следить за его разработкой.</p>
 
 ![Placeholder]({{ '/assets/img/indev/head/modpack.png' | relative_url }})
 

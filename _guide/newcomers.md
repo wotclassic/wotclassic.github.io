@@ -13,4 +13,4 @@ category: newcomers
 #### В данном руководстве вы найдёте информацию об основных моментах геймплея:
 
 {% include guide.html text-head="Моды и их работа" text="Узнайте об особенностях модов и выберите те, которые вам по душе..." url="/guide/newcomers/about-mods" image="/assets/img/guide/newcomers/modsw.png" %}
-{% include guide.html text-head="Преображение клиента" text="Узнайте как изменится ваш игровой опыт вместе с модами «TO это Классика!»..." url="/guide/newcomers/mods-changes" image="/assets/img/guide/newcomers/mods-work.jpg" %}
+{% include guide.html text-head="Преображение клиента" text="Узнайте как изменится ваш игровой опыт вместе с модами «WoT это Классика!»..." url="/guide/newcomers/mods-changes" image="/assets/img/guide/newcomers/mods-work.jpg" %}
