@@ -176,7 +176,7 @@ image: /assets/img/indev/thumb/hangars.png
 
 ---
 
-Мы полностью переработали освещение в базовом и премиум ангаре и теперь оно походит на патч 0.8.11, что позволит ностальгировать игрокам World of Tanks из 2014 года.
+Мы полностью переработали освещение в базовом и премиум ангаре и теперь оно походит на патч 0.8.11, что позволит ностальгировать игрокам Tanki Online из 2014 года.
 
 [![обновленные новости]({{ '/assets/img/indev/screens/h1.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/h1.png)
 [![обновленные новости]({{ '/assets/img/indev/screens/h2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/h2.png)

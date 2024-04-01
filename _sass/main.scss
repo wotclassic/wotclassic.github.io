@@ -206,7 +206,7 @@ body {
     color: #b1b2b2;
     font: 12px/20px "robotoregular", "Arial Narrow", Arial, sans-serif;
     font-family: Arial, "Helvetica CY", Helvetica, sans-serif;
-    background: url('/assets/img/back.png') top no-repeat, url('/assets/img/sparkles.png') 50% 0 #1c1c1e;
+    background: url('/assets/img/back.png') top no-repeat, url('/assets/img/sparkles.png') 50% 0 #001926;
     min-width: 1000px;
 }
 
@@ -311,8 +311,8 @@ body {
     display: inline-block;
     opacity: 50%;
     background: url('/assets/img/mini_wot_white.svg') no-repeat 0 50%;
-    background-size: 16px 21px;
-    width: 16px;
+    background-size: 21px 21px;
+    width: 21px;
 }
 
 .nav-logo:hover {
@@ -835,7 +835,7 @@ $yt-color: #cc181e;
 
 .social-ico-wot {
     background: url(../img/mini_wot_white.svg) no-repeat;
-    width: 27px;
+    width: 35px;
     height: 35px;
     background-size: contain;
 }

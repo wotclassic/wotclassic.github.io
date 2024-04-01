@@ -1,5 +1,5 @@
 ---
 layout: download
 permalink: /mods/download
-title: Скачать моды «WoT это Классика!»
+title: Скачать моды «TO это Классика!»
 ---
