@@ -9,7 +9,8 @@ image_small: "/assets/img/news/image_small/to-classic.png"
 Прощай, старый "мир"! Приветствуем, «Танки Онлайн»!
 {: style="display: none" }
 
-Перед тем, как читать данную новость, посмотрите на дату её изначального выхода.
+Перед тем, как читать данную новость, посмотрите на дату её изначального выхода.  
+Просим отнестись к этому с юмором. :)
 {: .message-info }
 
 Танкисты!
@@ -35,3 +36,23 @@ image_small: "/assets/img/news/image_small/to-classic.png"
 Пока что мы смогли заставить работать только прототип модов, но в ближайшем будущем мы планируем ускорить перенос модов за отмены разработки лаунчера модпака и перевода этой команды на новый проект. Пока что некоторые ссылки, руководства и картинки будут переводить на старые моды, сторонние сайты и не предоставлять актуальной информации, но мы уже работаем над исправлением данной ситуации.
 
 А на этом всё. Следите за новостями и до встречи на полях онлайн-сражений!
+
+<style>
+body {
+    background: url('/assets/img/back-to-classic.png') top no-repeat, url('/assets/img/sparkles.png') 50% 0 #001926;
+}
+.nav-logo {
+    background: url('/assets/img/to_white.svg') no-repeat 0 50%;
+    background-size: 21px 21px;
+    width: 21px;
+}
+.social-ico-wot {
+    background: url('/assets/img/to_white.svg') no-repeat;
+    width: 35px;
+    background-size: contain;
+}
+.wotc-logo {
+    background: url(/assets/img/to-classic_logo.png);
+    background-size: 100% 100%;
+}
+</style>
