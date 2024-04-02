@@ -2268,7 +2268,7 @@ table {
     top: 0;
 }
 
-.news-content table {
+.news-content table, table.wg-table {
     border: 1px solid #343840;
     font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
     font-size: 13px;
@@ -2277,7 +2277,7 @@ table {
     table-layout: fixed;
 }
 
-.news-content table caption {
+.news-content table caption, table.wg-table caption {
     color: #fff;
     font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
     font-size: 13px;
@@ -2287,7 +2287,7 @@ table {
     text-align: left
 }
 
-.news-content table td {
+.news-content table td, table.wg-table td {
     background: url(/assets/img/bg-hover.png) no-repeat 10000px 0 #0a0c0d;
     border: 1px solid #2e3139;
     color: #9fa0a1;
@@ -2295,12 +2295,12 @@ table {
     vertical-align: top
 }
 
-.news-content table tr:hover td {
+.news-content table tr:hover td, table.wg-table tr:hover td {
     background-position: 0 0;
     background-repeat: repeat;
 }
 
-.news-content table th {
+.news-content table th, table.wg-table th {
     color: #babcbf;
     background: url(/assets/img/th-bg.png) 0 100% repeat-x #090a0b;
     border: 1px solid #2e3139;
@@ -2312,7 +2312,7 @@ table {
     vertical-align: middle
 }
 
-.news-content table p {
+.news-content table p, table.wg-table p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
