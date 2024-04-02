@@ -52,7 +52,7 @@
         </p>
         
     </div>
-    {% unless post_num == 5 %}<hr class="b-hr">{% endunless %}
+    {% if post_num != 5 or paginator != nil %}<hr class="b-hr">{% endif %}
     {% assign post_num = post_num | plus: 1 %}
 {% endfor %}
 {% if post_num < 6 and paginator == nil %}
