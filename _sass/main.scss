@@ -2268,5 +2268,54 @@ table {
     top: 0;
 }
 
+.news-content table {
+    border: 1px solid #343840;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 150%;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.news-content table caption {
+    color: #fff;
+    font-family: Arial,"Helvetica CY",Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0 0 8px;
+    text-align: left
+}
+
+.news-content table td {
+    background: url(/assets/img/bg-hover.png) no-repeat 10000px 0 #0a0c0d;
+    border: 1px solid #2e3139;
+    color: #9fa0a1;
+    padding: 10px 13px 6px;
+    vertical-align: top
+}
+
+.news-content table tr:hover td {
+    background-position: 0 0;
+    background-repeat: repeat;
+}
+
+.news-content table th {
+    color: #babcbf;
+    background: url(/assets/img/th-bg.png) 0 100% repeat-x #090a0b;
+    border: 1px solid #2e3139;
+    border-top: 1px solid #545a69;
+    font-weight: bold;
+    line-height: 131%;
+    padding: 8px 13px;
+    text-align: middle;
+    vertical-align: middle
+}
+
+.news-content table p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 @import 'indev.scss';
 @import 'fan-page.scss';
