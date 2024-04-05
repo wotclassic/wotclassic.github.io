@@ -4,9 +4,9 @@ categories: [Моды]
 image: /assets/img/mods/ugv_mini.png
 platform: windows
 icon_urls: "/assets/img/win-icon.png"
-developer: VLBRTN Community
+developer: OmniLab Research & Development
 link: https://disk.yandex.ru/d/wQY39LR5hIhatA
-assets: [/assets/img/mods/WT_WOTA_loading.jpg, yt|55J2mIfDpLA]
+assets: [/assets/img/mods/WT_WOTA_loading.jpg, yt|RMKmQL3XkAw]
 ---
 
 Хотели получать удовольствие в этой игре, хотя бы ушами? Получайте!
