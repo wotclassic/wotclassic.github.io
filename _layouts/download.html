@@ -27,6 +27,9 @@ layout: default
             <a href="https://www.youtube.com/watch?v=XLn-GLCK1Qk">инструкциям</a>.
         </p>
         <hr>
+        {% capture mods-status %}{% include mods-status.md %}{% endcapture %}
+        {{ mods-status | markdownify }}
+        <hr>
         <h3 style="text-align: left;">СИСТЕМНЫЕ ТРЕБОВАНИЯ</h3>
         <p style="margin-top: 10px;">Также для установки модов «WoT это Классика!» требуется клиент "<a href="https://tanki.su/ru/game/">Мир Танков</a>" или <a href="https://worldoftanks.eu/ru/game/">World of Tanks</a>.<br></p>
         <table style="width: 100%;" border="0">
@@ -36,7 +39,7 @@ layout: default
                         <h4><span>Параметр</span></h4>
                     </td>
                     <td style="padding-top: 10px;">
-                        <h4>Минимальныесистемные требования</h4>
+                        <h4>Минимальные системные требования</h4>
                     </td>
                     <td style="padding-top: 10px;">
                         <h4>Рекомендуемые системные требования</h4>
