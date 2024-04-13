@@ -1,6 +1,6 @@
 ---
 title: '«Темная сторона Марса»'
-date: 2024-04-13 23:1:00 +0300
+date: 2024-04-13 23:01:00 +0300
 tags: [important]
 category: events
 image: "/assets/img/news/thumbnail/dark_mars.png"
@@ -20,26 +20,27 @@ image_small: "/assets/img/news/image_small/dark_mars.png"
 ## Самое главное
 
 - Модификация «Темная сторона Марса» будет доступна до **22 апреля**.
-- На нашем [Discord-сервере](https://discord.gg/36mrMDeFMJ) также будет проходить соответствующее событие.
-- Шаротанков не будет...
+- ~~На нашем [Discord-сервере]({{ site.data.socials.wek.discord.url }}) также будет проходить соответствующее событие.~~  *Событие было отменено по техническим причинам.*
+- Шаротанков, к сожалению, не будет...
 
 ## Юра, у нас все нормально!
-63 «День космонавтики» танкисты запомнят надолго, здесь и карта в стилистике луны из 2016, музыка из ивента «Темная сторона Луны» и еще куча всяких интересностей! И конечно же мы протестировали мод больше 0 раз, так что проблем быть не должно.
 
-## Лунный марс...
-Локацией для высадки станет Марс, в стиле «[Лунопарка](https://wiki.wargaming.net/ru/Tank:%D0%9B%D1%83%D0%BD%D0%BE%D0%BF%D0%B0%D1%80%D0%BA)» из 2016 года, даже некоторые элементы окружения перенеслись сюда...
+Шестьдесят третий День космонавтики танкисты запомнят надолго, здесь и карта в стилистике Луны из 2016, и музыка из ивента «Темная сторона Луны», и еще куча всяких интересностей! И, конечно же, мы протестировали мод больше 0 раз, так что проблем быть не должно.
 
-Нет, ну вы только посмотрите!
+## Лунный Марс...
 
-[![1]({{ '/assets/img/news/screens/moon (1).png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon (1).png)
-[![2]({{ '/assets/img/news/screens/moon (2).png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon (2).png)
-[![3]({{ '/assets/img/news/screens/moon (3).png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon (3).png)
+Локацией для высадки станет Марс в стиле «[Лунопарка](https://wiki.wargaming.net/ru/Tank:%D0%9B%D1%83%D0%BD%D0%BE%D0%BF%D0%B0%D1%80%D0%BA)» из 2016 года, даже некоторые элементы окружения перенеслись сюда... Нет, ну вы только посмотрите!
+
+[![1]({{ '/assets/img/news/screens/moon_1.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon_1.png)
+[![2]({{ '/assets/img/news/screens/moon_2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon_2.png)
+[![3]({{ '/assets/img/news/screens/moon_3.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon_3.png)
 
 ## Это шутка, да?
+
 Нет, всё серьёзнее некуда. Скачайте и убедитесь сами.
 
-### Мы загружаемся...
+{% include button.html url='https://drive.google.com/drive/folders/1_s8phJsy_GvgSucOn8vUgC8OamIx_eHl?usp=sharing' text='Скачать' %}
 
-<!-- {% include button.html url='https://www.mediafire.com/file/dgr60m9fsh4jgca/Hangar_Premium_NY.zip/file' text='Скачать' %}
-<br> -->
+---
+
 По машинам! И помните о бессердечной гравитации.
