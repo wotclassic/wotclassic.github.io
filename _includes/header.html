@@ -7,9 +7,11 @@
 <div class="navigation-header" id="navbar" style="top: 0;">
     <div class="navigation-head-centr">
         <a class="nav-logo" href="{{ '/' | relative_url }}" alt="WOT_logo"></a>
+        {% assign current_category = page.url | split: "/" | slice: 1 | first | split: "." | first %}
         <a class="navigation-link {% if page.url == "/" %}navigation-link-active{% endif %}" href="{{ '/' | relative_url }}">Главная</a>
-        <a class="navigation-link {% if page.url == "/mods.html" %}navigation-link-active{% endif %}" href="{{ '/mods' | relative_url }}">Моды</a>
-        <a class="navigation-link {% if page.url == "/community.html" %}navigation-link-active{% endif %}" href="{{ '/community' | relative_url }}">Сообщество</a>
+        <a class="navigation-link {% if current_category == "mods" %}navigation-link-active{% endif %}" href="{{ '/mods' | relative_url }}">Моды</a>
+        <a class="navigation-link {% if current_category == "community" %}navigation-link-active{% endif %}" href="{{ '/community' | relative_url }}">Сообщество</a>
+        <a class="navigation-link {% if current_category == "support" %}navigation-link-active{% endif %}" href="{{ '/support' | relative_url }}">Поддержка</a>
     </div>
 </div>
 <div style="display: none; height: 66px;" id="navbar_blank"></div>
