@@ -1,6 +1,7 @@
 ---
 layout: centered
 permalink: support/lesta/hangar-ui
+title: Интерфейс ангара
 ---
 
 # Интерфейс ангара
