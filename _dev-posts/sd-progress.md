@@ -213,7 +213,19 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="II" tank="<span style='color: #fca558'>СУ-18</span>" work="В разработке" image="/assets/img/mods/tanks/ussr/2/ussr-R16_SU-18.png" %}
 
+### Техника Америки
+
+#### Легкие танки
+
+{% include tank.html nation="usa" level="I" tank="T1" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/1/usa-A01_T1_Cunningham.png" %}
+
 ### Техника Германии
+
+#### Легкие танки
+
+{% include tank.html nation="germany" level="II" tank="PzII" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/2/germany-G06_PzII.png" %}
+
+{% include tank.html nation="germany" level="I" tank="Leichttraktor" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/1/germany-G12_Ltraktor.png" %}
 
 #### ПТ-САУ
 
