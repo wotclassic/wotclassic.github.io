@@ -15,3 +15,11 @@ title: SD-модели
 
 ##### Гусеницы
 Потихоньку ремонтируем...
+
+<div>
+    <div class="b-hr-layoutfix">
+        <div class="b-hr-block"><span></span></div>
+    </div>
+</div>
+
+Если вы не нашли здесь свою проблему, то перейдите в соответствующий [раздел]({{ "/support/lesta/idk" | relative_url }}).
