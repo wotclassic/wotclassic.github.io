@@ -10,8 +10,8 @@
         {% assign current_category = page.url | split: "/" | slice: 1 | first | split: "." | first %}
         <a class="navigation-link {% if page.url == "/" %}navigation-link-active{% endif %}" href="{{ '/' | relative_url }}">Главная</a>
         <a class="navigation-link {% if current_category == "mods" %}navigation-link-active{% endif %}" href="{{ '/mods' | relative_url }}">Моды</a>
-        <a class="navigation-link {% if current_category == "community" %}navigation-link-active{% endif %}" href="{{ '/community' | relative_url }}">Сообщество</a>
         <a class="navigation-link {% if current_category == "support" %}navigation-link-active{% endif %}" href="{{ '/support' | relative_url }}">Поддержка</a>
+        <a class="navigation-link {% if current_category == "community" %}navigation-link-active{% endif %}" href="{{ '/community' | relative_url }}">Сообщество</a>
     </div>
 </div>
 <div style="display: none; height: 66px;" id="navbar_blank"></div>
