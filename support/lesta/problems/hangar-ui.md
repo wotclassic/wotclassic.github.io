@@ -42,6 +42,18 @@ title: Интерфейс ангара
 
 На это влияет мод на полный список ТТХ.
 
+##### Во время поиска боя кнопки в меню съезжают
+
+Будет исправлено в будущих обновлениях.
+
+[![settings]({{ '/assets/img/support/menu_waiting.png' | relative_url}}){: width="20%" }](/assets/img/support/menu_waiting.png)
+
+##### В некоторых режимах таблица поиска игроков съезжает
+
+Особенности движка игры. Будет переведено на собственную базу в течении нескольких обновлений.
+
+[![settings]({{ '/assets/img/support/table.png' | relative_url}}){: width="75%" }](/assets/img/support/table.png)
+
 <div>
     <div class="b-hr-layoutfix">
         <div class="b-hr-block"><span></span></div>
