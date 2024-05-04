@@ -1,5 +1,5 @@
 ---
-title: Старые скайбоксы
+title: Скайбоксы
 status: "Обновлено: 30 сентября 2023 года"
 image: /assets/img/indev/thumb/ssb.png
 ---

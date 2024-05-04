@@ -1,6 +1,6 @@
 ---
 title: Ангары
-status: "Обновлено: 4 ноября 2023 года"
+status: "Обновлено: 24 декабря 2023 года"
 image: /assets/img/indev/thumb/hangars.png
 ---
 
@@ -8,7 +8,7 @@ image: /assets/img/indev/thumb/hangars.png
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
 
-{% include indev/status.html status="doe" text="Доработки премиум ангара v2" date="4 ноября" %}
+{% include indev/status.html status="done" text="Доработки премиум ангара v2" date="24 декабря" %}
 
 Работа над ангарами ведется каждый день, и мы готовы показать Вам некоторые из изменений во всеми полюбившемся премиум ангаре v2!
 
@@ -46,16 +46,16 @@ image: /assets/img/indev/thumb/hangars.png
 {: .message-info}
 
 <div class="wrapper">
-      <div class="images">
-        <div class="img-1"></div>
-        <div class="img-2"></div>
-      </div>
-      <div class="slider">
+    <div class="images">
+      <div class="img-1"></div>
+      <div class="img-2"></div>
+    </div>
+    <div class="slider">
         <div class="drag-line">
           <span></span>
         </div>
-        <input type="range" min="0" max="100" value="50">
-      </div>
+      <input type="range" min="0" max="100" value="50">
+    </div>
 </div>
 
 Обновление 9.10

@@ -1,6 +1,6 @@
 ---
 title: SD-модели
-status: "Обновлено: 11 января 2024 года"
+status: "Обновлено: 5 мая 2024 года"
 image: /assets/img/indev/thumb/sd.png
 ---
 
@@ -213,11 +213,238 @@ image: /assets/img/indev/thumb/sd.png
 
 {% include tank.html nation="ussr" level="II" tank="<span style='color: #fca558'>СУ-18</span>" work="В разработке" image="/assets/img/mods/tanks/ussr/2/ussr-R16_SU-18.png" %}
 
-### Техника Германии
+### Техника Америки
+
+#### Легкие танки
+
+{% include tank.html nation="usa" level="X" tank="Sheridan" work="В разработке" image="/assets/img/mods/tanks/usa/10/usa-A116_XM551.png" %}
+
+{% include tank.html nation="usa" level="IX" tank="T49" work="В разработке" image="/assets/img/mods/tanks/usa/9/usa-A100_T49.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="M41 Bulldog" work="В разработке" image="/assets/img/mods/tanks/usa/8/usa-A97_M41_Bulldog.png" %}
+
+{% include tank.html nation="usa" level="VII" tank="T71 CMCD" work="В разработке" image="/assets/img/mods/tanks/usa/7/usa-A112_T71E2.png" %}
+
+{% include tank.html nation="usa" level="VI" tank="T37" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/6/usa-A94_T37.png" %}
+
+{% include tank.html nation="usa" level="V" tank="Chaffee" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/5/usa-A34_M24_Chaffee.png" %}
+
+{% include tank.html nation="usa" level="IV" tank="M5 Stuart" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/4/usa-A22_M5_Stuart.png" %}
+
+{% include tank.html nation="usa" level="III" tank="M3 Stuart" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/3/usa-A03_M3_Stuart.png" %}
+
+{% include tank.html nation="usa" level="II" tank="M2 Light" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/2/usa-A02_M2_lt.png" %}
+
+{% include tank.html nation="usa" level="I" tank="T1" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/1/usa-A01_T1_Cunningham.png" %}
+
+#### Средние танки
+
+{% include tank.html nation="usa" level="X" tank="M48 Patton" work="В разработке" image="/assets/img/mods/tanks/usa/10/usa-A84_M48A1.png" %}
+
+{% include tank.html nation="usa" level="IX" tank="M46 Patton" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/9/usa-A63_M46_Patton.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="T69" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/8/usa-A90_T69.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="Pershing" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/8/usa-A35_Pershing.png" %}
+
+{% include tank.html nation="usa" level="VII" tank="T20" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/7/usa-A07_T20.png" %}
+
+{% include tank.html nation="usa" level="VI" tank="M4A3E8" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/6/usa-A06_M4A3E8_Sherman.png" %}
+
+{% include tank.html nation="usa" level="V" tank="M4A1" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/5/usa-A05_M4_Sherman.png" %}
+
+{% include tank.html nation="usa" level="IV" tank="T6 Medium" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/4/usa-A129_T6_medium.png" %}
+
+#### Тяжелые танки
+
+{% include tank.html nation="usa" level="X" tank="M-V-Y" work="В разработке" image="/assets/img/mods/tanks/usa/10/usa-A143_M_V_Y.png" %}
+
+{% include tank.html nation="usa" level="X" tank="T110E5" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/10/usa-A69_T110E5.png" %}
+
+{% include tank.html nation="usa" level="IX" tank="M-VI-Y" work="В разработке" image="/assets/img/mods/tanks/usa/9/usa-A144_M_VI_Y.png" %}
+
+{% include tank.html nation="usa" level="IX" tank="M103" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/9/usa-A66_M103.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="M-III-Y" work="В разработке" image="/assets/img/mods/tanks/usa/8/usa-A139_M_III_Y.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="T32" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/8/usa-A12_T32.png" %}
+
+{% include tank.html nation="usa" level="VII" tank="M-II-Y" work="В разработке" image="/assets/img/mods/tanks/usa/7/usa-A147_M_II_Y.png" %}
+
+{% include tank.html nation="usa" level="VII" tank="T29" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/7/usa-A11_T29.png" %}
+
+{% include tank.html nation="usa" level="VI" tank="Pawlack Tank" work="В разработке" image="/assets/img/mods/tanks/usa/6/usa-A142_Pawlack_Tank.png" %}
+
+{% include tank.html nation="usa" level="VI" tank="M6" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/6/usa-A10_M6.png" %}
+
+{% include tank.html nation="usa" level="V" tank="T1 Heavy" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/5/usa-A09_T1_hvy.png" %}
 
 #### ПТ-САУ
 
-{% include tank.html nation="germany" level="X" tank="WT auf E 100" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G98_Waffentrager_E100.png" %}
+{% include tank.html nation="usa" level="X" tank="T110E3" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/10/usa-A85_T110E3.png" %}
+
+{% include tank.html nation="usa" level="X" tank="T110E4" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/10/usa-A83_T110E4.png" %}
+
+{% include tank.html nation="usa" level="IX" tank="T95" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/9/usa-A40_T95.png" %}
+
+{% include tank.html nation="usa" level="IX" tank="T30" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/9/usa-A14_T30.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="T28" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/8/usa-A39_T28.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="T28 Prot." work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/8/usa-A68_T28_Prototype.png" %}
+
+{% include tank.html nation="usa" level="VII" tank="T25 AT" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/7/usa-A64_T25_AT.png" %}
+
+{% include tank.html nation="usa" level="VII" tank="T25/2" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/7/usa-A72_T25_2.png" %}
+
+{% include tank.html nation="usa" level="VI" tank="Jackson" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/6/usa-A31_M36_Slagger.png" %}
+
+{% include tank.html nation="usa" level="VI" tank="Hellcat" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/6/usa-A41_M18_Hellcat.png" %}
+
+{% include tank.html nation="usa" level="V" tank="Wolverine" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/5/usa-A30_M10_Wolverine.png" %}
+
+{% include tank.html nation="usa" level="IV" tank="M8A1" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/4/usa-A57_M8A1.png" %}
+
+#### САУ
+
+{% include tank.html nation="usa" level="X" tank="T92" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/10/usa-A38_T92.png" %}
+
+{% include tank.html nation="usa" level="IX" tank="M53/55" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/9/usa-A88_M53_55.png" %}
+
+{% include tank.html nation="usa" level="VIII" tank="M40/43" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/8/usa-A37_M40M43.png" %}
+
+{% include tank.html nation="usa" level="VII" tank="M12" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/7/usa-A32_M12.png" %}
+
+{% include tank.html nation="usa" level="VI" tank="M44" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/6/usa-A87_M44.png" %}
+
+{% include tank.html nation="usa" level="V" tank="M41 HMC" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/usa/5/usa-A18_M41.png" %}
+
+### Техника Германии
+
+#### Легкие танки
+
+{% include tank.html nation="germany" level="X" tank="Leopard 1" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G89_Leopard1.png" %}
+
+{% include tank.html nation="germany" level="X" tank="E-50 M" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G73_E50_Ausf_M.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="Leopard PT A" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/9/germany-G91_Pro_Ag_A.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="E-50" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/9/germany-G54_E-50.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="Indien-Pz." work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/8/germany-G88_Indien_Panzer.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="Panther II" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/8/germany-G64_Panther_II.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="VK 3002 D" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G24_VK3002DB.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="VK 3002 D" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G24_VK3002DB.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="Panther" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G03_PzV_Panther.png" %}
+
+{% include tank.html nation="germany" level="VI" tank="VK 3002 M" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/6/germany-G96_VK3002M.png" %}
+
+{% include tank.html nation="germany" level="V" tank="VK 3001 H" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/5/germany-G13_VK3001H.png" %}
+
+{% include tank.html nation="germany" level="V" tank="PzIV H" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/5/germany-G79_Pz_IV_AusfGH.png" %}
+
+{% include tank.html nation="germany" level="IV" tank="PzIII J" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/4/germany-G10_PzIII_AusfJ.png" %}
+
+#### Средние танки
+
+{% include tank.html nation="germany" level="X" tank="Rhm. Pzw." work="В разработке" image="/assets/img/mods/tanks/germany/10/germany-G125_Spz_57_Rh.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="HWK 12" work="В разработке" image="/assets/img/mods/tanks/germany/9/germany-G103_RU_251.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="HWK 12" work="В разработке" image="/assets/img/mods/tanks/germany/8/germany-G126_HWK_12.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="SP I C" work="В разработке" image="/assets/img/mods/tanks/germany/7/germany-G113_SP_I_C.png" %}
+
+{% include tank.html nation="germany" level="VI" tank="VK 2801" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/6/germany-G66_VK2801.png" %}
+
+{% include tank.html nation="germany" level="V" tank="Leopard" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/5/germany-G26_VK1602.png" %}
+
+{% include tank.html nation="germany" level="IV" tank="Luchs" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/4/germany-G25_PzII_Luchs.png" %}
+
+{% include tank.html nation="germany" level="III" tank="PzII G" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/3/germany-G82_Pz_II_AusfG.png" %}
+
+{% include tank.html nation="germany" level="III" tank="PzIII E" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/3/germany-G102_Pz_III.png" %}
+
+{% include tank.html nation="germany" level="II" tank="PzII" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/2/germany-G06_PzII.png" %}
+
+{% include tank.html nation="germany" level="I" tank="Leichttraktor" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/1/germany-G12_Ltraktor.png" %}
+
+#### Тяжелые танки
+
+{% include tank.html nation="germany" level="X" tank="Maus" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G42_Maus.png" %}
+
+{% include tank.html nation="germany" level="X" tank="Pz.Kpfw. VII" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G134_PzKpfw_VII.png" %}
+
+{% include tank.html nation="germany" level="X" tank="E-100" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G56_E-100.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="Mäuschen" work="В разработке" image="/assets/img/mods/tanks/germany/9/germany-G110_Typ_205.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="VK 4502 B" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/9/germany-G58_VK4502P.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="E-75" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/9/germany-G55_E-75.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="VK 100.01 P" work="В разработке" image="/assets/img/mods/tanks/germany/8/germany-G115_Typ_205B.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="VK 4502 A" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/8/germany-G67_VK4502A.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="Tiger II" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/8/germany-G16_PzVIB_Tiger_II.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="Tiger I" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G04_PzVI_Tiger_I.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="Tiger (P)" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G57_PzVI_Tiger_P.png" %}
+
+{% include tank.html nation="germany" level="VI" tank="VK 3001 P" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/6/germany-G27_VK3001P.png" %}
+
+{% include tank.html nation="germany" level="VI" tank="VK 3601 H" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/6/germany-G15_VK3601H.png" %}
+
+#### ПТ-САУ
+
+{% include tank.html nation="germany" level="X" tank="Grille 15" work="В разработке" image="/assets/img/mods/tanks/germany/10/germany-G121_Grille_15_L63.png" %}
+
+{% include tank.html nation="germany" level="X" tank="JgPz E 100" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G72_JagdPz_E100.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="WT auf Pz. IV" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/9/germany-G97_Waffentrager_IV.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="Jagdtiger" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/9/germany-G44_JagdTiger.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="Rhm.-B. WT" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/8/germany-G99_RhB_Waffentrager.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="Ferdinand" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/8/germany-G37_Ferdinand.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="StEmil" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G43_Sturer_Emil.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="JPanther" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G18_JagdPanther.png" %}
+
+{% include tank.html nation="germany" level="VI" tank="Nashorn" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/6/germany-G40_Nashorn.png" %}
+
+{% include tank.html nation="germany" level="VI" tank="JagdPz IV" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/6/germany-G17_JagdPzIV.png" %}
+
+{% include tank.html nation="germany" level="V" tank="StuGIII G" work="В разработке" image="/assets/img/mods/tanks/germany/5/germany-G05_StuG_40_AusfG.png" %}
+
+{% include tank.html nation="germany" level="IV" tank="StuGIII" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/4/germany-G101_StuG_III.png" %}
+
+
+##### Коллекционная техника
+
+{% include tank.html nation="germany" level="X" tank="<span style='color: #fca558'>WT auf E 100</span>" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G98_Waffentrager_E100.png" %}
+
+#### САУ
+
+{% include tank.html nation="germany" level="X" tank="GW Typ E" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/10/germany-G61_G_E.png" %}
+
+{% include tank.html nation="germany" level="IX" tank="GW Tiger" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/9/germany-G45_G_Tiger.png" %}
+
+{% include tank.html nation="germany" level="VIII" tank="GW Tiger (P)" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/8/germany-G94_GW_Tiger_P.png" %}
+
+{% include tank.html nation="germany" level="VII" tank="GW Panther" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/7/germany-G49_G_Panther.png" %}
+
+{% include tank.html nation="germany" level="VI" tank="Hummel" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/6/germany-G02_Hummel.png" %}
+
+{% include tank.html nation="germany" level="V" tank="Grille" work="<span style='color: #467d0c; padding-left: 26px;'>Завершено</span>" image="/assets/img/mods/tanks/germany/5/germany-G23_Grille.png" %}
 
 <br>
 

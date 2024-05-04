@@ -1,8 +1,10 @@
 ---
-title: Старый интерфейс боя
+title: Интерфейс боя
 status: "Обновлено: 19 августа 2023 года"
 image: /assets/img/indev/thumb/bgui.png
 ---
+
+<p style="display: none">Разработка боевого интерфейса ведется здесь.</p>
 
 ![Placeholder]({{ '/assets/img/indev/head/bgui.png' | relative_url }})
 
