@@ -1,6 +1,6 @@
 ---
 title: 'Раздел «Поддержка»: что, где и как?'
-date: 2024-04-28 10:28:15 +0300
+date: 2024-05-01 18:20:15 +0300
 tags: [important]
 category: site-update
 image_small: "/assets/img/news/image_small/announcement.jpg"
@@ -34,5 +34,7 @@ image_small: "/assets/img/news/image_small/announcement.jpg"
 {: .message-error}
 
 ---
+
+Заглядывайте в данный раздел почаще, чтобы облегчить всем жизнь!
 
 Удачи на полях ностальгических сражений, танкисты!

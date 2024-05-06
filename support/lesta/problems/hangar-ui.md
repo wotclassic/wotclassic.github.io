@@ -54,6 +54,10 @@ title: Интерфейс ангара
 
 [![settings]({{ '/assets/img/support/table.png' | relative_url}}){: width="75%" }](/assets/img/support/table.png)
 
+##### Блокировка модулей в ангаре
+
+При сломанном танке все еще доступна возможность менять модули.
+
 <div>
     <div class="b-hr-layoutfix">
         <div class="b-hr-block"><span></span></div>
