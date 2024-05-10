@@ -263,19 +263,6 @@ body {
     text-transform: uppercase;
 }
 
-.navigation-link-active:after {
-    content: "";
-    background-color: #fab81b;
-    top: auto;
-    width: auto;
-    height: 2px;
-    position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;
-}
-
-
 .navigation-link-active {
     color: #fff;
 }
@@ -293,11 +280,6 @@ body {
     margin: 0 auto;
     height: 66px;
     padding: 0px 0px 0 65px;
-
-    a {
-        margin: 0 50px;
-        margin-left: 0px;
-    }
 }
 
 .content-wrapper {
@@ -313,6 +295,7 @@ body {
     background: url('/assets/img/mini_wot_white.svg') no-repeat 0 50%;
     background-size: 16px 21px;
     width: 16px;
+    margin: 0 50px;
 }
 
 .nav-logo:hover {
@@ -2337,10 +2320,10 @@ table.wg-table p {
     background: url(/assets/img/drop.svg) no-repeat 50% 50%;
     background-size: auto;
     margin-left: 10px;
-    margin-right: 25px;
     transition: background-color 0.2s ease-out;
     padding: 0;
     border-width: 0px;
+    cursor: pointer;
 }
 
 .dropbtn::before {
@@ -2349,7 +2332,7 @@ table.wg-table p {
     height: 10px;
     width: 1px;
     left: 0;
-    top: 10px;
+    top: 9px;
     background: #aaaaab;
 }
 
@@ -2368,6 +2351,32 @@ table.wg-table p {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin-right: 25px;
+    top: -49px;
+    &.single {
+        top: -52px;
+        margin-right: 50px;
+    }
+}
+
+.dropdown.active {
+    .navigation-link {
+        color: #fff;
+    }
+    &:after {
+        content: "";
+        background-color: #fab81b;
+        top: auto;
+        height: 2px;
+        width: auto;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    &:not(.dropdown.single):after {
+        width: calc(100% - 9px);
+    }
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -2397,7 +2406,21 @@ table.wg-table p {
 }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
+.dropdown-content.show {display:block;}
+
+.dropdown.show .navigation-link {
+    color: #fab81b;
+}
+
+.dropdown.show .dropbtn {
+    background-image: url(/assets/img/drop_act.svg);
+}
+
+.dropdown.show .dropbtn:hover {
+    background-image: url(/assets/img/drop_hov.svg);
+    background-color: #fab81b;
+    transform: scaleY(-1);
+}
 
 @import 'indev.scss';
 @import 'fan-page.scss';
