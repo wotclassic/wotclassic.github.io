@@ -8,38 +8,31 @@
     <div class="navigation-head-centr">
         <a class="nav-logo" href="{{ '/' | relative_url }}" alt="WOT_logo"></a>
         {% assign current_category = page.url | split: "/" | slice: 1 | first | split: "." | first %}
-        <a class="navigation-link {% if page.url == "/" %}navigation-link-active{% endif %}" href="{{ '/' | relative_url }}">Главная</a>
-            <div class="dropdown" style="top: -49px;">
-                <a class="navigation-link {% if current_category == "mods" %}navigation-link-active{% endif %}" href="{{ '/mods' | relative_url }}" style="margin: 0 0px;">Моды</a>
-                <button onclick="myFunction()" class="dropbtn"></button>
-                <div id="myDropdown" class="dropdown-content">
-                    <a href="{{ '/mods/download' | relative_url }}">Скачать моды</a>
-                    <a href="{{ '/support' | relative_url }}">Поддержка</a>
-                    <a href="{{ '/guide/newcomers' | relative_url }}">Новичку</a>
-                    <a href="{{ '/development' | relative_url }}">В разработке</a>
-                    <a href="{{ '/guide/newcomers' | relative_url }}">Руководство</a>
-                    <a href="{{ '/updates' | relative_url }}">Обновления</a>
-                </div>
+        <div class="dropdown single {% if page.url == "/" %}active{% endif %}">
+            <a class="navigation-link" href="{{ '/' | relative_url }}">Главная</a>
+        </div>
+        <div class="dropdown {% if current_category == "mods" %}active{% endif %}">
+            <a class="navigation-link" href="{{ '/mods' | relative_url }}" style="margin: 0 0px;">Моды</a>
+            <button onclick="toggleDropdown('dropdownMods')" class="dropbtn"></button>
+            <div id="dropdownMods" class="dropdown-content">
+                <a href="{{ '/mods/download' | relative_url }}">Скачать моды</a>
+                <a href="{{ '/support' | relative_url }}">Поддержка</a>
+                <a href="{{ '/guide/newcomers' | relative_url }}">Новичку</a>
+                <a href="{{ '/development' | relative_url }}">В разработке</a>
+                <a href="{{ '/guide/newcomers' | relative_url }}">Руководство</a>
+                <a href="{{ '/updates' | relative_url }}">Обновления</a>
             </div>
-            <script>
-                function myFunction() {
-                    document.getElementById("myDropdown").classList.toggle("show");
-                }
-                window.onclick = function(event) {
-                if (!event.target.matches('.dropbtn')) {
-
-                    var dropdowns = document.getElementsByClassName("dropdown-content");
-                    var i;
-                    for (i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.classList.contains('show')) {
-                        openDropdown.classList.remove('show');
-                    }
-                    }
-                }
-                }
-            </script>
-        <a class="navigation-link {% if current_category == "community" %}navigation-link-active{% endif %}" href="{{ '/community' | relative_url }}">Сообщество</a>
+        </div>
+        <div class="dropdown {% if current_category == "community" %}active{% endif %}">
+            <a class="navigation-link" href="{{ '/community' | relative_url }}" style="margin: 0 0px;">Сообщество</a>
+            <button onclick="toggleDropdown('dropdownCommunity')" class="dropbtn"></button>
+            <div id="dropdownCommunity" class="dropdown-content">
+                <a href="{{ '/community/development' | relative_url }}">Разработка</a>
+                <a href="{{ '/community/support' | relative_url }}">Поддержка</a>
+                <a href="{{ '/community/forum' | relative_url }}">Форум</a>
+                <a href="{{ '/community/donate' | relative_url }}">Помочь проекту</a>
+            </div>
+        </div>
     </div>
 </div>
 <div style="display: none; height: 66px;" id="navbar_blank"></div>
