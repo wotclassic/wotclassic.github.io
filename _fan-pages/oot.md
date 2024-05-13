@@ -3,6 +3,7 @@ title: Old of Tanks
 categories: [Фан-ресурсы, Моды]
 image: /assets/img/fan_pages/oot.png
 platform: windows
+arrow: fan-page
 icon_urls: "/assets/img/win-icon.png"
 developer: Old-Modder Team
 link: https://muramiha.github.io/oldoftanks/
