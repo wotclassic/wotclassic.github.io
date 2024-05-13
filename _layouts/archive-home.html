@@ -6,10 +6,178 @@ layout: default
         <div class="statist">
             <div class="news-time">{{ page.status }}</div>
         </div>
+        <h1 style="margin-top: -29px;">Обновления</h1>
         <div class="news-content">
             <div class="b-content">
-                {{ content }}
+                <div class="container">
+                    <div class="tab">
+                        <div style="padding-left: 5%;"></div>
+                        <input id="tab-btn-2" name="tab-btn" type="radio" value="">
+                        <label for="tab-btn-2">Архив обновлений</label>
+                        <input checked="" id="tab-btn-1" name="tab-btn" type="radio" value="">
+                        <label for="tab-btn-1">Апрельское обновление</label>
+                        <input id="tab-btn-3" name="tab-btn" type="radio" value="">
+                        <label for="tab-btn-3">В разработке</label>
+                        <div style="border-bottom: 3px solid #2e3139;width: 687px;top: -19px;position: relative;z-index: -1;"></div>
+                        <div class="tab-content" id="content-1">
+                          {{ content }}
+                        </div>
+                        <div class="tab-content" id="content-2">
+                          <h1 style="margin-top: -38px;">Полноценные обновления</h1>
+                          <strong>
+                            <a class="list" href="/news/april-upd/">Апрельское обновление 2024</a>
+                          </strong>
+                          <hr>
+                          <strong>
+                            <a class="list" href="/news/dcmbr-upd/">Декабрьское обновление 2023</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/sptmbr-upd/">Сентябрьское обновление 2023</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="https://www.youtube.com/watch?v=FzuebuLxEgw">Июльское обновление 2023</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/may-upd/">Майское обновление 2023</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/march-upd/">Мартовское обновление 2023</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/jan-upd/">Январское обновление 2023</a>
+                          </strong>
+                          <hr>
+                          <strong>
+                            <a class="list" href="https://youtu.be/5G0LWjFB_8w">Декабрьское обновление 2022</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/sept-upd/">Сентябрьское обновление 2022</a>
+                          </strong>
+                          <hr>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Августовское обновление 2021</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/may21upd/">Майское обновление 2021</a>
+                          </strong>
+                          <h1>Обновления модов</h1>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Террейны</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Звуки</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Скайбоксы</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Экран логина</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Интерфейс ангара</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Эффекты</a>
+                          </strong>
+                          <br>
+                          <strong>
+                            <a class="list" href="/news/aug-upd/">Интерфейс боя</a>
+                          </strong>
+                          <br>
+                        </div>
+                        <div class="tab-content" id="content-3">
+                          <p style="margin-top: -39px;"><img src="/assets/img/archive/dev05052024.png" alt="Placeholder"></p>
+                          Актуальное обновление - апрельское.
+                          <br>
+                          <br>
+                          Информация о следующем обновлении появится в ближайшее время.
+                          <br>
+                          <br>
+                          {% include button.html url='/development' text='Перейти в раздел "В разработке"' %}
+                          <hr>
+                          <p class="message-info">Информация, указанная в разделе «В разработке», может быть дополнена или изменена.</p>
+                        </div>
+                    </div>
+                  </div>
                 <style>
+                .list {
+                    margin: 4px 0 5px;
+                    padding: 0 0 0 12px;
+                    background: url(/assets/img/list-style.gif) no-repeat 0 5px;
+                }
+
+                .tab {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+                }
+
+                .tab > input[type="radio"] {
+                display: none;
+                }
+
+                .tab-content {
+                display: none;
+                width: 100%;
+                margin-top: 1rem;
+                }
+
+                #tab-btn-1:checked~#content-1,
+                #tab-btn-2:checked~#content-2,
+                #tab-btn-3:checked~#content-3,
+                #tab-btn-4:checked~#content-4 {
+                display: block;
+                }
+
+                .tab > label {
+                    margin-right: 15px;
+                    line-height: 1.42857143;
+                    border: 1px solid transparent;
+                    border-radius: 4px 4px 0 0;
+                    font-size: 18px;
+                    font-family: "WarHeliosCondCBold", "Arial Narrow", arial, sans-serif;
+                    color: #f25322;
+                    position: relative;
+                    display: block;
+                    padding: 10px 18px;
+                }
+
+                .tab > label:hover {
+                    border-color: #2e3139 #2e3139 #2e3139;
+                    background-color: rgba(43, 45, 43, .4);
+                    color: #ff7432;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+
+                .tab > input[type="radio"]:checked + label {
+                    color: #c0c0c0;
+                    background-color: rgba(22, 24, 22, 0.8);
+                    border: 3px solid #3e3139;
+                    border-bottom-color: transparent;
+                    cursor: default;
+                    transition: color 0.5s linear;
+                }
+                </style>
+                <style>
+                    .b-content ul li {
+                        margin: 4px 0 5px;
+                        padding: 0 0 0 12px;
+                        background: url(/assets/img/list-style.gif) no-repeat 0 5px;
+                    }
+
                     .devNowBlock { width: 210px; }
                     .devNowBlock a span { font-size: 16px; }
                 </style>

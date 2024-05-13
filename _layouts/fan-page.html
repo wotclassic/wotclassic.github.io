@@ -5,11 +5,14 @@ layout: default
 <div class="content">
     <div class="l-content" style="width: auto;">
         <div>
-            {% if page.is_mod %}
+            {% case page.arrow %}
+            {% when 'mods' %}
                 <a href="{{ '/mods' | relative_url }}" class="orange-arrow" style="background: none;">← Моды</a>
-            {% else %}
+            {% when 'soft' %}
+                <a href="{{ '/community/soft' | relative_url }}" class="orange-arrow" style="background: none;">← Полезный софт</a>
+            {% when 'fan-page' %}
                 <a href="{{ '/fan-pages' | relative_url }}" class="orange-arrow" style="background: none;">← Фан-ресурсы</a>
-            {% endif %}
+            {% endcase %}
             <h1>{{ page.title }}</h1>
         </div>
         <div class="b-app-general">

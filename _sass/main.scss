@@ -2422,5 +2422,414 @@ table.wg-table p {
     transform: scaleY(-1);
 }
 
+.b-software-promo {
+    margin: 26px 0 20px;
+    padding: 30px 39px 25px;
+}
+
+.b-software-promo_main {
+    float: left
+}
+
+.b-software-promo_main-link {
+    filter: alpha(opacity=90);
+    opacity: .9;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    display: block;
+    width: 609px;
+    height: 299px;
+    position: relative;
+    overflow: hidden
+}
+
+.b-software-promo_main-link:hover {
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.b-software-promo_main-img {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.b-software-promo_main:hover .b-software-promo_main-img {
+    width: 115%;
+    height: 115%;
+    left: -7.5%;
+    top: -7.5%
+}
+
+.b-software-promo_main-text {
+    position: absolute;
+    left: 32px;
+    bottom: 20px;
+    text-transform: uppercase;
+    max-width: 440px
+}
+
+.b-software-promo_main-title {
+    filter: alpha(opacity=90);
+    opacity: .9;
+    margin-bottom: 10px;
+    padding: 0 0 0 36px;
+    color: #fff;
+    font: 39px/49px "WarHeliosCondC","Arial Narrow",Arial,sans-serif;
+    max-width: 440px;
+    word-wrap: break-word;
+    max-height: 144px;
+    overflow: hidden
+}
+
+.b-software-promo_main-title-bg {
+    position: relative;
+    padding-top: 6px;
+    background: #cb5431
+}
+
+.b-software-promo_main-title-bg__level-1 {
+    left: -36px
+}
+
+.b-software-promo_main-title-bg__level-2 {
+    left: 36px
+}
+
+.b-software-promo_main-title-bg__level-3 {
+    left: -18px
+}
+
+.b-software-promo_main-producer {
+    color: #fff;
+    font: 17px/21px "WarHeliosCondC","Arial Narrow",Arial,sans-serif;
+    padding: 0 18px;
+    word-wrap: break-word;
+    max-width: 100%
+}
+
+.b-software-promo_small {
+    filter: alpha(opacity=90);
+    opacity: .9;
+    float: right;
+    width: 298px;
+    height: 142px
+}
+
+.b-software-promo_small:hover {
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.b-software-promo_small__first {
+    margin-bottom: 15px
+}
+
+.b-software-promo_small-link {
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    width: 149px;
+    height: 142px;
+    float: left;
+    background: #0d0d0d;
+    position: relative;
+    overflow: hidden
+}
+
+.b-software-promo_small-img {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.b-software-promo_small:hover .b-software-promo_small-img {
+    width: 115%;
+    height: 115%;
+    left: -7.5%;
+    top: -7.5%
+}
+
+.b-software-promo_medium {
+    filter: alpha(opacity=90);
+    opacity: .9;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    float: right;
+    position: relative;
+    overflow: hidden
+}
+
+.b-software-promo_medium:hover {
+    filter: alpha(opacity=100);
+    opacity: 1
+}
+
+.b-software-promo_medium-link {
+    display: block;
+    width: 298px;
+    height: 299px
+}
+
+.b-software-promo_medium-img {
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0
+}
+
+.b-software-promo_medium:hover .b-software-promo_medium-img {
+    width: 115%;
+    height: 115%;
+    left: -7.5%;
+    top: -7.5%
+}
+
+.b-platform-icon {
+    border-top: 1px solid #363636;
+    padding: 14px 0 0
+}
+
+.b-platform-icons__main {
+    float: right;
+    margin: 14px 20px 0 0;
+    border: 0;
+    padding: 0;
+    position: relative
+}
+
+.b-platform-icons__promo-small {
+    padding: 12px 14px
+}
+
+.b-platform-icons__popular {
+    padding: 14px
+}
+
+.b-platform-icon_item {
+    opacity: .6;
+    float: left;
+    margin-left: 10px;
+    height: 20px
+}
+
+.b-platform-icons_item:first-child {
+    margin-left: 0
+}
+
+.b-platform-icons__main .b-platform-icons_item {
+    opacity: .9
+}
+
+.b-app-info__promo-small {
+    width: 149px;
+    height: 142px;
+    float: left;
+    background: #262627
+}
+
+.b-app-info__promo-medium {
+    filter: alpha(opacity=92);
+    opacity: .92;
+    width: auto;
+    max-width: 260px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #262627
+}
+
+.b-app-info__popular {
+    width: 170px;
+    background: #252526
+}
+
+.b-app-info_text {
+    padding: 12px 14px 0 14px
+}
+
+.b-app-info__promo-small .b-app-info_text {
+    height: 82px
+}
+
+.b-app-info__popular .b-app-info_text {
+    height: 78px
+}
+
+.b-app-info_text__top-indent {
+    padding: 14px 0 0
+}
+
+.b-app-info_title {
+    color: #fff;
+    font: 17px/21px "WarHeliosCondC","Arial Narrow",Arial,sans-serif;
+    position: relative;
+    display: inline-block;
+    margin: 0 0 5px;
+    max-height: 42px;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word
+}
+
+.b-app-info_title:after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    right: -8px;
+    width: 90px;
+    height: 24px;
+    background: url("/web/20160907134640im_/http://static-ptl-ru.gcdn.co/static/4.3.2/common/css/scss/content/useful-software/img/fade-horisontal-dark.png") repeat-y;
+    background: linear-gradient(to right, rgba(28,28,30,0.2) 0%, rgba(28,28,30,0.6) 30%, #1c1c1e 100%)
+}
+
+.b-app-info_title:hover {
+    color: #fff;
+    text-decoration: none
+}
+
+.b-app-info__promo-small .b-app-info_title {
+    font-size: 16px;
+    line-height: 19px;
+    max-height: 38px
+}
+
+.b-app-info__promo-small .b-app-info_title:after {
+    width: 60px;
+    background: url("/web/20160907134640im_/http://static-ptl-ru.gcdn.co/static/4.3.2/common/css/scss/content/useful-software/img/fade-horisontal.png") repeat-y
+}
+
+.b-app-info__promo-medium .b-app-info_title {
+    font-size: 21px;
+    line-height: 25px;
+    text-transform: uppercase;
+    max-height: 75px;
+    margin-bottom: 3px
+}
+
+.b-app-info__promo-medium .b-app-info_title:after {
+    background: none
+}
+
+.b-app-info__popular .b-app-info_title:after {
+    width: 60px;
+    background: url("/web/20160907134640im_/http://static-ptl-ru.gcdn.co/static/4.3.2/common/css/scss/content/useful-software/img/fade-horisontal.png") repeat-y
+}
+
+.b-app-info_title a {
+    color: #fff
+}
+
+.b-app-info_title a:hover {
+    text-decoration: none
+}
+
+.b-app-info_producer {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #666;
+    margin-bottom: 14px;
+    word-wrap: normal
+}
+
+.b-software-list {
+    padding-bottom: 10px
+}
+
+.b-software-list_wrapper {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -0.31em;
+    word-spacing: -0.43em;
+    margin: 0 -15px 0 -52px;
+    padding: 10px 0 14px
+}
+
+.b-software-list_item {
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: normal;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 0 37px;
+    width: 180px;
+    padding: 14px;
+    border: 1px solid transparent
+}
+
+.b-software-list_item:hover {
+    filter: alpha(opacity=100);
+    opacity: 1;
+    border-color: #363636
+}
+
+.b-software-list_item__indent-bottom {
+    margin-bottom: 36px
+}
+
+.b-software-list_img-link {
+    width: 180px;
+    height: 180px;
+    display: block
+}
+
+.b-software-list_img {
+    width: 180px;
+    height: 180px
+}
+
+.b-app-info__promo-small {
+    width: 149px;
+    height: 142px;
+    float: left;
+    background: #262627;
+}
+
+.b-composite-heading {
+    margin: 24px 0 15px;
+}
+
+.b-composite-heading_title {
+    float: left;
+    font-size: 21px;
+    line-height: 1;
+    margin: 0 14px 0 0;
+    max-width: 492px;
+}
+
+.b-composite-heading_title {
+    float: left;
+    font-size: 21px;
+    line-height: 1;
+    margin: 0 14px 0 0;
+    max-width: 492px;
+}
+
+.b-composite-heading_title__uppercase {
+    text-transform: uppercase;
+}
+
 @import 'indev.scss';
 @import 'fan-page.scss';

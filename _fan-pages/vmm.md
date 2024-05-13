@@ -3,6 +3,7 @@ title: VMM
 categories: [Фан-ресурсы, Моды]
 image: /assets/img/fan_pages/vmm.gif
 platform: web
+arrow: fan-page
 icon_urls: "/assets/img/www-icon.png"
 developer: Vlad Maus Mods
 link: https://sites.google.com/view/modmaus/main?authuser=0
