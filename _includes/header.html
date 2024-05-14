@@ -22,6 +22,9 @@
                 <a href="{{ '/updates' | relative_url }}">Обновления</a>
             </div>
         </div>
+        <div class="dropdown single {% if current_category == "media" %}active{% endif %}">
+            <a class="navigation-link" href="{{ '/media' | relative_url }}">Медиа</a>
+        </div>
         <div class="dropdown {% if current_category == "community" %}active{% endif %}">
             <a class="navigation-link" href="{{ '/community' | relative_url }}" style="margin: 0 0px;">Сообщество</a>
             <button onclick="toggleDropdown('dropdownCommunity')" class="dropbtn"></button>
