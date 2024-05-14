@@ -62,6 +62,8 @@ collections:
     output: true
   soft:
     output: true
+  media:
+    output: true
 
 defaults:
   - scope:
