@@ -4,7 +4,7 @@ layout: fan-page
 categories: [Моды]
 image: /assets/img/mods/ugv_mini.png
 platform: windows
-arrow: soft
+arrow: fan-page
 icon_urls: "/assets/img/win-icon.png"
 developer: OmniLab Research & Development
 link: https://disk.yandex.ru/d/wQY39LR5hIhatA
