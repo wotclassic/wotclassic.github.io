@@ -1,5 +1,5 @@
 ---
-title: Фан-видео
+title: Геймплей
 layout: media
 ---
 
