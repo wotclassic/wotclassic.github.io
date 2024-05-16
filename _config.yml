@@ -64,6 +64,8 @@ collections:
     output: true
   media:
     output: true
+  media-posts:
+    output: true
 
 defaults:
   - scope:
@@ -96,6 +98,12 @@ defaults:
     values:
       layout: "fan-page"
       permalink: "/fan-pages/:name/"
+  - scope:
+      path: ""
+      type: "media-posts"
+    values:
+      layout: "media-post"
+      permalink: "/media/:name/"
   - scope:
       path: ""
     values:

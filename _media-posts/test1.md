@@ -1,7 +1,8 @@
 ---
 title: Тест1
+layout: media-post
 date: 2024-05-12 10:20:15 +0300
-tags: [important]
+permalink: /media/test1
 category: site-update
 image_small: "/assets/img/news/image_small/announcement.jpg"
 ---
