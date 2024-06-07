@@ -59,33 +59,33 @@ title: Медиа
 </div>
 <div class="img-signature">
     {% include img-block.html 
-        text="Тест картинОЧЕК" 
-        url="/media/test1" 
-        image="/assets/img/community/videos/video1.png" 
+        text="Ласвилль" 
+        url="/media/gameplay/lakeville" 
+        image="/assets/img/media/gameplay/lakeville/lake1.png" 
         date="12.08.2023" 
     %}
     {% include img-block.html 
-        text="Тест картинОЧЕК" 
-        url="/media/test1" 
-        image="/assets/img/community/videos/video1.png" 
+        text="Химмельсдорф" 
+        url="/media/gameplay/himmelsdorf" 
+        image="/assets/img/media/gameplay/himmelsdorf/himmel1.png" 
         date="12.08.2023" 
     %}
     {% include img-block.html 
-        text="Тест картинОЧЕК" 
-        url="/media/test1" 
-        image="/assets/img/community/videos/video1.png" 
+        text="Линия Зигфрида" 
+        url="/media/gameplay/siegfried_line"
+        image="/assets/img/media/gameplay/siegfried_line/siegfried_line1.png" 
         date="12.08.2023" 
     %}
     {% include img-block.html 
-        text="Тест картинОЧЕК" 
-        url="/media/test1" 
-        image="/assets/img/community/videos/video1.png" 
+        text="Энск" 
+        url="/media/gameplay/cliff" 
+        image="/assets/img/media/gameplay/cliff/cliff1.png" 
         date="12.08.2023" 
     %}
     {% include img-block.html 
-        text="Тест картинОЧЕК" 
-        url="/media/test1" 
-        image="/assets/img/community/videos/video1.png" 
+        text="Вестфилд" 
+        url="/media/gameplay/westfield" 
+        image="/assets/img/media/gameplay/westfield/westfield1.png" 
         date="12.08.2023" 
     %}
     {% include img-block.html 
