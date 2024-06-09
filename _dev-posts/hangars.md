@@ -1,12 +1,19 @@
 ---
 title: Ангары
-status: "Обновлено: 24 декабря 2023 года"
+status: "Обновлено: 16 мая 2024 года"
 image: /assets/img/indev/thumb/hangars.png
 ---
 
 <p style="display: none">Подробности о жизни ангаров мы рассказываем именно здесь.</p>
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
+
+{% include indev/status.html status="doe" text="Тень в ангарах V1" date="16 мая" %}
+
+В предстоящем обновлении будет удалена тень под танком, что являлось проблемой.
+
+[![ангар]({{ '/assets/img/indev/screens/v1.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/v1.jpg)
+[![ангар1]({{ '/assets/img/indev/screens/pv1.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/pv1.jpg)
 
 {% include indev/status.html status="done" text="Доработки премиум ангара v2" date="24 декабря" %}
 
