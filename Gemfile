@@ -14,7 +14,6 @@ gem "jekyll", "~> 4.3.2"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
   gem "jekyll-paginate-v2", "~> 3.0"
 end
 
