@@ -94,6 +94,17 @@
                 </p>
             </div>
         </div>
+        {% if jekyll.environment == "development" %}
+        <div class="b-cluster-lite">
+            <div class="b-cluster-lite_message">
+                <p class="b-cluster-lite_text">
+                    <span class="b-cluster-lite_name">Внимание!</span>
+                    <br>
+                    Вы просматриваете тестовую версию сайта. Содержимое может содержать ошибки.
+                </p>
+            </div>
+        </div>
+        {% endif %}
         <style>
             .b-cluster-lite {
                 background-color: #000;
@@ -104,7 +115,6 @@
                 right: 0;
                 top: 75px;
                 width: 510px;
-                z-index: 7;
             }
 
             .b-cluster-lite_message {

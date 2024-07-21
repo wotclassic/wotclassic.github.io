@@ -1,6 +1,5 @@
 ---
 title: 'Раздел «Поддержка»: что, где и как?'
-date: 2024-05-01 18:20:15 +0300
 tags: [important]
 category: site-update
 image_small: "/assets/img/news/image_small/announcement.jpg"
