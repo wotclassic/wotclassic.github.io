@@ -5,6 +5,7 @@ description: >-
   перенося вас во времена классической игры и воссоздавая те эмоции, что так привлекали игроков.
 baseurl: ""
 url: "https://wot-classic.ru"
+timezone: Europe/Moscow
 
 plugins:
   - jekyll-paginate-v2
