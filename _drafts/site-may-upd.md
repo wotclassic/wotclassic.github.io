@@ -1,6 +1,5 @@
 ---
 title: 'Майское обновление портала: больше взаимодействия с игроками'
-date: 2024-05-12 10:20:15 +0300
 tags: [important]
 category: site-update
 image_small: "/assets/img/news/image_small/announcement.jpg"
