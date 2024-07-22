@@ -1,0 +1,35 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:yandex="http://news.yandex.ru" xmlns:media="http://search.yahoo.com/mrss/" xmlns:turbo="http://turbo.yandex.ru">
+  <channel>
+    <title>WoT это Классика!</title>
+    <description>Фид новостей WэК для Турбо-страниц Яндекса.</description>
+    <language>ru</language>
+    <link>{{ site.url }}</link>
+    {% for post in site.posts limit: 1000 %}
+      {% unless post.draft %}
+        <item turbo="true">
+          <title>{{ post.title | xml_escape }}</title>
+          <description>{{ post.excerpt | strip_html | xml_escape | strip }}</description>
+          <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+          <link>{{ post.url | prepend: site.url }}</link>
+          <yandex:related>
+            {% if post.next %}
+              <link url="{{ post.next.url | prepend: site.url }}" img="{{ post.next.image | default: '/assets/img/announcement_127x.jpg' | prepend: site.url }}">{{ post.next.title }}</link>
+            {% endif %}
+            {% if post.previous %}
+              <link url="{{ post.previous.url | prepend: site.url }}" img="{{ post.previous.image | default: '/assets/img/announcement_127x.jpg' | prepend: site.url }}">{{ post.previous.title }}</link>
+            {% endif %}
+          </yandex:related>
+          <turbo:content>
+            <![CDATA[
+              {{ post.content }}
+            ]]>
+          </turbo:content>
+        </item>
+      {% endunless %}
+    {% endfor %}
+  </channel>
+</rss>
