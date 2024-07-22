@@ -1,6 +1,5 @@
 ---
 title: Знакомьтесь - команда «WoT это Классика!»
-date: 2024-07-13 10:06:00 +0300
 category: announcements
 image: "/assets/img/news/thumbnail/people_127x.png"
 image_small: "/assets/img/news/image_small/techwork.png"
@@ -19,7 +18,8 @@ permalink: /about
 
 ## Mr. Bendy
 
-[![Mr. Bendy](https://yt3.googleusercontent.com/N67CcmKcbFgRg4C5dXBenbq2x-4vvo41KmVjxB6y3kPBgehSeAfjq3ONw12to72Ei6M5NKKpPQ=s160-c-k-c0x00ffffff-no-rj){: .pic-right .orange style="margin-top: -40px; width: 128px; height: 128px; border-radius: 64px" }]({{ site.data.socials.bendy.youtube.url }})
+[![Mr. Bendy](https://yt3.googleusercontent.com/N67CcmKcbFgRg4C5dXBenbq2x-4vvo41KmVjxB6y3kPBgehSeAfjq3ONw12to72Ei6M5NKKpPQ=s160-c-k-c0x00ffffff-no-rj){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
+<span class="blackout"></span>]({{ site.data.socials.bendy.youtube.url }}){: .pic-right style="position: relative; display: block; margin-top: -40px;" }
 
 - **Игровой никнейм:** [MuRaMiHa](https://tanki.su/ru/community/accounts/12666533-MuRaMiHa/) (RUBY)
 - **Роль в команде:** лидер.
@@ -30,7 +30,8 @@ permalink: /about
 
 ## A1Asriel
 
-[![A1Asriel](https://cdn.discordapp.com/avatars/296735247213789215/0d0086ecd6ca1a8ffd7588927b9c8830.png?size=128&format=webp&quality=lossless&width=0&height=256){: .pic-right .orange style="margin-top: -40px; width: 128px; height: 128px; border-radius: 64px" }](https://a1asriel.github.io/about)
+[![A1Asriel](https://cdn.discordapp.com/avatars/296735247213789215/0d0086ecd6ca1a8ffd7588927b9c8830.png?size=128&format=webp&quality=lossless&width=0&height=256){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
+<span class="blackout"></span>](https://a1asriel.github.io/about){: .pic-right style="position: relative; display: block; margin-top: -40px;" }
 
 - **Игровой никнейм:** [A1Asriel](https://worldoftanks.eu/ru/community/accounts/595275807-A1Asriel/) (EU)
 - **Роль в команде:** координатор.
@@ -41,7 +42,8 @@ permalink: /about
 
 ## Pbody –iwnl–
 
-[![Pbody –iwnl–](https://cdn.discordapp.com/avatars/220198295664852992/749287d536818847a29e068ef4c473be.png?size=128&format=webp&quality=lossless&width=0&height=256){: .pic-right .orange style="margin-top: -40px; width: 128px; height: 128px; border-radius: 64px" }]({{ site.data.socials.pbody.youtube.url }})
+[![Pbody –iwnl–](https://cdn.discordapp.com/avatars/220198295664852992/749287d536818847a29e068ef4c473be.png?size=128&format=webp&quality=lossless&width=0&height=256){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
+<span class="blackout"></span>]({{ site.data.socials.pbody.youtube.url }}){: .pic-right style="position: relative; display: block; margin-top: -40px;" }
 
 - **Игровой никнейм:** [Pbody_iwnl_](https://tanki.su/ru/community/accounts/58184979-Pbody_iwnl_/) (RUBY)
 - **Роль в команде:** пиар-менеджер.
@@ -52,7 +54,8 @@ permalink: /about
 
 ## Valberton
 
-[![Valberton](https://cdn.discordapp.com/avatars/292629978422575104/ace7a8c853444b7fb537046944eff6cc.png?size=128&format=webp&quality=lossless&width=0&height=256){: .pic-right .orange style="margin-top: -40px; width: 128px; height: 128px; border-radius: 64px" }]({{ site.data.socials.vlbrtn.youtube.url }})
+[![Valberton](https://cdn.discordapp.com/avatars/292629978422575104/ace7a8c853444b7fb537046944eff6cc.png?size=128&format=webp&quality=lossless&width=0&height=256){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
+<span class="blackout"></span>]({{ site.data.socials.vlbrtn.youtube.url }}){: .pic-right style="position: relative; display: block; margin-top: -40px;" }
 
 - **Игровой никнейм:** [Valbert0n](https://tanki.su/ru/community/accounts/72764962-Valbert0n/) (RUBY)
 - **Роль в команде:** голос канала.
