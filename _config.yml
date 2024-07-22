@@ -96,3 +96,6 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+kramdown:
+  transliterated_header_ids: true

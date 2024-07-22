@@ -18,17 +18,10 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 Сентябрьское обновление уже [здесь](https://www.youtube.com/watch?v=D3KeZwwZBg4)! А в нём скриптовые изменения интерфейса ангара, изменения в интерфейсе боя, карта "Сталинград" и много чего ещё!
 
 #### Содержание
+{: .no_toc}
 
-- **[Что нового?](#что-нового)**
-- **[Интерфейс ангара](#интерфейс-ангара)**
-  - **[Меню настроек](#меню-настроек)**
-- **[Ангары](#ангары)**
-  - **[Базовый и премиум ангар снова здесь!](#базовый-и-премиум-ангары-снова-здесь)**
-- **[Интерфейс боя](#интерфейс-боя)**
-  - **[Результат боя](#результат-боя)**
-- **[Скайбоксы](#скайбоксы)**
-- **[Террейны](#террейны)**
-- **[Эффекты](#эффекты)**
+- Содержание
+{:toc}
 
 {% include instructions.md %}
 
@@ -36,7 +29,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 А много чего! Буквально все моды претерпели важные для ностальгии изменения: старый интерфейс порадует Вас старым выбором боя, интерфейс боя получит "обновленное" меню списка игроков в бою, а скайбоксы и террейны переведут карту "Сталинград" в старый стиль. В общем, Вас ждет гора изменений! Начнем же!
 
-### Интерфейс ангара
+## Интерфейс ангара
 
 [![интерфейс ангара]({{ '/assets/img/news/mods/old_hangar_gui.png' | relative_url}}){: .pic-left.orange width="200" }](https://wgmods.net/6368/)
 
@@ -76,7 +69,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 ---
 
-### Ангары
+## Ангары
 
 ![ангары]({{ '/assets/img/news/mods/hangar922.png' | relative_url}}){: .pic-left.orange width="200" }
 Да, ангары вернулись, и не просто вернулись, а с большой обновкой! Самым крупным правкам подвергся премиумный ангар из патчей 0.9.Х.  
@@ -104,7 +97,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 ---
 
-### Интерфейс боя
+## Интерфейс боя
 
 [![интерфейс боя]({{ '/assets/img/news/mods/old_battle_gui.png' | relative_url}}){: .pic-right.orange width="200" }](https://wgmods.net/6287/)
 В интерфейсе боя Вас ждет старое меню списка игроков! Это только первоначальная версия, и мы ждем ваших отзывов о данном нововведении.  
@@ -120,7 +113,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 ---
 
-### Скайбоксы
+## Скайбоксы
 
 [![скайбоксы]({{ '/assets/img/news/mods/ssb.png' | relative_url}}){: .pic-left.orange width="200" }](https://wgmods.net/6288/)
 
@@ -130,7 +123,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 ---
 
-### Террейны
+## Террейны
 
 [![террейны]({{ '/assets/img/news/mods/old_flora.png' | relative_url}}){: .pic-right.orange width="200" }](https://drive.google.com/file/d/1FmohmS9sjSlitiQzPuboNxT1bLcsdWug/view?usp=sharing)
 Старые террейны также пополнятся картой «Сталинград»!  
@@ -159,7 +152,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 
 ---
 
-### Эффекты
+## Эффекты
 
 [![эффекты]({{ '/assets/img/news/mods/effects.png' | relative_url}}){: .pic-left.orange width="200" }](https://wgmods.net/6399/)
 Старые эффекты также не обошлись без изменений. Теперь вы не увидите летящих самолётов над Химмельсдорфом или Артобстрела на Заполярье, так как на картах полностью убраны ивенты, которые отсутствовали до обновления 1.0.  
