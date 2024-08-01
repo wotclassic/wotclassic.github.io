@@ -13,6 +13,7 @@ layout: default
         </div>
         <div class="heading-media clearfix">
             <h2 class="news-head-title">Фан-видео</h2>
+            <a href="{{ '/media/fan-video' | relative_url }}" class="orange-arrow">Все видео</a>
         </div>
         <div class="img-signature">
             {% include video-block.html text="WoT - это Классика + бой на Waffenträger auf E100" url="https://www.youtube.com/watch?v=7IfqgipXAD8" image="/assets/img/media/fan_vid/fvideo1.png" date="16.06.2024" %}
@@ -71,3 +72,14 @@ layout: default
         {% endfor %}
     </div>
 </div>
+
+<style>
+.orange-arrow {
+    display: inline-block;
+    background: url(/assets/img/orange_arrow.png) 100% 0 no-repeat;
+    line-height: 13px;
+    padding-right: 9px;
+    bottom: -8px;
+    position: relative;
+}
+</style>
