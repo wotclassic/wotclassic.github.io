@@ -3,6 +3,10 @@ layout: centered
 title: Проблемные моды
 ---
 
+# Техподдержка
+
+## Регион: Lesta Games (RUBY)
+
 ## Выберите проблемный мод
 
 {% include block.html url="/support/lesta/hangar-ui/" image="/assets/img/support/hangar_ui.png" width="212" height="107" inline=true %}

@@ -3,9 +3,13 @@ layout: centered
 title: В процессе
 ---
 
-# В процессе
+# Техподдержка
 
-##### Данная часть раздела будет пополняться со временем, так как адаптация модов для EU все еще в процессе.
+## Регион: Wargaming.net (EU)
+
+### Выберите проблемный мод
+
+**Данная часть раздела будет пополняться со временем, так как адаптация модов для EU все еще в процессе.**
 {: .message-error}
 
 {% include block.html url="/support/lesta/hangar-ui/" image="/assets/img/support/hangar_ui.png" width="212" height="107" inline=true %}

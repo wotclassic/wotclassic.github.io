@@ -68,22 +68,32 @@
 <script>
 var timerInterval
 
-const gmtOffset = '+03:00';
-const updateDate = new Date("2030-01-01T15:00:00.000" + gmtOffset);
+// const gmtOffset = '+03:00';
+// const updateDate = new Date("2030-01-01T15:00:00.000" + gmtOffset);
+// const updateDate = new Date("2030-01-01T15:00:00.000");
+var updateDate = new Date();
 const timerLeft = document.getElementById("ny_timer_left");
+const curDateElems = document.getElementsByClassName("cur-date");
+const tomDateElems = document.getElementsByClassName("tom-date");
 
 function setTime() {
-    const button = document.getElementsByClassName("hidden-button")[0];
     const currentDate = new Date();
-    const timeLeft = Math.floor((updateDate - currentDate) / 1000 % 86400);
+    const button = document.getElementsByClassName("hidden-button")[0];
+    updateDate.setDate(currentDate.getDate() + 1);
+    updateDate.setHours(15, 0, 0);
+    const timeLeft = Math.floor((updateDate - currentDate) / 1000);
     timerLeft.innerHTML = formatTime(timeLeft);
-    if (button) {
-        if (timeLeft <= 0) {
-            button.style.display = 'block';
-        } else {
-            button.style.display = 'none';
-        }
-    }
+    // if (button) {
+    //     if (timeLeft <= 0) {
+    //         button.style.display = 'block';
+    //     } else {
+    //         button.style.display = 'none';
+    //     }
+    // }
+    for (const elem of curDateElems)
+        elem.innerHTML = currentDate.toLocaleDateString();
+    for (const elem of tomDateElems)
+        elem.innerHTML = updateDate.toLocaleDateString();
 }
 
 function padNumber(num) {
@@ -91,7 +101,7 @@ function padNumber(num) {
 }
 
 function formatTime(time) {
-    const hours = Math.floor(time / 3600) % 24;
+    const hours = Math.floor(time / 3600);
     const minutes = Math.floor((time % 3600) / 60);
     const seconds = Math.floor((time % 3600) % 60);
     return `${padNumber(hours)}<span class="ny-timer-colon">:</span>${padNumber(minutes)}<span class="ny-timer-colon">:</span>${padNumber(seconds)}`;
