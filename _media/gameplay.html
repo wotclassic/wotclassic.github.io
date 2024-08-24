@@ -1,0 +1,17 @@
+---
+title: Геймплей
+layout: media
+---
+
+<div style="display: none;">Геймплейные скриншоты.</div>
+
+<div class="heading-media clearfix">
+    <h2 class="news-head">Геймплей</h2>
+</div>
+
+<div class="img-signature">
+    {% for img in site.data.media.gameplay %}
+        {% assign img1 = img[1] %}
+        {% include img-block.html text=img1.text url=img1.url image=img1.image date=img1.date %}
+    {% endfor %}
+</div>

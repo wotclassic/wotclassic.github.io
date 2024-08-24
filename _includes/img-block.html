@@ -3,7 +3,7 @@
         <span class="img-signa-img" style="background-image: url({{ include.image | relative_url }});"></span>
     </a>
     <h2 class="img-signa-name">
-        <a class="img-signa-name-link" href="#">{{ include.text }}</a>
+        <a class="img-signa-name-link" href="{{ include.url | absolute_link }}">{{ include.text }}</a>
     </h2>
     <div class="img-signa-statistic">
         <p class="img-signa-time">{{ include.date }}</p>

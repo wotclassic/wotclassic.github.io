@@ -1,9 +1,13 @@
+---
+layout: none
+---
+
 {
     "version": "1",
     "api_version": 3,
 
     "layout": {
-        "logo": "https://wot-classic.ru/assets/img/wotc_tablo.png",
+        "logo": "{{ '/assets/img/wotc_tablo.png' | absolute_url }}",
         "color": "#000000",
         "show_title": false
     }

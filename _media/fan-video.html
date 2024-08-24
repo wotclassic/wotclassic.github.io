@@ -1,0 +1,16 @@
+---
+title: Фан-видео
+layout: media
+---
+
+<div style="display: none;">Видеоролики от фанатов «WoT это Классика!».</div>
+
+<div class="heading-media clearfix">
+    <h2 class="news-head">Фан-видео</h2>
+</div>
+
+<div class="img-signature">
+    {% for video in site.data.media.fan-video %}
+        {% include video-block.html text=video.text url=video.url image=video.image date=video.date %}
+    {% endfor %}
+</div>
