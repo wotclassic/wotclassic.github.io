@@ -4,9 +4,13 @@ permalink: support/lesta/hangar-ui
 title: Интерфейс ангара
 ---
 
-# Интерфейс ангара
+# Техподдержка
 
-## Известные проблемы
+## Регион: Lesta Games (RUBY) / Wargaming.net (EU)
+
+[< К выбору мода (Lesta)]({{ "/support/lesta" | relative_url }}) \| [(Wargaming)]({{ "/support/wg" | relative_url }})
+
+### Мод: Интерфейс ангара
 
 ##### Появление панели модулей при прокачке перка экипажа
 

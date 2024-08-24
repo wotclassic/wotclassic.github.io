@@ -4,9 +4,16 @@ permalink: support/lesta/sounds
 title: Звуки
 ---
 
-# Звуки
+# Техподдержка
+
+## Регион: Lesta Games (RUBY) / Wargaming.net (EU)
+
+[< К выбору мода (Lesta)]({{ "/support/lesta" | relative_url }}) \| [(Wargaming)]({{ "/support/wg" | relative_url }})
+
+### Мод: Звуки
 
 ##### Двойной звук перезарядки
+
 При случае изменения времени перезарядки (оглушение, активация буста и т.д.) он удваивается.
 
 <br>
