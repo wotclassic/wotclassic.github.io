@@ -1,0 +1,15 @@
+---
+title: Обзор обновлений
+layout: media
+---
+
+<div style="display: none;">Видеоролики, связанные с обзором обновлений.</div>
+
+<div class="heading-media clearfix">
+    <h2 class="news-head">Обзор обновлений</h2>
+</div>
+<div class="img-signature">
+    {% for video in site.data.media.upd-rev %}
+        {% include video-block.html text=video.text url=video.url image=video.image date=video.date %}
+    {% endfor %}
+</div>

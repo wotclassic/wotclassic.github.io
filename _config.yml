@@ -104,7 +104,7 @@ defaults:
       type: "media-posts"
     values:
       layout: "media-post"
-      permalink: "/media/:name/"
+      permalink: "/media/:path/"
   - scope:
       path: ""
     values:

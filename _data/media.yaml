@@ -1,0 +1,119 @@
+fan-video:
+  - text: WoT - это Классика + бой на Waffenträger auf E100
+    url: https://www.youtube.com/watch?v=7IfqgipXAD8
+    image: /assets/img/media/fan_vid/fvideo1.png
+    date: "16.06.2024"
+  - text: ВПЕРЁД В ПРОШЛОЕ!!! | Мир Танков с модом от команды "WoT это Классика!" |
+    url: https://www.youtube.com/watch?v=5WHoKrEy1Uo
+    image: /assets/img/media/fan_vid/fvideo2.png
+    date: "01.06.2024"
+  - text: Режим "На Марс!" с модом WoT Это Классика!
+    url: https://www.youtube.com/watch?v=Gm2aGmB1V2A
+    image: /assets/img/media/fan_vid/fvideo3.png
+    date: "08.04.2024"
+  - text: WOT CLASSIC В ПРЯМОМ ЭФИРЕ 🐙 ИГРАЮ В СТАРЫЕ ТАНКИ
+    url: https://www.youtube.com/watch?v=2HGx2BpW5RU
+    image: /assets/img/community/videos/video2.png
+    date: "03.04.2024"
+  - text: Я СНОВА ЗАПУСТИЛ СТАРЫЕ ТАНКИ 🐙 РАНЬШЕ БЫЛО ЛУЧШЕ?
+    url: https://www.youtube.com/watch?v=qXOS_q-QO_A
+    image: /assets/img/community/videos/video3.png
+    date: "02.04.2024"
+  - text: 10 Фрагов и 3800 дамага на Panzer IV H Старая Графика МОД
+    url: https://www.youtube.com/watch?v=4eQD5QsCpmk
+    image: /assets/img/community/videos/video1.png
+    date: "26.03.2024"
+
+gameplay:
+  lakeville:
+    text: Ласвилль
+    url: /media/gameplay/lakeville
+    image: /assets/img/media/gameplay/lakeville/lake1.png
+    date: "12.08.2023"
+    images:
+      - [/assets/img/media/gameplay/lakeville/lake2.png,
+         /assets/img/media/gameplay/lakeville/lake3.png,
+         /assets/img/media/gameplay/lakeville/lake4.png]
+      - [/assets/img/media/gameplay/lakeville/lake5.png,
+         /assets/img/media/gameplay/lakeville/lake6.png,
+         /assets/img/media/gameplay/lakeville/lake7.png]
+  himmelsdorf:
+    text: Химмельсдорф
+    url: /media/gameplay/himmelsdorf
+    image: /assets/img/media/gameplay/himmelsdorf/himmel1.png
+    date: "12.08.2023"
+    images:
+      - [/assets/img/media/gameplay/himmelsdorf/himmel2.png,
+         /assets/img/media/gameplay/himmelsdorf/himmel3.png,
+         /assets/img/media/gameplay/himmelsdorf/himmel4.png]
+      - [/assets/img/media/gameplay/himmelsdorf/himmel5.png,
+         /assets/img/media/gameplay/himmelsdorf/himmel6.png,
+         /assets/img/media/gameplay/himmelsdorf/himmel7.png]
+  siegfried_line:
+    text: Линия Зигфрида
+    url: /media/gameplay/siegfried_line
+    image: /assets/img/media/gameplay/siegfried_line/siegfried_line1.png
+    date: "12.08.2023"
+    images:
+      - [/assets/img/media/gameplay/siegfried_line/siegfried_line2.png,
+         /assets/img/media/gameplay/siegfried_line/siegfried_line3.png,
+         /assets/img/media/gameplay/siegfried_line/siegfried_line4.png]
+      - [/assets/img/media/gameplay/siegfried_line/siegfried_line5.png,
+         /assets/img/media/gameplay/siegfried_line/siegfried_line6.png,
+         /assets/img/media/gameplay/siegfried_line/siegfried_line7.png]
+  cliff:
+    text: Утёс
+    url: /media/gameplay/cliff
+    image: /assets/img/media/gameplay/cliff/cliff1.png
+    date: "12.08.2023"
+    images:
+      - [/assets/img/media/gameplay/cliff/cliff2.png,
+         /assets/img/media/gameplay/cliff/cliff3.png,
+         /assets/img/media/gameplay/cliff/cliff4.png]
+      - [/assets/img/media/gameplay/cliff/cliff5.png,
+         /assets/img/media/gameplay/cliff/cliff6.png,
+         /assets/img/media/gameplay/cliff/cliff7.png]
+  westfield:
+    text: Вестфилд
+    url: /media/gameplay/westfield
+    image: /assets/img/media/gameplay/westfield/westfield1.png
+    date: "12.08.2023"
+    images:
+      - [/assets/img/media/gameplay/westfield/westfield2.png,
+         /assets/img/media/gameplay/westfield/westfield3.png,
+         /assets/img/media/gameplay/westfield/westfield4.png]
+      - [/assets/img/media/gameplay/westfield/westfield5.png,
+         /assets/img/media/gameplay/westfield/westfield6.png,
+         /assets/img/media/gameplay/westfield/westfield7.png]
+
+video:
+  - text: «WoT это Классика!». С полей разработки - выпуск 3.
+    url: https://www.youtube.com/watch?v=3VSOtvVIGTM
+    image: /assets/img/media/vid/video1.png
+    date: "09.06.2024"
+  - text: «WoT это Классика!». 30 минут базового ангара V2.
+    url: https://www.youtube.com/watch?v=UNRVqj3XQgw
+    image: /assets/img/media/vid/video2.png
+    date: "23.04.2024"
+  - text: «WoT это Классика!». Покори Марс!
+    url: https://www.youtube.com/watch?v=33IBZ0RM9z8
+    image: /assets/img/media/vid/video3.png
+    date: "13.04.2024"
+  - text: «WoT это Классика!». Как устанавливать моды?
+    url: https://www.youtube.com/watch?v=PoTa1BcTlxQ
+    image: /assets/img/media/vid/video4.png
+    date: "07.04.2023"
+  - text: «WoT это Классика!». Обзор апрельского обновления модов.
+    url: https://www.youtube.com/watch?v=MD2xvhawMhs
+    image: /assets/img/media/vid/video5.png
+    date: "07.04.2023"
+  - text: «WoT это Классика!». С полей разработки - выпуск 2.
+    url: https://www.youtube.com/watch?v=RkMusKMTpVs
+    image: /assets/img/media/vid/video6.png
+    date: "23.02.2022"
+
+upd-rev:
+  - text: «WoT это Классика!». Обзор апрельского обновления модов.
+    url: https://www.youtube.com/watch?v=MD2xvhawMhs
+    image: /assets/img/media/vid/video5.png
+    date: "07.04.2023"
