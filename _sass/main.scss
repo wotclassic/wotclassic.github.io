@@ -1277,6 +1277,14 @@ $yt-color: #cc181e;
     background: url('/assets/img/list-style.gif') no-repeat 0 5px;
 }
 
+#markdown-toc {
+    margin-left: 15px;
+    margin-top: 0;
+    ul {
+        margin: 0;
+    }
+}
+
 .b-hr-layoutfix {
     display: block;
     margin: 30px 0 -30px;
