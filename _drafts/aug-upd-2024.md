@@ -30,7 +30,7 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Экран логина
 
-[![Что-то]({{ '/assets/img/news/mods/login.png' | relative_url}}){: .pic-right.orange width="200" }](https://wgmods.net/4012/)
+[![Что-то]({{ '/assets/img/news/mods/login.png' | relative_url}}){: .pic-left.orange width="200" }](https://wgmods.net/4012/)
 
 Проделав массу экспериментов, через множество проб и ошибок, мы наконец-то смогли вернуть к жизни тот самый экран логина во всей своей красе! Он был переделан с нуля и включает в себя множество приятных и высоко ожидаемых изменений, начиная со вступительного ролика до позабытой игроками шестерёнки при входе в ангар. Но обо всём по порядку.
 
@@ -42,7 +42,7 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Интерфейс ангара
 
-![интерфейс ангар]({{ '/assets/img/news/mods/hangar_gui.png' | relative_url}}){: .pic-left.orange width="200" }
+![интерфейс ангар]({{ '/assets/img/news/mods/hangar_gui.png' | relative_url}}){: .pic-right.orange width="200" }
 
 Мы продолжаем работу над восстановлением исходного вида интерфейса ангара, с выходом августовского обновления игроки смогут пользоваться старым выбором оборудования и предбоевых инструкций. Но не переживайте, возвращение старого выбора оборудования не означает, что «фишки» современного варианта утеряны, наоборот, они гармонично вписаны в реалии прошлых лет.
 
@@ -70,7 +70,7 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Интерфейс боя
 
-[![интерфейс боя]({{ '/assets/img/news/mods/old_battle_gui.png' | relative_url}}){: .pic-right.orange width="200" }](https://drive.google.com/file/d/1FmohmS9sjSlitiQzPuboNxT1bLcsdWug/view?usp=sharing)
+[![интерфейс боя]({{ '/assets/img/news/mods/old_battle_gui.png' | relative_url}}){: .pic-left.orange width="200" }](https://drive.google.com/file/d/1FmohmS9sjSlitiQzPuboNxT1bLcsdWug/view?usp=sharing)
 
 Боевой интерфейс тоже не остался без изменений: в мод вернулись доделанные маркеры техники, а лампочка встала на свое прежнее место.
 
@@ -78,7 +78,7 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Ангары
 
-[![ангары]({{ '/assets/img/news/mods/hangar_v2.png' | relative_url}}){: .pic-left.orange width="200" }](https://drive.google.com/file/d/1FmohmS9sjSlitiQzPuboNxT1bLcsdWug/view?usp=sharing)
+[![ангары]({{ '/assets/img/news/mods/hangar_v2.png' | relative_url}}){: .pic-right.orange width="200" }](https://drive.google.com/file/d/1FmohmS9sjSlitiQzPuboNxT1bLcsdWug/view?usp=sharing)
 
 В ангарах первого поколения изменились цветокоррекция и источники освещения, была обновлена камера, а также «ожили» некоторые лампочки, благодаря восстановленным эффектам.
 
@@ -88,7 +88,7 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Пополнение старых моделей
 
-![SD]({{ '/assets/img/news/mods/sd_wt.png' | relative_url}}){: .pic-right.orange width="200" }
+![SD]({{ '/assets/img/news/mods/sd_wt.png' | relative_url}}){: .pic-left.orange width="200" }
 
 А теперь мы набираем обороты! Французские SD-танки, от Bat.-Chatillon 155 58, до Bat.-Chatillon 25 t уже ждут вас. В старом качестве будут доступны практически все танки из ветки прокачки, и в будущем список техники будет пополняться, но это ещё далеко не все!
 
@@ -104,12 +104,11 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Новый мод: «Старые карты»
 
-![скайбоксы]({{ '/assets/img/news/mods/ssb.png' | relative_url}}){: .pic-left.orange width="200" }
+![скайбоксы]({{ '/assets/img/news/mods/ssb.png' | relative_url}}){: .pic-right.orange width="200" }
 
 Старые террейны и скайбоксы были объединены в одно целое, ведь изменения, которые принесло это обновление, капитальные.
 
 #### Переработка ландшафта
-{: style="clear: both;" }
 
 Теперь мы создаём собственный ландшафт с рельефом, схожим с актуальными картами, также мы сделали то, чего вы все так долго ждали – на картах варианта 0.8.2 вас ждёт старая текстура травы. Уже готовы 5 карт старого образца, а именно:
 
@@ -147,7 +146,7 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Эффекты
 
-![effects]({{ '/assets/img/news/mods/effects2.png' | relative_url}}){: .pic-right.orange width="200" }
+![effects]({{ '/assets/img/news/mods/effects2.png' | relative_url}}){: .pic-left.orange width="200" }
 
 Старые эффекты медленно обретают свой каноничный вид.
 
@@ -157,7 +156,7 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 ### Старые добрые звуки
 
-![звуки]({{ '/assets/img/news/mods/ogs_release.png' | relative_url}}){: .pic-left.orange width="200" }
+![звуки]({{ '/assets/img/news/mods/ogs_release.png' | relative_url}}){: .pic-right.orange width="200" }
 
 Очередное обновление старых добрых звуков как и всегда является отличным поводом сделать музыку погромче!
 
@@ -184,9 +183,17 @@ image_small: /assets/img/news/image_small/april_upd.png
 
 #### Процесс установки
 
-Мастер установки, воссозданный по образу старого установщика World of Tanks, проведёт вас через простые этапы: сначала выберите папку, в которой установлена игра, на следующей странице поставьте галочки рядом с названиями модов, которые вы хотите установить, и затем дождитесь окончания установки. После этого вы сможете спокойно запустить игру и насладиться тем самым «Миром танков»!
+Мастер установки, воссозданный по образу старого установщика World of Tanks, проведёт вас через простые этапы:
 
-![]({{ '/assets/img/news/screens/launcher_wip.jpg' | relative_url }}){: .pic-right width="200" }
+1. выберите папку, в которой установлена игра;
+2. на следующей странице поставьте галочки рядом с названиями модов, которые вы хотите установить;
+3. дождитесь окончания установки.
+
+После этого вы сможете спокойно запустить игру и насладиться тем самым «Миром танков»!
+
+#### Будет ли лаунчер?
+
+![]({{ '/assets/img/news/screens/launcher_wip.jpg' | relative_url }}){: .pic-left.orange width="200" }
 
 Не спешите расстраиваться: мы не забыли про обещанный нами лаунчер. Пока работа над ним кипит, установщик будет временным способом чуть проще погрузиться в атмосферу старых танков.
 

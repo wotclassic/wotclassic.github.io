@@ -2,7 +2,7 @@
 
 Здесь вы можете следить за актуальной информацией о состоянии модов.
 
-**Обновлено: 31.08.2024**
+**Обновлено: 01.09.2024**
 
 <br>
 
@@ -12,7 +12,7 @@
 | Интерфейс ангара | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"}  | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"}  |
 | Интерфейс боя | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"}  | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"}  |
 | Ангары | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
-| Графика | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
+| Карты | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
 | SD-модели | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
 | Звуки | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
 | Эффекты | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
