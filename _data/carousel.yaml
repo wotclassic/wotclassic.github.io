@@ -1,4 +1,14 @@
 home:
+- title: 'Возвращение Белого Тигра'
+  desc:  Спустя 12 лет он снова выбрался на свободу.
+  url: /news/return-of-white-tiger/
+  image: /assets/img/news/header/wt.png  
+
+- title: 'Ваффентрагер: вызов'
+  desc:  Противостояние, которого невозможно избежать. Механический монстр и стая Гончих вновь сойдутся на поле боя!
+  url: https://tanki.su/ru/waffentrager-2024/
+  image: /assets/img/carousel/wt_call.png
+
 - title: Проект «Вавилон»
   desc:  Проекту «Вавилон» нужна ваша помощь. Приготовьтесь к агрессивной разведке и напряжённой обороне, бойцы!
   url: https://worldoftanks.eu/ru/halloween-2024/
