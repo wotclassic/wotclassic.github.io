@@ -65,3 +65,5 @@ image_small: /assets/img/news/image_small/wt.png
 ![]({{ '/assets/img/wt/promo.png' | relative_url }}){: style="width: 100%" }
 
 Пришла пора расставить все точки над "И". Уничтожим этого сумасшедшего.
+
+{% include button.html url="https://download.wot-classic.ru/wek_tiger_lesta_1.30.0.0_1.exe" text="Скачать мод" %}
