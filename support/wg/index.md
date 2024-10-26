@@ -16,4 +16,4 @@ title: В процессе
 {% include block.html url="/support/wg/hangars" image="/assets/img/support/hangars.png" width="212" height="107" inline=true %}
 {% include block.html url="/support/wg/sounds" image="/assets/img/support/sounds.png" width="212" height="107" inline=true %}
 {% include block.html url="/support/wg/login" image="/assets/img/support/login.png" width="212" height="107" inline=true %}
-{% include block.html url="support/wg/idk" image="/assets/img/support/idk.png" width="212" height="107" inline=true %}
+{% include block.html url="/support/wg/idk" image="/assets/img/support/idk.png" width="212" height="107" inline=true %}
