@@ -1,6 +1,5 @@
 ---
 layout: centered
-permalink: support/lesta/sd-models
 title: SD-модели
 ---
 

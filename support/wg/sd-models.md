@@ -1,6 +1,5 @@
 ---
 layout: centered
-permalink: support/wg/sd-models
 title: SD-модели
 ---
 

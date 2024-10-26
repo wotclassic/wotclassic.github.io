@@ -1,19 +1,15 @@
 ---
 layout: centered
-permalink: support/wg/sounds
 title: Звуки
 ---
 
 # Техподдержка
 
-## Регион: Wargaming.net (EU)
+## Регион: Lesta Games (RUBY) / Wargaming.net (EU)
 
-[< К выбору мода]({{ "/support/wg" | relative_url }}) \| [(Lesta)]({{ "/support/lesta" | relative_url }})
+[< К выбору мода (Lesta)]({{ "/support/lesta" | relative_url }}) \| [(Wargaming)]({{ "/support/wg" | relative_url }})
 
 ### Мод: Звуки
-
-**Не работает, ожидайте обновления.**
-{: .message-error}
 
 ##### Двойной звук перезарядки
 

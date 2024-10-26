@@ -1,6 +1,5 @@
 ---
 layout: centered
-permalink: support/lesta/battle-ui
 title: Интерфейс боя
 ---
 

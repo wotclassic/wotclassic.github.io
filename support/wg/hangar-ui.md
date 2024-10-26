@@ -1,6 +1,5 @@
 ---
 layout: centered
-permalink: support/wg/hangar-ui
 title: Интерфейс ангара
 ---
 

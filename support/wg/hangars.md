@@ -1,16 +1,18 @@
 ---
 layout: centered
-permalink: support/lesta/hangars
 title: Ангары
 ---
 
 # Техподдержка
 
-## Регион: Lesta Games (RUBY) / Wargaming.net (EU)
+## Регион: Wargaming.net (EU)
 
-[< К выбору мода (Lesta)]({{ "/support/lesta" | relative_url }}) \| [(Wargaming)]({{ "/support/wg" | relative_url }})
+[< К выбору мода]({{ "/support/wg" | relative_url }}) \| [(Lesta)]({{ "/support/lesta" | relative_url }})
 
 ### Мод: Ангары
+
+##### Камера под танком
+Особенность "префабов", требуется обновление модификации
 
 ##### Цветные текстуры на стандартном рендере
 

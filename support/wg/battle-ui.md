@@ -1,6 +1,5 @@
 ---
 layout: centered
-permalink: support/wg/battle-ui
 title: Интерфейс боя
 ---
 
