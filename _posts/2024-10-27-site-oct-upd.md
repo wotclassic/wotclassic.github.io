@@ -1,5 +1,6 @@
 ---
 title: 'Октябрьское обновление портала: больше взаимодействия с игроками'
+date: 2024-10-27
 tags: [important]
 category: site-update
 image: /assets/img/news/thumbnail/oct24_upd.png
