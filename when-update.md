@@ -75,8 +75,7 @@ permalink: /when-update
 <style>
   body {
     color: #b1b2b2;
-    font: 12px / 20px "robotoregular", "Arial Narrow", Arial, sans-serif;
-    font-family: Arial, "Helvetica CY", Helvetica, sans-serif;
+    font: 12px / 20px Arial, "Helvetica CY", Helvetica, sans-serif;
     background: url(/assets/img/back_upd.png) top no-repeat, url(/assets/img/sparkles.png) 50% 0 #000000;
     min-width: 1000px;
   }

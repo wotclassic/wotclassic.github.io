@@ -1,4 +1,4 @@
-title: WoT это Классика
+title: WoT это Классика!
 description: >-
   Серия модификаций "WoT это Классика!" возвращает атмосферу "те самые танки"
   через интерфейсные, графические и звуковые моды. Они придают игре ностальгическое ощущение,
@@ -109,6 +109,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+sass:
+  style: compressed
 
 kramdown:
   transliterated_header_ids: true

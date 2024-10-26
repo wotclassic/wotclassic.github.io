@@ -40,48 +40,6 @@
     </div>
 </div>
 <div style="display: none; height: 66px;" id="navbar_blank"></div>
-<script>
-    var brand_offset = document.getElementsByClassName("brand-header")[0].offsetHeight;
-    var navbar = document.getElementById("navbar");
-    var navbar_blank = document.getElementById("navbar_blank");
-    var lastScrollTop = 0;
-    var isHidden = false;
-
-    window.onscroll = function() { navbarStick() };
-
-    function navbarStick() {
-        curScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-        if (!isHidden && curScrollTop - (navbar.offsetHeight + brand_offset) > 0 && curScrollTop > lastScrollTop) hide();
-        else if (isHidden && curScrollTop < lastScrollTop) unHide();
-        else if (curScrollTop - brand_offset < 0) unstick();
-
-        function hide() {
-            navbar.style.top = "-66px";
-            navbar.style.position = "fixed";
-            navbar.style.width = "100%";
-            navbar.style.zIndex = 2;
-            setTimeout(function() { navbar.style.transition = "top 0.2s ease-out 0s"; }, 0.2);
-            navbar_blank.style.display = "block";
-            isHidden = true;
-        }
-
-        function unHide() {
-            navbar.style.top = 0;
-            isHidden = false;
-        }
-
-        function unstick() {
-            navbar.style.position = "relative";
-            navbar.style.removeProperty("width");
-            setTimeout(function() { navbar.style.removeProperty("transition"); }, 0.2);
-            navbar_blank.style.display = "none";
-            isHidden = false;
-        }
-
-        lastScrollTop = curScrollTop <= 0 ? 0 : curScrollTop;
-    }
-</script>
 <div>
     <div class="content-wrapper">
         <a title="World of Tanks Classic" class="wotc-logo" href="{{ '/' | relative_url }}"></a>
