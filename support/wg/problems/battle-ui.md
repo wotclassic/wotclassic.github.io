@@ -1,14 +1,14 @@
 ---
 layout: centered
-permalink: support/lesta/battle-ui
+permalink: support/wg/battle-ui
 title: Интерфейс боя
 ---
 
 # Техподдержка
 
-## Регион: Lesta Games (RUBY)
+## Регион: Wargaming.net (EU)
 
-[< К выбору мода]({{ "/support/lesta" | relative_url }})
+[< К выбору мода]({{ "/support/wg" | relative_url }}) \| [(Lesta)]({{ "/support/lesta" | relative_url }})
 
 ### Мод: Интерфейс боя
 

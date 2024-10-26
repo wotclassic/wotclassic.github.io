@@ -1,0 +1,28 @@
+---
+layout: centered
+permalink: support/wg/hangar-ui
+title: Интерфейс ангара
+---
+
+# Техподдержка
+
+## Регион: Wargaming.net (EU)
+
+[< К выбору мода]({{ "/support/wg" | relative_url }}) \| [(Lesta)]({{ "/support/lesta" | relative_url }})
+
+### Мод: Интерфейс ангара
+
+#### Полевая почта 
+Полевая почта всегда остается на экране. 
+
+Решается перезаходом на сервер / в игру.
+
+#### В выборе инструкций отсутствуют новые перки. Также не должно быть лампочки.
+
+<div>
+    <div class="b-hr-layoutfix">
+        <div class="b-hr-block"><span></span></div>
+    </div>
+</div>
+
+Если вы не нашли здесь свою проблему, то перейдите в соответствующий [раздел]({{ "/support/wg/idk" | relative_url }}).

@@ -7,7 +7,7 @@ title: Не знаю
 
 ## Регион: Wargaming.net (EU)
 
-[< К выбору мода]({{ "/support/wg" | relative_url }})
+[< К выбору мода]({{ "/support/wg" | relative_url }}) \| [(Lesta)]({{ "/support/lesta" | relative_url }})
 
 ### Прочие проблемы
 
