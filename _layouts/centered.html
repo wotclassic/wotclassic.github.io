@@ -2,6 +2,16 @@
 layout: default
 ---
 
+<style>
+    p:has(a.ad-img) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ad-img {
+        margin: 0 10px 10px 10px;
+    }
+</style>
 <div class="content news-content b-content">
     {{ content }}
 </div>

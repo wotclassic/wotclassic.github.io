@@ -16,11 +16,9 @@ layout: default
             <a href="{{ '/media/fan-video' | relative_url }}" class="orange-arrow">Все видео</a>
         </div>
         <div class="img-signature">
-            {% include video-block.html text="WoT - это Классика + бой на Waffenträger auf E100" url="https://www.youtube.com/watch?v=7IfqgipXAD8" image="/assets/img/media/fan_vid/fvideo1.png" date="16.06.2024" %}
-
-            {% include video-block.html text="ВПЕРЁД В ПРОШЛОЕ!!! | Мир Танков с модом от команды \"WoT это Классика!\" |" url="https://www.youtube.com/watch?v=5WHoKrEy1Uo" image="/assets/img/media/fan_vid/fvideo2.png" date="01.06.2024" %}
-        
-            {% include video-block.html text="Режим \"На Марс!\" с модом WoT Это Классика!" url="https://www.youtube.com/watch?v=Gm2aGmB1V2A" image="/assets/img/media/fan_vid/fvideo3.png" date="08.04.2024" %}
+            {% for video in site.data.media.fan-video limit: 3 %}
+                {% include video-block.html text=video.text url=video.url image=video.image date=video.date %}
+            {% endfor %}
         </div>
         <div class="wide wide-nobg">
             <div class="wide-content">

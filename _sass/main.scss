@@ -1,3 +1,4 @@
+@use "sass:meta";
 @font-face {
     font-family: robotocondensedbold;
     src: url('/assets/font/robotocondensed-bold-webfont.eot');
@@ -2831,5 +2832,5 @@ table.wg-table p {
     text-transform: uppercase;
 }
 
-@import 'indev.scss';
-@import 'fan-page.scss';
+@include meta.load-css('indev.scss');
+@include meta.load-css('fan-page.scss');
