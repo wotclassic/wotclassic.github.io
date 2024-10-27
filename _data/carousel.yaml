@@ -1,4 +1,9 @@
 home:
+- title: Золотой Тигр
+  desc: Наноси урон - получай награды!
+  url: /news/white-tiger-event
+  image: /assets/img/news/header/wt_event.png
+
 - title: Октябрьское обновление портала
   desc: Поддержка, Медиа, обновление архива разработки и многие другие изменения уже доступны в хэллоуинском обновлении сайта!
   url: /news/site-oct-upd
