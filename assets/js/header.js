@@ -23,6 +23,15 @@ function navbarStick() {
         setTimeout(function() { navbar.style.transition = "top 0.2s ease-out 0s"; }, 0.2);
         navbar_blank.style.display = "block";
         isHidden = true;
+
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+                openDropdown.parentElement.classList.remove("show");
+            }
+        }
     }
 
     function unHide() {
