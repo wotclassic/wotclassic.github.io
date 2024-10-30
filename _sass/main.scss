@@ -2352,74 +2352,64 @@ table.wg-table p {
     position: relative;
     display: inline-block;
     margin-right: 25px;
-    top: -49px;
+    vertical-align: top;
+    &.show {
+        .dropbtn {
+            background-image: url(/assets/img/drop_act.svg);
+            &:hover {
+                background-image: url(/assets/img/drop_hov.svg);
+                background-position-y: 11px;
+                transform: scaleY(-1);
+                background-color: #fab81b;
+            }
+        }
+    }
     &.single {
-        top: -52px;
         margin-right: 50px;
     }
-}
-
-.dropdown.active {
-    .navigation-link {
-        color: #fff;
+    &.active {
+        .navigation-link {
+            color: #fff;
+        }
+        &:after {
+            display: block;
+            content: "";
+            background-color: #fab81b;
+            top: auto;
+            height: 2px;
+            width: auto;
+            margin-top: -2px;
+        }
+        &:not(.dropdown.single):after {
+            width: calc(100% - 9px);
+        }
     }
-    &:after {
-        content: "";
-        background-color: #fab81b;
-        top: auto;
-        height: 2px;
-        width: auto;
+    .dropdown-content {
+        display: none;
         position: absolute;
-        right: 0;
-        left: 0;
-        bottom: 0;
+        background-color: rgba(37, 37, 39, .93);
+        font-size: 14px;
+        white-space: nowrap;
+        left: -25px;
+        font-family: "robotocondensedregular", "Arial Narrow", Arial, sans-serif;
+        z-index: 1;
+        &.show {
+            display: block;
+            .navigation-link {
+                color: #fab81b;
+            }
+        }
+        a {
+            color: #aaaaab;
+            padding: 14px 25px;
+            margin: 0 0px;
+            text-decoration: none;
+            display: block;
+            &:hover {
+                color: #fab81b;
+            }
+        }
     }
-    &:not(.dropdown.single):after {
-        width: calc(100% - 9px);
-    }
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(37, 37, 39, .93);
-    font-size: 14px;
-    white-space: nowrap;
-    left: -25px;
-    font-family: "robotocondensedregular", "Arial Narrow", Arial, sans-serif;
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: #aaaaab;
-    padding: 14px 25px;
-    margin: 0 0px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    color: #fab81b;
-}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.dropdown-content.show {display:block;}
-
-.dropdown.show .navigation-link {
-    color: #fab81b;
-}
-
-.dropdown.show .dropbtn {
-    background-image: url(/assets/img/drop_act.svg);
-}
-
-.dropdown.show .dropbtn:hover {
-    background-image: url(/assets/img/drop_hov.svg);
-    background-color: #fab81b;
-    transform: scaleY(-1);
 }
 
 .b-software-promo {
