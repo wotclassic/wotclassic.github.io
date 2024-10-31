@@ -1,3 +1,6 @@
+---
+layout: js_minifier
+---
 var cur_slide_num = 0;
 var is_playing = false;
 var slides, dots, left_arrow, right_arrow;
