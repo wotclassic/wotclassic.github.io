@@ -503,6 +503,15 @@ hr {
     display: block;
 }
 
+.support-img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .ad-img {
+        margin: 0 10px 10px 10px;
+    }
+}
+
 .blackout {
     border: 1px solid transparent;
     position: absolute;

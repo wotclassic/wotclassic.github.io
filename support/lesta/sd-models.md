@@ -1,15 +1,8 @@
 ---
-layout: centered
+layout: support-page
 title: SD-модели
+region: lesta
 ---
-
-# Техподдержка
-
-## Регион: Lesta Games (RUBY)
-
-[< К выбору мода]({{ "/support/lesta" | relative_url }})
-
-### Мод: SD-модели
 
 **Рекомендуется удалить SD-модели Германии.**
 {: .message-error}
@@ -22,16 +15,8 @@ title: SD-модели
 
 ##### Вылеты
 
-Игра может вылетать из-за уничтоженных моделей, поэтому при выходе в бой делайте скриншот и отправляйте на наш [Discord-сервер](https://discord.gg/36mrMDeFMJ).
+Игра может вылетать из-за уничтоженных моделей, поэтому при выходе в бой делайте скриншот и отправляйте на наш [Discord-сервер]({{ site.data.socials.wek.discord.url }}).
 
 ##### Гусеницы
 
 Потихоньку ремонтируем...
-
-<div>
-    <div class="b-hr-layoutfix">
-        <div class="b-hr-block"><span></span></div>
-    </div>
-</div>
-
-Если вы не нашли здесь свою проблему, то перейдите в соответствующий [раздел]({{ "/support/lesta/idk" | relative_url }}).

@@ -1,15 +1,8 @@
 ---
-layout: centered
+layout: support-page
 title: Интерфейс ангара
+region: lesta
 ---
-
-# Техподдержка
-
-## Регион: Lesta Games (RUBY) / Wargaming.net (EU)
-
-[< К выбору мода (Lesta)]({{ "/support/lesta" | relative_url }}) \| [(Wargaming)]({{ "/support/wg" | relative_url }})
-
-### Мод: Интерфейс ангара
 
 ##### Появление панели модулей при прокачке перка экипажа
 
@@ -60,11 +53,3 @@ title: Интерфейс ангара
 ##### Блокировка модулей в ангаре
 
 При сломанном танке все еще доступна возможность менять модули.
-
-<div>
-    <div class="b-hr-layoutfix">
-        <div class="b-hr-block"><span></span></div>
-    </div>
-</div>
-
-Если вы не нашли здесь свою проблему, то перейдите в соответствующий [раздел]({{ "/support/lesta/idk" | relative_url }}).

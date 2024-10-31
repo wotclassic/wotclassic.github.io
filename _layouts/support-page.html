@@ -1,0 +1,15 @@
+---
+layout: centered
+---
+
+<h1>Техподдержка</h1>
+<h2>Регион: {% if page.region == 'lesta' %}Lesta Games (RUBY){% else %}Wargaming.net (EU){% endif %}</h2>
+<p><a href="{{ 'support/' | append: page.region | relative_url }}">&lt; К выбору мода</a></p>
+<h3>Мод: {{ page.title }}</h3>
+{{ content }}
+<div>
+    <div class="b-hr-layoutfix">
+        <div class="b-hr-block"><span></span></div>
+    </div>
+</div>
+<p>Если вы не нашли здесь свою проблему, то перейдите в соответствующий <a href="{{ '/support/' | append: page.region | append: '/idk' | relative_url }}">раздел</a>.</p>

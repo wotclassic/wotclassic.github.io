@@ -1,17 +1,8 @@
 ---
-layout: centered
+layout: support-page
 title: SD-модели
+region: wg
 ---
-
-# Техподдержка
-
-## Регион: Wargaming.net (EU)
-
-[< К выбору мода]({{ "/support/wg" | relative_url }}) \| [(Lesta)]({{ "/support/lesta" | relative_url }})
-
-### Мод: Экран логина
 
 **Рекомендуется удалить SD-модели Германии.**
 {: .message-error}
-
-##### Возможно воспроизведение двух вступительных роликов подряд.
