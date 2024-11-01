@@ -5,7 +5,16 @@ tags: [important]
 category: announcements
 image: "/assets/img/news/thumbnail/update_127x.jpg"
 image_small: "/assets/img/news/image_small/upd.png"
+published: false
 ---
+
+<!--
+  Я скрываю эту статью по причине излишней открытости в условиях застоя разработки лаунчера,
+  грядущего перехода на другой фреймворк и потенциальному несовпадению с реальными возможностями.
+  Прошу не возвращать её в публичный доступ без моего согласия.
+  - A1Asriel
+-->
+
 <p style="display: none">CLauncher - нечто новое в жизни нашего проекта.</p>
 
 ![techwork]({{ '/assets/img/news/header/update.png' | relative_url }})
