@@ -1,7 +1,3 @@
----
-layout: js_minifier
-replace_names: false
----
 function toggleDropdown(id) {
     var dropdown = document.getElementById(id);
     dropdown.classList.toggle("show");

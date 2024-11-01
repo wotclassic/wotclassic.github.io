@@ -1,6 +1,3 @@
----
-layout: js_minifier
----
 var brand_offset, navbar, navbar_blank;
 var lastScrollTop = 0;
 var isHidden = false;
