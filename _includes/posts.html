@@ -2,13 +2,12 @@
     {% if page.url == '/' %}
         <h2 class="news-head">НОВОСТИ</h2>
         <a href="{{ '/news' | relative_url }}" class="orange-arrow">Все новости</a>
-        <a href="{{ '/feed.xml' | relative_url }}" target="_blank" class="b-rss-link"><span class="b-rss-link_text">rss</span></a>
+        <a href="{{ '/feed.xml' | relative_url }}" target="_blank" class="b-rss-link">RSS</a>
     {% else %}
         <h1>{{ include.title | upcase | default: НОВОСТИ }}</h1>
     {% endif %}
 </div>
 {% assign post_num = 1 %}
-
 {% if paginator != nil %}
     {% assign posts = paginator.posts %}
 {% else %}
@@ -30,14 +29,12 @@
             </div>
         </div>
     {% endif %}
-    <div class="news">
-        <a href="{{ post.url | relative_url }}" class="news_ico">
-            {% if post.tags contains "important" %}
-                <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
-            {% endif %}
-            <img class="n-block-img" src="{{ post.image | default: '/assets/img/announcement_127x.jpg' | relative_url }}">
-        </a>
-    </div>
+    <a href="{{ post.url | relative_url }}" class="news_ico">
+        {% if post.tags contains "important" %}
+            <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
+        {% endif %}
+        <img class="n-block-img" src="{{ post.image | default: '/assets/img/announcement_127x.jpg' | relative_url }}">
+    </a>
     <div class="img-content">
         <h5 class="img-headlink"><a href="{{ post.url | relative_url }}" class="img-link">{{ post.title }}</a></h5>
         <p class="n-img-desc">{{ post.excerpt | strip_html }}</p>
@@ -50,9 +47,8 @@
                 <i style="color: #606061;">Обновлено: {{ post.last_modified_at | date: "%d.%m.%Y" }}</i>
             {% endif %}
         </p>
-        
     </div>
-    {% if post_num != 5 or paginator != nil %}<hr class="b-hr">{% endif %}
+    {% unless post_num == 5 and paginator == nil %}<hr>{% endunless %}
     {% assign post_num = post_num | plus: 1 %}
 {% endfor %}
 {% if post_num < 6 and paginator == nil %}
