@@ -1,4 +1,8 @@
 fan-video:
+  - text: WoT Это Классика | Стальной Охотник Walkure
+    url: https://www.youtube.com/watch?v=ThJb383EprI
+    image: /assets/img/media/fan_vid/fvideo_sh_w.png
+    date: "28.10.2024"
   - text: WoT - это Классика + бой на Waffenträger auf E100
     url: https://www.youtube.com/watch?v=7IfqgipXAD8
     image: /assets/img/media/fan_vid/fvideo1.png
@@ -25,6 +29,18 @@ fan-video:
     date: "26.03.2024"
 
 gameplay:
+  wt:
+    text: Возвращение Белого Тигра
+    url: /media/gameplay/wt
+    image: /assets/img/media/gameplay/wt/wt1.png
+    date: "02.11.2024"
+    images:
+      - [/assets/img/media/gameplay/wt/wt2.png,
+         /assets/img/media/gameplay/wt/wt3.png,
+         /assets/img/media/gameplay/wt/wt4.png]
+      - [/assets/img/media/gameplay/wt/wt5.png,
+         /assets/img/media/gameplay/wt/wt6.png,
+         /assets/img/media/gameplay/wt/wt7.png]
   lakeville:
     text: Ласвилль
     url: /media/gameplay/lakeville
@@ -87,6 +103,26 @@ gameplay:
          /assets/img/media/gameplay/westfield/westfield7.png]
 
 video:
+  - text: '«WoT это Классика». Возвращение Белого Тигра.'
+    url: https://www.youtube.com/watch?v=jGezH37AJvU
+    image: /assets/img/media/vid/video_wt.png
+    date: "23.10.2024"
+  - text: '«WoT это Классика». Возвращение для защиты последнего проекта наследия неизбежно приведет к расплате.'
+    url: https://www.youtube.com/watch?v=Dmz4TSoMoOM
+    image: /assets/img/media/vid/video_wt_trailer.png
+    date: "18.10.2024"
+  - text: '«WoT это Классика!». Обзор августовского обновления модов.'
+    url: https://www.youtube.com/watch?v=Cxt6ngOJXOo
+    image: /assets/img/media/vid/video_aug24.png
+    date: "01.09.2024"
+  - text: '«WoT это Классика!». Летне-осеннее обновление - трейлер.'
+    url: https://www.youtube.com/watch?v=Bo7pQLSTuTI
+    image: /assets/img/media/vid/video_aug24_trailer.png
+    date: "31.08.2024"
+  - text: '«WoT это Классика!» | Танковые Гонки: Возвращение'
+    url: https://www.youtube.com/watch?v=PY13Dx7EW_0
+    image: /assets/img/media/vid/video_race.png
+    date: "16.08.2024"
   - text: «WoT это Классика!». С полей разработки - выпуск 3.
     url: https://www.youtube.com/watch?v=3VSOtvVIGTM
     image: /assets/img/media/vid/video1.png
@@ -113,6 +149,10 @@ video:
     date: "23.02.2022"
 
 upd-rev:
+  - text: '«WoT это Классика!». Обзор августовского обновления модов.'
+    url: https://www.youtube.com/watch?v=Cxt6ngOJXOo
+    image: /assets/img/media/vid/video_aug24.png
+    date: "01.09.2024"
   - text: «WoT это Классика!». Обзор апрельского обновления модов.
     url: https://www.youtube.com/watch?v=MD2xvhawMhs
     image: /assets/img/media/vid/video5.png

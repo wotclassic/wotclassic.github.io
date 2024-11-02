@@ -9,7 +9,7 @@ layout: media
     <h2 class="news-head">Видео</h2>
 </div>
 <div class="img-signature">
-    {% for video in site.data.media.video limit: 6 %}
+    {% for video in site.data.media.video limit: 30 %}
         {% include video-block.html text=video.text url=video.url image=video.image date=video.date %}
     {% endfor %}
 </div>
