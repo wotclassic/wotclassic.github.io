@@ -1,28 +1,8 @@
 home:
-- title: Золотой Тигр
-  desc: Наноси урон - получай награды!
-  url: /news/white-tiger-event
-  image: /assets/img/news/header/wt_event.png
-
 - title: Октябрьское обновление портала
   desc: Поддержка, Медиа, обновление архива разработки и многие другие изменения уже доступны в хэллоуинском обновлении сайта!
   url: /news/site-oct-upd
   image: /assets/img/news/header/oct_upd.png
-
-- title: 'Возвращение Белого Тигра'
-  desc:  Спустя 12 лет он снова выбрался на свободу.
-  url: /news/return-of-white-tiger/
-  image: /assets/img/news/header/wt.png  
-
-- title: 'Ваффентрагер: вызов'
-  desc:  Противостояние, которого невозможно избежать. Механический монстр и стая Гончих вновь сойдутся на поле боя!
-  url: https://tanki.su/ru/waffentrager-2024/
-  image: /assets/img/carousel/wt_call.png
-
-- title: Проект «Вавилон»
-  desc:  Проекту «Вавилон» нужна ваша помощь. Приготовьтесь к агрессивной разведке и напряжённой обороне, бойцы!
-  url: https://worldoftanks.eu/ru/halloween-2024/
-  image: /assets/img/carousel/babybon.png
 
 - title: Обновление 1.30
   desc: 'Эпические бои в режиме «Ваффентрагер: Вызов», новая машина в Сборочном цехе, возвращение Аркады, обновлённые карты и другие игровые события...'
