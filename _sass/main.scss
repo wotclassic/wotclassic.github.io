@@ -1137,50 +1137,53 @@ $yt-color: #cc181e;
 .b-content {
     line-height: 1.33;
     word-wrap: break-word;
-}
-
-.b-content ol li {
-    margin: 4px 0;
-    padding: 0;
-}
-
-.b-content ol {
-    padding: 0 0 0 23px;
-    margin: 15px 0 20px;
-    counter-reset: list1;
-}
-
-.b-content ol>li:before {
-    counter-increment: list1;
-    content: counter(list1) ". ";
-    color: #5f6060;
-    display: inline-block;
-    font-weight: bold;
-    margin: 0 0 0 -43px;
-    padding: 0 5px 0 0;
-    position: relative;
-    text-align: right;
-    width: 38px;
-}
-
-.b-content .pic-right {
-    float: right;
-    margin: 0 0 10px 15px;
-}
-
-.b-content .pic-left {
-    float: left;
-    margin: 0 15px 10px 0;
-}
-
-.b-content hr {
-    background: url('/assets/img/delimeter.png') no-repeat center top;
-    border: none;
-    height: 2px;
-    clear: both;
-    margin: 20px -25px;
-    display: block;
-    overflow: hidden;
+    ol {
+        padding: 0 0 0 23px;
+        margin: 15px 0 20px;
+        counter-reset: list1;
+        &>li:before {
+            counter-increment: list1;
+            content: counter(list1) ". ";
+            color: #5f6060;
+            display: inline-block;
+            font-weight: bold;
+            margin: 0 0 0 -43px;
+            padding: 0 5px 0 0;
+            position: relative;
+            text-align: right;
+            width: 38px;
+        }
+        li {
+            margin: 4px 0;
+            padding: 0;
+        }
+    }
+    ul {
+        padding: 0 0 0 11px;
+        margin: 15px 0 20px;
+        li {
+            margin: 4px 0 5px;
+            padding: 0 0 0 12px;
+            background: url('/assets/img/list-style.gif') no-repeat 0 5px;
+        }
+    }
+    .pic-right {
+        float: right;
+        margin: 0 0 10px 15px;
+    }
+    .pic-left {
+        float: left;
+        margin: 0 15px 10px 0;
+    }
+    hr {
+        background: url('/assets/img/delimeter.png') no-repeat center top;
+        border: none;
+        height: 2px;
+        clear: both;
+        margin: 20px -25px;
+        display: block;
+        overflow: hidden;
+    }
 }
 
 .b-button__colored {
@@ -1239,11 +1242,6 @@ $yt-color: #cc181e;
     box-shadow: 0 0 0 1px rgba(255, 89, 24, 0.15), 0 0 25px rgba(255, 18, 0, 0.3)
 }
 
-.b-content .pic-right {
-    float: right;
-    margin: 0 0 10px 15px;
-}
-
 .orange {
     opacity: .97;
     -webkit-transition: all 300ms ease-out;
@@ -1257,17 +1255,6 @@ $yt-color: #cc181e;
     -webkit-box-shadow: 0px 0px 7px 3px rgba(255, 122, 33, 1);
     -moz-box-shadow: 0px 0px 7px 3px rgba(255, 122, 33, 1);
     box-shadow: 0px 0px 7px 3px rgba(255, 122, 33, 1);
-}
-
-.b-content ul {
-    padding: 0 0 0 11px;
-    margin: 15px 0 20px;
-}
-
-.b-content ul li {
-    margin: 4px 0 5px;
-    padding: 0 0 0 12px;
-    background: url('/assets/img/list-style.gif') no-repeat 0 5px;
 }
 
 #markdown-toc {
