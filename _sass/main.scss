@@ -1538,8 +1538,10 @@ $yt-color: #cc181e;
 
 .img-signa-img {
     opacity: .85;
-    background-size: cover;
+    background-size: contain;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-color: #000;
     display: block;
     height: 161px;
     width: 215px;

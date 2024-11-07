@@ -9,7 +9,9 @@ title: Медиа
 </div>
 <div class="img-signature">
     {% for video in site.data.media.video limit: 6 %}
-        {% include video-block.html text=video.text url=video.url image=video.image date=video.date %}
+        {% assign code = video.url | split: "=" | last %}
+        {% assign thumb = "https://img.youtube.com/vi/" | append: code | append: "/mqdefault.jpg" %}
+        {% include video-block.html text=video.text url=video.url image=thumb date=video.date %}
     {% endfor %}
 </div>
 <div class="b-hr-layoutfix">
@@ -34,6 +36,8 @@ title: Медиа
 </div>
 <div class="img-signature">
     {% for video in site.data.media.fan-video limit: 6 %}
-        {% include video-block.html text=video.text url=video.url image=video.image date=video.date %}
+        {% assign code = video.url | split: "=" | last %}
+        {% assign thumb = "https://img.youtube.com/vi/" | append: code | append: "/mqdefault.jpg" %}
+        {% include video-block.html text=video.text url=video.url image=thumb date=video.date %}
     {% endfor %}
 </div>

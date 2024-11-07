@@ -11,6 +11,8 @@ layout: media
 
 <div class="img-signature">
     {% for video in site.data.media.fan-video %}
-        {% include video-block.html text=video.text url=video.url image=video.image date=video.date %}
+        {% assign code = video.url | split: "=" | last %}
+        {% assign thumb = "https://img.youtube.com/vi/" | append: code | append: "/mqdefault.jpg" %}
+        {% include video-block.html text=video.text url=video.url image=thumb date=video.date %}
     {% endfor %}
 </div>
