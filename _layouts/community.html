@@ -107,9 +107,14 @@ layout: default
         {% include block.html text="ФОРУМ" url="http://forum.tanki.su/index.php?/topic/2134176-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/forum242.jpg" %}
         {% include block.html text="KOREAN RANDOM" url="https://koreanrandom.com/forum/topic/65511-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/korean_random.png" %}
         {% include block.html text="WGMODS" url="https://wgmods.net/search/?title=WoT%20это%20Классика!" image="/assets/img/com_mods.png" %}
-
-        {% include socials.html %}
-
+        {% include socials.html person="bendy" %}
+        {% for person in site.data.socials %}
+            {% if person[0] == "wek" or person[0] == "bendy" %}{% continue %}{% endif %}
+            {% assign title=person[1].name %}
+            {% assign name=person[0] %}
+            {% include socials.html title=title person=name %}
+        {% endfor %}
+        {% comment %}
         {% for person in site.data.socials %}
             {% for link in person[1] %}
             {% unless link[1].show_link %}{% continue %}{% endunless %}
@@ -121,6 +126,7 @@ layout: default
             </ul>
             {% endfor %}
         {% endfor %}
+        {% endcomment %}
     </div>
 </div>
 

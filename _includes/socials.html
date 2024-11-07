@@ -1,9 +1,13 @@
 <div>
-    <hr style="width: 80%; margin: 10px auto 0 auto;">
+    <hr style="width: 80%; margin: 15px auto 15px auto;">
+    {% if include.title == nil %}
     <h3 style="margin-top: 10px; margin-bottom: 5px;">Мы в социальных сетях:</h3>
+    {% else %}
+    <h4 style="margin-top: 10px; margin-bottom: 5px;">{{ include.title }}</h3>
+    {% endif %}
 </div>
-<ul class="social-icons">
-    {% for social in site.data.socials.bendy %}
+<ul class="social-icons" style="padding-bottom: 0; margin-bottom: -7px;">
+    {% for social in site.data.socials[include.person] %}
         {% if social[1].icon == nil %}{% continue %}{% endif %}
         <li class="social-icons_item">
             <a class="social-icons_link" href="{{ social[1].url }}">
