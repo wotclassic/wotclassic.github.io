@@ -1,2 +1,0 @@
-SET JEKYLL_ENV=development
-bundle exec jekyll s -H 192.168.1.254 -P 443 --ssl-cert _.wot-classic.ru-crt.pem --ssl-intermediate _.wot-classic.ru-chain-only.pem --ssl-key _.wot-classic.ru-key.pem --drafts
