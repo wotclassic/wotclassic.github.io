@@ -1,3 +1,5 @@
+var dropdownOpen = false;
+
 function toggleDropdown(id) {
     var dropdown = document.getElementById(id);
     dropdown.classList.toggle("show");
@@ -15,6 +17,7 @@ window.onclick = function(event) {
                 openDropdown.parentElement.classList.remove("show");
             }
         }
+        dropdownOpen = false;
     } else {
         var curId = event.target.nextElementSibling.id;
         var dropdowns = document.getElementsByClassName("dropdown-content");
@@ -28,5 +31,6 @@ window.onclick = function(event) {
                 openDropdown.parentElement.classList.remove("show");
             }
         }
+        dropdownOpen = true;
     }
 }

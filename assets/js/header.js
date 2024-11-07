@@ -12,30 +12,28 @@ function navbarStick() {
     curScrollTop = window.scrollY || document.documentElement.scrollTop;
 
     if (!isHidden && curScrollTop - (navbar.offsetHeight + brand_offset) > 0 && curScrollTop > lastScrollTop) hide();
-    else if (isHidden && curScrollTop < lastScrollTop) unHide();
+    else if ((isHidden && curScrollTop < lastScrollTop) || (dropdownOpen && curScrollTop - brand_offset > 0)) unHide();
     else if (curScrollTop - brand_offset < 0) unstick();
 
     function hide() {
+        setTimeout(function() { navbar.style.transition = "top 0.2s ease-out 0s"; }, 0.2);
+        if (dropdownOpen) {
+            return;
+        }
         navbar.style.top = "-66px";
         navbar.style.position = "fixed";
         navbar.style.width = "100%";
         navbar.style.zIndex = 3;
-        setTimeout(function() { navbar.style.transition = "top 0.2s ease-out 0s"; }, 0.2);
         navbar_blank.style.display = "block";
         isHidden = true;
-
-        var dropdowns = document.getElementsByClassName("dropdown-content");
-        for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-                openDropdown.parentElement.classList.remove("show");
-            }
-        }
     }
-
+    
     function unHide() {
+        navbar.style.position = "fixed";
+        navbar.style.width = "100%";
+        navbar.style.zIndex = 3;
         navbar.style.top = 0;
+        navbar_blank.style.display = "block";
         isHidden = false;
     }
 
