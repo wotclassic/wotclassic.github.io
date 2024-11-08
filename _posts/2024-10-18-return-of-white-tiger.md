@@ -60,9 +60,11 @@ last_modified_at: 2024-11-07
 
 Ну и куда же без нормального звукового сопровождения? Все верно, благодаря [Cherempet](https://www.youtube.com/@cherempett) в моде заиграет эпический и приятный ушам саундтрек.
 
-{% include yt-embed.html id="Ku4bJFCP7Bk" %}  
+{% include yt-embed.html id="Ku4bJFCP7Bk" %}
 
-Также в моде будет наш уникальный трек, созданный [Valberton](https://www.youtube.com/@valberton) для ивента. Совсем скоро мы его опубликуем!
+Также в моде будет наш уникальный трек, созданный [Valberton]({{ site.data.socials.vlbrtn.youtube.url }}) для ивента.
+
+{% include yt-embed.html id="w1zfvC6Qqco" %}
 
 ---
 
