@@ -44,17 +44,15 @@
 <div>
     <div class="content-wrapper">
         <a title="World of Tanks Classic" class="wotc-logo" href="{{ '/' | relative_url }}"></a>
-        <div class="b-cluster-lite" id="mobileNotif">
-            <div class="b-cluster-lite_message">
+        <div class="b-cluster-lite">
+            <div class="b-cluster-lite_message" id="mobileNotif">
                 <p class="b-cluster-lite_text">
                     <span class="b-cluster-lite_name">Внимание!</span>
                     <br>
                     В данный момент просмотр сайта на мобильных устройствах не поддерживается. Для оптимального опыта рекомендуем использовать настольную версию браузера.
                 </p>
             </div>
-        </div>
-        {% if jekyll.environment == "development" %}
-        <div class="b-cluster-lite">
+            {% if jekyll.environment == "development" %}
             <div class="b-cluster-lite_message">
                 <p class="b-cluster-lite_text">
                     <span class="b-cluster-lite_name">Внимание!</span>
@@ -62,42 +60,7 @@
                     Вы просматриваете тестовую версию сайта. Содержимое может содержать ошибки.
                 </p>
             </div>
+            {% endif %}
         </div>
-        {% endif %}
-        <style>
-            .b-cluster-lite {
-                background-color: #000;
-                background-position: 100% 0;
-                background-repeat: no-repeat;
-                box-shadow: 0 0 10px rgba(0, 0, 0, .7), 0 0 1px rgba(255, 255, 255, .4) inset;
-                position: absolute;
-                right: 0;
-                top: 75px;
-                width: 510px;
-            }
-
-            .b-cluster-lite_message {
-                background: url(/assets/img/cluster_message_ico.png) no-repeat 7px 8px;
-                color: #909191;
-                font-size: 11px;
-                padding: 13px 24px 8px 37px;
-            }
-
-            .b-cluster-lite_text {
-                line-height: 17px;
-                margin-bottom: 8px;
-            }
-
-            .b-cluster-lite_name {
-                color: #bdbfbf;
-                font-weight: 700;
-            }
-
-            @media screen and (min-width: 768px) {
-                #mobileNotif {
-                    display: none;
-                }
-            }
-        </style>
     </div>
 </div>

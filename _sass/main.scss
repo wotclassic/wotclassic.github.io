@@ -2805,16 +2805,41 @@ table.wg-table p {
     max-width: 492px;
 }
 
-.b-composite-heading_title {
-    float: left;
-    font-size: 21px;
-    line-height: 1;
-    margin: 0 14px 0 0;
-    max-width: 492px;
-}
-
 .b-composite-heading_title__uppercase {
     text-transform: uppercase;
+}
+
+.b-cluster-lite {
+    position: absolute;
+    right: 0;
+    top: 75px;
+    width: 510px;
+}
+
+.b-cluster-lite_message {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7), 0 0 1px rgba(255, 255, 255, .4) inset;
+    background: url(/assets/img/cluster_message_ico.png) no-repeat 7px 8px;
+    background-color: #000;
+    color: #909191;
+    font-size: 11px;
+    padding: 13px 24px 8px 37px;
+    margin: 0 0 10px;
+}
+
+.b-cluster-lite_text {
+    line-height: 17px;
+    margin-bottom: 8px;
+}
+
+.b-cluster-lite_name {
+    color: #bdbfbf;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+    #mobileNotif {
+        display: none;
+    }
 }
 
 @include meta.load-css('indev.scss');
