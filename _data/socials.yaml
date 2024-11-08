@@ -10,7 +10,7 @@ wek:
 
 bendy:
   ovk:
-    url: https://openvk.su/mrb
+    url: https://ovk.to/mrb
     icon: /assets/img/ovk_28x.png
 
   vovk:
@@ -66,7 +66,6 @@ pbody:
     url: https://t.me/Pbody_iwnl
     icon: /assets/img/tg_28x.png
     show_link: true
-
 
   vk:
     url: https://vk.com/streamers_baby
