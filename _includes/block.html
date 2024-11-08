@@ -1,4 +1,4 @@
-<a class="ad-img" href="{{ include.url | absolute_url }}" style="width: {{ include.width }}px; {% if include.inline %}display: inline-block;{% endif %}">
+<a class="ad-img" href="{{ include.url | relative_url }}" style="width: {{ include.width }}px; {% if include.inline %}display: inline-block;{% endif %}">
     <img src="{{ include.image | relative_url }}" height="{{ include.height }}" width="{{ include.width | minus: 2 }}">
     {% if include.is_new %}<img class="new-mod" src="{{ '/assets/img/icon-new.png' | relative_url }}">{% endif %}
     {%- if include.text -%}

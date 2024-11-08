@@ -4,8 +4,8 @@
     {% assign i = 0 %}
     {% for slide in include.slides %}
         <div class="carousel-slide {% if i == 0 %}slide-active{% endif %}">
-            <a href="{{ slide.url | absolute_url }}"><img width="684" height="243" src="{{ slide.image | relative_url }}"></a>
-            <a class="carousel-text" href="{{ slide.url | absolute_url }}">
+            <a href="{{ slide.url | relative_url }}"><img width="684" height="243" src="{{ slide.image | relative_url }}"></a>
+            <a class="carousel-text" href="{{ slide.url | relative_url }}">
                 <span class="carousel-title">{{ slide.title }}</span>
                 <span class="carousel-desc">{{ slide.desc }}</span>
             </a>

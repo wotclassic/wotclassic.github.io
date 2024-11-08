@@ -119,7 +119,7 @@ layout: default
             {% for link in person[1] %}
             {% unless link[1].show_link %}{% continue %}{% endunless %}
             <ul class="social-list">
-                <a class="social-list-link" href="{{ link[1].url | absolute_url }}">
+                <a class="social-list-link" href="{{ link[1].url | relative_url }}">
                     <img class="social-list-img" src="{{ link[1].icon | relative_url }}">
                     {{ person[1].name }}
                 </a>
