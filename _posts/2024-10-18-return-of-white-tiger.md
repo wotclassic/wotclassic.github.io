@@ -5,12 +5,16 @@ tags: [important]
 category: events
 image: /assets/img/news/thumbnail/wt.png
 image_small: /assets/img/news/image_small/wt.png
+last_modified_at: 2024-11-07
 ---
 
 Прошло 12 лет с его последнего визита.
 {: style="display: none" }
 
 {% include yt-embed.html id="jGezH37AJvU" %}
+
+**Обновлено 07.11.2024:** Ссылка на скачивание мода была удалена в связи с окончанием события.
+{: .message-error}
 
 Танкисты!
 {: style="margin-top: 10px" }
@@ -65,5 +69,3 @@ image_small: /assets/img/news/image_small/wt.png
 ![]({{ '/assets/img/wt/promo.png' | relative_url }}){: style="width: 100%" }
 
 Пришла пора расставить все точки над "И". Уничтожим этого сумасшедшего.
-
-{% include button.html url="https://download.wot-classic.ru/wek_tiger_lesta_1.30.0.0_1.exe" text="Скачать мод" %}

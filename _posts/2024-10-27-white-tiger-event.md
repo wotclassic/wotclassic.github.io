@@ -3,12 +3,16 @@ title: "Золотой Тигр"
 date: 2024-10-27
 category: offers
 image: /assets/img/news/thumbnail/wt_gold.png
+last_modified_at: 2024-11-07
 ---
 
 Нанеси максимум урона и оставь свое имя в истории портала «WoT это Классика!».
 {: style="display: none"}
 
 ![wt_gold]({{ '/assets/img/news/header/wt_event.png' | relative_url }})
+
+**Обновлено 07.11.2024:** Результаты конкурса опубликованы в ["Зале славы"](/community/leaderboard).
+{: .message-info}
 
 Танкисты!
 
