@@ -1,0 +1,153 @@
+<style>
+#ny_timer_wrapper {
+    background: url(/assets/img/timer_counter.png) no-repeat 10px -360px;
+    height: 103px;
+    background-position: 8px 0;
+    margin-right: 25px;
+    padding-left: 90px;
+    padding: 32px 0 0 89px;
+}
+
+#ny_timer_main {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#ny_timer_text {
+    width: -moz-fit-content;
+    width: fit-content;
+    color: #d2d7d9;
+    margin-left: 3px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#ny_timer_left {
+    font-size: 49px;
+    line-height: 38px;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    text-shadow: 0 2px #000;
+    vertical-align: top;
+    letter-spacing: 2px;
+}
+
+#ny_timer_date {
+    font-size: 37px;
+    line-height: normal;
+    font-family: "WarHeliosCondCBold","Arial Narrow",arial,sans-serif;
+    text-shadow: 0 2px #000;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+#ny_timer_info {
+    display: inline-block;
+    font-size: 13px;
+    line-height: normal;
+    vertical-align: middle;
+    margin-left: 30px;
+}
+
+#ny_timer_title {
+    font-size: 25px;
+    margin-bottom: 6px;
+}
+
+.ny-timer-colon {
+    display: inline-block;
+    font: 0/0 a;
+    color: transparent;
+    height: 17px;
+    margin: 14px 8px 0 5px;
+    vertical-align: top;
+    width: 4px;
+    background: url(/assets/img/timer_colon.png) no-repeat 0 0;
+}
+
+.orange-arrow-timer {
+    display: inline-block;
+    background: url('/assets/img/orange_arrow.png') 100% 0 no-repeat;
+    line-height: 13px;
+    padding-right: 9px;
+    position: relative;
+}
+
+.orange-arrow-timer:hover {
+    background-position: 100% -22px;
+    color: #ff7432
+}
+</style>
+<div id="ny_timer_wrapper">
+    <div id="ny_timer_main">
+        <div id="ny_timer_text">До начала:</div>
+        <span id="ny_timer_left">0</span>
+        <span id="ny_timer_date">дней</span>
+    </div>
+    <div id="ny_timer_info">
+        <h1 id="ny_timer_title">Готовимся к празднику!</h1>
+        <p>
+            <span id="ny_timer_desc">Большой праздник уже близко, следите за новостями.</span>
+            <!-- <a class="orange-arrow-timer" href="{{ "/news/are-you-ready/" | relative_url }}">Подробнее</a> !-->
+        </p>
+    </div>
+</div>
+<script>
+var timerInterval
+
+const newYearDate = new Date(2024, 11, 14);
+const timerWrapper = document.getElementById("ny_timer_wrapper");
+const timerMain = document.getElementById("ny_timer_main");
+const timerText = document.getElementById("ny_timer_text");
+const timerLeft = document.getElementById("ny_timer_left");
+const timerDate = document.getElementById("ny_timer_date");
+const timerInfo = document.getElementById("ny_timer_info");
+const timerTitle = document.getElementById("ny_timer_title");
+const timerDesc = document.getElementById("ny_timer_desc");
+const timerLink = document.getElementsByClassName("orange-arrow-timer")[0];
+
+function setTime() {
+    const currentDate = new Date();
+    const timeLeft = Math.floor((newYearDate - currentDate) / 1000);
+    const daysLeft = Math.floor(timeLeft / 60 / 60 / 24);
+
+    if (timeLeft <= 0) {
+        if (timerDate) timerDate.remove();
+        timerWrapper.style.background = "url(/assets/img/timer_counter_complete.png) no-repeat 4px 28px";
+        timerMain.style.color = "unset";
+        timerText.style.color = "#d2d7d9";
+        timerLeft.innerHTML = "00<span class='ny-timer-colon'>:</span>00<span class='ny-timer-colon'>:</span>00";
+        timerTitle.innerHTML = "С Новым Годом!";
+        timerDesc.innerHTML = "Целых 5 лет мы радуем Вас своими модами. С Днем Рождения WэК!";
+        timerLink.innerHTML = "Присоединяйся";
+        clearInterval(timerInterval);
+    } else if (timeLeft < 60*60*24) {
+        if (timerDate) timerDate.remove();
+        timerLeft.innerHTML = formatTime(timeLeft);
+        timerMain.style.width = "200px";
+        if (timeLeft < 60*60) {
+            timerWrapper.style.backgroundPositionY = "-360px";
+            timerMain.style.color = "#e5c773";
+            timerText.style.color = "unset";
+        } else
+            timerWrapper.style.backgroundPositionY = "-180px";
+    } else {
+        const dayText = (daysLeft % 10 === 1 && daysLeft % 100 !== 11) ? "день" : (daysLeft % 10 === 2 && daysLeft % 100 !== 12) || (daysLeft % 10 === 3 && daysLeft % 100 !== 13) ? "дня" : "дней";
+        timerDate.innerHTML = dayText;
+        timerLeft.innerHTML = daysLeft;
+    }
+}
+
+function padNumber(num) {
+    return num.toString().padStart(2, '0');
+}
+
+function formatTime(time) {
+    const hours = Math.floor(time / 3600);
+    const minutes = Math.floor((time % 3600) / 60);
+    const seconds = Math.floor((time % 3600) % 60);
+    return `${padNumber(hours)}<span class="ny-timer-colon">:</span>${padNumber(minutes)}<span class="ny-timer-colon">:</span>${padNumber(seconds)}`;
+}
+
+setTime();
+timerInterval = setInterval(setTime, 1000);
+</script>
