@@ -1,12 +1,13 @@
 ---
 layout: centered
-title: Большой 
-permalink: /news/birthday
+title: Большой
+category: events
+tag: important
 ---
 Хотите узнать, когда будет обновление?
 {: style="display: none"}
 
-{% include birday2-timer.html %}
+{% include big-timer.html %}
 
 <br>
 
