@@ -13,7 +13,8 @@ permalink: /news/birthday
 {% include button.html url='https://youtu.be/9sxEAuozHrk' text='Скачать обновление!' %}
 {: .hidden-button }
 
-### Очередное обновление: цикл запущен
+## Очередное обновление: цикл запущен
+{: style="text-align: center;" }
 
 Вот уже на протяжении 5 лет, без остановок, каждый год, «WoT это Классика!» получает огромное количество нововведений - обновлялись интерфейсные моды, вводились экспериментальные, запускались различные ивенты, проводилось множество исследований.
 
@@ -52,7 +53,6 @@ permalink: /news/birthday
     width: 955px;
     margin: 0 auto;
     position: relative;
-    display: none;
   }
   .content {
     clear: both;
@@ -60,5 +60,16 @@ permalink: /news/birthday
     padding: 0;
     position: relative;
     width: 715px;
-}
+  }
+  .b-cluster-lite {
+    display: none;
+  }
+  .wotc-logo {
+    background: url(/assets/img/wotc_logo_5years.png);
+    background-size: 100% 100%;
+    display: block;
+    width: 366px;
+    height: 214px;
+    margin: auto;
+  }
 </style>
