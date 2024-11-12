@@ -2856,3 +2856,56 @@ table.wg-table p {
 @include meta.load-css('indev.scss');
 @include meta.load-css('fan-page.scss');
 @include meta.load-css('leaders.scss');
+
+@media screen and (max-width: 500px){
+    .brand-header{
+        height: 50px;
+        width: 535px;
+        }
+    .navigation-head-centr{
+        height: 61px;
+        max-width: 412px;
+        padding: 0px 0px 0 0px;
+
+    }
+    .navigation-header{
+        height: 61px;
+        width: 535px;
+    }
+    body{
+        min-width: 0px ;
+        max-width: 412px;
+        overflow-y: hidden;    
+    }
+    .r-content{
+        display: none;
+    }
+    .l-content{
+        width: 412px;
+        
+    }
+    .carousel-container{
+        width: 412px !important;
+        display: none;
+    }
+    .content{
+        width: 412px;
+        padding: 323;
+        
+    }
+    .b-cluster-lite{
+        position:relative;
+        display: none;
+        
+    }
+    .content-wrapper{
+        //display: none;
+        width: 300px;
+        height: 60px;
+        position: relative;   
+    }
+    .navigation-link{
+        display: none;
+    }
+    
+}
