@@ -1,0 +1,58 @@
+<div class="audio-element" id="audioElement">
+    <audio loop preload="metadata">
+        <source src="{{ include.url | relative_url }}" type="audio/{% if include.url | split: '.' | last == 'mp3' %}mpeg{% else %}ogg{% endif %}">
+        {% if include.url2 %}
+            <source src="{{ include.url2 | relative_url }}" type="audio/{% if include.url2 | split: '.' | last == 'mp3' %}mpeg{% else %}ogg{% endif %}">
+        {% endif %}
+    </audio>
+    <span class="audio-text">Нажмите для праздничной атмосферы →</span>
+    <img src="{{ '/assets/img/audio-button.png' | relative_url }}" class="audio-button" alt="Кнопка аудио" width="32" height="32" onclick="playAudio('audioElement')">
+</div>
+<style>
+    .audio-element {
+        position: absolute;
+        top: -175px;
+        left: 100px;
+        width: 100%;
+        text-align: right;
+    }
+    .audio-element .audio-text {
+        vertical-align: middle;
+        margin-right: 10px;
+        color: #f25322;
+        text-shadow: 0 0 8px #f25322;
+        transition: opacity 0.5s;
+        pointer-events: none;
+    }
+    .audio-element .audio-button {
+        cursor: pointer;
+        vertical-align: middle;
+        opacity: 0.8;
+        transition: opacity 0.15s ease-out;
+    }
+    .audio-element .audio-button:hover, .audio-element .audio-button.enabled {
+        opacity: 1;
+    }
+</style>
+<script>
+function playAudio(elementId) {
+    const audioElement = document.getElementById(elementId).querySelector('audio');
+    const audioButton = document.getElementById(elementId).querySelector('.audio-button');
+    const audioText = document.getElementById(elementId).querySelector('.audio-text');
+    if (audioElement.paused) {
+        if (audioText.style.opacity == undefined || audioText.style.opacity == 0) {
+            audioText.style.opacity = 0;
+            setInterval(function() {
+                audioText.style.display = "none";
+            }, 500);
+        }
+        audioElement.play();
+        audioButton.src = "{{ '/assets/img/audio-button-playing.png' | relative_url }}";
+        audioButton.classList.add("enabled");
+    } else {
+        audioElement.pause();
+        audioButton.src = "{{ '/assets/img/audio-button.png' | relative_url }}";
+        audioButton.classList.remove("enabled");
+    }
+}
+</script>

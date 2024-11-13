@@ -8,6 +8,10 @@ tag: important
 Архивы разработки «WoT это Классика!».
 {: style="display: none"}
 
+{% include audio-button.html url="/assets/snd/bday-audio.mp3" url2="/assets/snd/bday-audio.ogg" %}
+<!-- Для корректной работы во всех браузерах нужно закинуть файл в mp3 и ogg/vorbis.
+Коммент можно убрать -->
+
 ![1]({{ '/assets/img/birthday/wotc_archives.png' | relative_url}}){: width="100%" }
 
 {% include big-timer.html %}
@@ -58,8 +62,6 @@ tag: important
     margin: auto;
   }
   #ny_timer_wrapper {
-    background: url(/assets/img/timer_counter.png) no-repeat 314px 85px;
-    height: 217px;
     margin-top: 55px;
   }
 </style>

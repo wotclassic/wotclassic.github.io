@@ -7,6 +7,13 @@ tag: important
 День рождения - праздник, который пропускать нельзя! Следите за его разработкой на данной странице.
 {: style="display: none"}
 
+{% include audio-button.html url="/assets/snd/bday-audio.mp3" url2="/assets/snd/bday-audio.ogg" %}
+<!-- Для корректной работы во всех браузерах нужно закинуть файл в mp3 и ogg/vorbis.
+Коммент можно убрать -->
+
+<!-- Перед таймером обязательно должно быть что-то блочное, без него съезжает кнопка аудио -->
+<div style="height: 1px"></div>
+
 {% include big-timer.html %}
 
 <br>
