@@ -1,11 +1,14 @@
 ---
 layout: centered
-title: Большой праздник
+title: Архивы
 category: events
+permalink: /news/5-years/archives
 tag: important
 ---
-День рождения - праздник, который пропускать нельзя! Следите за его разработкой на данной странице.
+Архивы разработки «WoT это Классика!».
 {: style="display: none"}
+
+![1]({{ '/assets/img/birthday/wotc_archives.png' | relative_url}}){: width="100%" }
 
 {% include big-timer.html %}
 
@@ -14,7 +17,7 @@ tag: important
 {% include button.html url='https://youtu.be/9sxEAuozHrk' text='Скачать обновление!' %}
 {: .hidden-button }
 
-![1]({{ '/assets/img/birthday/big_day.png' | relative_url}}){: width="100%" }
+![1]({{ '/assets/img/birthday/2019.png' | relative_url}}){: width="100%" }
 
 ## Масштабнее уже не будет!
 {: style="text-align: center;" }
@@ -25,7 +28,7 @@ tag: important
   body {
     color: #b1b2b2;
     font: 12px / 20px Arial, "Helvetica CY", Helvetica, sans-serif;
-    background: url(/assets/img/birthday/wotc_bd_bg.png) top no-repeat, url(/assets/img/sparkles-ny.png) 50% 0 #1c1c1e;
+    background: url(/assets/img/birthday/wotc_bd_arc_bg.png) top no-repeat, url(/assets/img/sparkles-ny.png) 50% 0 #1c1c1e;
     min-width: 1000px;
   }
   .hidden-button {
@@ -53,5 +56,10 @@ tag: important
     width: 366px;
     height: 214px;
     margin: auto;
+  }
+  #ny_timer_wrapper {
+    background: url(/assets/img/timer_counter.png) no-repeat 314px 85px;
+    height: 217px;
+    margin-top: 55px;
   }
 </style>
