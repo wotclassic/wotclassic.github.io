@@ -59,6 +59,8 @@ collections:
     output: true
   guide:
     output: true
+  mods:
+    output: true
   fan-pages:
     output: true
   soft:
