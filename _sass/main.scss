@@ -219,7 +219,7 @@ body {
 
 .mb-logo {
     display: inline-block;
-    opacity: 50%;
+    opacity: 0.5;
     margin: 8px 0px;
     margin-left: 10px;
     width: 19px;
@@ -230,7 +230,7 @@ body {
 }
 
 .mb-logo:hover {
-    opacity: 100%;
+    opacity: 1;
 }
 
 .brand-link {
@@ -291,7 +291,7 @@ body {
 .nav-logo {
     height: 66px;
     display: inline-block;
-    opacity: 50%;
+    opacity: .5;
     background: url('/assets/img/mini_wot_white.svg') no-repeat 0 50%;
     background-size: 16px 21px;
     width: 16px;
@@ -299,7 +299,7 @@ body {
 }
 
 .nav-logo:hover {
-    opacity: 100%;
+    opacity: 1;
 }
 
 .wotc-logo {
