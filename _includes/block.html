@@ -1,5 +1,5 @@
-<a class="ad-img" href="{{ include.url | relative_url }}" style="width: {{ include.width }}px; {% if include.inline %}display: inline-block;{% endif %}">
-    <img src="{{ include.image | relative_url }}" height="{{ include.height }}" width="{{ include.width | minus: 2 }}">
+<a class="ad-img" href="{{ include.url | relative_url }}" style="{% if include.width %}width: {{ include.width }}px;{% endif %} {% if include.inline %}display: inline-block;{% endif %}">
+    <img src="{{ include.image | relative_url }}" {% if include.width %}width="{{ include.width | minus: 2 }}"{% endif %} {% if include.height %}height="{{ include.height }}"{% endif %}>
     {% if include.is_new %}<img class="new-mod" src="{{ '/assets/img/icon-new.png' | relative_url }}">{% endif %}
     {%- if include.text -%}
         <span class="text-pos">
