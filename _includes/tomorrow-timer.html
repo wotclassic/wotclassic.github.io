@@ -12,13 +12,10 @@
 #ny_timer_main {
     display: inline-block;
     vertical-align: top;
-    width: 500px;
     margin-top: -45px;
 }
 
 #ny_timer_text {
-    width: -moz-fit-content;
-    width: fit-content;
     color: #d2d7d9;
     margin-left: 125px;
     font-size: 14px;
@@ -90,21 +87,21 @@ function setTime() {
     //         button.style.display = 'none';
     //     }
     // }
-    for (const elem of curDateElems)
-        elem.innerHTML = currentDate.toLocaleDateString();
-    for (const elem of tomDateElems)
-        elem.innerHTML = updateDate.toLocaleDateString();
+    for (let i = 0; i < curDateElems.length; i++)
+        curDateElems[i].innerHTML = currentDate.toLocaleDateString();
+    for (let i = 0; i < tomDateElems.length; i++)
+        tomDateElems[i].innerHTML = updateDate.toLocaleDateString();
 }
 
 function padNumber(num) {
-    return num.toString().padStart(2, '0');
+    return Math.floor(num/10) > 0 ? num : '0'+num;
 }
 
 function formatTime(time) {
     const hours = Math.floor(time / 3600);
     const minutes = Math.floor((time % 3600) / 60);
     const seconds = Math.floor((time % 3600) % 60);
-    return `${padNumber(hours)}<span class="ny-timer-colon">:</span>${padNumber(minutes)}<span class="ny-timer-colon">:</span>${padNumber(seconds)}`;
+    return padNumber(hours)+"<span class=\"ny-timer-colon\">:</span>"+padNumber(minutes)+"<span class=\"ny-timer-colon\">:</span>"+padNumber(seconds);
 }
 
 setTime();
