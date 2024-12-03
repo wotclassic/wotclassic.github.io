@@ -2824,6 +2824,7 @@ table.wg-table p {
     font-size: 11px;
     padding: 13px 24px 8px 37px;
     margin: 0 0 10px;
+    display: none;
 }
 
 .b-cluster-lite_text {
@@ -2836,9 +2837,16 @@ table.wg-table p {
     font-weight: 700;
 }
 
-@media screen and (min-width: 768px) {
-    #mobileNotif {
+#outdatedNotif {
+    display: block;
+    &:has(*) {
         display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #mobileNotif {
+        display: block;
     }
 }
 
