@@ -21,4 +21,4 @@ image: /assets/img/news/thumbnail/5y_stream.png
 - Подведем итоги 5 лет
 - Ответим на вопросы
 
-{% include yt-embed.html id="HkubpWd-dD8" %}
+{% include yt-embed.html id="LREJQXZ7Fn8" %}
