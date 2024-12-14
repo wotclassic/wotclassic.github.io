@@ -4,6 +4,7 @@ title: Декабрьское обновление
 category: events
 permalink: /news/5-years/update
 tag: important
+published: false
 ---
 Праздничное обновление уже во всю готовится
 {: style="display: none"}
