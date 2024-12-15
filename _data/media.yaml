@@ -1,4 +1,7 @@
 fan-video:
+  - text: WoT - это Классика. Победный бой на КВ-13.
+    url: https://www.youtube.com/watch?v=2dGe94mG9qI
+    date: "05.11.2024"
   - text: WoT Это Классика | Стальной Охотник Walkure
     url: https://www.youtube.com/watch?v=ThJb383EprI
     date: "28.10.2024"
@@ -93,6 +96,12 @@ gameplay:
          /assets/img/media/gameplay/westfield/westfield7.png]
 
 video:
+  - text: '«WoT это Классика!». 45 минут Луганского ангара.'
+    url: https://www.youtube.com/watch?v=HkubpWd-dD8
+    date: "02.12.2024"
+  - text: '«WoT это Классика!». Встретимся на театралке.'
+    url: https://www.youtube.com/watch?v=Ez8gqPt1K84
+    date: "15.11.2024"
   - text: '«WoT это Классика». Возвращение Белого Тигра.'
     url: https://www.youtube.com/watch?v=jGezH37AJvU
     date: "23.10.2024"
