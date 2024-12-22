@@ -34,7 +34,7 @@ image: /assets/img/news/thumbnail/blitz_from_zero.png
 **Обратите внимание**: на релизе моды будут доступны только для Tanks Blitz на PC. За обновлениями для остальных платформ следите на нашем портале.
 {: .message-warning}
 
-{% include yt-embed.html id="CR0xpLcjeJA" %}
+{% include yt-embed.html id="6ywu-azBHTY" %}
 
 ---
 
