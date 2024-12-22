@@ -1,4 +1,9 @@
 home:
+- title: 'Blitz Classic: с нуля'
+  desc: Ностальгический портал открылся и для маленького мира танков.
+  url: /news/blitz-from-zero
+  image: /assets/img/news/header/blitz_from_zero.png
+
 - title: Подведение итогов
   desc: За 5 лет мы добились многого. Давайте же подведем итоги нашей пятилетней работы.
   url: /news/birthday-stats
