@@ -1,9 +1,10 @@
 wek:
   mods:
     lesta:
-      installer: https://download.wot-classic.ru/wek_install.exe
+      installer: https://download.wot-classic.ru/wek_install_lesta.exe
       drive: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
     wg:
+      installer: https://download.wot-classic.ru/wek_install_wg.exe
       drive: https://drive.google.com/drive/folders/1XyrX7kdktG4wQfzWhG_O0v1EDZq5Z6BJ?usp=drive_link
   discord:
     url: https://discord.gg/36mrMDeFMJ
