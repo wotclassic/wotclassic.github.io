@@ -1,6 +1,6 @@
 ---
 title: Интерфейс ангара
-status: "Обновлено: 5 мая 2024 года"
+status: "Обновлено: 1 сентября 2024 года"
 image: /assets/img/indev/thumb/hangarui.png
 ---
 
@@ -8,7 +8,7 @@ image: /assets/img/indev/thumb/hangarui.png
 
 ![Placeholder]({{ '/assets/img/indev/head/hangarui.png' | relative_url }})
 
-{% include indev/status.html status="doe" text="Обновление 2.1" date="5 мая" %}
+{% include indev/status.html status="done" text="Обновление 2.1" date="1 сентября" %}
 
 Обновление 2.0 вдохнуло вторую жизнь в разработку интерфейсных модификаций, сейчас мы только строим планы на то, что переведем на собственную структуру, а пока, можете глянуть на...
 

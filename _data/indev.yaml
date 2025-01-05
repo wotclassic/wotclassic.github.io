@@ -14,17 +14,21 @@ main:
   - text: ИНТЕРФЕЙС АНГАРА
     url: /development/hangar_gui
     image: /assets/img/indev/main/devhangarguix465.png
-    date: 5 мая
+    date: 1 сентября 2024 года
   - text: АНГАРЫ
     url: /development/hangars
     image: /assets/img/indev/main/devhangarx465.png
-    date: 16 мая
+    date: 6 января
   - text: SD-МОДЕЛИ
     url: /development/sd-progress
     image: /assets/img/indev/main/sdx465.png
-    date: 5 мая
+    date: 6 января
 
 past:
+  - text: 'Обновление 2.1'
+    url: /development/hangar_gui
+    image: /assets/img/indev/done/devhui21done325.png
+    date: 1 сентября 2024 года
   - text: 'Доработки премиум ангара v2'
     url: /development/hangars
     image: /assets/img/indev/done/devhangarv2done325.png

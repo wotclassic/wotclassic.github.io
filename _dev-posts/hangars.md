@@ -1,6 +1,6 @@
 ---
 title: Ангары
-status: "Обновлено: 16 мая 2024 года"
+status: "Обновлено: 6 января 2025 года"
 image: /assets/img/indev/thumb/hangars.png
 ---
 
@@ -8,7 +8,19 @@ image: /assets/img/indev/thumb/hangars.png
 
 ![Placeholder]({{ '/assets/img/indev/head/hangars.png' | relative_url }})
 
-{% include indev/status.html status="doe" text="Тень в ангарах V1" date="16 мая" %}
+{% include indev/status.html status="doe" text="Масштабные переработки" date="6 января" %}
+
+В будущих обновлениях капитальным переработкам подвергнутся:
+
+- Базовый ангар первого поколения
+- Премиум ангар первого поколения
+- Базовый ангар второго поколения
+- Премиум ангар второго поколения
+
+Информация о переработке будет пополняться постепенно.
+{: .message-info}
+
+{% include indev/status.html status="done" text="Тень в ангарах V1" date="16 мая" %}
 
 В предстоящем обновлении будет удалена тень под танком, что являлось проблемой.
 
