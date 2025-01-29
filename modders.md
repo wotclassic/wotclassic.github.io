@@ -47,7 +47,7 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 ## A1Asriel
 
 [![A1Asriel]({{ '/assets/img/avatars/a1asriel.jpeg' | relative_url }}){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
-<span class="blackout"></span>](https://a1asriel.github.io/about){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
+<span class="blackout"></span>](https://github.com/A1Asriel){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
 
 - **Игровой никнейм:** [A1Asriel](https://worldoftanks.eu/ru/community/accounts/595275807-A1Asriel/){: target="_blank" } (EU)
 - **Роль в команде:** технический специалист.
