@@ -43,6 +43,10 @@ image_small: "/assets/img/news/image_small/nyt_hangar.png"
 В этом ангаре впервые появляется возможность нажатия на различные баннеры с подсказкой и переходом на веб-ресурс.
 {: .message-info}
 
+{% include button.html url='https://mega.nz/file/KRwlHbTS#LeDxXiKhLOan8Iu67zhgVy4rkLcl62FIsfUOm87NMWQ' text='Скачать (MEGA)' %}
+{% include button.html url='https://disk.yandex.ru/d/8gHVn4gp1vtKVA' text='Скачать (Яндекс.Диск)' %}
+{% include button.html url='https://cloud.mail.ru/public/8thM/t6yA3qsUH' text='Скачать (Облако Mail)' %}
+
 ---
 
 А теперь - в бой, танкисты! Пришла пора показать, кто главный на поле боя!
