@@ -29,6 +29,7 @@
             </div>
         </div>
     {% endif %}
+    <div class="post-cont">
     <a href="{{ post.url | relative_url }}" class="news_ico">
         {% if post.tags contains "important" %}
             <img class="n-import-icon" src="{{ '/assets/img/important-news-ico.png' | relative_url }}">
@@ -47,6 +48,7 @@
                 <i style="color: #606061;">Обновлено: {{ post.last_modified_at | date: "%d.%m.%Y" }}</i>
             {% endif %}
         </p>
+    </div>
     </div>
     {% unless post_num == 5 and paginator == nil %}<hr>{% endunless %}
     {% assign post_num = post_num | plus: 1 %}
