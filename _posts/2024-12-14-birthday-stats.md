@@ -8,7 +8,7 @@ image: /assets/img/news/thumbnail/5y_stats.png
 За 5 лет можно набрать хоть какую-то аудиторию... Но давайте узнаем как именно аудитория помогла нам проекту, и что было за эти 5 лет.
 {: style="display: none"}
 
-![stream]({{ '/assets/img/news/header/5y_stats.png' | relative_url }})
+![1]({{ '/assets/img/news/header/5y_stats.png' | relative_url}}){: width="100%" }
 
 Танкисты!
 
