@@ -1,4 +1,9 @@
 home:
+- title: 'Битва Блогеров 2025'
+  desc: Сражения начнутся совсем скоро! А ты уже выбрал команду, к которой присоединишься?
+  url: https://tanki.su/ru/bitva-blogerov-2025-event/
+  image: /assets/img/carousel/bb25.png
+
 - title: 'Ангар Near_You Team'
   desc: Уникальный, нигде ранее не виданный, атмосферный ангар, разработанной командой «WoT это Классика!» для Near_You Team.
   url: /news/near_youteam_hangar/
