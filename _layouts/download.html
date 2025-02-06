@@ -7,79 +7,124 @@ layout: default
         <h1>{{ page.title }}</h1>
         <p id="db1">
             <a class="download-button" style="display: inline-block;width: 230px;margin: 0 auto;margin-left: 242px;padding-left: 18px;"
-                href="{{ site.data.socials.wek.mods.lesta.installer }}">
-                <span class="download-button_ico-holder"><img src="/assets/img/logos/lesta_logo.svg" alt="win-ico" class="download-button_ico-win" height="32px" width="32px"></span><span
+                href="{{ site.data.socials.wek.mods.lesta.installer }}"><img
+                src="{{ '/assets/img/logos/mt_white.svg' | relative_url }}" alt="МТ" class="download-button_ico-holder" height="40px" width="40px"><span
                 class="download-button_text">
-                    <span class="download-button_main-text">Скачать установщик</span>
-                    <span class="download-button_region">RUBY-регион, Lesta Games</span>
+                    <span class="download-button_main-text">Скачать модпак</span>
+                    <span class="download-button_region">Мир Танков, RUBY-регион</span>
                 </span>
             </a>
             <a class="download-button" style="display: inline-block;width: 230px;margin: 0 auto;margin-left: 50px;padding-left: 18px;"
-                href="{{ site.data.socials.wek.mods.wg.installer }}">
-                <span class="download-button_ico-holder"><img src="/assets/img/logos/Wargaming_logo.svg" alt="win-ico" class="download-button_ico-win" height="32px" width="32px"></span><span
+                href="{{ site.data.socials.wek.mods.wg.installer }}"><img
+                src="{{ '/assets/img/logos/wot_white.svg' | relative_url }}" alt="WoT" class="download-button_ico-holder" height="44px" width="40px"><span
                 class="download-button_text">
-                    <span class="download-button_main-text">Скачать установщик</span>
-                    <span class="download-button_region">EU-регион, Wargaming.net</span>
+                    <span class="download-button_main-text">Скачать модпак</span>
+                    <span class="download-button_region">World of Tanks, EU/NA/Asia</span>
                 </span>
             </a>
         </p>
         <p style="text-align: center;margin-top: 10px;margin-left: -285px;"><strong><a href="{{ site.data.socials.wek.mods.lesta.drive }}" target="_blank">Скачать моды для ручной установки</a></strong></p>
         <p style="text-align: center;margin-top: -16px;margin-left: 280px;"><strong><a href="{{ site.data.socials.wek.mods.wg.drive }}" target="_blank">Скачать моды для ручной установки</a></strong></p>
-        <p class="message-warning" style="width: 700px; margin: 16px auto 0;">Внимание! Из-за отсутствия платной цифровой подписи, некоторые антивирусы могут распознавать установщик как вирус. При возникновении проблем, рекомендуем отключить его на время скачивания и установки или внести файл в исключения.</p>
-        <p style="text-align: center; margin-top: -10px;">Чтобы установить «WoT это Классика!» на свой компьютер вручную, просто следуйте 
-            <a href="https://www.youtube.com/watch?v=PoTa1BcTlxQ">инструкциям</a>.
+        <p class="message-warning" style="width: 700px; margin: 16px auto 0;">Внимание! Некоторые системы могут распознать программу установки как вирус из-за отсутствия платной цифровой подписи. В случае возникновения проблем, рекомендуем отключить антивирус на время скачивания и установки, либо внести файл в список исключений.</p>
+        <p style="text-align: center; margin-top: -10px;">Чтобы установить «WoT это Классика!» на свой компьютер вручную, следуйте
+            <a href="https://www.youtube.com/watch?v=PoTa1BcTlxQ">видео-инструкции</a>.
         </p>
         <hr>
         {% capture mods-status %}{% include mods-status.md %}{% endcapture %}
         {{ mods-status | markdownify }}
         <hr>
-        <h3 style="text-align: left;">СИСТЕМНЫЕ ТРЕБОВАНИЯ</h3>
-        <p style="margin-top: 10px;">Для установки модов «WoT это Классика!» требуется актуальный клиент «<a href="https://tanki.su/ru/game/">Мира Танков</a>» или <a href="https://worldoftanks.eu/ru/game/">World of Tanks</a>.<br></p>
-        <table style="width: 100%;" border="0">
-            <tbody>
-                <tr style="border-bottom: 1px solid #353231;">
-                    <td style="padding-top: 10px;border-bottom: 1px solid #353231;">
-                        <h4><span>Параметр</span></h4>
-                    </td>
-                    <td style="padding-top: 10px;">
-                        <h4>Минимальные системные требования</h4>
-                    </td>
-                    <td style="padding-top: 10px;">
-                        <h4>Рекомендуемые системные требования</h4>
-                    </td>
-                </tr>
-                <tr>
-                    <td style="padding-top: 10px; width: 30%;">Операционная система:</td>
-                    <td style="padding-top: 10px;">64-битная Windows 7 SP1, 8, 8.1, 10, 11</td>
-                    <td style="padding-top: 10px;">64-битная Windows 10 (или более поздняя)</td>
-                </tr>
-                <tr>
-                    <td style="padding-top: 10px;">Процессор (CPU):</td>
-                    <td style="padding-top: 10px;">Intel Pentium E2180 / AMD Athlon 64 X2 4200+ для ПК;<br>Intel Core i5-2540M / AMD A4-3305M для ноутбука</td>
-                    <td style="padding-top: 10px;">Intel Core i5-12400F / AMD Ryzen 5 5600X</td>
-                </tr>
-                <tr style="padding-top: 10px !important;">
-                    <td style="padding-top: 10px;">Оперативная память (RAM):</td>
-                    <td style="padding-top: 10px;">3 ГБ для ПК,<br>4 ГБ для ноутбука</td>
-                    <td style="padding-top: 10px;">16 ГБ (или больше)</td>
-                </tr>
-                <tr>
-                    <td style="padding-top: 10px;">Видеоадаптер:</td>
-                    <td style="padding-top: 10px;">NVIDIA GeForce 8600 / Radeon HD 4550 для ПК;<br>Intel HD Graphics 3000 (Sandy Bridge) AMD Radeon HD 6480G для ноутбука</td>
-                    <td style="padding-top: 10px;">GeForce RTX 3050 / Radeon RX 6600</td>
-                </tr>
-                <tr>
-                    <td style="padding-top: 10px;">Свободное место на жёстком диске:</td>
-                    <td style="padding-top: 10px;">~70 ГБ</td>
-                    <td style="padding-top: 10px;">~100 ГБ</td>
-                </tr>
-                <tr>
-                    <td style="padding-top: 10px;" colspan="1" rowspan="1">Скорость интернет-соединения:</td>
-                    <td style="padding-top: 10px;" colspan="1" rowspan="1">256 Кбит/с</td>
-                    <td style="padding-top: 10px;" colspan="1" rowspan="1">1+ Мбит/с (для работы голосового чата)</td>
-                </tr>
-            </tbody>
+        <h3 style="text-align: left;">СИСТЕМНЫЕ ТРЕБОВАНИЯ ДЛЯ «МИРА ТАНКОВ»</h3>
+        <table class="req-table">
+            <tr style="border-bottom: 1px solid #353231;">
+                <th>Параметр</th>
+                <th>Минимальные системные требования</th>
+                <th style="width: 30%;">Рекомендуемые системные требования</th>
+            </tr>
+            <tr>
+                <td style="width: 30%;">Операционная система:</td>
+                <td>64-битная Windows 7 SP1, 8, 8.1, 10, 11</td>
+                <td>64-битная Windows 10 (или более поздняя)</td>
+            </tr>
+            <tr>
+                <td>Процессор (CPU):</td>
+                <td>Intel Pentium E2180 / AMD Athlon 64 X2 4200+ для ПК;<br>Intel Core i5-2540M / AMD A4-3305M для ноутбука</td>
+                <td>Intel Core i5-12400F / AMD Ryzen 5 5600X</td>
+            </tr>
+            <tr>
+                <td>Оперативная память (RAM):</td>
+                <td>3 ГБ для ПК,<br>4 ГБ для ноутбука</td>
+                <td>16 ГБ (или больше)</td>
+            </tr>
+            <tr>
+                <td>Видеоадаптер:</td>
+                <td>NVIDIA GeForce 8600 / Radeon HD 4550 для ПК;<br>Intel HD Graphics 3000 (Sandy Bridge) / AMD Radeon HD 6480G для ноутбука</td>
+                <td>GeForce RTX 3050 / Radeon RX 6600</td>
+            </tr>
+            <tr>
+                <td>Свободное место на жёстком диске:</td>
+                <td>~70 ГБ</td>
+                <td>~100 ГБ</td>
+            </tr>
+            <tr>
+                <td>Скорость интернет-соединения:</td>
+                <td>256 Кбит/с</td>
+                <td>1+ Мбит/с (для работы голосового чата)</td>
+            </tr>
         </table>
+        <hr>
+        <h3 style="text-align: left;">СИСТЕМНЫЕ ТРЕБОВАНИЯ ДЛЯ WORLD OF TANKS</h3>
+        <table class="req-table">
+            <tr style="border-bottom: 1px solid #353231;">
+                <th>Параметр</th>
+                <th>Минимальные системные требования</th>
+                <th>Рекомендуемые системные требования</th>
+            </tr>
+            <tr>
+                <td style="width: 30%;">Операционная система:</td>
+                <td>Windows 7/8/8.1/10/11 (только 64-разрядная версия)</td>
+                <td>Windows 10/11 (только 64-разрядная версия)</td>
+            </tr>
+            <tr>
+                <td>Процессор:</td>
+                <td>Intel Core i5-3330, AMD FX-6300 для ПК;<br>Intel Core i5-3230M для ноутбука</td>
+                <td>Intel Core i3-9100F, AMD Ryzen 3 3100</td>
+            </tr>
+            <tr>
+                <td>ОЗУ:</td>
+                <td>4 ГБ</td>
+                <td>16 ГБ или больше</td>
+            </tr>
+            <tr>
+                <td>Видеокарта:</td>
+                <td>Nvidia GTX 460, AMD Radeon HD 8770, разрешение экрана 1280x768 для ПК;<br>Nvidia GT 740M для ноутбука</td>
+                <td>Nvidia GTX 1650, AMD Radeon RX 580</td>
+            </tr>
+            <tr>
+                <td>Жёсткий диск:</td>
+                <td>~ 70 ГБ свободного места</td>
+                <td>~ 70 ГБ свободного места</td>
+            </tr>
+            <tr>
+                <td>Скорость интернет-соединения:</td>
+                <td>256 Кбит/с</td>
+                <td>1024 Кбит/с или выше (для работы голосового чата)</td>
+            </tr>
+        </table>
+        <style>
+            .req-table {
+                width: 100%;
+            }
+            .req-table th {
+                text-align: left;
+                color: #fff;
+                font: 18px "warhelioscondc", "Arial Narrow", Arial, sans-serif;
+                font-stretch: condensed;
+                padding: 10px 0 8px;
+            }
+            .req-table td {
+                padding-top: 10px;
+            }
+        </style>
         <hr>
         <div class="b-content">
             <p style="text-align: center; margin-bottom: 15px;">
@@ -110,5 +155,8 @@ layout: default
             <p style="text-align: center;">Дополнительное программное обеспечение может быть полезно игрокам, у которых
                 проблемы с установкой модов.<br></p>
         </div>
+        <hr>
+        <h5 style="text-align: center;"><a href="https://wgmods.net/search/?owner=778034" target="_blank">Альтернативный способ скачивания модов (WGMods, только EU/NA/Asia)</a></h5>
+        <p style="text-align: center;">Альтернативные способы скачивания модов будут полезны игрокам,<br>которые по какой-либо причине не могут установить моды через тот или иной сервис.</p>
     </div>
 </div>
