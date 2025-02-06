@@ -1,19 +1,52 @@
 ### СОСТОЯНИЕ МОДОВ
 
-Здесь вы можете следить за актуальной информацией о состоянии модов.
-
-**Обновлено: 06.02.2025**
+Данные актуальны для версий клиентов **«Мира Танков» -- 1.32** и **World of Tanks -- 1.27.1**.
 
 <br>
 
-| Название мода | Статус мода (RUBY) | Статус мода (EU) |
+| Название мода | Мир Танков | World of Tanks |
 | --- | --- |
-| Экран логина | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
-| Интерфейс ангара | <span style="color: #c71d1d">Не работает</span> ![](/assets/img/table/icon_cross.png){: style="vertical-align: middle"}  | <span style="color: #c71d1d">Не работает</span> ![](/assets/img/table/icon_cross.png){: style="vertical-align: middle"} |
-| Интерфейс боя | <span style="color: #c71d1d">Не работает</span> ![](/assets/img/table/icon_cross.png){: style="vertical-align: middle"}  | <span style="color: #50b531">Работает</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
-| Ангары | <span style="color: #c71d1d">Не работают</span> ![](/assets/img/table/icon_cross.png){: style="vertical-align: middle"} | <span style="color: #c71d1d">Не работают</span> ![](/assets/img/table/icon_cross.png){: style="vertical-align: middle"} |
-| Карты | <span style="color: #c71d1d">Не работают</span> ![](/assets/img/table/icon_cross.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
-| SD-модели (альфа-тестирование) | <span style="color: #e3df33">На переработке</span> ![](/assets/img/table/wait_update.png){: style="vertical-align: middle"} | <span style="color: #c71d1d">Не работают</span> ![](/assets/img/table/icon_cross.png){: style="vertical-align: middle"} |
-| Звуки | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
-| Эффекты | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} | <span style="color: #50b531">Работают</span> ![](/assets/img/table/check_green.png){: style="vertical-align: middle"} |
+| Экран логина | <span class="green">Работает</span> | <span class="green">Работает</span> |
+| Интерфейс ангара | <span class="red">Не работает</span> | <span class="red">Не работает</span> |
+| Интерфейс боя | <span class="red">Не работает</span> | <span class="green">Работает</span> |
+| Ангары | <span class="red">Не работают</span> | <span class="red">Не работают</span> |
+| Карты | <span class="red">Не работают</span> | <span class="green">Работают</span> |
+| SD-модели (альфа-тестирование) | <span class="yellow">Не рекомендуются к установке</span> | <span class="red">Не работают</span> |
+| Звуки | <span class="green">Работают</span> | <span class="green">Работают</span> |
+| Эффекты | <span class="green">Работают</span> | <span class="green">Работают</span> |
 {: .wg-table}
+
+<style>
+  .wg-table .green::after,
+  .wg-table .yellow::after,
+  .wg-table .red::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    background-size: contain;
+    vertical-align: middle;
+  }
+
+  .wg-table .green {
+    color: #50b531;
+  }
+  .wg-table .green::after {
+    background: url(/assets/img/table/check_green.png) no-repeat;
+  }
+
+  .wg-table .yellow {
+    color: #e3df33;
+  }
+  .wg-table .yellow::after {
+    background: url(/assets/img/table/wait_update.png) no-repeat;
+  }
+
+  .wg-table .red {
+    color: #c71d1d;
+  }
+  .wg-table .red::after {
+    background: url(/assets/img/table/icon_cross.png) no-repeat;
+  }
+</style>
