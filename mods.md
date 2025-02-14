@@ -1,4 +1,0 @@
----
-layout: mods
-title: Моды
----

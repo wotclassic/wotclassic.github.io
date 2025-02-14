@@ -3,7 +3,6 @@ layout: post
 title: Знакомьтесь - команда «WoT это Классика!»
 image: "/assets/img/news/thumbnail/people_127x.png"
 image_small: "/assets/img/news/image_small/techwork.png"
-permalink: /mododels
 date: 2023-03-12
 last_modified_at: 2025-01-29
 excerpt: Познакомьтесь с командой, стоящей за проектом «WoT это Классика!».

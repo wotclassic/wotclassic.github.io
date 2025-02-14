@@ -1,81 +1,26 @@
 ---
-permalink: /404.html
 title: Страница не найдена
 ---
 
-<style type="text/css" media="screen">
-  .content-wrapper__old {
-      width: 1000px;
-      margin: 0 auto;
-      position: relative;
-      color: #b1b2b2;
-      font-family: Arial, "Helvetica CY", Helvetica, sans-serif;
-      font-size: 12px;
-      line-height: 133%;
-      min-height: 720px;
-      word-break: keep-all;
-  }
-
-  .l-container {
-    clear: both;
-    margin: 0 auto;
-    padding: 0;
-    position: relative;
-    width: 1000px;
-    line-height: 1;
-  }
-
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-
-  .wotc-logo {
-    background: url(/assets/img/wotc_logo.png);
-    background-size: 100% 100%;
-    display: none;
-    width: 360px;
-    height: 205px;
-    top: 70px;
-  }
-
+<style>
   .error-page {
-    padding-top: 225px;
+    padding: 50px 0 100px;
     text-align: center;
   }
 
   .error-page_title {
-    display: block;
     font-family: robotocondensedbold, "Arial Narrow", Arial, sans-serif;
     font-size: 140px;
     color: #fff;
     padding-bottom: 19px;
   }
-
-  .clr {
-    clear: both;
-    display: block;
-    font-size: 0;
-    line-height: 0;
-    overflow: hidden;
-  }
 </style>
 
-<div class="content-wrapper content-wrapper__old">
-  <div class="l-container">
-    <div class="error-page">
-      <span class="error-page_title">404</span>
-      <h1> СТРАНИЦА НЕ НАЙДЕНА </h1>
-      <div class="b-content">
-        <h2>Такой страницы не существует, или адрес введён неверно.</h2>
-        <p><a onclick="window.history.go(-1); return false;" style="cursor: pointer;">Назад</a>
-          &nbsp;•&nbsp;
-          <a href="/">На главную</a>
-        </p>
-      </div>
-    </div>
-    <div class="clr">
-    </div>
+<div class="l-container error-page">
+  <p class="error-page_title">404</p>
+  <h1>СТРАНИЦА НЕ НАЙДЕНА</h1>
+  <div class="b-content">
+    <h2>Такой страницы не существует, или адрес введён неверно.</h2>
+    <p><a onclick="window.history.go(-1); return false;" style="cursor: pointer;">Назад</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="/">На главную</a></p>
   </div>
 </div>

@@ -1,7 +1,6 @@
 ---
 layout: guide
 title: Руководство
-permalink: /guide
 ---
 
 ![manual]({{ '/assets/img/guide/main/manual_head.jpg' | relative_url }})
