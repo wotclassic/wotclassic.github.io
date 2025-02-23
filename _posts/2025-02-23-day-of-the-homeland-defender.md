@@ -1,6 +1,6 @@
 ---
 title: 'С Днём защитника Отечества!'
-date: 2025-02-24 02:24:05 +0300
+date: 2025-02-23 02:24:05 +0300
 category: events
 image: "/assets/img/news/thumbnail/23_feb.jpg"
 ---
