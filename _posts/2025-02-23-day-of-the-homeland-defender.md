@@ -18,9 +18,11 @@ image: "/assets/img/news/thumbnail/23_feb.jpg"
 
 ## Ангар "23 февраля"
 
-И конечно же мы не могли порадовать Вас подарком к такому дню. Совсем скоро для скачивания станет доступен праздничный ангар.
+И конечно же мы не могли порадовать Вас подарком к такому дню. Для скачивания уже доступен праздничный ангар.
 
 [![1]({{ '/assets/img/news/screens/hangars/h_feb23_2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/hangars/h_feb23_2.png)
+
+{% include button.html url='https://download.wot-classic.ru/wek_install_lesta.exe' text='Скачать' %}
 
 ---
 
