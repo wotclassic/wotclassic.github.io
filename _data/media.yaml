@@ -143,11 +143,12 @@ video:
     date: "23.02.2022"
 
 upd-rev:
+  - text: '«WoT это Классика!». Обзор декабрьского обновления модов.'
+    url: https://www.youtube.com/watch?v=3hxlyPMr3iU
+    date: "30.12.2024"
   - text: '«WoT это Классика!». Обзор августовского обновления модов.'
     url: https://www.youtube.com/watch?v=Cxt6ngOJXOo
-    image: /assets/img/media/vid/video_aug24.png
     date: "01.09.2024"
   - text: «WoT это Классика!». Обзор апрельского обновления модов.
     url: https://www.youtube.com/watch?v=MD2xvhawMhs
-    image: /assets/img/media/vid/video5.png
     date: "07.04.2023"
