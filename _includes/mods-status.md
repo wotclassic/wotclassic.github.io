@@ -7,10 +7,10 @@
 | Название мода | Мир Танков | World of Tanks |
 | --- | --- |
 | Экран логина | <span class="green">Работает</span> | <span class="green">Работает</span> |
-| Интерфейс ангара | <span class="red">Не работает</span> | <span class="red">Не работает</span> |
-| Интерфейс боя | <span class="red">Не работает</span> | <span class="green">Работает</span> |
-| Ангары | <span class="red">Не работают</span> | <span class="green">Работают</span> |
-| Карты | <span class="red">Не работают</span> | <span class="green">Работают</span> |
+| Интерфейс ангара | <span class="green">Работает</span> | <span class="red">Не работает</span> |
+| Интерфейс боя | <span class="green">Работает</span> | <span class="green">Работает</span> |
+| Ангары | <span class="green">Работают</span> | <span class="green">Работают</span> |
+| Карты | <span class="green">Работают</span> | <span class="green">Работают</span> |
 | SD-модели (альфа-тестирование) | <span class="yellow">Не рекомендуются к установке</span> | <span class="red">Не работают</span> |
 | Звуки | <span class="green">Работают</span> | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> | <span class="green">Работают</span> |
