@@ -1,4 +1,9 @@
 home:
+- title: С 8 Марта!
+  desc: Поздравляем боевых подруг с Международным женским днём!
+  url: /news/happy-womens-day/
+  image: /assets/img/news/header/8_march_243.jpg
+
 - title: Февральский микропатч
   desc: Моды снова в работе, и даже с небольшими изменениями.
   url: /news/feb-mini-update/
