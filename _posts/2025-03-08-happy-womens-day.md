@@ -1,6 +1,6 @@
 ---
 title: 'С 8 Марта!'
-date: 2025-02-23 02:24:05 +0300
+date: 2025-03-08 15:05:05 +0300
 tags: [important]
 category: events
 image: "/assets/img/news/thumbnail/8_march_615_127x.jpg"
