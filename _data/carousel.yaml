@@ -1,8 +1,8 @@
 home:
-- title: С 8 Марта!
-  desc: Поздравляем боевых подруг с Международным женским днём!
-  url: /news/happy-womens-day/
-  image: /assets/img/news/header/8_march_243.jpg
+- title: 'О переработке SD-моделей: Германия'
+  desc: Рассказываем что сейчас происходит с SD-моделями и как подскочило их качество.
+  url: /news/sd-models-grework/
+  image: /assets/img/news/header/sd_grew.png
 
 - title: Февральский микропатч
   desc: Моды снова в работе, и даже с небольшими изменениями.

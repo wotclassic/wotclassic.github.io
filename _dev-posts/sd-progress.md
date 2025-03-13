@@ -1,6 +1,6 @@
 ---
 title: SD-модели
-status: "Обновлено: 6 января 2025 года"
+status: "Обновлено: 13 марта 2025 года"
 image: /assets/img/indev/thumb/sd.png
 ---
 
@@ -14,3 +14,11 @@ image: /assets/img/indev/thumb/sd.png
 
 C выходом 1.32 **все** SD-модели были отправлены на переработку. Следите за новостями!
 {: .message-money}
+
+{% include indev/status.html status="doe" text="Масштабная переработка: Германия" date="13 марта" %}
+
+Более подробно о изменениях можно прочитать [тут]({{ "/news/sd-models-grework" | relative_url }}).
+
+{% include content-image.html url1="/assets/img/indev/screens/sdmod/sdrew_wte100.png" url2="/assets/img/indev/screens/sdmod/sdrew_wte1001.png" url3="/assets/img/indev/screens/sdmod/sdrew_maus.png" %}
+<br>
+{% include content-image.html url1="/assets/img/indev/screens/sdmod/sdrew_maus1.png" url2="/assets/img/indev/screens/sdmod/sdrew_leo1.png" url3="/assets/img/indev/screens/sdmod/sdrew_leo11.png" %}

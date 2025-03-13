@@ -1,0 +1,217 @@
+.pioneer_forum,
+.pioneer_status {
+  vertical-align:bottom;
+  text-transform:uppercase
+}
+.pioneer {
+  padding-left:16px;
+  padding-right:16px;
+  max-width:1328px;
+  margin:0 auto;
+  position:relative;
+  padding-top:218px;
+  overflow:hidden;
+  top: -127px;
+  margin-top: 127px;
+}
+
+@media all and (min-width:720px) {
+  .pioneer {
+    padding-left:28px;
+    padding-right:28px
+  }
+}
+@media all and (min-width:1100px) {
+  .compare-panel_list {
+    max-height:273px
+  }
+  .pioneer {
+    padding-left:56px;
+    padding-right:56px
+  }
+}
+.pioneer__no-mobile-indent {
+  padding-left:0;
+  padding-right:0
+}
+@media all and (min-width:720px) {
+  .pioneer__no-mobile-indent {
+    padding-left:28px;
+    padding-right:28px
+  }
+}
+@media all and (min-width:1100px) {
+  .pioneer__no-mobile-indent {
+    padding-left:56px;
+    padding-right:56px
+  }
+  .pioneer {
+    padding-top: 311px;
+  }
+}
+.pioneer__z-index {
+  position:relative;
+  z-index:2
+}
+.pioneer__big-z-index {
+  position:relative;
+  z-index:6
+}
+.page-wrapper__old .pioneer {
+  max-width:950px;
+  padding-left:25px;
+  padding-right:25px
+}
+.pioneer_logo {
+  max-width:100%;
+  display:block;
+  margin:0 auto
+}
+.pioneer_name {
+  font:24px/24px robotocondensedbold,"Arial Narrow",Arial,sans-serif;
+  text-transform:uppercase;
+  color:#e9e2bf;
+  text-align:center;
+  margin:-8px 0 22px
+}
+@media all and (min-width:720px) {
+  .pioneer_name {
+    margin-bottom:29px
+  }
+}
+.pioneer_text {
+  font:14px/18px robotocondensedregular,"Arial Narrow",Arial,sans-serif;
+  margin-bottom:24px
+}
+.pioneer_holder {
+  text-align:center;
+  margin-bottom: 62px;
+}
+@media all and (min-width:720px) {
+  .pioneer_holder {
+
+  }
+}
+.pioneer_box {
+  padding:22px 20px 25px;
+  margin-bottom:44px;
+  border-left:2px solid #67af4c;
+  background:rgba(43,43,43,.52)
+}
+@media all and (min-width:720px) {
+  .pioneer_box {
+    padding:34px 37px 38px
+  }
+}
+.pioneer__request .pioneer_box {
+  display:none
+}
+.pioneer_block {
+  font-size:16px;
+  line-height:24px;
+  margin-bottom:44px
+}
+@media all and (min-width:1100px) {
+  .pioneer_box {
+    float:left;
+    box-sizing:border-box;
+    width:48%
+  }
+  .pioneer_block {
+    padding:34px 37px 38px;
+    overflow:hidden
+  }
+}
+.pioneer__request .pioneer_block {
+    padding-top: 34px;
+    max-width: 640px;
+    margin: 0 auto 0px;
+}
+.pioneer_heading {
+  font:18px/21px robotocondensedbold,"Arial Narrow",Arial,sans-serif;
+  color:#e9e2bf;
+  text-transform:uppercase;
+  margin-bottom:17px
+}
+.pioneer_wrapper {
+  font:0/0 a
+}
+.pioneer_status {
+  display:inline-block;
+  margin-right:15px
+}
+.pioneer_forum {
+  display:inline-block;
+  font:14px/18px robotocondensedbold,"Arial Narrow",Arial,sans-serif
+}
+.pioneer_labe {
+  font:11px/14px robotocondensedregular,"Arial Narrow",Arial,sans-serif;
+  color:#8c8c7c;
+  margin-bottom:3px
+}
+.pioneer_server {
+  display:inline-block;
+  vertical-align:middle;
+  font:14px/18px robotocondensedbold,"Arial Narrow",Arial,sans-serif;
+  color:#f9f5e1;
+  padding-left:7px
+}
+.pioneer_bg {
+  position:absolute;
+  top:62px;
+  left:50%;
+  -webkit-transform:translateX(-50%);
+  -ms-transform:translateX(-50%);
+  transform:translateX(-50%);
+  min-width:100%;
+  margin:0;
+  width:800px;
+  z-index:-1
+}
+@media all and (min-width:720px) {
+  .pioneer_bg {
+    width:1400px
+  }
+}
+.pioneer_optional {
+  min-height:70px
+}
+.pioneer__request .pioneer_optional,
+.pioneer_optional__request {
+  display:none
+}
+.pioneer__request .pioneer_optional__request {
+  display:block
+}
+.pioneer_error {
+  max-width:640px;
+  margin:0 auto;
+  padding-top:8px;
+  text-align:center;
+  font:14px/18px robotocondensedregular,"Arial Narrow",Arial,sans-serif;
+  color:#bc2515
+}
+.pioneer_sparkls {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.button-action {
+    color: #f9f5e1;
+    font: 14px/14px robotocondensedbold,"Arial Narrow",Arial,sans-serif;
+    text-transform: uppercase;
+    background: #f25322;
+    transition: background .15s ease-out;
+    padding: 14px 28px;
+    top: 13px;
+    position: relative;
+  }
+
+.button-action:hover {
+  color: #f9f5e1;
+  background: #ff7e00;
+  cursor: pointer;
+}

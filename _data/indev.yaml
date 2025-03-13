@@ -22,7 +22,7 @@ main:
   - text: SD-МОДЕЛИ
     url: /development/sd-progress
     image: /assets/img/indev/main/sdx465.png
-    date: 6 января
+    date: 13 марта
 
 past:
   - text: 'Обновление 2.1'
