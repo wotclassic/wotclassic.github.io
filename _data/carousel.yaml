@@ -1,8 +1,8 @@
 home:
-- title: 'О переработке SD-моделей: Германия'
-  desc: Рассказываем что сейчас происходит с SD-моделями и как подскочило их качество.
-  url: /news/sd-models-grework/
-  image: /assets/img/news/header/sd_grew.png
+- title: 'Пещерный ангар'
+  desc: Специально для PROTanki.
+  url: /news/cave_hangar/
+  image: /assets/img/carousel/cave_hangar.png
 
 - title: Февральский микропатч
   desc: Моды снова в работе, и даже с небольшими изменениями.
