@@ -386,6 +386,9 @@ body {
     color: transparent;
     cursor: pointer;
 }
+.mob-dropdown ul{
+    display: none;
+}
 
 .b-cluster-lite{
     display: none;
@@ -630,6 +633,138 @@ i
     margin: auto;
 }
 
+.footer-social {
+    
+    position: relative;
+    height: 83px;
+    width: 100dvw;
+}
+
+.footer-social:after, .footer-social:before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+}
+
+.social-big {
+    max-width: 950px;
+    margin: 0 auto;
+    padding-right: 25px;
+    position: relative;
+    z-index: 1;
+}
+
+.social-big_item {
+    font: 11px/14px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    float: left;
+    vertical-align: top;
+    height: 83px;
+    width: 25%;
+}
+.social-big-text{
+    display: inline-block;
+}
+.social-icons {
+    padding: 6px 0 10px 0;
+    overflow: hidden;
+}
+
+.social-icons_img {
+    height: 28px;
+    width: 28px;
+    opacity: 0.85;
+}
+
+.social-icons_img:hover {
+    opacity: 1
+}
+
+.social-icons_link {
+    display: inline-block;
+    filter: alpha(opacity=85);
+    opacity: .85;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.33);
+    height: 28px;
+    width: 28px;
+}
+
+.social-icons_item {
+    float: left;
+    margin: 0 7px 7px 0;
+}
+
+.social-ico-container {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 28%;
+}
+
+.social-ico {
+    width: 34px;
+    height: 35px;
+    margin-right: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.social-ico-wot {
+    background: url(../img/mini_wot_white.svg) no-repeat;
+    width: 27px;
+    height: 35px;
+    background-size: contain;
+}
+
+.social-ico-discord {
+    background: url(../img/discord_old.svg) no-repeat;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+}
+
+.social-ico-vk {
+    background: url(../img/vk.svg) no-repeat;
+    width: 38px;
+    height: 23px;
+    background-size: contain;
+}
+
+.social-ico-yt {
+    background: url(../img/yt.svg) no-repeat;
+    width: 40px;
+    height: 34px;
+    background-size: contain;
+}
+
+.social-big-info {
+    text-align: left;
+    white-space: normal;
+    margin-right: 48px;
+    font: 14px/17px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    line-height: 18px;
+    text-align: left;
+    white-space: normal;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    display: none;
+}
+
+.social-big-text {
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
+
+.social-big-item {
+    height: 83px;
+    width: 25%;
+    font: 11px/14px "robotocondensedbold", "Arial Narrow", Arial, sans-serif;
+    vertical-align: top;
+}
 hr{display: none;
 
 }
@@ -3280,8 +3415,8 @@ hr{display: none;
         color: #bdbfbf;
         font-weight: 700;
     }
-    
-    @media screen and (min-width: 768px) {
+ 
+@media screen and (min-width: 768px) {
         #mobileNotif {
             display: none;
         }
