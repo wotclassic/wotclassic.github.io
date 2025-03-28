@@ -640,20 +640,15 @@ i
     width: 100dvw;
 }
 
-.footer-social:after, .footer-social:before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 50%;
-    top: 0;
-}
+
 
 .social-big {
-    max-width: 950px;
-    margin: 0 auto;
-    padding-right: 25px;
+    
+    margin: 0;
+    //padding-right: -4px;
     position: relative;
     z-index: 1;
+    margin-inline-start: 10%;
 }
 
 .social-big_item {
@@ -700,7 +695,7 @@ i
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    left: 28%;
+    border: 25% 0 ;
 }
 
 .social-ico {
@@ -710,6 +705,7 @@ i
     display: inline-block;
     vertical-align: middle;
     text-align: center;
+    
 }
 
 .social-ico-wot {
