@@ -4,20 +4,15 @@ home:
   url: /news/cave_hangar/
   image: /assets/img/carousel/cave_hangar.png
 
+- title: Обновление 1.33
+  desc: 'Вас ждут новая нация, космические путешествия, игровое событие в режиме «Натиск» и множество других внутриигровых активностей.'
+  url: https://tanki.su/ru/alfa-update-1-33/
+  image: /assets/img/carousel/wot_upd.png
+
 - title: Февральский микропатч
   desc: Моды снова в работе, и даже с небольшими изменениями.
   url: /news/feb-mini-update/
   image: /assets/img/news/header/febmini25.png
-
-- title: Обновление 1.32
-  desc: 'Вот оно, друзья! Мы стоим на пороге самого большого обновления за всю историю проекта «Мир танков»! 11 знаковых игровых событий и новинок ждут вас.'
-  url: https://tanki.su/ru/alfa-update-1-32/
-  image: /assets/img/carousel/wot_upd.png
-
-- title: 'Blitz Classic: с нуля'
-  desc: Ностальгический портал открылся и для маленького мира танков.
-  url: /news/blitz-from-zero
-  image: /assets/img/news/header/blitz_from_zero.png
 
 - title: Октябрьское обновление портала
   desc: Поддержка, Медиа, обновление архива разработки и многие другие изменения уже доступны в хэллоуинском обновлении сайта!
