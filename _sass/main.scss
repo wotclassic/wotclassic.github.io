@@ -292,9 +292,9 @@ body {
     height: 66px;
     display: inline-block;
     opacity: .5;
-    background: url('/assets/img/mini_wot_white.svg') no-repeat 0 50%;
-    background-size: 16px 21px;
-    width: 16px;
+    background: url('../img/wt_white.svg') no-repeat 0 50%;
+    background-size: 32px 40px;
+    width: 35px;
     margin: 0 50px;
 }
 
@@ -827,8 +827,8 @@ $yt-color: #cc181e;
 }
 
 .social-ico-wot {
-    background: url(../img/mini_wot_white.svg) no-repeat;
-    width: 27px;
+    background: url(../img/wt_white.svg) no-repeat;
+    width: 35px;
     height: 35px;
     background-size: contain;
 }
