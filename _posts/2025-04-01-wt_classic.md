@@ -1,7 +1,7 @@
 ---
 title: 'Свежее дыхание вместе с «War Thunder Classic»'
 date: 2025-04-01 16:01:00 +0300
-tags: [important]
+last_modified_at: 2025-04-02 00:00:00 +0300
 category: events
 image: "/assets/img/news/thumbnail/wt_classic.png"
 image_small: "/assets/img/news/image_small/wt_classic.png"
@@ -9,6 +9,10 @@ image_small: "/assets/img/news/image_small/wt_classic.png"
 
 Все громче и громче в последнее время звучит «Гром Войны».
 {: style="display: none" }
+
+Перед тем, как читать данную новость, посмотрите на дату её изначального выхода.  
+Просим отнестись к этому с юмором. :)
+{: .message-info }
 
 ![stream]({{ '/assets/img/news/header/wt_classic.png' | relative_url }})
 
@@ -35,3 +39,23 @@ image_small: "/assets/img/news/image_small/wt_classic.png"
 Пока что мы смогли заставить работать только прототип модов, но в ближайшем будущем мы планируем ускорить перенос модов за отмены разработки лаунчера модпака и перевода этой команды на новый проект. Пока что некоторые ссылки, руководства и картинки будут переводить на старые моды, сторонние сайты и не предоставлять актуальной информации, но мы уже работаем над исправлением данной ситуации.
 
 А на этом всё. Следите за новостями и до встречи на полях онлайн-сражений!
+
+<style>
+body {
+    background-image: url('/assets/img/back_wtc.jpg'), url('/assets/img/sparkles.png');
+}
+.nav-logo {
+    background: url('/assets/img/wt_white.svg') no-repeat 0 50%;
+    background-size: 32px 40px;
+    width: 35px;
+
+}
+.social-ico-wot {
+    background: url(/assets/img/wt_white.svg) no-repeat;
+    width: 35px;
+    background-size: contain;
+}
+.wotc-logo {
+    background-image: url(/assets/img/wtc_logo.png);
+}
+</style>
