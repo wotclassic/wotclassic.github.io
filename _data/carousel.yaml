@@ -1,8 +1,8 @@
 home:
-- title: 'War Thunder Classic'
-  desc: Новое направление проекта.
-  url: /news/wt_classic/
-  image: /assets/img/news/header/wt_classic.png
+- title: '«Темная сторона Марса: Запретная зона»'
+  desc: НППО «Перспектива» вновь вставляет палки в колеса.
+  url: /news/dsot_danger_zone/
+  image: /assets/img/carousel/dark_mars.png
 
 - title: Обновление 1.33
   desc: 'Вас ждут новая нация, космические путешествия, игровое событие в режиме «Натиск» и множество других внутриигровых активностей.'
