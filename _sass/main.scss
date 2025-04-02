@@ -389,7 +389,10 @@ body {
 .mob-dropdown ul{
     display: none;
 }
-
+.l-content {
+    width: -moz-available;  
+    max-width: 100dvw;
+  }
 .b-cluster-lite{
     display: none;
 }
@@ -399,6 +402,13 @@ body {
 }
 
 }
+.social-big {
+    /* margin: 0; */
+    /* position: unset; */
+    /* position: absolute; */
+    margin: unset;
+    position: inherit;
+  }
 
 .b-rss-link{
     display: none;
@@ -632,6 +642,63 @@ i
     height: 70px;
     margin: auto;
 }
+a, abbr, acronym, address, applet, b, big, blockquote, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, samp, small, span, strike, strong, sub, sup, table, tbody, tfoot, th, thead, tr, tt, u, ul, var {
+    width: -moz-available;
+  }
+  .b-junction_navigation {
+    font-size: large;
+    text-align: center;
+    padding: 5dvh;
+  }
+  
+  h1 {
+    font-size: revert;
+    padding-left: 17px;
+    border-left: 2px solid #f49511;
+    text-transform: uppercase;
+    margin-top: 30dvh;
+  }
+  
+  .statist {
+    font-size: initial;
+    padding-left: 17px;
+    border-left: 2px solid #f49511;
+    margin-block-end: 20px;
+    padding: inherit;
+  }
+  
+  #sodierzhaniie {
+    font-size: x-large;
+    margin: revert;
+  }
+  
+  #markdown-toc {
+    text-align: start;
+    margin: revert;
+    background: rgba(42, 41, 41, 0.6);
+    padding-left: 17px;
+    border-left: 2px solid #eadece;
+  }
+
+  h3, h4 {
+    margin: revert;
+    font-size: 27px;
+    
+  }
+  
+  p {
+    font-size: medium;
+  }
+  
+  h3 {
+    /* accent-color: ; */
+  }
+  
+  markdown-toc {
+    font-size: medium;
+  }
+
+
 
 .footer-social {
     
@@ -764,7 +831,16 @@ i
 hr{display: none;
 
 }
-
+.news-text{
+    font-family: "WarHeliosCondC", "Arial Narrow", Arial, sans-serif;
+    font-stretch: normal;
+    font-style: normal;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    margin: 16px 0px 14px;
+    padding: 0px;
+}
 }
 
 
