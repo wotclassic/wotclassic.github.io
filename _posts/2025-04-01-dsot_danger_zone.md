@@ -33,7 +33,7 @@ image_small: "/assets/img/news/image_small/dsotm_dz.png"
 
 ![tanks](/assets/img/news/screens/dsotm/tanks.png){: width="100%" }
 
-## Лунный Марс... 
+## Лунный Марс...
 
 Локацией для высадки вновь станет Марс в стиле «[Лунопарка](https://wiki.wargaming.net/ru/Tank:%D0%9B%D1%83%D0%BD%D0%BE%D0%BF%D0%B0%D1%80%D0%BA)» из 2016 года, но на этот раз наши противники обустроили здесь свою базу, через которую они отправляют данные сразу на Землю. Она расположена вне игровой зоны, поэтому просто так сломать оборудование не выйдет, но вы можете увидеть её вдалеке.
 
@@ -44,6 +44,8 @@ image_small: "/assets/img/news/image_small/dsotm_dz.png"
 ## Опять анекдоты?
 
 Хотели бы мы так сказать, если бы угроза не была так близка. Сейчас уже не до шуток!
+
+{% include button.html url='https://download.wot-classic.ru/wek_dangerzone_lesta_1.33.0.0_2.exe' text='Скачать' %}
 
 ---
 
