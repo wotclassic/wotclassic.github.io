@@ -1,6 +1,7 @@
 ---
 title: '«Темная сторона Марса: Запретная зона»'
 date: 2025-04-01 17:01:00 +0300
+last_modified_at: 2025-04-09 17:42:00 +0300
 tags: [important]
 category: events
 image: "/assets/img/news/thumbnail/dsotm_dz.png"
@@ -19,7 +20,7 @@ image_small: "/assets/img/news/image_small/dsotm_dz.png"
 
 ## Самое главное
 
-- Модификация «Темная сторона Марса: Запретная зона» будет доступна **c 8 апреля**.
+- Модификация «Темная сторона Марса: Запретная зона» [**уже доступна**](https://download.wot-classic.ru/wek_dangerzone_lesta_1.33.0.0_3.exe).
 - Есть возможность получить уникальную награду!
 - Шаротанков, к сожалению, снова не будет...
 
@@ -45,7 +46,7 @@ image_small: "/assets/img/news/image_small/dsotm_dz.png"
 
 Хотели бы мы так сказать, если бы угроза не была так близка. Сейчас уже не до шуток!
 
-{% include button.html url='https://download.wot-classic.ru/wek_dangerzone_lesta_1.33.0.0_2.exe' text='Скачать' %}
+{% include button.html url='https://download.wot-classic.ru/wek_dangerzone_lesta_1.33.0.0_3.exe' text='Скачать' %}
 
 ---
 
