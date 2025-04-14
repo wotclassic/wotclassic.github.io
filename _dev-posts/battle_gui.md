@@ -1,12 +1,18 @@
 ---
 title: Интерфейс боя
-status: "Обновлено: 19 августа 2023 года"
+status: "Обновлено: 14 апреля 2025 года"
 image: /assets/img/indev/thumb/bgui.png
 ---
 
 <p style="display: none">Разработка боевого интерфейса ведется здесь.</p>
 
 ![Placeholder]({{ '/assets/img/indev/head/bgui.png' | relative_url }})
+
+{% include indev/status.html status="don" text="Обновление 2.1" date="14 апреля" %}
+
+В обновлении 2.1 мы продолжаем работу над переведем частей интерфейса на свою базу. Совсем скоро будет доступен собственный счетчик уничтоженных противников и таймер до конца боя в правом верхнем углу.
+
+[![табло]({{ '/assets/img/indev/screens/battle_head.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/battle_head.png)
 
 {% include indev/status.html status="done" text="Обновление 1.3" date="20 декабря" %}
 

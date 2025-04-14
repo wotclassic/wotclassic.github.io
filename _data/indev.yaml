@@ -10,7 +10,7 @@ main:
   - text: ИНТЕРФЕЙС БОЯ
     url: /development/battle_gui
     image: /assets/img/indev/main/devbattleguix465.png
-    date: 19 августа 2023
+    date: 14 апреля
   - text: ИНТЕРФЕЙС АНГАРА
     url: /development/hangar_gui
     image: /assets/img/indev/main/devhangarguix465.png
