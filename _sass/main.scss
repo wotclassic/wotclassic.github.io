@@ -852,6 +852,9 @@ hr{display: none;
 }
 
 @media screen and (min-width: 651px){
+    .mob-dropdown{
+        display: none;
+    }
     body {
         color: #b1b2b2;
         font: 12px/20px Arial, "Helvetica CY", Helvetica, sans-serif;
