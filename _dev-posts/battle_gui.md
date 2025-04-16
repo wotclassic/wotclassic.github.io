@@ -1,6 +1,6 @@
 ---
 title: Интерфейс боя
-status: "Обновлено: 14 апреля 2025 года"
+status: "Обновлено: 16 апреля 2025 года"
 image: /assets/img/indev/thumb/bgui.png
 ---
 
@@ -8,7 +8,7 @@ image: /assets/img/indev/thumb/bgui.png
 
 ![Placeholder]({{ '/assets/img/indev/head/bgui.png' | relative_url }})
 
-{% include indev/status.html status="don" text="Обновление 2.1" date="14 апреля" %}
+{% include indev/status.html status="don" text="Обновление 2.1" date="16 апреля" %}
 
 ### Лампочка
 
