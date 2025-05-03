@@ -22,6 +22,18 @@ fan-video:
     date: "26.03.2024"
 
 gameplay:
+  dz:
+    text: 'Темная сторона Марса: Запретная зона'
+    url: /media/gameplay/dz
+    image: /assets/img/media/gameplay/dz/dz1.png
+    date: "22.04.2025"
+    images:
+      - [/assets/img/media/gameplay/dz/dz2.png,
+         /assets/img/media/gameplay/dz/dz3.png,
+         /assets/img/media/gameplay/dz/dz4.png]
+      - [/assets/img/media/gameplay/dz/dz5.png,
+         /assets/img/media/gameplay/dz/dz6.png,
+         /assets/img/media/gameplay/dz/dz7.png]
   wt:
     text: Возвращение Белого Тигра
     url: /media/gameplay/wt
@@ -96,6 +108,27 @@ gameplay:
          /assets/img/media/gameplay/westfield/westfield7.png]
 
 video:
+  - text: '«WoT это Классика!». Ангар к 80-ти летию Победы.'
+    url: https://www.youtube.com/watch?v=zZTO7XUb5Ps
+    date: "14.04.2025"
+  - text: '«WoT это Классика!». Темная сторона Марса: Запретная зона.'
+    url: https://www.youtube.com/watch?v=8MK_DzXkejY
+    date: "01.04.2025"
+  - text: '«WoT это Классика!». Пещерный ангар.'
+    url: https://www.youtube.com/watch?v=4nkiJ4oHwg0
+    date: "27.03.2025"
+  - text: '«WoT это Классика!». Февральский микропатч.'
+    url: https://www.youtube.com/watch?v=V-RlThCbLys
+    date: "23.02.2025"
+  - text: '«WoT это Классика!». Мы идем за Near_You Team.'
+    url: https://www.youtube.com/watch?v=jxaOFu4CD6s
+    date: "05.02.2025"
+  - text: '«WoT это Классика!». Тизер ангара «Near_You Team».'
+    url: https://www.youtube.com/watch?v=6cO2eal6_wc
+    date: "02.02.2025"
+  - text: '«WoT это Классика!». Ангар «Near_You Team».'
+    url: https://www.youtube.com/watch?v=BWmav8PGAAM
+    date: "01.02.2025"
   - text: '«WoT это Классика!». Обновления уже в пути.'
     url: https://www.youtube.com/watch?v=6KLWWrGMPEU
     date: "26.01.2025"
