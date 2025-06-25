@@ -1,6 +1,10 @@
 ### СОСТОЯНИЕ МОДОВ
 
 Данные актуальны для версий клиентов **«Мира Танков» -- 1.33** и **World of Tanks -- 1.28.0**.
+{: .geolimited }
+
+Данные актуальны для версии клиента **«Мира Танков» -- 1.33**.
+{: .only_for_limited style="display: none;" }
 
 <br>
 
@@ -14,7 +18,19 @@
 | SD-модели (альфа-тестирование) | <span class="yellow">Не рекомендуются к установке</span> | <span class="red">Не работают</span> |
 | Звуки | <span class="green">Работают</span> | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> | <span class="green">Работают</span> |
-{: .wg-table}
+{: .wg-table .geolimited }
+
+| Название мода | Мир Танков |
+| --- |
+| Экран логина | <span class="green">Работает</span> |
+| Интерфейс ангара | <span class="green">Работает</span> |
+| Интерфейс боя | <span class="green">Работает</span> |
+| Ангары | <span class="green">Работают</span> |
+| Карты | <span class="green">Работают</span> |
+| SD-модели (альфа-тестирование) | <span class="yellow">Не рекомендуются к установке</span> |
+| Звуки | <span class="green">Работают</span> |
+| Эффекты | <span class="green">Работают</span> |
+{: .wg-table .only_for_limited }
 
 <style>
   .wg-table .green::after,

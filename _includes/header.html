@@ -6,7 +6,7 @@
 </div>
 <div class="navigation-header" id="navbar" style="top: 0;">
     <div class="navigation-head-centr">
-        <a class="nav-logo" href="{{ '/' | relative_url }}" alt="WOT_logo"></a>
+        <a class="nav-logo geo_replace" href="{{ '/' | relative_url }}" alt="Logo"></a>
         {% assign current_category = page.url | split: "/" | slice: 1 | first | split: "." | first %}
         <div class="dropdown single {% if page.url == "/" %}active{% endif %}">
             <a class="navigation-link" href="{{ '/' | relative_url }}">Главная</a>
@@ -43,7 +43,7 @@
 <div style="display: none; height: 66px;" id="navbar_blank"></div>
 <div>
     <div class="content-wrapper">
-        <a title="World of Tanks Classic" class="wotc-logo" href="{{ '/' | relative_url }}"></a>
+        <a class="wotc-logo geo_replace" href="{{ '/' | relative_url }}" alt="Logo"></a>
         <div class="b-cluster-lite">
             <div class="b-cluster-lite_message" id="outdatedNotif">
                 <p class="b-cluster-lite_text">

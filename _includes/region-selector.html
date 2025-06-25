@@ -1,0 +1,82 @@
+<div class="region-selector">
+    <label for="region_dropdown">Ваш регион:</label><br>
+    <select name="region" id="region_dropdown">
+        <button>
+            <selectedcontent></selectedcontent>
+        </button>
+        <option value="ruby" onclick="document.cookie = 'country=ru; path=/; max-age=2147483647;'; location.reload()">RUBY (Россия и Беларусь)</option>
+        <option value="world" onclick="document.cookie = 'country=undefined; path=/; max-age=2147483647;'; location.reload();">Остальной мир</option>
+    </select>
+</div>
+<script>document.getElementById('region_dropdown').selectedIndex=isRestricted()?0:1</script>
+<style>
+.region-selector {
+    /* position: ; */
+    /* top: 1.3rem;
+    right: ; */
+    float: right;
+    text-align: left;
+    display: inline;
+}
+.region-selector select, .region-selector ::picker(select) {
+    appearance: base-select;
+    top: calc(anchor(bottom) - 1px);
+}
+.region-selector select {
+    background-color: #121209;
+    box-shadow: #000 0 0 4px 3px inset;
+    color: #aaa;
+    border-image: linear-gradient(to right, #50503f 0%, #333328 50%, #50503f 100%) 1;
+    border-radius: 1px;
+    height: 21px;
+    width: 170px;
+    font-family: Tahoma;
+    font-size: 11px;
+    line-height: 1em;
+    padding: 0;
+}
+.region-selector select:hover {
+    background-color: #202016;
+    box-shadow: #111 0 0 4px 3px inset;
+    cursor: pointer;
+}
+.region-selector select:open {
+    background-color: #121209;
+    box-shadow: #000 0 0 4px 3px inset;
+}
+.region-selector selectedcontent {
+    padding: 4px 3px;
+}
+.region-selector select::picker-icon {
+    content: "";
+    width: 19px;
+    height: 19px;
+    background-image: url({{ '/assets/img/picker-iron.png' | relative_url }});
+}
+.region-selector select:hover::picker-icon {
+    filter: brightness(125%);
+}
+.region-selector select:open::picker-icon {
+    filter: none;
+}
+.region-selector ::picker(select) {
+    border: #434334 1px solid;
+}
+.region-selector option {
+    background-color: #000;
+    color: #aaa;
+    border-top: #090907 1px solid;
+    outline: none !important;
+    cursor: pointer;
+}
+.region-selector option:checked {
+    color: #fff;
+}
+.region-selector option:focus, .region-selector option:hover {
+    color: #fff;
+    text-shadow: #999 0 0 4px;
+}
+.region-selector ::checkmark {
+    display: none;
+}
+</style>

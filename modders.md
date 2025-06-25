@@ -50,6 +50,7 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 <span class="blackout"></span>](https://github.com/A1Asriel){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
 
 - **Игровой никнейм:** [A1Asriel](https://worldoftanks.eu/ru/community/accounts/595275807-A1Asriel/){: target="_blank" } (EU)
+{: .geolimited}
 - **Роль в команде:** технический специалист.
 - **Область занятий:**
   - обслуживание веб-портала и бекенда;
@@ -98,10 +99,11 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 ![Напиток]({{ '/assets/img/avatars/napitok.webp' | relative_url }}){: .pic-right style="position: relative; margin-top: -40px; border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
 
 - **Игровой никнейм:** [MrFishstars](https://worldoftanks.eu/ru/community/accounts/563663686-MrFishstars/){: target="_blank" } (EU)
+{: .geolimited}
 - **Область занятий:**
   - создатель террейнов для старых карт;
   - помощь в разработке интерфейсов и ангаров;
-  - портирование модов на Wargaming.
+  - {: .geolimited } портирование модов на Wargaming.
 
 ---
 
