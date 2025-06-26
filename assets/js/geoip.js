@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', async function () {
         document.querySelectorAll('.only_for_limited').forEach(el => el.style.display="revert")
 
         document.querySelector("body").innerHTML = document.querySelector("body").innerHTML
-            .replaceAll(/WoT это Классика[!]?/gi, "Мир Танков: Истоки")
+            .replaceAll(/WoT (?:- )?это Классика[!]?/gi, "Мир Танков: Истоки")
             .replaceAll(/WэК[!]?/gi, "МТИ");
         document.querySelector("title").innerHTML = document.querySelector("title").innerHTML
             .replaceAll(/WoT это Классика[!]?/gi, "Мир Танков: Истоки")

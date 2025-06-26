@@ -3,6 +3,10 @@ layout: centered
 title: Выбор региона
 ---
 
+<script>
+    if (isRestricted()) navigation.navigate("./lesta");
+</script>
+
 # Техподдержка
 
 ## Выберите свой регион
