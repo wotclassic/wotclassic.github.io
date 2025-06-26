@@ -5,26 +5,43 @@ layout: default
 <div class="content">
     <div class="b-content" style="padding: 25px; padding-right: 0px; padding-left: 0px;">
         <h1>{{ page.title }}</h1>
-        <p id="db1">
-            <a class="download-button" style="display: inline-block;width: 230px;margin: 0 auto;margin-left: 242px;padding-left: 18px;"
-                href="{{ site.data.socials.wek.mods.lesta.installer }}"><img
-                src="{{ '/assets/img/logos/mt_white.svg' | relative_url }}" alt="МТ" class="download-button_ico-holder" height="40px" width="40px"><span
-                class="download-button_text">
-                    <span class="download-button_main-text">Скачать модпак</span>
-                    <span class="download-button_region">Мир Танков, RUBY-регион</span>
-                </span>
-            </a>
-            <a class="download-button geolimited" style="display: inline-block;width: 230px;margin: 0 auto;margin-left: 50px;padding-left: 18px;"
-                href="{{ site.data.socials.wek.mods.wg.installer }}"><img
-                src="{{ '/assets/img/logos/wot_white.svg' | relative_url }}" alt="WoT" class="download-button_ico-holder" height="44px" width="40px"><span
-                class="download-button_text">
-                    <span class="download-button_main-text">Скачать модпак</span>
-                    <span class="download-button_region">World of Tanks, EU/NA/Asia</span>
-                </span>
-            </a>
-        </p>
-        <p style="text-align: center;margin-top: 10px;margin-left: -285px;"><strong><a href="{{ site.data.socials.wek.mods.lesta.drive }}" target="_blank">Скачать моды для ручной установки</a></strong></p>
-        <p style="text-align: center;margin-top: -16px;margin-left: 280px;" class="geolimited"><strong><a href="{{ site.data.socials.wek.mods.wg.drive }}" target="_blank">Скачать моды для ручной установки</a></strong></p>
+        <table class="download-table" style="width: 560px; text-align: center; margin: 0 auto;">
+            <tr>
+                <td>
+                    <a class="download-button" style="display: inline-block; width: 230px; padding-left: 18px; text-align: left;"
+                        href="{{ site.data.socials.wek.mods.lesta.installer }}"><img
+                        src="{{ '/assets/img/logos/mt_white.svg' | relative_url }}" alt="МТ" class="download-button_ico-holder" height="40px" width="40px"><span
+                        class="download-button_text">
+                            <span class="download-button_main-text">Скачать модпак</span>
+                            <span class="download-button_region">Мир Танков, RUBY-регион</span>
+                        </span>
+                    </a>
+                </td>
+                <td class="geolimited">
+                    <a class="download-button" style="display: inline-block; width: 230px; padding-left: 18px; text-align: left;"
+                        href="{{ site.data.socials.wek.mods.wg.installer }}"><img
+                        src="{{ '/assets/img/logos/wot_white.svg' | relative_url }}" alt="WoT" class="download-button_ico-holder" height="44px" width="40px"><span
+                        class="download-button_text">
+                            <span class="download-button_main-text">Скачать модпак</span>
+                            <span class="download-button_region">World of Tanks, EU/NA/Asia</span>
+                        </span>
+                    </a>
+                </td>
+            </tr>
+            <tr style="">
+                <td>
+                    <b><a href="{{ site.data.socials.wek.mods.lesta.drive }}" target="_blank">Скачать моды для ручной установки</a></b>
+                </td>
+                <td class="geolimited">
+                    <b><a href="{{ site.data.socials.wek.mods.wg.drive }}" target="_blank">Скачать моды для ручной установки</a></b>
+                </td>
+            </tr>
+        </table>
+        <style>
+            .download-table td {
+                padding: 4px 0;
+            }
+        </style>
         <p class="message-warning" style="width: 700px; margin: 16px auto 0;">Внимание! Некоторые системы могут распознать программу установки как вирус из-за отсутствия платной цифровой подписи. В случае возникновения проблем, рекомендуем отключить антивирус на время скачивания и установки, либо внести файл в список исключений.</p>
         <p style="text-align: center; margin-top: -10px;">Чтобы установить «WoT это Классика!» на свой компьютер вручную, следуйте
             <a href="https://www.youtube.com/watch?v=PoTa1BcTlxQ">видео-инструкции</a>.
