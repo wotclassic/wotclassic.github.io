@@ -2852,6 +2852,9 @@ table.wg-table p {
     }
 }
 
+.only_for_limited {
+    display: none;
+}
 
 @include meta.load-css('sandbox.scss');
 @include meta.load-css('indev.scss');
