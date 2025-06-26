@@ -1,11 +1,11 @@
 <div class="region-selector">
     <label for="region_dropdown">Ваш регион:</label><br>
-    <select name="region" id="region_dropdown">
+    <select name="region" id="region_dropdown" onchange="document.cookie = `country=${this.selectedIndex==0?'ru':'undefined'}; path=/; max-age=2147483647;`; location.reload();">
         <button>
             <selectedcontent></selectedcontent>
         </button>
-        <option value="ruby" onclick="document.cookie = 'country=ru; path=/; max-age=2147483647;'; location.reload()">RUBY (Россия и Беларусь)</option>
-        <option value="world" onclick="document.cookie = 'country=undefined; path=/; max-age=2147483647;'; location.reload();">Остальной мир</option>
+        <option value="ruby">RUBY (Россия и Беларусь)</option>
+        <option value="world">Остальной мир</option>
     </select>
 </div>
 <script>document.getElementById('region_dropdown').selectedIndex=isRestricted()?0:1</script>
