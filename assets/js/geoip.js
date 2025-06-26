@@ -31,6 +31,8 @@ window.addEventListener('DOMContentLoaded', async function () {
         document.querySelectorAll('.geolimited').forEach(el => el.remove());
         document.querySelectorAll('.only_for_limited').forEach(el => el.style.display="revert")
 
+        document.querySelector("link[rel~='icon']").href = "/assets/img/favicon_mt.ico";
+
         document.querySelector("body").innerHTML = document.querySelector("body").innerHTML
             .replaceAll(/WoT (?:- )?это Классика[!]?/gi, "Мир Танков: Истоки")
             .replaceAll(/WэК[!]?/gi, "МТИ");
