@@ -8,6 +8,7 @@ const geoip = async function () {
             document.cookie = `country=${data.country.toLowerCase()}; path=/; max-age=604800;`;
         } catch (error) {
             console.error(error);
+            document.getElementById("noGeoNotif").style.display = "revert";
             document.cookie = 'country=ru; path=/;';
         }
     }

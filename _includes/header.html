@@ -45,6 +45,22 @@
     <div class="content-wrapper">
         <a class="wotc-logo geo_replace" href="{{ '/' | relative_url }}" alt="Logo"></a>
         <div class="b-cluster-lite">
+            <noscript>
+                <div class="b-cluster-lite_message" id="noJSNotif">
+                    <p class="b-cluster-lite_text">
+                        <span class="b-cluster-lite_name">Внимание!</span>
+                        <br>
+                        Ваш браузер не поддерживает JavaScript. Некоторые элементы сайта могут работать некорректно и иметь неактуальную информацию.
+                    </p>
+                </div>
+            </noscript>
+            <div class="b-cluster-lite_message" id="noGeoNotif" style="display: none;">
+                <p class="b-cluster-lite_text">
+                    <span class="b-cluster-lite_name">Внимание!</span>
+                    <br>
+                    Нам не удалось определить вашу страну, выбран регион по умолчанию: <strong>Россия</strong>.<br>При необходимости можно выбрать регион вручную в нижней части страницы.
+                </p>
+            </div>
             <div class="b-cluster-lite_message" id="outdatedNotif">
                 <p class="b-cluster-lite_text">
                     <span class="b-cluster-lite_name">Внимание!</span>
