@@ -1,11 +1,12 @@
+{% if include.title != nil %}
 <div>
-    <hr style="width: 80%; margin: 15px auto 15px auto;">
-    {% if include.title == nil %}
+    {% if include.title == 'default' %}
     <h3 style="margin-top: 10px; margin-bottom: 5px;">Мы в социальных сетях:</h3>
     {% else %}
     <h4 style="margin-top: 10px; margin-bottom: 5px;">{{ include.title }}</h3>
     {% endif %}
 </div>
+{% endif %}
 <ul class="social-icons" style="padding-bottom: 0; margin-bottom: -7px;">
     {% for social in site.data.socials[include.person] %}
         {% if social[1].icon == nil %}{% continue %}{% endif %}

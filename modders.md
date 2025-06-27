@@ -29,7 +29,9 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 ## Mr. Bendy
 
 [![Mr. Bendy]({{ '/assets/img/avatars/bendy.jpg' | relative_url }}){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
-<span class="blackout"></span>]({{ site.data.socials.bendy.youtube.url }}){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
+<span class="blackout"></span>]({{ site.data.socials.bendy.mrbendy.url }}){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
+
+{% include socials.html person="bendy" %}
 
 - **Игровой никнейм:** [MuRaMiHa](https://tanki.su/ru/community/accounts/12666533-MuRaMiHa/){: target="_blank" } (RUBY)
 - **Роль в команде:** руководитель команды.
@@ -49,8 +51,7 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 [![A1Asriel]({{ '/assets/img/avatars/a1asriel.jpeg' | relative_url }}){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
 <span class="blackout"></span>](https://github.com/A1Asriel){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
 
-- **Игровой никнейм:** [A1Asriel](https://worldoftanks.eu/ru/community/accounts/595275807-A1Asriel/){: target="_blank" } (EU)
-{: .geolimited}
+- {: .geolimited} **Игровой никнейм:** [A1Asriel](https://worldoftanks.eu/ru/community/accounts/595275807-A1Asriel/){: target="_blank" } (EU)
 - **Роль в команде:** технический специалист.
 - **Область занятий:**
   - обслуживание веб-портала и бекенда;
@@ -63,8 +64,9 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ## Pbody –iwnl–
 
-[![Pbody –iwnl–]({{ '/assets/img/avatars/pbody.jpg' | relative_url }}){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
-<span class="blackout"></span>]({{ site.data.socials.pbody.youtube.url }}){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
+![Pbody –iwnl–]({{ '/assets/img/avatars/pbody.jpg' | relative_url }}){: .pic-right style="position: relative; margin-top: -40px; border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
+
+{% include socials.html person="pbody" %}
 
 - **Игровой никнейм:** [Pbody_iwnl_](https://tanki.su/ru/community/accounts/58184979-Pbody_iwnl_/){: target="_blank" } (RUBY)
 - **Роль в команде:** пиар-менеджер.
@@ -79,8 +81,9 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ## Valberton
 
-[![Valberton]({{ '/assets/img/avatars/valberton.webp' | relative_url }}){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
-<span class="blackout"></span>]({{ site.data.socials.vlbrtn.youtube.url }}){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
+![Valberton]({{ '/assets/img/avatars/valberton.webp' | relative_url }}){: .pic-right style="position: relative; margin-top: -40px; border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
+
+{% include socials.html person="vlbrtn" %}
 
 - **Игровой никнейм:** [Valberton](https://tanki.su/ru/community/accounts/72764962-Valberton/){: target="_blank" } (RUBY)
 - **Роль в команде:** координатор.
@@ -98,8 +101,7 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ![Напиток]({{ '/assets/img/avatars/napitok.webp' | relative_url }}){: .pic-right style="position: relative; margin-top: -40px; border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
 
-- **Игровой никнейм:** [MrFishstars](https://worldoftanks.eu/ru/community/accounts/563663686-MrFishstars/){: target="_blank" } (EU)
-{: .geolimited}
+- {: .geolimited} **Игровой никнейм:** [MrFishstars](https://worldoftanks.eu/ru/community/accounts/563663686-MrFishstars/){: target="_blank" } (EU)
 - **Область занятий:**
   - создатель террейнов для старых карт;
   - помощь в разработке интерфейсов и ангаров;
@@ -187,3 +189,5 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 - **kinasura** - создание оригинального звукового мода и первого зимнего ангара.
 - **_KILLER_2017** - помощь со звуками и интерфейсом.
+
+<style>ul.social-icons { padding: 0; }</style>

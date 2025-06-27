@@ -604,7 +604,7 @@ hr {
     display: block;
 }
 
-.social-icons {
+ul.social-icons {
     padding: 6px 0 10px 0;
     overflow: hidden;
 }
@@ -628,9 +628,11 @@ hr {
     width: 28px;
 }
 
-.social-icons_item {
+.social-icons .social-icons_item {
     float: left;
     margin: 0 7px 7px 0;
+    background: none;
+    padding: 0;
 }
 
 .wide {

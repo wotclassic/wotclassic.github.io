@@ -106,14 +106,10 @@ layout: default
     <div class="r-content">
         {% include block.html text="ФОРУМ" url="http://forum.tanki.su/index.php?/topic/2134176-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/forum242.jpg" %}
         {% include block.html text="KOREAN RANDOM" url="https://koreanrandom.com/forum/topic/65511-«wot-это-классика»-ламповый-world-of-tanks/" image="/assets/img/korean_random.png" %}
-        {% include block.html text="WGMODS" url="https://wgmods.net/search/?title=WoT%20это%20Классика!" image="/assets/img/com_mods.png" %}
-        {% include socials.html person="bendy" %}
-        {% for person in site.data.socials %}
-            {% if person[0] == "wek" or person[0] == "bendy" %}{% continue %}{% endif %}
-            {% assign title=person[1].name %}
-            {% assign name=person[0] %}
-            {% include socials.html title=title person=name %}
-        {% endfor %}
+        <span class="geolimited">{% include block.html text="WGMODS" url="https://wgmods.net/search/?title=WoT%20это%20Классика!" image="/assets/img/com_mods.png" %}</span>
+        <hr style="width: 80%; margin: 15px auto 15px auto;">
+        {% include socials.html person="bendy" title="default" %}
+        <h3 style="margin-top: 7px;">Присоединяйся!</h3>
         {% comment %}
         {% for person in site.data.socials %}
             {% for link in person[1] %}
