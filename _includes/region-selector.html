@@ -1,19 +1,17 @@
-<div class="region-selector">
-    <label for="region_dropdown">Ваш регион:</label><br>
-    <select name="region" id="region_dropdown" onchange="document.cookie = `country=${this.selectedIndex==0?'ru':'undefined'}; path=/; max-age=2147483647;`; location.reload();">
+<span class="region-selector">
+    <select id="region_dropdown" onchange="document.cookie = `country=${this.selectedIndex==0?'ru':'undefined'}; path=/; max-age=2147483647;`; location.reload();">
         <button>
             <selectedcontent></selectedcontent>
         </button>
-        <option value="ruby">RUBY (Россия и Беларусь)</option>
-        <option value="world">Остальной мир</option>
+        <option>RUBY (Россия и Беларусь)</option>
+        <option>Остальной мир</option>
     </select>
-</div>
+</span>
 <script>document.getElementById('region_dropdown').selectedIndex=isRestricted()?0:1</script>
 <style>
 .region-selector {
     float: left;
     text-align: left;
-    display: inline;
 }
 .region-selector select, .region-selector ::picker(select) {
     appearance: base-select;
@@ -30,6 +28,7 @@
     font-family: Tahoma;
     font-size: 11px;
     line-height: 1em;
+    margin: 0;
     padding: 0;
 }
 .region-selector select:hover {
@@ -65,13 +64,15 @@
     border-top: #090907 1px solid;
     outline: none !important;
     cursor: pointer;
+    min-height: 19px;
 }
 .region-selector option:checked {
     color: #fff;
-}
-.region-selector option:focus, .region-selector option:hover {
-    color: #fff;
     text-shadow: #999 0 0 4px;
+}
+.region-selector option:hover {
+    color: #fff;
+    background-color: #111;
 }
 .region-selector ::checkmark {
     display: none;
