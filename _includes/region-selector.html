@@ -1,80 +1,39 @@
-<span class="region-selector">
-    <select id="region_dropdown" onchange="document.cookie = `country=${this.selectedIndex==0?'ru':'undefined'}; path=/; max-age=2147483647;`; location.reload();">
-        <button>
-            <selectedcontent></selectedcontent>
-        </button>
-        <option>RUBY (Россия и Беларусь)</option>
-        <option>Остальной мир</option>
-    </select>
-</span>
-<script>document.getElementById('region_dropdown').selectedIndex=isRestricted()?0:1</script>
+<span class="footer-menu-link change-region" id="region_dropdown" onclick="toggleRegionChanger(this)">РОССИЯ И БЕЛАРУСЬ</span>
+
 <style>
-.region-selector {
-    float: left;
-    text-align: left;
-}
-.region-selector select, .region-selector ::picker(select) {
-    appearance: base-select;
-    top: calc(anchor(bottom) - 1px);
-}
-.region-selector select {
-    background-color: #121209;
-    box-shadow: #000 0 0 4px 3px inset;
-    color: #aaa;
-    border-image: linear-gradient(to right, #50503f 0%, #333328 50%, #50503f 100%) 1;
-    border-radius: 1px;
-    height: 21px;
-    width: 170px;
-    font-family: Tahoma;
-    font-size: 11px;
-    line-height: 1em;
-    margin: 0;
-    padding: 0;
-}
-.region-selector select:hover {
-    background-color: #202016;
-    box-shadow: #111 0 0 4px 3px inset;
+.change-region {
+    padding: 0 14px 0 22px;
+    position: relative;
     cursor: pointer;
 }
-.region-selector select:open {
-    background-color: #121209;
-    box-shadow: #000 0 0 4px 3px inset;
-}
-.region-selector selectedcontent {
-    padding: 4px 3px;
-}
-.region-selector select::picker-icon {
+.change-region:after, .change-region:before {
+    position: absolute;
+    background-repeat: no-repeat;
     content: "";
-    width: 19px;
-    height: 19px;
-    background-image: url({{ '/assets/img/picker-iron.png' | relative_url }});
 }
-.region-selector select:hover::picker-icon {
-    filter: brightness(125%);
+.change-region:before {
+    background-size: 14px 11px;
+    top: 3px;
+    left: 0;
+    height: 11px;
+    width: 14px;
 }
-.region-selector select:open::picker-icon {
-    filter: none;
+.change-region__ruby:before {
+    background-image: url({{ '/assets/img/ruby.svg' | relative_url }});
 }
-.region-selector ::picker(select) {
-    border: #434334 1px solid;
+.change-region__world:before {
+    background-image: url({{ '/assets/img/world.svg' | relative_url }});
 }
-.region-selector option {
-    background-color: #000;
-    color: #aaa;
-    border-top: #090907 1px solid;
-    outline: none !important;
-    cursor: pointer;
-    min-height: 19px;
+.change-region:after {
+    top: 6px;
+    right: 0;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTIgNyI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmO308L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMiAyVjBoLTFMNiA0IDEgMEgwdjJsNS45IDVINnoiLz48L3N2Zz4=);
+    background-size: 8px 5px;
+    width: 8px;
+    height: 5px;
 }
-.region-selector option:checked {
-    color: #fff;
-    text-shadow: #999 0 0 4px;
-}
-.region-selector option:hover {
-    color: #fff;
-    background-color: #111;
-}
-.region-selector ::checkmark {
-    display: none;
+.change-region__open:after {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMTIgNyI+PHN0eWxlPi5zdDB7ZmlsbDojZmZmO308L3N0eWxlPjxwYXRoIGlkPSJYTUxJRF8yN18iIGNsYXNzPSJzdDAiIGQ9Ik0wIDV2MmgxbDUtNCA1IDRoMVY1TDYuMSAwSDZ6Ii8+PC9zdmc+);
+    text-decoration: none;
 }
 </style>

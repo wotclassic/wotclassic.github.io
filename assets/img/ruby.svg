@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 10" width="14" height="10">
+  <defs>
+    <clipPath id="p">
+      <path d="m0 0h200v608h8v284l-8 8H0z"/>
+    </clipPath>
+    <mask id="mask-0">
+      <path style="fill: rgb(255, 255, 255);" d="M 0 10 L 14 0 L 14 10"/>
+    </mask>
+  </defs>
+  <path fill="#F4F4F4" d="M0 0h14v3H0z" style="shape-rendering: crispedges;"/>
+  <path fill="#294697" d="M0 3h14v3H0z" style="shape-rendering: crispedges;"/>
+  <path fill="#E5231E" d="M0 6h14v4H0z" style="shape-rendering: crispedges;"/>
+  <title>Flag of Belarus</title>
+  <g style="mask: url(&quot;#mask-0&quot;);">
+    <title>BY</title>
+    <path fill="#ce1720" d="M 0 0 L 14 0 L 14 9.999 L 0 9.999 L 0 0 Z" style="stroke-width: 3.175; shape-rendering: crispedges;"/>
+    <g transform="matrix(0.011111, 0, 0, 0.011111, 0.032416, 0.000111)" clip-path="url(#p)" fill="#fff" style="">
+      <path d="M 36 900 L 36 886 L 27 886 L 27 872 L 8 876 L 8 894 L -8 894 L -8 900 L 36 900 Z M 62 843 L 46 858 L 46 870 L 54 870 L 54 858 L 62 858 L 62 843 Z" style="shape-rendering: crispedges; stroke-width: 1;"/>
+      <path d="M 174 796 L 174 810 L 165 810 L 165 824 L 154 824 L 154 840 L 146 840 L 146 853 L 130 853 L 130 820 L 146 820 L 146 802 L 130 802 L 130 796 L 174 796 Z M 200 873 L 200 888 L 192 888 L 192 900 L 184 900 L 184 888 L 176 888 L 176 873 L 168 873 L 168 853 L 176 853 L 176 838 L 184 838 L 184 826 L 192 826 L 192 838 L 200 838 L 200 853 L 208 853 L 208 873 L 200 873 Z M 183 872 L 193 872 L 193 854 L 183 854 L 183 872 Z" style="shape-rendering: crispedges; transform-box: fill-box; transform-origin: 50% 50%; stroke-width: 1;" transform="matrix(-1, 0, 0, -1, -0.000058, 0.000015)"/>
+      <path d="M 96 900 L 96 868 L 104 868 L 104 900 L 136 900 L 136 886 L 128 886 L 128 872 L 116 872 L 116 856 L 108 856 L 108 843 L 92 843 L 92 856 L 84 856 L 84 872 L 72 872 L 72 886 L 64 886 L 64 900 L 96 900 Z M 92 823 L 108 823 L 108 810 L 164 781 L 173 781 L 173 794 L 184 794 L 184 810 L 192 810 L 192 823 L 208 823 L 208 795 L 192 795 L 192 776 L 208 776 L 208 735 L 182 763" style="shape-rendering: crispedges; stroke-width: 1;"/>
+    </g>
+    <path fill="#007c30" d="M 2.344 6.667 L 14 6.667 L 14 10 L 2.344 9.999 L 2.344 6.667 Z" style="stroke-width: 3.175; shape-rendering: crispedges;"/>
+  </g>
+</svg>

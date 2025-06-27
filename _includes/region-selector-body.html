@@ -1,0 +1,177 @@
+<div class="region-selector_container">
+    <div class="region-selector_header">
+        <p class="region-selector_title">ВЫБЕРИТЕ РЕГИОН</p>
+        <p style="font: 12px/20px robotoregular,'Arial Narrow',Arial,sans-serif; color: #b8b8a2;">Выбор другого региона может привести к изменению содержимого сайта.</p>
+    </div>
+    <div class="region-selector_body">
+        <div class="region-selector_cluster">
+            <div class="region-selector_item">
+                <span class="region-selector_link region-selector_link__ruby">РОССИЯ И БЕЛАРУСЬ</span>
+            </div>
+        </div>
+        <div class="region-selector_cluster">
+            <div class="region-selector_item">
+                <span class="region-selector_link region-selector_link__world">ВЕСЬ МИР</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.region-selector_container {
+    background-color: #1c1c1e;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: height .3s ease, opacity .3s ease;
+}
+.region-selector_container__open {
+    height: 300px;
+    opacity: 100%;
+    overflow: visible;
+    margin-bottom: 18px;
+}
+.region-selector_header {
+    text-align: center;
+    padding: 26px 0 24px;
+}
+.region-selector_title {
+    color: #f9f5e1;
+    font: 18px robotocondensedregular, "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+}
+.region-selector_cluster {
+    float: left;
+    width: 50%;
+}
+.region-selector_cluster__selected::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: -60px;
+    width: 250px;
+    height: 203px;
+    opacity: .1;
+}
+.region-selector_cluster__ruby::before {
+    background-image: url({{ "/assets/img/ruby_map.svg" | relative_url }});
+}
+.region-selector_cluster__world::before {
+    background-image: url({{ "/assets/img/world_map.svg" | relative_url }});
+}
+.region-selector_item {
+    font-family: robotocondensedregular, "Arial Narrow", Arial, sans-serif;
+    text-transform: uppercase;
+    width: fit-content;
+    margin: 0 auto 5px;
+}
+.region-selector_item__selected {
+    position: relative;
+    padding-left: 12px;
+}
+.region-selector_item__selected::before {
+    content: "\203a";
+    color: #f9f5e1;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.region-selector_link {
+    position: relative;
+    color: #a29e87;
+    padding-left: 22px;
+    cursor: pointer;
+    transition: color .15s ease-out;
+}
+.region-selector_link:hover {
+    color: #f9f5e1;
+    text-decoration: underline;
+}
+.region-selector_link__selected {
+    cursor: text;
+    color: #f9f5e1;
+    text-decoration: none !important;
+}
+.region-selector_link__ruby::before {
+    content: "";
+    background-size: 14px 11px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 11px;
+    width: 14px;
+    background-image: url({{ '/assets/img/ruby.svg' | relative_url }});
+}
+.region-selector_link__world::before {
+    content: "";
+    background-size: 14px 11px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 11px;
+    width: 14px;
+    background-image: url({{ '/assets/img/world.svg' | relative_url }});
+}
+.region-selector_body {
+    max-width: 518px;
+    padding: 0 25px 25px 20px;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+}
+.region-selector_body::before {
+    display: table;
+    content: "";
+}
+.region-selector_body::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+</style>
+
+<script>
+const dropdown = document.getElementById("region_dropdown");
+const selector = document.getElementsByClassName("region-selector_container")[0];
+window.addEventListener("DOMContentLoaded", function () {
+    const country = getCountry();
+    if (country == "ru" || country == "by") {
+        dropdown.classList.add("change-region__ruby");
+        dropdown.innerText = "RUBY (РОССИЯ И БЕЛАРУСЬ)";
+        const el = document.getElementsByClassName("region-selector_link__ruby")[0];
+        el.classList.add("region-selector_link__selected");
+        el.parentElement.classList.add("region-selector_item__selected");
+        el.parentElement.parentElement.classList.add("region-selector_cluster__selected");
+        el.parentElement.parentElement.classList.add("region-selector_cluster__ruby");
+        document.getElementsByClassName("region-selector_link__world")[0].onclick = changeRegion;
+    } else {
+        dropdown.classList.add("change-region__world");
+        dropdown.innerText = "EU/NA/APAC (ВЕСЬ МИР)";
+        const el = document.getElementsByClassName("region-selector_link__world")[0];
+        el.classList.add("region-selector_link__selected");
+        el.parentElement.classList.add("region-selector_item__selected");
+        el.parentElement.parentElement.classList.add("region-selector_cluster__selected");
+        el.parentElement.parentElement.classList.add("region-selector_cluster__world");
+        document.getElementsByClassName("region-selector_link__ruby")[0].onclick = changeRegion;
+    }
+});
+
+function toggleRegionChanger(el) {
+    if (el.classList.contains("change-region__open")) {
+        el.classList.remove("change-region__open");
+        selector.classList.remove("region-selector_container__open");
+    } else {
+        el.classList.add("change-region__open");
+        selector.classList.add("region-selector_container__open");
+    }
+}
+
+function changeRegion() {
+    document.cookie = `country=${getCountry()=='ru'||getCountry()=='by'?'undefined':'ru'}; path=/; max-age=2147483647;`;
+    location.reload();
+}
+</script>
