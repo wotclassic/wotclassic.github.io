@@ -137,7 +137,8 @@
 <script>
 const dropdown = document.getElementById("region_dropdown");
 const selector = document.getElementsByClassName("region-selector_container")[0];
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", async function () {
+    await promise;
     const country = getCountry();
     if (country == "ru" || country == "by") {
         dropdown.classList.add("change-region__ruby");
