@@ -4,7 +4,7 @@ title: Выбор региона
 ---
 
 <script>
-    if (isRestricted()) navigation.navigate("./lesta");
+    if (isRestricted()) window.location = "./lesta";
 </script>
 
 # Техподдержка
