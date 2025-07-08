@@ -15,7 +15,7 @@
 | Интерфейс боя | <span class="green">Работает</span> | <span class="green">Работает</span> |
 | Ангары | <span class="green">Работают</span> | <span class="red">Не работают</span> |
 | Карты | <span class="green">Работают</span> | <span class="red">Не работают</span> |
-| SD-модели (альфа-тестирование) | <span class="yellow">Не рекомендуются к установке</span> | <span class="red">Не работают</span> |
+| SD-модели (альфа-тестирование) | <span class="yellow">На переработке; недоступны для установки</span> | <span class="red">Не работают</span> |
 | Звуки | <span class="green">Работают</span> | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> | <span class="green">Работают</span> |
 {: .wg-table .geolimited }
@@ -27,7 +27,7 @@
 | Интерфейс боя | <span class="green">Работает</span> |
 | Ангары | <span class="green">Работают</span> |
 | Карты | <span class="green">Работают</span> |
-| SD-модели (альфа-тестирование) | <span class="yellow">Не рекомендуются к установке</span> |
+| SD-модели (альфа-тестирование) | <span class="yellow">На переработке; недоступны для установки</span> |
 | Звуки | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> |
 {: .wg-table .only_for_limited }

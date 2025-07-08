@@ -2,6 +2,7 @@ wek:
   mods:
     lesta:
       installer: https://download.wot-classic.ru/wek_install_lesta.exe
+      alt_installer: https://drive.google.com/file/d/1JcHaGNdgBS_Vh4M9mY9rNcwfG7EG8zxa/view?usp=sharing
       drive: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
     wg:
       installer: https://download.wot-classic.ru/wek_install_wg.exe
