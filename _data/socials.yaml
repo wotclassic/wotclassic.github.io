@@ -34,6 +34,10 @@ bendy:
   discord:
     url: https://discord.gg/6wstW87FPX
     icon: /assets/img/discord_28x.png
+    
+  tt:
+      url: https://www.tiktok.com/@mtorigins
+      icon: /assets/img/tt_28x.png
 
   mrbendy:
     url: https://muramiha.github.io/
