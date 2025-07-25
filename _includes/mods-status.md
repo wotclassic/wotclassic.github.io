@@ -1,9 +1,9 @@
 ### СОСТОЯНИЕ МОДОВ
 
-Данные актуальны для версий клиентов **«Мира Танков» -- 1.35** и **World of Tanks -- 1.28.0**.
+Данные актуальны для версий клиентов **«Мира Танков» -- 1.36** и **World of Tanks -- 1.28.0**.
 {: .geolimited }
 
-Данные актуальны для версии клиента **«Мира Танков» -- 1.35**.
+Данные актуальны для версии клиента **«Мира Танков» -- 1.36**.
 {: .only_for_limited style="display: none;" }
 
 <br>
@@ -14,7 +14,7 @@
 | Интерфейс ангара | <span class="green">Работает</span> | <span class="red">Не работает</span> |
 | Интерфейс боя | <span class="green">Работает</span> | <span class="green">Работает</span> |
 | Ангары | <span class="green">Работают</span> | <span class="red">Не работают</span> |
-| Карты | <span class="green">Работают</span> | <span class="red">Не работают</span> |
+| Карты | <span class="yellow">Не рекомендуется к установке</span> | <span class="red">Не работают</span> |
 | SD-модели (альфа-тестирование) | <span class="yellow">На переработке; недоступны для установки</span> | <span class="red">Не работают</span> |
 | Звуки | <span class="green">Работают</span> | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> | <span class="green">Работают</span> |
@@ -26,7 +26,7 @@
 | Интерфейс ангара | <span class="green">Работает</span> |
 | Интерфейс боя | <span class="green">Работает</span> |
 | Ангары | <span class="green">Работают</span> |
-| Карты | <span class="green">Работают</span> |
+| Карты | <span class="yellow">Не рекомендуется к установке</span> |
 | SD-модели (альфа-тестирование) | <span class="yellow">На переработке; недоступны для установки</span> |
 | Звуки | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> |
