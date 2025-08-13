@@ -1,27 +1,11 @@
 ### СОСТОЯНИЕ МОДОВ
 
-Данные актуальны для версий клиентов **«Мира Танков» -- 1.36** и **World of Tanks -- 1.29.1**.
-{: .geolimited }
-
 Данные актуальны для версии клиента **«Мира Танков» -- 1.36**.
-{: .only_for_limited style="display: none;" }
 
 <br>
 
-| Название мода | Мир Танков | World of Tanks |
+| Название мода | Работоспособность |
 | --- | --- |
-| Экран логина | <span class="green">Работает</span> | <span class="green">Работает</span> |
-| Интерфейс ангара | <span class="green">Работает</span> | <span class="red">Не работает</span> |
-| Интерфейс боя | <span class="green">Работает</span> | <span class="green">Работает</span> |
-| Ангары | <span class="green">Работают</span> | <span class="red">Не работают</span> |
-| Карты | <span class="yellow">Не рекомендуется к установке</span> | <span class="red">Не работают</span> |
-| SD-модели (альфа-тестирование) | <span class="yellow">На переработке; недоступны для установки</span> | <span class="red">Не работают</span> |
-| Звуки | <span class="green">Работают</span> | <span class="green">Работают</span> |
-| Эффекты | <span class="green">Работают</span> | <span class="green">Работают</span> |
-{: .wg-table .geolimited }
-
-| Название мода | Мир Танков |
-| --- |
 | Экран логина | <span class="green">Работает</span> |
 | Интерфейс ангара | <span class="green">Работает</span> |
 | Интерфейс боя | <span class="green">Работает</span> |
@@ -30,7 +14,7 @@
 | SD-модели (альфа-тестирование) | <span class="yellow">На переработке; недоступны для установки</span> |
 | Звуки | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> |
-{: .wg-table .only_for_limited }
+{: .wg-table }
 
 <style>
   .wg-table .green::after,

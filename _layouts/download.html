@@ -18,23 +18,20 @@ layout: default
                         </span>
                     </a>
                 </td>
-                <td class="geolimited">
+                <td>
                     <a class="download-button" style="display: inline-block; width: 230px; padding-left: 18px; text-align: left;"
-                        href="{{ site.data.socials.wek.mods.wg.installer }}"><img
-                        src="{{ '/assets/img/logos/wot_white.svg' | relative_url }}" alt="WoT" class="download-button_ico-holder" height="44px" width="40px"><span
+                        href="http://forum.tanki.su/index.php?/topic/2205036-all-%d0%bc%d0%be%d1%81%d1%82/"><img
+                        src="{{ '/assets/img/most.png' | relative_url }}" alt="МОСТ" class="download-button_ico-holder" height="36px" width="36px" style="margin-right: 6px;"><span
                         class="download-button_text">
-                            <span class="download-button_main-text">Скачать модпак</span>
-                            <span class="download-button_region">World of Tanks, EU/NA/Asia</span>
+                            <span class="download-button_main-text">Скачать из МОСТ</span>
+                            <span class="download-button_region">Мир Танков, RUBY-регион</span>
                         </span>
                     </a>
                 </td>
             </tr>
-            <tr style="">
-                <td>
+            <tr>
+                <td colspan="2">
                     <b><a href="{{ site.data.socials.wek.mods.lesta.drive }}" target="_blank">Скачать моды для ручной установки</a></b>
-                </td>
-                <td class="geolimited">
-                    <b><a href="{{ site.data.socials.wek.mods.wg.drive }}" target="_blank">Скачать моды для ручной установки</a></b>
                 </td>
             </tr>
         </table>
@@ -50,6 +47,28 @@ layout: default
         <hr>
         {% capture mods-status %}{% include mods-status.md %}{% endcapture %}
         {{ mods-status | markdownify }}
+        <hr class="geolimited">
+        <h3 class="geolimited">Моды для World of Tanks</h3>
+        <p class="message-error geolimited">Поддержка модификаций для World of Tanks была <a href="/news/eu-end">прекращена</a>. Используйте архивную версию на свой страх и риск.</p>
+        <table class="download-table geolimited" style="width: 560px; text-align: center; margin: 0 auto;">
+            <tr>
+                <td>
+                    <a class="download-button" style="display: inline-block; width: 230px; padding-left: 18px; text-align: left;"
+                        href="{{ site.data.socials.wek.mods.wg.installer }}"><img
+                        src="{{ '/assets/img/logos/wot_white.svg' | relative_url }}" alt="WoT" class="download-button_ico-holder" height="44px" width="40px"><span
+                        class="download-button_text">
+                            <span class="download-button_main-text">Скачать модпак</span>
+                            <span class="download-button_region">World of Tanks, EU/NA/Asia</span>
+                        </span>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b><a href="{{ site.data.socials.wek.mods.wg.drive }}" target="_blank">Скачать моды для ручной установки</a></b>
+                </td>
+            </tr>
+        </table>
         <hr>
         <h3 style="text-align: left;">СИСТЕМНЫЕ ТРЕБОВАНИЯ ДЛЯ «МИРА ТАНКОВ»</h3>
         <table class="req-table">
@@ -87,45 +106,6 @@ layout: default
                 <td>Скорость интернет-соединения:</td>
                 <td>256 Кбит/с</td>
                 <td>1+ Мбит/с (для работы голосового чата)</td>
-            </tr>
-        </table>
-        <hr class="geolimited">
-        <h3 style="text-align: left;" class="geolimited">СИСТЕМНЫЕ ТРЕБОВАНИЯ ДЛЯ WORLD OF TANKS</h3>
-        <table class="req-table geolimited">
-            <tr style="border-bottom: 1px solid #353231;">
-                <th>Параметр</th>
-                <th>Минимальные системные требования</th>
-                <th>Рекомендуемые системные требования</th>
-            </tr>
-            <tr>
-                <td style="width: 30%;">Операционная система:</td>
-                <td>Windows 7/8/8.1/10/11 (только 64-разрядная версия)</td>
-                <td>Windows 10/11 (только 64-разрядная версия)</td>
-            </tr>
-            <tr>
-                <td>Процессор:</td>
-                <td>Intel Core i5-3330, AMD FX-6300 для ПК;<br>Intel Core i5-3230M для ноутбука</td>
-                <td>Intel Core i3-9100F, AMD Ryzen 3 3100</td>
-            </tr>
-            <tr>
-                <td>ОЗУ:</td>
-                <td>4 ГБ</td>
-                <td>16 ГБ или больше</td>
-            </tr>
-            <tr>
-                <td>Видеокарта:</td>
-                <td>Nvidia GTX 460, AMD Radeon HD 8770, разрешение экрана 1280x768 для ПК;<br>Nvidia GT 740M для ноутбука</td>
-                <td>Nvidia GTX 1650, AMD Radeon RX 580</td>
-            </tr>
-            <tr>
-                <td>Жёсткий диск:</td>
-                <td>~ 70 ГБ свободного места</td>
-                <td>~ 70 ГБ свободного места</td>
-            </tr>
-            <tr>
-                <td>Скорость интернет-соединения:</td>
-                <td>256 Кбит/с</td>
-                <td>1024 Кбит/с или выше (для работы голосового чата)</td>
             </tr>
         </table>
         <style>
