@@ -56,7 +56,7 @@ permalink: /guide/main/questions_and_answers
 
 ##### **Установщик**
 
-1. Скачайте [установщик модификаций]({{ site.data.installer.link }}).
+1. Скачайте [установщик модификаций]({{ site.data.socials.wek.mods.lesta.installer }}).
 2. Откройте скачанный файл и следуйте инструкциям мастера установки.
 
 ##### **<<МОСТ>>**
@@ -113,9 +113,9 @@ permalink: /guide/main/questions_and_answers
 
 1) Скачать «WoT это Классика!» можно с помощью специального установщика. Ниже вы можете выбрать более удобный способ скачивания:
 
-  1. [Через Cloudflare]({{ site.data.socials.wek.mods.lesta.installer }}) (быстрее, может не работать в РФ/РБ)
-  2. [Прямая ссылка]({{ site.data.installer.link }})
-  3. [Google Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}) (может быть неактуальным)
+  1. **Через Cloudflare** (быстрее, может не работать в РФ/РБ): [основные моды]({{ site.data.socials.wek.mods.lesta.installer }}) / [SD-модели]({{ site.data.socials.wek.mods.sd-models.installer }})
+  2. **Прямая ссылка**: [основные моды]({{ site.data.socials.wek.mods.lesta.direct_installer }}) / [SD-модели]({{ site.data.socials.wek.mods.sd-models.direct_installer }})
+  3. **Google Диск** (может быть неактуальным, сверяйте версию): [основные моды]({{ site.data.socials.wek.mods.lesta.alt_installer }}) / [SD-модели]({{ site.data.socials.wek.mods.sd-models.alt_installer }})
 
 2) Через сервис установки модификаций [МОСТ](http://forum.tanki.su/index.php?/topic/2205036-all-%d0%bc%d0%be%d1%81%d1%82/).
 

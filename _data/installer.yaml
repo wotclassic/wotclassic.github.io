@@ -1,5 +1,12 @@
-major: 36
-middle: 1
-minor: 0
-build: 13
-link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_lesta_1.36.1.0_13.exe
+lesta:
+  major: 36
+  middle: 1
+  minor: 0
+  build: 14
+  link: https://download.wot-classic.ru/wek_install_lesta.exe
+sd-models:
+  major: 36
+  middle: 1
+  minor: 0
+  build: 1
+  link: https://download.wot-classic.ru/wek_install_sd.exe

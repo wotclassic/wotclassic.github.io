@@ -3,11 +3,19 @@ layout: none
 ---
 <root>
   <latest>
-    <fullVersion>1.{{ site.data.installer.major }}.{{ site.data.installer.middle }}.{{ site.data.installer.minor }}#{{ site.data.installer.build }}</fullVersion>
-    <major>{{ site.data.installer.major }}</major>
-    <middle>{{ site.data.installer.middle }}</middle>
-    <minor>{{ site.data.installer.minor }}</minor>
-    <build>{{ site.data.installer.build }}</build>
-    <link>{{ site.data.installer.link }}</link>
+    <fullVersion>1.{{ site.data.installer.lesta.major }}.{{ site.data.installer.lesta.middle }}.{{ site.data.installer.lesta.minor }}#{{ site.data.installer.lesta.build }}</fullVersion>
+    <major>{{ site.data.installer.lesta.major }}</major>
+    <middle>{{ site.data.installer.lesta.middle }}</middle>
+    <minor>{{ site.data.installer.lesta.minor }}</minor>
+    <build>{{ site.data.installer.lesta.build }}</build>
+    <link>{{ site.data.installer.lesta.link }}</link>
   </latest>
+  <sd_models>
+    <fullVersion>1.{{ site.data.installer.sd-models.major }}.{{ site.data.installer.sd-models.middle }}.{{ site.data.installer.sd-models.minor }}#{{ site.data.installer.sd-models.build }}</fullVersion>
+    <major>{{ site.data.installer.sd-models.major }}</major>
+    <middle>{{ site.data.installer.sd-models.middle }}</middle>
+    <minor>{{ site.data.installer.sd-models.minor }}</minor>
+    <build>{{ site.data.installer.sd-models.build }}</build>
+    <link>{{ site.data.installer.sd-models.link }}</link>
+  </sd_models>
 </root>
