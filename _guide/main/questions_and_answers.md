@@ -111,9 +111,11 @@ permalink: /guide/main/questions_and_answers
 
 #### **Альтернативные способы загрузки модов**
 
-1) Скачать «WoT это Классика!» можно с помощью специального [установщика](https://download.wot-classic.ru/wek_install_lesta.exe).
+1) Скачать «WoT это Классика!» можно с помощью специального установщика. Ниже вы можете выбрать более удобный способ скачивания:
 
-  1. [Установщик для RUBY на Google Диск](https://drive.google.com/file/d/1JcHaGNdgBS_Vh4M9mY9rNcwfG7EG8zxa/view?usp=sharing).  
+  1. [Через Cloudflare]({{ site.data.socials.wek.mods.lesta.installer }}) (быстрее, может не работать в РФ/РБ)
+  2. [Прямая ссылка]({{ site.data.installer.link }})
+  3. [Google Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}) (может быть неактуальным)
 
 2) Через сервис установки модификаций [МОСТ](http://forum.tanki.su/index.php?/topic/2205036-all-%d0%bc%d0%be%d1%81%d1%82/).
 
