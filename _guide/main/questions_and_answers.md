@@ -56,7 +56,7 @@ permalink: /guide/main/questions_and_answers
 
 ##### **Установщик**
 
-1. Скачайте [установщик модификаций]({{ site.data.socials.wek.mods.lesta.installer }}).
+1. Скачайте [установщик модификаций]({{ site.data.installer.link }}).
 2. Откройте скачанный файл и следуйте инструкциям мастера установки.
 
 ##### **<<МОСТ>>**

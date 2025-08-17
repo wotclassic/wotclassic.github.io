@@ -1,0 +1,13 @@
+---
+layout: none
+---
+<root>
+  <latest>
+    <fullVersion>1.{{ site.data.installer.major }}.{{ site.data.installer.middle }}.{{ site.data.installer.minor }}#{{ site.data.installer.build }}</fullVersion>
+    <major>{{ site.data.installer.major }}</major>
+    <middle>{{ site.data.installer.middle }}</middle>
+    <minor>{{ site.data.installer.minor }}</minor>
+    <build>{{ site.data.installer.build }}</build>
+    <link>{{ site.data.installer.link }}</link>
+  </latest>
+</root>
