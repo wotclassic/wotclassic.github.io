@@ -2,7 +2,7 @@ lesta:
   major: 36
   middle: 1
   minor: 0
-  build: 14
+  build: 15
   link: https://download.wot-classic.ru/wek_install_lesta.exe
 sd-models:
   major: 36
