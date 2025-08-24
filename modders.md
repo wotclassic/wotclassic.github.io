@@ -156,17 +156,6 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ---
 
-## kostikmalish
-
-![kostikmalish]({{ '/assets/img/avatars/kostikmalish.jpg' | relative_url }}){: .pic-right style="position: relative; margin-top: -40px; border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
-
-- **Игровой никнейм:** [kostikmalish](https://tanki.su/ru/community/accounts/23490478-kostikmalish/){: target="_blank" } (RUBY)
-- **Область занятий:**
-  - работа над SD-моделями Франции;
-  - разработка старых карт.
-
----
-
 ## Yuratoshi
 
 ![Yuratoshi]({{ '/assets/img/avatars/yuratoshi.jpg' | relative_url }}){: .pic-right style="position: relative; margin-top: -40px; border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
