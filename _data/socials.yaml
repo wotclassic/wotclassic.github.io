@@ -2,8 +2,8 @@ wek:
   mods:
     lesta:
       installer: https://download.wot-classic.ru/wek_install_lesta.exe
-      direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_lesta_1.37.0.0_18.exe
-      alt_installer: https://drive.google.com/file/d/198alJnw5A5zavX86GK4hduoLufc58K6K/view?usp=sharing
+      direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_lesta_1.37.0.0_19.exe
+      alt_installer: https://drive.google.com/file/d/1QFKSKyidpaRkWsFVXZeYUnrTBauq2YCv/view?usp=sharing
       drive: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
     sd-models:
       installer: https://download.wot-classic.ru/wek_install_sd.exe

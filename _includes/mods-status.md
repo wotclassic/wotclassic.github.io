@@ -10,7 +10,7 @@
 | Интерфейс ангара | <span class="green">Работает</span> |
 | Интерфейс боя | <span class="green">Работает</span> |
 | Ангары | <span class="green">Работают</span> |
-| Карты | <span class="red">Временно не работают; рекомендуется удалить</span> |
+| Карты | <span class="green">Работают</span> |
 | SD-модели (альфа-тестирование) | <span class="green">Работают</span> |
 | Звуки | <span class="green">Работают</span> |
 | Эффекты | <span class="green">Работают</span> |
