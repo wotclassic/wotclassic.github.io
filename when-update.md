@@ -5,6 +5,10 @@ title: Когда будет обновление?
 Хотите узнать, когда будет обновление?
 {: style="display: none"}
 
+<script>
+  if (Math.random() > 0.75) window.location = "/download-modpack";
+</script>
+
 {% include tomorrow-timer.html %}
 
 <br>
