@@ -1,8 +1,8 @@
 home:
-- title: Старые эффекты теперь еще масштабнее!
-  desc: Это самое большое обновление мода на эффекты!
-  url: /news/big-eff-upd/
-  image: /assets/img/news/header/eff2.0.png
+- title: 'Белый Тигр: Двойная Атака'
+  desc: Потусторонние пришли в мир. В наш мир. Не дайте им захватить его.
+  url: /news/wt-double-attack/
+  image: /assets/img/carousel/wtda.png
 
 - title: Августовское обновление
   desc: Горячее обновление, прямо из печи! Жара на картах, SD-модели и многое другое!
