@@ -2,11 +2,17 @@ lesta:
   major: 37
   middle: 0
   minor: 0
-  build: 20
-  link: https://download.wot-classic.ru/wek_install_lesta.exe
+  build: 21
+  link: https://download.wot-classic.ru/wek_install.exe
 sd-models:
   major: 37
   middle: 0
   minor: 0
   build: 7
   link: https://download.wot-classic.ru/wek_install_sd.exe
+tiger:
+  major: 37
+  middle: 0
+  minor: 0
+  build: 2
+  link: https://download.wot-classic.ru/wek_tiger.exe

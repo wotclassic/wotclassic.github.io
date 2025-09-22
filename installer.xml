@@ -18,4 +18,12 @@ layout: none
     <build>{{ site.data.installer.sd-models.build }}</build>
     <link>{{ site.data.installer.sd-models.link }}</link>
   </sd_models>
+  <tiger>
+    <fullVersion>1.{{ site.data.installer.tiger.major }}.{{ site.data.installer.tiger.middle }}.{{ site.data.installer.tiger.minor }}#{{ site.data.installer.tiger.build }}</fullVersion>
+    <major>{{ site.data.installer.tiger.major }}</major>
+    <middle>{{ site.data.installer.tiger.middle }}</middle>
+    <minor>{{ site.data.installer.tiger.minor }}</minor>
+    <build>{{ site.data.installer.tiger.build }}</build>
+    <link>{{ site.data.installer.tiger.link }}</link>
+  </tiger>
 </root>

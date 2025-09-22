@@ -1,14 +1,18 @@
 wek:
   mods:
     lesta:
-      installer: https://download.wot-classic.ru/wek_install_lesta.exe
-      direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_lesta_1.37.0.0_20.exe
-      alt_installer: https://drive.google.com/file/d/1gaqOL0g3BuOkIZ2ll_m4GTKETQcjZIz5/view?usp=sharing
+      installer: https://download.wot-classic.ru/wek_install.exe
+      direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_1.37.0.0_21.exe
+      alt_installer: https://drive.google.com/file/d/1iZAjVSCoBSCTikpz13Uyrgd_WA6YwF0K/view?usp=sharing
       drive: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
     sd-models:
       installer: https://download.wot-classic.ru/wek_install_sd.exe
       direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_sd_1.37.0.0_7.exe
       alt_installer: https://drive.google.com/file/d/1yqm4wvyP_xH-Mz2aDMWBUvxK_6pml2Ax/view?usp=sharing
+    tiger:
+      installer: https://download.wot-classic.ru/wek_tiger.exe
+      direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_tiger_1.37.0.0_2.exe
+      alt_installer: https://drive.google.com/file/d/1c53Z7UEtV5JTywsoNObGs21DI4NdBOJz/view?usp=sharing
     wg:
       installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_wg_1.27.0.1_2.exe
       drive: https://drive.google.com/drive/folders/1XyrX7kdktG4wQfzWhG_O0v1EDZq5Z6BJ?usp=drive_link
