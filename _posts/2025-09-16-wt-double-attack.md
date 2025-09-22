@@ -5,6 +5,7 @@ tags: [important]
 category: events
 image: /assets/img/news/thumbnail/wtda.png
 image_small: /assets/img/news/image_small/wtda.png
+last_modified_at: 2025-09-23
 ---
 
 Теперь их двое. Ставки высоки. Остановите незваных гостей.
@@ -63,7 +64,19 @@ image_small: /assets/img/news/image_small/wtda.png
 
 Дирижером битвы стал уже полюбившийся многим [Cherempet](https://www.youtube.com/@cherempett), чью титаническую работу вы уже можете оценить в тизерном ролике ивента и [расширенной боевой теме](https://www.youtube.com/watch?v=0IwgdFjdS9E)
 
-В скором времени будут выложены все треки ивента, следите за новостями.
+Все треки, приуроченные к событию, вы можете послушать ниже.
+
+{% include yt-embed.html id="W-s6nXu-A2Y" %}
+
+Также, скоро можно будет оценить через [bandlink](https://band.link/white_tiger).
+
+## Установщик
+
+Модификация уже доступна для установки. Вас ждет новый сюжет, старые карты, танки и максимум ностальгии. Вперед!
+
+![]({{ '/assets/img/wt/install.png' | relative_url }}){: style="width: 100%" }
+
+{% include button.html url='https://download.wot-classic.ru/wek_tiger.exe' text='Скачать' %}
 
 ---
 
