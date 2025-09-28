@@ -1,4 +1,37 @@
 fan-video:
+  - text: 'STURMTIGER BEMUTATÓ | Mirtankov (orosz wot)'
+    url: https://www.youtube.com/watch?v=roUY-VuBal8
+    date: "27.09.2025"
+  - text: '«WoT Classic!». White Tiger Gameplay.'
+    url: https://www.youtube.com/watch?v=vXEiPFobhN0
+    date: "23.09.2025"
+  - text: 'IDŐGÉP A WOTBAN! | Mirtankov (Orosz WoT)'
+    url: https://www.youtube.com/watch?v=qr4zEQTEnG4
+    date: "20.09.2025"
+  - text: 'WoT Classic: КВ-85 бой на отметку'
+    url: https://www.youtube.com/watch?v=ev30Nx00f7o
+    date: "18.09.2025"
+  - text: '«WoT Classic!». Showcase Video.'
+    url: https://www.youtube.com/watch?v=_VTxDZ6aXuA
+    date: "30.08.2025"
+  - text: 'WoT Classic 0.8.2 – Exploring old maps'
+    url: https://www.youtube.com/watch?v=9xQdk_bJW3M
+    date: "26.08.2025"
+  - text: 'WoT Classic 0.8.2 – New Features and Gameplay!'
+    url: https://www.youtube.com/watch?v=qM79QTsjgcQ
+    date: "24.08.2025"
+  - text: 'WOT CLASSIC - СТАРАЯ ГРАФИКА МИР ТАНКОВ 2025'
+    url: https://www.youtube.com/watch?v=x4AZEfTA1f8
+    date: "18.08.2025"
+  - text: '"WoT это Классика!". Везучий реплей недели №2'
+    url: https://www.youtube.com/watch?v=QdAc-SEVp3g
+    date: "03.07.2025"
+  - text: '"WoT это Классика!". Везучий реплей недели №1'
+    url: https://www.youtube.com/watch?v=K-uuAZUlWsE
+    date: "15.06.2025"
+  - text: WoT - это Классика. Бой на СУ 85
+    url: https://www.youtube.com/watch?v=u2OGBgU7T4o
+    date: "01.06.2025"
   - text: WoT - это Классика. Победный бой на КВ-13.
     url: https://www.youtube.com/watch?v=2dGe94mG9qI
     date: "05.11.2024"
@@ -22,6 +55,18 @@ fan-video:
     date: "26.03.2024"
 
 gameplay:
+  wt_da:
+    text: 'Белый Тигр: Двойная Атака'
+    url: /media/gameplay/wt_da
+    image: /assets/img/media/gameplay/wt_da/wt1.png
+    date: "28.09.2025"
+    images:
+      - [/assets/img/media/gameplay/wt_da/wt2.png,
+         /assets/img/media/gameplay/wt_da/wt3.png,
+         /assets/img/media/gameplay/wt_da/wt4.png]
+      - [/assets/img/media/gameplay/wt_da/wt5.png,
+         /assets/img/media/gameplay/wt_da/wt6.png,
+         /assets/img/media/gameplay/wt_da/wt7.png]
   dz:
     text: 'Темная сторона Марса: Запретная зона'
     url: /media/gameplay/dz
@@ -108,6 +153,30 @@ gameplay:
          /assets/img/media/gameplay/westfield/westfield7.png]
 
 video:
+  - text: '«Мир Танков: Истоки». Белый Тигр: Двойная Атака.'
+    url: https://www.youtube.com/watch?v=VxegMPfqJeE
+    date: "15.09.2025"
+  - text: '«Мир Танков: Истоки». Эффектный анонс.'
+    url: https://www.youtube.com/watch?v=A02f_5g6wYk
+    date: "10.09.2025"
+  - text: '«Мир Танков: Истоки». Обзор августовского обновления модов.'
+    url: https://www.youtube.com/watch?v=l8yx580x3bA
+    date: "17.08.2025"
+  - text: 'Жаркий август уже ждет!'
+    url: https://www.youtube.com/watch?v=6E0PIV3m6wg
+    date: "31.07.2025"
+  - text: '«Мир Танков: Истоки» - теперь в МОСТ!'
+    url: https://www.youtube.com/watch?v=Q3AyVHkBXDc
+    date: "23.07.2025"
+  - text: '«WoT это Классика!». С полей разработки №4.'
+    url: https://www.youtube.com/watch?v=MFlnmg1klx0
+    date: "23.06.2025"
+  - text: 'это видео не о чем'
+    url: https://www.youtube.com/watch?v=H4yi42MROig
+    date: "16.06.2025"
+  - text: '«WoT это Классика!». Тизерный ролик №4.'
+    url: https://www.youtube.com/watch?v=mo1hBK2SIRc
+    date: "14.06.2025"
   - text: '«WoT это Классика!». Ангар к 80-ти летию Победы.'
     url: https://www.youtube.com/watch?v=zZTO7XUb5Ps
     date: "14.04.2025"
@@ -176,6 +245,12 @@ video:
     date: "23.02.2022"
 
 upd-rev:
+  - text: '«Мир Танков: Истоки». Обзор августовского обновления модов.'
+    url: https://www.youtube.com/watch?v=l8yx580x3bA
+    date: "17.08.2025"
+  - text: '«WoT это Классика!». Февральский микропатч.'
+    url: https://www.youtube.com/watch?v=V-RlThCbLys
+    date: "23.02.2025"
   - text: '«WoT это Классика!». Обзор декабрьского обновления модов.'
     url: https://www.youtube.com/watch?v=3hxlyPMr3iU
     date: "30.12.2024"
