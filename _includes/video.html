@@ -1,0 +1,30 @@
+<div style="position: relative;">
+<style>
+.icon-video:hover, #video_{{ include.unique_id }}:hover~.icon-video {
+  background-position: 0 -113px;
+}
+.icon-video, #video_{{ include.unique_id }} {
+  cursor: pointer;
+}
+</style>
+<script>
+function video_{{ include.unique_id }}_start() {
+  var vid = document.getElementById("video_{{ include.unique_id }}");
+  var vid_btn = document.getElementById("video_{{ include.unique_id }}_btn");
+  vid.play();
+  vid.volume = 0.25;
+  vid_btn.style.display = "none";
+  vid.onclick = video_{{ include.unique_id }}_end;
+}
+function video_{{ include.unique_id }}_end() {
+  var vid = document.getElementById("video_{{ include.unique_id }}");
+  var vid_btn = document.getElementById("video_{{ include.unique_id }}_btn");
+  vid.pause();
+  vid_btn.style.display = "unset";
+  vid.onclick = video_{{ include.unique_id }}_start;
+  vid.oncanplay = null;
+}
+</script>
+<video id="video_{{ include.unique_id }}" crossorigin width="{{ include.width | default: 686 }}" onended="video_{{ include.unique_id }}_end()" oncanplay="video_{{ include.unique_id }}_end()" src="{{ include.url | absolute_url }}"></video>
+<span id="video_{{ include.unique_id }}_btn" class="icon-video" onclick="video_{{ include.unique_id }}_start()" style="display: none"></span>
+</div>

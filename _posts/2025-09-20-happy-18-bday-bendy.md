@@ -59,29 +59,4 @@ image: /assets/img/news/thumbnail/celebration.jpg
 
 P.S.
 
-<div style="position: relative;">
-<style>
-.icon-video:hover, #bday_video:hover~.icon-video {
-  background-position: 0 -113px;
-}
-.icon-video, #bday_video {
-  cursor: pointer;
-}
-</style>
-<script>
-function start() {
-  bday_video.play();
-  bday_video.volume = 0.25;
-  bday_video_btn.style.display = "none";
-  bday_video.onclick = () => { end(); };
-}
-function end() {
-  bday_video.pause();
-  bday_video_btn.style.display = "unset";
-  bday_video.onclick = start;
-  bday_video.oncanplay = null;
-}
-</script>
-<video id="bday_video" crossorigin width="686" onended="end()" oncanplay="end()" src="https://files.deltarunetomorrow.pro/upload/TheNafig%20-%20%D0%9A%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BD%D1%83%D0%B6%D0%BD%D0%BE%20%D0%BF%D0%BE%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%81%20%D0%B4%D0%BD%D0%B5%D0%BC%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20(%D0%93%D0%B0%D0%B2%D1%80%D0%B8%D0%BB%D0%BE%D0%B2%20%D0%BF%D0%BE%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82).mp4"></video>
-<span id="bday_video_btn" class="icon-video" onclick="start()" style="display: none"></span>
-</div>
+{% include video.html unique_id=1 url="https://files.deltarunetomorrow.pro/upload/TheNafig%20-%20%D0%9A%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BD%D1%83%D0%B6%D0%BD%D0%BE%20%D0%BF%D0%BE%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%8C%20%D1%81%20%D0%B4%D0%BD%D0%B5%D0%BC%20%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20(%D0%93%D0%B0%D0%B2%D1%80%D0%B8%D0%BB%D0%BE%D0%B2%20%D0%BF%D0%BE%D0%B7%D0%B4%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B5%D1%82).mp4" %}
