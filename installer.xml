@@ -27,5 +27,15 @@ layout: none
     <minor>{{ site.data.installer.sd-models.minor }}</minor>
     <build>{{ site.data.installer.sd-models.build }}</build>
     <link>{{ site.data.installer.sd-models.link }}</link>
+    {%- assign n = 0 -%}
+    {%- for i in site.data.installer.sd-models.mods -%}
+      {%- if i == 0 %}{% continue %}{% endif -%}
+      {%- assign j = 1 -%}
+      {%- for m in (1..forloop.index0) -%}
+        {%- assign j = j | times: 2 -%}
+      {%- endfor -%}
+      {%- assign n = n | plus: j -%}
+    {%- endfor %}
+    <mods>{{ n }}</mods>
   </sd_models>
 </root>
