@@ -3,7 +3,7 @@ wek:
     lesta:
       installer: https://download.wot-classic.ru/mto_install.exe
       direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_1.38.0.0_23.exe
-      alt_installer: https://drive.google.com/file/d/1ZJsAXyrPI5uOtsDynlkcHjnjdbEB9gXb/view?usp=sharing
+      alt_installer: https://drive.google.com/file/d/1LeK8od3zFs5NeHIBfXIyXm6yZ9se1bqA/view?usp=sharing
       drive: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
     sd-models:
       installer: https://download.wot-classic.ru/mto_install_sd.exe
