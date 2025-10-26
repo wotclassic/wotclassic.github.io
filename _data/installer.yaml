@@ -1,18 +1,38 @@
 lesta:
-  major: 37
+  major: 38
   middle: 0
   minor: 0
-  build: 21
-  link: https://download.wot-classic.ru/wek_install.exe
+  build: 22
+  link: https://download.wot-classic.ru/mto_install.exe
+  mods:
+    # Удалённое отключение модов в установщике: 1 - работает, 0 - не работает
+    - 1  # 0  Звуки
+    - 1  # 1  Интерфейс
+    - 1  # 2    | Экран логина
+    - 1  # 3    | Ангарный
+    - 1  # 4    | Боевой
+    - 1  # 5  Графика
+    - 1  # 6    | Карты
+    - 1  # 7    | Эффекты
+    - 1  # 8  Ангары
+    - 1  # 9    | Базовый V1
+    - 1  #10    | Премиум хэллоуин V1
+    - 1  #11    | Базовый хэллоуин V2
+    - 1  #12    | Премиум V2
+    - 1  #13  Локализация
+    - 1  #14    | Русская
+    - 1  #15    | Английская
 sd-models:
-  major: 37
+  major: 38
   middle: 0
   minor: 0
-  build: 7
-  link: https://download.wot-classic.ru/wek_install_sd.exe
-tiger:
-  major: 37
-  middle: 0
-  minor: 0
-  build: 3
-  link: https://download.wot-classic.ru/wek_tiger.exe
+  build: 8
+  link: https://download.wot-classic.ru/mto_install_sd.exe
+  mods:
+    - 1  #1  Флаги
+    - 1  #2  СССР
+    - 1  #3  Германия
+    - 1  #4  США
+    - 1  #5  Франция
+    - 1  #6  Великобритания
+    - 1  #7  Китай

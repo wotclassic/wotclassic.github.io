@@ -9,6 +9,16 @@ layout: none
     <minor>{{ site.data.installer.lesta.minor }}</minor>
     <build>{{ site.data.installer.lesta.build }}</build>
     <link>{{ site.data.installer.lesta.link }}</link>
+    {%- assign n = 0 -%}
+    {%- for i in site.data.installer.lesta.mods -%}
+      {%- if i == 0 %}{% continue %}{% endif -%}
+      {%- assign j = 1 -%}
+      {%- for m in (1..forloop.index0) -%}
+        {%- assign j = j | times: 2 -%}
+      {%- endfor -%}
+      {%- assign n = n | plus: j -%}
+    {%- endfor %}
+    <mods>{{ n }}</mods>
   </latest>
   <sd_models>
     <fullVersion>1.{{ site.data.installer.sd-models.major }}.{{ site.data.installer.sd-models.middle }}.{{ site.data.installer.sd-models.minor }}#{{ site.data.installer.sd-models.build }}</fullVersion>
@@ -18,12 +28,4 @@ layout: none
     <build>{{ site.data.installer.sd-models.build }}</build>
     <link>{{ site.data.installer.sd-models.link }}</link>
   </sd_models>
-  <tiger>
-    <fullVersion>1.{{ site.data.installer.tiger.major }}.{{ site.data.installer.tiger.middle }}.{{ site.data.installer.tiger.minor }}#{{ site.data.installer.tiger.build }}</fullVersion>
-    <major>{{ site.data.installer.tiger.major }}</major>
-    <middle>{{ site.data.installer.tiger.middle }}</middle>
-    <minor>{{ site.data.installer.tiger.minor }}</minor>
-    <build>{{ site.data.installer.tiger.build }}</build>
-    <link>{{ site.data.installer.tiger.link }}</link>
-  </tiger>
 </root>
