@@ -6,23 +6,25 @@ permalink: /guide/newcomers/mods-changes
 
 В «WoT это Классика!» существует десять ностальгических модов. Выбрать каждый мод можно в [соответствующем]({{ "/mods" | relative_url }}) разделе. Здесь вы узнаете какие моды отвечают за те или иные изменения клиента <<Мира Танков>>.
 
-![раздел моды]({{ '/assets/img/guide/newcomers/mods.png' | relative_url }}){: width="100%" }
+<span class="geolimited">![раздел моды]({{ '/assets/img/guide/newcomers/mods.png' | relative_url }}){: width="100%" }</span>
+<span class="only_for_limited">![раздел моды]({{ '/assets/img/guide/newcomers/mods_lesta.png' | relative_url }}){: width="100%" }</span>
 
 Рассмотрим все моды поподробнее.
 
-- **[Изменения в интерфейсе](#изменения-в-интерфейсе)**
-  - **[Старый экран логина](#старый-экран-логина)**
-  - **[Старый интерфейс ангара](#старый-интерфейс-ангара)**
-  - **[Старый интерфейс боя](#старый-интерфейс-боя)**
-- **[Ангары](#ангары)**
-  - **[Старый базовый ангар](#старый-базовый-ангар)**
-  - **[Старый премиум ангар](#старый-премиум-ангар)**
-  - **[Старый премиум ангар 0.9.X](#старый-премиум-ангар-09x)**
-- **[Изменения на картах](#изменения-на-картах)**
-  - **[Старые скайбоксы](#старые-скайбоксы)**
-  - **[Старые террейны](#старые-террейны)**
-  - **[Старые эффекты](#старые-эффекты)**
-- **[Старые звуки](#старые-звуки)**
+- **[Изменения в интерфейсе](#izmienieniia-v-intierfieisie)**
+  - **[Старый экран логина](#staryi-ekran-loghina)**
+  - **[Старый интерфейс ангара](#staryi-intierfieis-anghara)**
+  - **[Старый интерфейс боя](#staryi-intierfieis-boia)**
+- **[Ангары](#anghary)**
+  - **[Старый базовый ангар](#staryi-bazovyi-anghar)**
+  - **[Старый премиум ангар](#staryi-priemium-anghar)**
+  - **[Старый базовый ангар 0.9.X](#staryi-bazovyi-anghar-09kh)**
+  - **[Старый премиум ангар 0.9.X](#staryi-priemium-anghar-09kh)**
+- **[Изменения на картах](#izmienieniia-na-kartakh)**
+  - **[Старые скайбоксы и террейны](#staryie-skaiboksy-i-tierrieiny)**
+  - **[SD-модели](#sd-modieli)**
+  - **[Старые эффекты](#staryie-effiekty)**
+- **[Старые звуки](#staryie-zvuki)**
 
 ---
 
@@ -35,10 +37,13 @@ permalink: /guide/newcomers/mods-changes
 
 #### Старый экран логина
 
-В патче 1.21 разработчики полностью [переработали](https://vk.com/@wotclue-patchnout-obnovleniya-121-wot-spisok-izmenenii?anchor=6-dorabotki-interfeysa) экран логина, и мы не могли не отредактировать данный дизайн экрана логина на новый лад. Дизайн загрузки отредактирован на новый лад, но с сохранением старого вида. Также при первом запуске мода вас ждет приветственное сообщение. Экран авторизации также изменен на старый лад, за основу бралась версия 0.8.2.
+В патче 1.21 разработчики полностью [переработали](https://vk.com/@wotclue-patchnout-obnovleniya-121-wot-spisok-izmenenii?anchor=6-dorabotki-interfeysa) экран логина, и мы не могли не отредактировать данный дизайн экрана логина на новый лад.
 
-[![скрин1]({{ '/assets/img/archive/login2.2-gret.png' | relative_url }}){: width="100%" }]({{ '/assets/img/archive/login2.2-gret.png' | relative_url }})
-[![скрин2]({{ '/assets/img/archive/login2.2-load.png' | relative_url }}){: width="100%" }]({{ '/assets/img/archive/login2.2-load.png' | relative_url }})
+При запуске игры вас встречает короткий видеоролик с логотипом игры, после чего вы попадаете на экран авторизации, который точь-в-точь воссоздан по старому аналогу. Экран авторизации также изменен на старый лад, за основу бралась версия 0.8.2.
+
+<!-- Дизайн загрузки отредактирован на новый лад, но с сохранением старого вида. Также при первом запуске мода вас ждет приветственное сообщение. -->
+
+[![скрин2]({{ '/assets/img/guide/newcomers/login_load.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/login_load.png' | relative_url }})
 [![логин]({{ '/assets/img/guide/newcomers/login.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/login.png' | relative_url }})
 
 #### Старый интерфейс ангара
@@ -52,12 +57,14 @@ permalink: /guide/newcomers/mods-changes
   - Удалена ссылка на премиум магазин
   - При нажатии "Создать взвод" вы сразу активируете окно взвода.
   - Выбор боя
-  - Светящиеся танки позади кнопки "В бой!"
+  - Шапка ангара полностью изменена на вариант из 0.8.2.
 - Удалены ссылки на боевой пропуск и личные / обычные боевые задачи.
 
-Не переживайте, вы все еще можете следить за прогрессией боевого пропуска в разделе "Задачи".
+Не переживайте, вы все еще можете следить за прогрессией боевого пропуска в разделе "Задачи" или включить его отображение в настройках модификаций.
 {: .message-info}
 
+- Панель амуниции
+  - Окно обслуживания техники
 - Меню
 - Дерево исследований
 - Личные Боевые Задачи
@@ -66,6 +73,196 @@ permalink: /guide/newcomers/mods-changes
 - Экран тренировочной комнаты
 
 [![интерфейс ангара]({{ '/assets/img/guide/newcomers/hangar_ui.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/hangar_ui.png' | relative_url }})
+
+**Интерактивное изображение.** Наведите курсором на интересующий вас элемент и прочитайте подсказку.
+{: .message-money style="margin-bottom: 25px;"}
+
+<main>
+  <div>
+    <span tooltip="Это ваш игровой никнейм, при нажатии на него открывается современное окно профиля. Ниже находится статус вашего аккаунта." flow="down" style="top: -7px; left: 90px; padding: 0.5em 2.67em;"></span>
+  </div>
+  <div>
+    <span tooltip="Кнопка создания взвода переехала в подменю выбора типа боя. При нажатии на данную кнопку создается окно взвода. Для каждого режима создается соответствующее окно." flow="down" style="top: 13px;left: -2px;padding: 1.1em 4.2em;"></span>
+  </div>
+  <div>
+    <span tooltip="Иконка вашего клана. При нажатии на нее открывается современное окно клана." flow="left" style=" top: -86px; left: 106px; padding: 0.5em 0.48em;"></span>
+    <span tooltip="Кнопка боевого обучения. При нажатии вас переносит на страницу руководства по игре прямо в клиенте." flow="right" style="top: -72px; left: -254px; padding: 0.8em 1.48em;"></span>
+    <span tooltip="Кнопка боевых задач. При нажатии открывает страницу 'задач' в ангаре." flow="right" style="top: -72px; left: -352px; padding: 0.8em 1.88em;"></span>
+  </div>
+</main>
+
+<style>
+ /* START TOOLTIP STYLES */
+[tooltip] {
+  position: relative; /* opinion 1 */
+}
+
+/* Applies to all tooltips */
+[tooltip]::before,
+[tooltip]::after {
+  text-transform: none; /* opinion 2 */
+  font-size: .9em; /* opinion 3 */
+  line-height: 1;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  display: none;
+  opacity: 0;
+}
+[tooltip]::before {
+  content: '';
+  border: 5px solid transparent; /* opinion 4 */
+  z-index: 1001; /* absurdity 1 */
+}
+[tooltip]::after {
+    content: attr(tooltip);
+    font: 12px "robotoregular", "Arial Narrow", Arial, sans-serif;
+    min-width: 23em;
+    max-width: 23em;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 1ch 1.5ch;
+    border-radius: .3ch;
+    box-shadow: 0 1em 2em -0.5em rgba(0, 0, 0, 0.35);
+    background: #333;
+    color: #fff;
+    z-index: 1000;
+}
+
+/* Make the tooltips respond to hover */
+[tooltip]:hover::before,
+[tooltip]:hover::after {
+  display: block;
+}
+
+/* don't show empty tooltips */
+[tooltip='']::before,
+[tooltip='']::after {
+  display: none !important;
+}
+
+/* FLOW: UP */
+[tooltip]:not([flow])::before,
+[tooltip][flow^="up"]::before {
+  bottom: 100%;
+  border-bottom-width: 0;
+  border-top-color: #333;
+}
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::after {
+  bottom: calc(100% + 5px);
+}
+[tooltip]:not([flow])::before,
+[tooltip]:not([flow])::after,
+[tooltip][flow^="up"]::before,
+[tooltip][flow^="up"]::after {
+  left: 50%;
+  transform: translate(-50%, -.5em);
+}
+
+/* FLOW: DOWN */
+[tooltip][flow^="down"]::before {
+  top: 100%;
+  border-top-width: 0;
+  border-bottom-color: #333;
+}
+[tooltip][flow^="down"]::after {
+  top: calc(100% + 5px);
+}
+[tooltip][flow^="down"]::before,
+[tooltip][flow^="down"]::after {
+  left: 50%;
+  transform: translate(-50%, .5em);
+}
+
+/* FLOW: LEFT */
+[tooltip][flow^="left"]::before {
+  top: 50%;
+  border-right-width: 0;
+  border-left-color: #333;
+  left: calc(0em - 5px);
+  transform: translate(-.5em, -50%);
+}
+[tooltip][flow^="left"]::after {
+  top: 50%;
+  right: calc(100% + 5px);
+  transform: translate(-.5em, -50%);
+}
+
+/* FLOW: RIGHT */
+[tooltip][flow^="right"]::before {
+  top: 50%;
+  border-left-width: 0;
+  border-right-color: #333;
+  right: calc(0em - 5px);
+  transform: translate(.5em, -50%);
+}
+[tooltip][flow^="right"]::after {
+  top: 50%;
+  left: calc(100% + 5px);
+  transform: translate(.5em, -50%);
+}
+
+/* KEYFRAMES */
+@keyframes tooltips-vert {
+  to {
+    opacity: .9;
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes tooltips-horz {
+  to {
+    opacity: .9;
+    transform: translate(0, -50%);
+  }
+}
+
+/* FX All The Things */ 
+[tooltip]:not([flow]):hover::before,
+[tooltip]:not([flow]):hover::after,
+[tooltip][flow^="up"]:hover::before,
+[tooltip][flow^="up"]:hover::after,
+[tooltip][flow^="down"]:hover::before,
+[tooltip][flow^="down"]:hover::after {
+  animation: tooltips-vert 300ms ease-out forwards;
+}
+[tooltip][flow^="left"]:hover::before,
+[tooltip][flow^="left"]:hover::after,
+[tooltip][flow^="right"]:hover::before,
+[tooltip][flow^="right"]:hover::after {
+  animation: tooltips-horz 300ms ease-out forwards;
+}
+/* UNRELATED to tooltips */
+main {
+  margin-bottom: -125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+aside {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #49b293;
+  color: #fff;
+  padding: 1em;
+}
+main div {
+  text-align: center;
+  color: #353539;
+}
+main span {
+  padding: .5em 1em;
+  margin: .5em;
+  display: inline-block;
+}
+</style>
+
+![шапка]({{ '/assets/img/guide/newcomers/old_header.png' | relative_url }}){: width="100%" }
 
 #### Старый интерфейс боя
 
@@ -80,6 +277,7 @@ permalink: /guide/newcomers/mods-changes
 
 - Шапка боя
 - Счетчик FPS и пинга
+- Экипаж в ангаре
 - Таймер до окончания боя
 - Отсчет до начала боя
 - Панель снаряжения
@@ -106,19 +304,28 @@ permalink: /guide/newcomers/mods-changes
 
 Первый ангар - это тот, который оставляет самое незабываемое впечатление и которому мы очень прикованы по душе. Мы не могли пройти мимо этого места. Многие танкисты до сих пор с огромной ностальгией вспоминают грязные стены этого маленького бункера.
 
-[![ангар]({{ '/assets/img/indev/screens/h2.png' | relative_url }}){: width="100%" }]({{ '/assets/img/indev/screens/h2.png' | relative_url }})
+[![ангар]({{ '/assets/img/guide/newcomers/v1.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/v1.jpg' | relative_url }})
 
 #### Старый премиум ангар
 
 Более обеспеченные игроки предпочитали чистые, почти бесшумный премиум ангар. Внутри, сверкают лампочки, вентиляторы крутятся, а игроки активно прокачивают свои танки, создавая неповторимую атмосферу «тех самых танков».
 
-[![ангар прем]({{ '/assets/img/indev/screens/hp1.png' | relative_url }}){: width="100%" }]({{ '/assets/img/indev/screens/hp1.png' | relative_url }})
+[![ангар прем]({{ '/assets/img/guide/newcomers/pv1.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/pv1.jpg' | relative_url }})
+
+#### Старый базовый ангар 0.9.Х
+
+Шум огромного цеха, а если быть точнее - подвального помещения, сопровождал игроков до 2018 года. Но не шумом едины, ведь эта атмосфера... КВ-2 на ремонте, во всем здании пыльно, где-то перегорели лампочки, масло разлито. А танк игрока стоит и ждет, когда его отправят в бой.
+
+[![ангар]({{ '/assets/img/guide/newcomers/v2.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/v2.jpg' | relative_url }})
 
 #### Старый премиум ангар 0.9.X
 
 Просторный, тихий, интересный. Все что можно сказать про этот ангар. За окном зимний денек, танки ждут своего ремонта, а вы обслуживаете своего любимчика под атмосферный саундтрек и эмбиент.
 
-[![ангар 9.х]({{ '/assets/img/guide/newcomers/hangar_premium_v2.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/hangar_premium_v2.png' | relative_url }})
+[![ангар 9.х]({{ '/assets/img/guide/newcomers/pv2.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/pv2.jpg' | relative_url }})
+
+И самое важное - во всех этих ангарах, с нашим переключателем у вас есть возможность включить отслеживание статуса премиум-аккаунта, прямо как до обновления 1.0! Если у вас премиум аккаунт отсутствует - сидите в базовых ангарах. А вот игроки с премиумом уже могут позволить себе прибывание в просторных, премиумных ангарах.
+{: .message-info}
 
 ---
 
@@ -130,9 +337,11 @@ permalink: /guide/newcomers/mods-changes
 
 <br><br><br><br><br>
 
-#### Старые скайбоксы
+#### Старые скайбоксы и террейны
 
-Многие из Вас помнят закат на Мурованке или ярко палящее солнце на Эль-Халлуфе, но теперь всё это сменили на яркие и красочные цвета. Мод на старые скайбоксы поможет вернуть Вам то родное и знакомое небо вместе с освещением, которым оно было до обновления 1.0. Данный мод заменяет более **30** игровых карт! А именно:
+Данные модификации практически буквально дают вам старое освещение на картах! **Старые скайбоксы** помогут вам вспомнить о закате на Мурованке или ярко палящее солнце на Эль-Халлуфе, атмосферу которых дополняет мод на **старые террейны**, в котором перерисовано огромное количество текстур земли на картах!  
+
+<!-- Многие из Вас помнят закат на Мурованке или ярко палящее солнце на Эль-Халлуфе, но теперь всё это сменили на яркие и красочные цвета. Мод на старые скайбоксы поможет вернуть Вам то родное и знакомое небо вместе с освещением, которым оно было до обновления 1.0. Данный мод заменяет более **30** игровых карт! А именно:
 
 - Карелия
 - Малиновка
@@ -191,7 +400,11 @@ permalink: /guide/newcomers/mods-changes
 - Жемчужная река
 - Сталинград
 - Тихий берег
-- Париж
+- Париж -->
+
+#### SD-модели
+
+Множество знакомой техники уже переведено в старое, доброе и упрощенное SD-качество! Здесь и легендарные ИС-7 с Maus'ом, знаковый Т-34 или ранее не виданный Объект 156 О, в общем, есть на что посмотреть!
 
 #### Старые эффекты
 
