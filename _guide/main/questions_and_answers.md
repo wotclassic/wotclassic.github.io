@@ -56,7 +56,7 @@ permalink: /guide/main/questions_and_answers
 
 ##### **Установщик**
 
-1. Скачайте [установщик модификаций]({{ site.data.socials.wek.mods.lesta.installer }}).
+1. Скачайте [установщик модификаций](#altiernativnyie-sposoby-zaghruzki-modov).
 2. Откройте скачанный файл и следуйте инструкциям мастера установки.
 
 ##### **<<МОСТ>>**
@@ -111,13 +111,22 @@ permalink: /guide/main/questions_and_answers
 
 #### **Альтернативные способы загрузки модов**
 
-1) Скачать «WoT это Классика!» можно с помощью специального установщика. Ниже вы можете выбрать более удобный способ скачивания:
+**1)** Скачать «WoT это Классика!» можно с помощью специального установщика. Ниже вы можете выбрать более удобный способ скачивания:
 
-  1. **Через Cloudflare** (быстрее, может не работать в РФ/РБ): [основные моды]({{ site.data.socials.wek.mods.lesta.installer }}) / [SD-модели]({{ site.data.socials.wek.mods.sd-models.installer }})
-  2. **Прямая ссылка**: [основные моды]({{ site.data.socials.wek.mods.lesta.direct_installer }}) / [SD-модели]({{ site.data.socials.wek.mods.sd-models.direct_installer }})
-  3. **Google Диск** (может быть неактуальным, сверяйте версию): [основные моды]({{ site.data.socials.wek.mods.lesta.alt_installer }}) / [SD-модели]({{ site.data.socials.wek.mods.sd-models.alt_installer }})
+| Основные моды | SD-модели | Примечание |
+|:-:|:-:|-|
+| [Google Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | [Google Диск]({{ site.data.socials.wek.mods.sd-models.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | Обновляется с задержкой -- сверяйте номер сборки |
+| [Прямая ссылка №1]({{ site.data.socials.wek.mods.lesta.installer }}) | [Прямая ссылка №1]({{ site.data.socials.wek.mods.sd-models.installer }}) | Быстро, но может не работать в РФ/РБ |
+| [Прямая ссылка №2]({{ site.data.socials.wek.mods.lesta.direct_installer }}) | [Прямая ссылка №2]({{ site.data.socials.wek.mods.sd-models.direct_installer }}) | Медленная скорость скачивания |
+{: .wg-table style="table-layout: auto;" }
+<br>
 
-2) Через сервис установки модификаций [МОСТ](http://forum.tanki.su/index.php?/topic/2205036-all-%d0%bc%d0%be%d1%81%d1%82/).
+**2)** Через сервис установки модификаций [МОСТ](http://forum.tanki.su/index.php?/topic/2205036-all-%d0%bc%d0%be%d1%81%d1%82/).
+
+**3)** Установка модов вручную. Для этого зайдите в папку со всеми модами на [Google Диске]({{ site.data.socials.wek.mods.lesta.drive }}){: target="_blank" rel="noreferrer noopener" } и следуйте инструкциям в пункте [<<Ручная установка>>](#ruchnaia-ustanovka).
+
+**ВНИМАНИЕ:** моды по ссылке для ручной установки на данный момент не обновлены и не будут работать с текущей версией игры. Используйте другие способы установки.
+{: .message-error }
 
 ## **Моды**
 

@@ -5,6 +5,7 @@ title: Скачать моды «WoT это Классика!»
     <div class="b-content" style="padding: 25px; padding-right: 0px; padding-left: 0px;">
         <h1>{{ page.title }}</h1>
         <!-- <p class="message-info">В последнее время наблюдаются учащённые случаи возникновения проблем при скачивании установщика с основных серверов. Если вам не удаётся скачать его по основной ссылке, воспользуйтесь <a href="/guide/main/questions_and_answers#altiernativnyie-sposoby-zaghruzki-modov">альтернативным вариантом</a> загрузки.</p> -->
+        <p class="message-warning">Некоторые системы могут распознать программу установки как вирус из-за отсутствия платной цифровой подписи. В случае возникновения проблем, рекомендуем отключить антивирус на время скачивания и установки, либо внести файл в список исключений.</p>
         <table class="download-table" style="width: 560px; text-align: center; margin: 0 auto;">
             <tr>
                 <td>
@@ -30,14 +31,10 @@ title: Скачать моды «WoT это Классика!»
             </tr>
             <tr>
                 <td colspan="2">
-                    <b><br><a href="{{ site.data.socials.wek.mods.lesta.drive }}" target="_blank">Скачать моды для ручной установки</a></b>
+                    <b><br><a href="{{ "/guide/main/questions_and_answers#altiernativnyie-sposoby-zaghruzki-modov" | relative_url }}">Альтернативные способы скачивания модов</a></b>
                 </td>
             </tr>
         </table>
-        <p class="message-warning" style="width: 700px; margin: 16px auto 0;">Внимание! Некоторые системы могут распознать программу установки как вирус из-за отсутствия платной цифровой подписи. В случае возникновения проблем, рекомендуем отключить антивирус на время скачивания и установки, либо внести файл в список исключений.</p>
-        <p style="text-align: center; margin-top: -10px;">Чтобы установить «WoT это Классика!» на свой компьютер вручную, следуйте
-            <a href="https://www.youtube.com/watch?v=PoTa1BcTlxQ">видео-инструкции</a>.
-        </p>
         <hr>
         {% capture mods-status %}{% include mods-status.md %}{% endcapture %}
         {{ mods-status | markdownify }}
@@ -59,7 +56,7 @@ title: Скачать моды «WoT это Классика!»
             </tr>
             <tr>
                 <td>
-                    <b><a href="{{ site.data.socials.wek.mods.wg.drive }}" target="_blank">Скачать моды для ручной установки</a></b>
+                    <b><a href="{{ site.data.socials.wek.mods.wg.drive }}" target="_blank" rel="noopener noreferrer">Скачать моды для ручной установки</a></b>
                 </td>
             </tr>
         </table>
@@ -148,7 +145,11 @@ title: Скачать моды «WoT это Классика!»
                 проблемы с установкой модов.<br></p>
         </div>
         <hr>
-        <h5 style="text-align: center;" id="alt-link"><a href="{{ "/guide/main/questions_and_answers#altiernativnyie-sposoby-zaghruzki-modov" | relative_url }}" target="_blank">Альтернативные способы скачивания модов</a></h5>
-        <p style="text-align: center;">Альтернативные способы скачивания модов будут полезны игрокам,<br>которые по какой-либо причине не могут установить моды через основную ссылку.</p>
+        <h5 style="text-align: center;" id="alt-link"><a href="{{ site.data.socials.wek.mods.lesta.drive }}" target="_blank" rel="noopener noreferrer">Скачать моды для ручной установки</a></h5>
+        <p style="text-align: center;">Ручная установка может пригодиться тем, у кого по каким-либо причинам не удаётся запустить установщик.</p>
+        <p style="text-align: center;">Чтобы установить «WoT это Классика!» на свой компьютер вручную, следуйте
+            <a href="https://www.youtube.com/watch?v=PoTa1BcTlxQ">видео-инструкции</a>.
+        </p>
+        <div style="text-align: center;"><span class="message-error" style="width: fit-content; display: inline-block; margin-top: 8px;"><b>ВНИМАНИЕ:</b> моды по этой ссылке на данный момент не обновлены и не будут работать с текущей версией игры.</span></div>
     </div>
 </div>
