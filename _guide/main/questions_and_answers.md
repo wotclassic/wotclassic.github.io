@@ -113,12 +113,20 @@ permalink: /guide/main/questions_and_answers
 
 **1)** Скачать «WoT это Классика!» можно с помощью специального установщика. Ниже вы можете выбрать более удобный способ скачивания:
 
-| Основные моды | SD-модели | Примечание |
+| Основные&nbsp;моды | SD-модели | Примечания |
 |:-:|:-:|-|
-| [Google Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | [Google Диск]({{ site.data.socials.wek.mods.sd-models.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | Обновляется с задержкой -- сверяйте номер сборки |
-| [Прямая ссылка №1]({{ site.data.socials.wek.mods.lesta.installer }}) | [Прямая ссылка №1]({{ site.data.socials.wek.mods.sd-models.installer }}) | Быстро, но может не работать в РФ/РБ |
-| [Прямая ссылка №2]({{ site.data.socials.wek.mods.lesta.direct_installer }}) | [Прямая ссылка №2]({{ site.data.socials.wek.mods.sd-models.direct_installer }}) | Медленная скорость скачивания |
-{: .wg-table style="table-layout: auto;" }
+| [Google&nbsp;Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.socials.wek.mods.sd-models.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | Быстро, работает в РФ/РБ, лимит на количество скачиваний |
+| [Cloudflare]({{ site.data.socials.wek.mods.lesta.installer }}) | [Cloudflare]({{ site.data.socials.wek.mods.sd-models.installer }}) | Быстро, низкий шанс работы в РФ/РБ |
+| [Oracle]({{ site.data.socials.wek.mods.lesta.direct_installer }}) | [Oracle]({{ site.data.socials.wek.mods.sd-models.direct_installer }}) | Медленнее, средний шанс работы в РФ/РБ |
+{: .wg-table .only_for_limited style="table-layout: auto;" }
+
+| Основные&nbsp;моды | SD-модели | Примечания |
+|:-:|:-:|-|
+| [Cloudflare]({{ site.data.socials.wek.mods.lesta.installer }}) | [Cloudflare]({{ site.data.socials.wek.mods.sd-models.installer }}) | Быстро -- самый оптимальный вариант |
+| [Google&nbsp;Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.socials.wek.mods.sd-models.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | Быстро, лимит на количество скачиваний |
+| [Oracle]({{ site.data.socials.wek.mods.lesta.direct_installer }}) | [Oracle]({{ site.data.socials.wek.mods.sd-models.direct_installer }}) | Медленнее |
+{: .wg-table .geolimited style="table-layout: auto;" }
+
 <br>
 
 **2)** Через сервис установки модификаций [МОСТ](http://forum.tanki.su/index.php?/topic/2205036-all-%d0%bc%d0%be%d1%81%d1%82/).
