@@ -2,7 +2,7 @@ lesta:
   major: 38
   middle: 0
   minor: 0
-  build: 25
+  build: 26
   link: https://download.wot-classic.ru/mto_install.exe
   mods:
     # Удалённое отключение модов в установщике: 1 - работает, 0 - не работает
