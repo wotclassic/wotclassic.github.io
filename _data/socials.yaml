@@ -19,23 +19,18 @@ bendy:
   ovk:
     url: https://ovk.to/mrb
     icon: /assets/img/ovk_28x.png
-
   vovk:
     url: https://vepurovk.xyz/mb
     icon: /assets/img/vovk.png
-
   telegram:
     url: https://t.me/mr_bendy
     icon: /assets/img/tg_28x.png
-
   vk:
     url: https://vk.com/mr.bendy
     icon: /assets/img/vk_28x.png
-
   youtube:
     url: https://www.youtube.com/channel/UCl2HGM972UDUF3uzgLC5AuA
     icon: /assets/img/youtube_28x.png
-
   discord:
     url: https://discord.gg/6wstW87FPX
     icon: /assets/img/discord_28x.png
@@ -43,42 +38,47 @@ bendy:
   tt:
       url: https://www.tiktok.com/@mtorigins
       icon: /assets/img/tt_28x.png
-
   mrbendy:
     url: https://muramiha.github.io/
-
 
 vlbrtn:
   name: Valberton
   youtube:
     url: https://www.youtube.com/channel/UCWRykmqoRaiaZyvN9l5Ow8g
     icon: /assets/img/youtube_28x.png
-    show_link: true
-
   telegram:
     url: https://t.me/vlbrtn
     icon: /assets/img/tg_28x.png
-    show_link: true
-
   discord:
     url: https://discord.gg/JqkyVMdcTW
     icon: /assets/img/discord_28x.png
-    show_link: true
-
+  github:
+    url: https://github.com/ValbertonHere
+    icon: /assets/img/gh_28x.png
 
 pbody:
   name: Pbody -iwnl-
   youtube:
     url: https://www.youtube.com/channel/UC3lhm5gcXAyQLIo9cxijZ2w
     icon: /assets/img/youtube_28x.png
-    show_link: true
-
   telegram:
     url: https://t.me/Pbody_iwnl
     icon: /assets/img/tg_28x.png
-    show_link: true
-
   vk:
     url: https://vk.com/streamers_baby
     icon: /assets/img/vk_28x.png
-    show_link: true
+
+a1asriel:
+  name: a1asriel
+  youtube:
+    url: https://youtube.com/@A1Asriel
+    icon: /assets/img/youtube_28x.png
+  telegram:
+    url: https://t.me/A1Asriel
+    icon: /assets/img/tg_28x.png
+  github:
+    url: https://github.com/A1Asriel
+    icon: /assets/img/gh_28x.png
+  bluesky:
+    url: https://bsky.app/profile/did:plc:ounxlpoonfbny546hhtagw6f
+    icon: /assets/img/bsky_28x.png

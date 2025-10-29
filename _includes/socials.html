@@ -11,7 +11,7 @@
     {% for social in site.data.socials[include.person] %}
         {% if social[1].icon == nil %}{% continue %}{% endif %}
         <li class="social-icons_item">
-            <a class="social-icons_link" href="{{ social[1].url }}">
+            <a class="social-icons_link" href="{{ social[1].url }}" target="_blank" rel="noopener noreferrer">
                 <img class="social-icons_img" src="{{ social[1].icon | relative_url }}">
             </a>
         </li>

@@ -47,8 +47,9 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ## A1Asriel
 
-[![A1Asriel]({{ '/assets/img/avatars/a1asriel.jpeg' | relative_url }}){: style="border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
-<span class="blackout"></span>](https://github.com/A1Asriel){: .pic-right style="position: relative; display: block; margin-top: -40px;" target="_blank" }
+![A1Asriel]({{ '/assets/img/avatars/a1asriel.jpeg' | relative_url }}){: .pic-right style="position: relative; margin-top: -40px; border: 1px #000 solid; width: 128px; height: 128px; display: block;" }
+
+{% include socials.html person="a1asriel" %}
 
 - {: .geolimited} **Игровой никнейм:** [A1Asriel](https://worldoftanks.eu/ru/community/accounts/595275807-A1Asriel/){: target="_blank" } (EU)
 - **Роль в команде:** технический специалист.
@@ -175,7 +176,7 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ### Особая благодарность
 
-- **Jax_EU** -- коммьюнити-менеджер англоязычной аудитории проекта, помощь в переводе модов на английский.
+- **Jax_EU** -- коммьюнити-менеджер англоязычной аудитории проекта, помощь в переводе интерфейсных модов на английский.
 
 ### Бывшие участники проекта
 
