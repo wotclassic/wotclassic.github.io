@@ -7,13 +7,13 @@
     {% endif %}
 </div>
 {% endif %}
-<ul class="social-icons" style="padding-bottom: 0; margin-bottom: -7px;">
+<ul class="social-icons" style="padding-bottom: 0; margin: 0 -7px -7px 0;">
     {% for social in site.data.socials[include.person] %}
-        {% if social[1].icon == nil %}{% continue %}{% endif %}
-        <li class="social-icons_item">
-            <a class="social-icons_link" href="{{ social[1].url }}" target="_blank" rel="noopener noreferrer">
-                <img class="social-icons_img" src="{{ social[1].icon | relative_url }}">
-            </a>
-        </li>
+    <li class="social-icons_item">
+        <a class="social-icons_link" href="{{ social[1] }}" target="_blank" rel="noopener noreferrer">
+            {% assign name = social[0] -%}
+            <img class="social-icons_img" src="{{ site.data.socials._icons[name] | default: site.data.socials._icons._default | relative_url }}">
+        </a>
+    </li>
     {% endfor %}
 </ul>

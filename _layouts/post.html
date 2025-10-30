@@ -1,9 +1,10 @@
 ---
 layout: default
 ---
-<div class="content">
-    <div class="l-content">
+<main class="content">
+    <article class="l-content">
         <h1>{{ page.title }}</h1>
+        {% if page.date != nil %}
         <div class="statist">
             <div class="news-time">{{ page.date | date: "%d.%m.%Y" }}</div>
             {% assign category = page.categories[0] %}
@@ -13,34 +14,35 @@ layout: default
                 <i style="color: #606061;">Обновлено: {{ page.last_modified_at | date: "%d.%m.%Y" }}</i>
             {% endif %}
         </div>
-        <div class="news-content">
-            <div class="b-content">
-                {{ content }}
-                <div>
-                    <div class="b-hr-layoutfix">
-                        <div class="b-hr-block"><span></span></div>
-                    </div>
-                    <div class="b-junction">
-                        <div class="b-junction_forum">
-                            <a href="https://kr.cm/f/t/65511/"
-                                class="news-comment">Обсудить на форуме</a>
-                        </div>
-                        <div class="b-junction_navigation">
-                            {% assign next_url = page.next.url | relative_url %}
-                            {% assign prev_url = page.previous.url | relative_url %}
-                            <a class="b-junction_pager {% if prev_url == nil %}b-junction_pager__disable{% endif %}" {% if prev_url != nil %}href="{{ prev_url }}"{% endif %}>
-                                &nbsp;<span class="b-junction_pager-ico"></span>
-                            </a>
-                            <a class="b-junction_pager {% if next_url == nil %}b-junction_pager__disable{% endif %}" {% if next_url != nil %}href="{{ next_url }}"{% endif %}>
-                                Следующая<span class="b-junction_pager-ico"></span>
-                            </a>
-                        </div>
-                    </div>
+        {% endif %}
+        <div class="b-content news-content">
+            {{ content }}
+        </div>
+        {% if page.next != nil or page.previous != nil %}
+        <div>
+            <div class="b-hr-layoutfix">
+                <div class="b-hr-block"><span></span></div>
+            </div>
+            <div class="b-junction">
+                <div class="b-junction_forum">
+                    <a href="https://kr.cm/f/t/65511/"
+                        class="news-comment">Обсудить на форуме</a>
+                </div>
+                <div class="b-junction_navigation">
+                    {% assign next_url = page.next.url | relative_url %}
+                    {% assign prev_url = page.previous.url | relative_url %}
+                    <a class="b-junction_pager {% if prev_url == nil %}b-junction_pager__disable{% endif %}" {% if prev_url != nil %}href="{{ prev_url }}"{% endif %}>
+                        &nbsp;<span class="b-junction_pager-ico"></span>
+                    </a>
+                    <a class="b-junction_pager {% if next_url == nil %}b-junction_pager__disable{% endif %}" {% if next_url != nil %}href="{{ next_url }}"{% endif %}>
+                        Следующая<span class="b-junction_pager-ico"></span>
+                    </a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="r-content">
+        {% endif %}
+    </article>
+    <aside class="r-content">
         {% assign category_names = "" %}
         {% assign category_urls = "" %}
         {% for category in site.categories reversed %}
@@ -56,5 +58,5 @@ layout: default
         {% assign category_urls = category_urls | split: "|" %}
         {% include categories-sidebar.html category_names=category_names category_urls=category_urls %}
         {% include important_categories-sidebar.html %}
-    </div>
-</div>
+    </aside>
+</main>

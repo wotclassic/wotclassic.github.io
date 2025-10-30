@@ -8,7 +8,7 @@ layout: none
     <middle>{{ site.data.installer.lesta.middle }}</middle>
     <minor>{{ site.data.installer.lesta.minor }}</minor>
     <build>{{ site.data.installer.lesta.build }}</build>
-    <link>{{ site.data.socials.wek.mods.lesta.alt_installer }}</link>
+    <link>{{ site.data.installer.lesta.drive_link }}</link>
     {%- assign n = 0 -%}
     {%- for i in site.data.installer.lesta.mods -%}
       {%- if i == 0 %}{% continue %}{% endif -%}
@@ -26,7 +26,7 @@ layout: none
     <middle>{{ site.data.installer.sd-models.middle }}</middle>
     <minor>{{ site.data.installer.sd-models.minor }}</minor>
     <build>{{ site.data.installer.sd-models.build }}</build>
-    <link>{{ site.data.socials.wek.mods.sd-models.alt_installer }}</link>
+    <link>{{ site.data.installer.sd-models.drive_link }}</link>
     {%- assign n = 0 -%}
     {%- for i in site.data.installer.sd-models.mods -%}
       {%- if i == 0 %}{% continue %}{% endif -%}

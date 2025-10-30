@@ -21,7 +21,7 @@ image_small: "/assets/img/news/image_small/discord.png"
 На старом сервере больше не будут оказываться услуги технической поддержки и публиковаться официальные новости проекта «WoT это Классика!».
 {: .message-error}
 
-{% include button.html url=site.data.socials.wek.discord.url text='Присоединяйся к новому серверу!' %}
+{% include button.html url=site.data.socials.wek.discord text='Присоединяйся к новому серверу!' %}
 
 ---
 
@@ -121,4 +121,4 @@ image_small: "/assets/img/news/image_small/discord.png"
 - **#боты**  
     Если вы хотите поиграться с ботами.
 
-{% include button.html url=site.data.socials.wek.discord.url text='Присоединяйся!' %}
+{% include button.html url=site.data.socials.wek.discord text='Присоединяйся!' %}

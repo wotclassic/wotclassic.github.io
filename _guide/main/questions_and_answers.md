@@ -115,23 +115,23 @@ permalink: /guide/main/questions_and_answers
 
 | Основные&nbsp;моды | SD-модели | Примечания |
 |:-:|:-:|-|
-| [Google&nbsp;Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.socials.wek.mods.sd-models.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | Быстро, работает в РФ/РБ, лимит на количество скачиваний |
-| [Cloudflare]({{ site.data.socials.wek.mods.lesta.installer }}) | [Cloudflare]({{ site.data.socials.wek.mods.sd-models.installer }}) | Быстро, низкий шанс работы в РФ/РБ |
-| [Oracle]({{ site.data.socials.wek.mods.lesta.direct_installer }}) | [Oracle]({{ site.data.socials.wek.mods.sd-models.direct_installer }}) | Медленнее, средний шанс работы в РФ/РБ |
+| [Google&nbsp;Диск]({{ site.data.installer.lesta.drive_link }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.installer.sd-models.drive_link }}){: target="_blank" rel="noreferrer noopener" } | Быстро, работает в РФ/РБ, лимит на количество скачиваний |
+| [Cloudflare]({{ site.data.installer.lesta.link }}) | [Cloudflare]({{ site.data.installer.sd-models.link }}) | Быстро, низкий шанс работы в РФ/РБ |
+| [Oracle]({{ site.data.installer.lesta.direct_link }}) | [Oracle]({{ site.data.installer.sd-models.direct_link }}) | Медленнее, средний шанс работы в РФ/РБ |
 {: .wg-table .only_for_limited style="table-layout: auto;" }
 
 | Основные&nbsp;моды | SD-модели | Примечания |
 |:-:|:-:|-|
-| [Cloudflare]({{ site.data.socials.wek.mods.lesta.installer }}) | [Cloudflare]({{ site.data.socials.wek.mods.sd-models.installer }}) | Быстро -- самый оптимальный вариант |
-| [Google&nbsp;Диск]({{ site.data.socials.wek.mods.lesta.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.socials.wek.mods.sd-models.alt_installer }}){: target="_blank" rel="noreferrer noopener" } | Быстро, лимит на количество скачиваний |
-| [Oracle]({{ site.data.socials.wek.mods.lesta.direct_installer }}) | [Oracle]({{ site.data.socials.wek.mods.sd-models.direct_installer }}) | Медленнее |
+| [Cloudflare]({{ site.data.installer.lesta.link }}) | [Cloudflare]({{ site.data.installer.sd-models.link }}) | Быстро -- самый оптимальный вариант |
+| [Google&nbsp;Диск]({{ site.data.installer.lesta.drive_link }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.installer.sd-models.drive_link }}){: target="_blank" rel="noreferrer noopener" } | Быстро, лимит на количество скачиваний |
+| [Oracle]({{ site.data.installer.lesta.direct_link }}) | [Oracle]({{ site.data.installer.sd-models.direct_link }}) | Медленнее |
 {: .wg-table .geolimited style="table-layout: auto;" }
 
 <br>
 
 **2)** Через сервис установки модификаций [МОСТ](http://forum.tanki.su/index.php?/topic/2205036-all-%d0%bc%d0%be%d1%81%d1%82/).
 
-**3)** Установка модов вручную. Для этого зайдите в папку со всеми модами на [Google Диске]({{ site.data.socials.wek.mods.lesta.drive }}){: target="_blank" rel="noreferrer noopener" } и следуйте инструкциям в пункте [<<Ручная установка>>](#ruchnaia-ustanovka).
+**3)** Установка модов вручную. Для этого зайдите в папку со всеми модами на [Google Диске]({{ site.data.installer.lesta.manual_link }}){: target="_blank" rel="noreferrer noopener" } и следуйте инструкциям в пункте [<<Ручная установка>>](#ruchnaia-ustanovka).
 
 **ВНИМАНИЕ:** моды по ссылке для ручной установки на данный момент не обновлены и не будут работать с текущей версией игры. Используйте другие способы установки.
 {: .message-error }

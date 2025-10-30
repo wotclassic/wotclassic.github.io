@@ -165,7 +165,7 @@ image_small: "/assets/img/news/image_small/sptmbr_upd.png"
 <ul style="margin-top: 0px">
   <li>Моды на WGMods могут модерироваться несколько дней, это не зависит от нас.</li>
   <li>Все моды вы ставите на свой страх и риск.</li>
-  <li>Обновления модификаций будут сообщаться на <a href="{{ site.data.socials.wek.discord.url }}">Discord-сервере «WoT это Классика!»</a>, в нашей <a href="{{ site.data.socials.bendy.vk.url }}">группе ВКонтакте</a>, на форумах и в социальных сетях.</li>
+  <li>Обновления модификаций будут сообщаться на <a href="{{ site.data.socials.wek.discord }}">Discord-сервере «WoT это Классика!»</a>, в нашей <a href="{{ site.data.socials.bendy.vk }}">группе ВКонтакте</a>, на форумах и в социальных сетях.</li>
 </ul>
 </div>
 

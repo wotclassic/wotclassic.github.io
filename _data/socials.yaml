@@ -1,84 +1,59 @@
-wek:
-  mods:
-    lesta:
-      installer: https://download.wot-classic.ru/mto_install.exe
-      direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_1.38.0.0_26.exe
-      alt_installer: https://drive.google.com/file/d/1eAlJV_8DbHnS0YLXe_4k3J9K5ECazv3v/view?usp=sharing
-      drive: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
-    sd-models:
-      installer: https://download.wot-classic.ru/mto_install_sd.exe
-      direct_installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_sd_1.38.0.0_8.exe
-      alt_installer: https://drive.google.com/file/d/1d04NSNNfKgY8vzT9080X485DGE2b6zXE/view?usp=sharing
-    wg:
-      installer: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/wek_install_wg_1.27.0.1_2.exe
-      drive: https://drive.google.com/drive/folders/1XyrX7kdktG4wQfzWhG_O0v1EDZq5Z6BJ?usp=drive_link
-  discord:
-    url: https://discord.gg/36mrMDeFMJ
+_icons:
+  _default: /assets/img/web_28x.png
+  vk: /assets/img/vk_28x.png
+  ovk: /assets/img/ovk_28x.png
+  vovk: /assets/img/vovk.png
+  telegram: /assets/img/tg_28x.png
+  youtube: /assets/img/youtube_28x.png
+  discord: /assets/img/discord_28x.png
+  tiktok: /assets/img/tt_28x.png
+  github: /assets/img/gh_28x.png
+  bluesky: /assets/img/bsky_28x.png
+  forum: /assets/img/forum_28x.png
 
+# Ссылки на странице "Сообщество"
+wek:
+  ovk: https://ovk.to/mrb
+  vovk: https://vepurovk.xyz/mb
+  telegram: https://t.me/mr_bendy
+  vk: https://vk.com/mr.bendy
+  youtube: https://www.youtube.com/channel/UCl2HGM972UDUF3uzgLC5AuA
+  discord: https://discord.gg/36mrMDeFMJ
+  tiktok: https://www.tiktok.com/@mtorigins
+
+# Ссылки для членов команды на странице "О нас"
 bendy:
-  ovk:
-    url: https://ovk.to/mrb
-    icon: /assets/img/ovk_28x.png
-  vovk:
-    url: https://vepurovk.xyz/mb
-    icon: /assets/img/vovk.png
-  telegram:
-    url: https://t.me/mr_bendy
-    icon: /assets/img/tg_28x.png
-  vk:
-    url: https://vk.com/mr.bendy
-    icon: /assets/img/vk_28x.png
-  youtube:
-    url: https://www.youtube.com/channel/UCl2HGM972UDUF3uzgLC5AuA
-    icon: /assets/img/youtube_28x.png
-  discord:
-    url: https://discord.gg/6wstW87FPX
-    icon: /assets/img/discord_28x.png
-    
-  tt:
-      url: https://www.tiktok.com/@mtorigins
-      icon: /assets/img/tt_28x.png
-  mrbendy:
-    url: https://muramiha.github.io/
+  mrbendy: https://muramiha.github.io/
+  youtube: https://www.youtube.com/channel/UCl2HGM972UDUF3uzgLC5AuA
+  tiktok: https://www.tiktok.com/@mtorigins
+  telegram: https://t.me/mr_bendy
+  vk: https://vk.com/mr.bendy
+  ovk: https://ovk.to/mrb
+  vovk: https://vepurovk.xyz/mb
+  discord: https://discord.gg/6wstW87FPX
 
 vlbrtn:
-  name: Valberton
-  youtube:
-    url: https://www.youtube.com/channel/UCWRykmqoRaiaZyvN9l5Ow8g
-    icon: /assets/img/youtube_28x.png
-  telegram:
-    url: https://t.me/vlbrtn
-    icon: /assets/img/tg_28x.png
-  discord:
-    url: https://discord.gg/JqkyVMdcTW
-    icon: /assets/img/discord_28x.png
-  github:
-    url: https://github.com/ValbertonHere
-    icon: /assets/img/gh_28x.png
+  youtube: https://www.youtube.com/channel/UCWRykmqoRaiaZyvN9l5Ow8g
+  telegram: https://t.me/vlbrtn
+  discord: https://discord.gg/JqkyVMdcTW
+  github: https://github.com/ValbertonHere
 
 pbody:
-  name: Pbody -iwnl-
-  youtube:
-    url: https://www.youtube.com/channel/UC3lhm5gcXAyQLIo9cxijZ2w
-    icon: /assets/img/youtube_28x.png
-  telegram:
-    url: https://t.me/Pbody_iwnl
-    icon: /assets/img/tg_28x.png
-  vk:
-    url: https://vk.com/streamers_baby
-    icon: /assets/img/vk_28x.png
+  youtube: https://www.youtube.com/channel/UC3lhm5gcXAyQLIo9cxijZ2w
+  telegram: https://t.me/Pbody_iwnl
+  vk: https://vk.com/streamers_baby
+  discord: https://discord.gg/hXmYpM8VR5
 
 a1asriel:
-  name: a1asriel
-  youtube:
-    url: https://youtube.com/@A1Asriel
-    icon: /assets/img/youtube_28x.png
-  telegram:
-    url: https://t.me/A1Asriel
-    icon: /assets/img/tg_28x.png
-  github:
-    url: https://github.com/A1Asriel
-    icon: /assets/img/gh_28x.png
-  bluesky:
-    url: https://bsky.app/profile/did:plc:ounxlpoonfbny546hhtagw6f
-    icon: /assets/img/bsky_28x.png
+  youtube: https://youtube.com/@A1Asriel
+  telegram: https://t.me/A1Asriel
+  github: https://github.com/A1Asriel
+  bluesky: https://bsky.app/profile/did:plc:ounxlpoonfbny546hhtagw6f
+
+shpah:
+  telegram: https://t.me/DenisRozLs
+  discord: https://discord.com/users/715298090885710127
+  forum: http://forum.tanki.su/index.php?/user/leonardo-shpah-271654774/
+
+dem:
+  discord: https://discord.com/users/249495751082770432

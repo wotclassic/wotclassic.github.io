@@ -62,7 +62,7 @@ last_modified_at: 2024-11-07
 
 {% include yt-embed.html id="Ku4bJFCP7Bk" %}
 
-Также в моде будет наш уникальный трек, созданный [Valberton]({{ site.data.socials.vlbrtn.youtube.url }}) для ивента.
+Также в моде будет наш уникальный трек, созданный [Valberton]({{ site.data.socials.vlbrtn.youtube }}) для ивента.
 
 {% include yt-embed.html id="w1zfvC6Qqco" %}
 
