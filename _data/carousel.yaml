@@ -1,4 +1,9 @@
 home:
+- title: Накануне праздника
+  desc: Серия конкурсов с приятными наградами в честь шестилетия «WoT это Классика!».
+  url: /news/birthday-screen-event/
+  image: /assets/img/news/header/bdev_screen.png
+
 - title: Октябрьский микропатч
   desc: Повеело холодом... Хэллоуин на дворе...
   url: /news/oct-mupd26/
