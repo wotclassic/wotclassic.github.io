@@ -1,8 +1,8 @@
 home:
-- title: Накануне праздника
+- title: Серия конкурсов «Накануне праздника»
   desc: Серия конкурсов с приятными наградами в честь шестилетия «WoT это Классика!».
-  url: /news/birthday-screen-event/
-  image: /assets/img/news/header/bdev_screen.png
+  url: /news/birthday-exp/
+  image: /assets/img/news/header/bdev_exp.png
 
 - title: Октябрьский микропатч
   desc: Повеело холодом... Хэллоуин на дворе...
