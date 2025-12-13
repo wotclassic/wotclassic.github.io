@@ -5,8 +5,8 @@ lesta:
   build: 30
   link: https://download.wot-classic.ru/mto_install.exe
   direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_1.39.0.0_30.exe
-  sharing_link: https://sharing.103080.xyz/s/yDSPPe4dSoTSWXm
-  drive_link: https://drive.google.com/file/d/118v70tk2G7RVodoZLsR1cuT2l-NQmJ-a/view?usp=sharing
+  sharing_link: https://sharing.103080.xyz/s/yDSPPe4dSoTSWXm/download
+  drive_link: https://drive.google.com/file/d/1yQPHUHVRvBjRuL7rapcS-an8VYzJjaCe/view?usp=sharing
   manual_link: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
   mods:  # Удалённое отключение модов в установщике: 1 - работает, 0 - не работает
     - 1  # 0  Звуки
@@ -32,7 +32,6 @@ sd-models:
   minor: 0
   build: 9
   link: https://download.wot-classic.ru/mto_install_sd.exe
-  sharing_link: https://sharing.103080.xyz/s/yDSPPe4dSoTSWXm/download
   direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_sd_1.38.0.0_9.exe
   drive_link: https://drive.google.com/file/d/15E0wEm09MPrADb4-Hhuzat9QsOCulMKz/view?usp=sharing
   mods:

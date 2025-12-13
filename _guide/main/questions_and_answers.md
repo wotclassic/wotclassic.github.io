@@ -115,6 +115,7 @@ permalink: /guide/main/questions_and_answers
 
 | Основные&nbsp;моды | SD-модели | Примечания |
 |:-:|:-:|-|
+| [Прямая ссылка]({{ site.data.installer.lesta.sharing_link }}) | *Врем. недоступно* | Может быть медленным при большом трафике |
 | [Google&nbsp;Диск]({{ site.data.installer.lesta.drive_link }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.installer.sd-models.drive_link }}){: target="_blank" rel="noreferrer noopener" } | Быстро, работает в РФ/РБ, лимит на количество скачиваний |
 | [Cloudflare]({{ site.data.installer.lesta.link }}) | [Cloudflare]({{ site.data.installer.sd-models.link }}) | Быстро, низкий шанс работы в РФ/РБ |
 | [Oracle]({{ site.data.installer.lesta.direct_link }}) | [Oracle]({{ site.data.installer.sd-models.direct_link }}) | Медленнее, средний шанс работы в РФ/РБ |
