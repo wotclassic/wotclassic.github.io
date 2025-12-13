@@ -1,6 +1,7 @@
 ---
 title: "«Как в старые добрые»: шоу-матч в прямом эфире!"
 date: 2025-12-10
+last_modified_at: 2025-12-13
 category: announcements
 image: /assets/img/news/thumbnail/rush.png
 ---
@@ -17,11 +18,13 @@ image: /assets/img/news/thumbnail/rush.png
 ## Регламент
 
 **Карты:**
-- Первый бой: Прохоровка - VIII уровень
-- Второй бой: Мурованка - IX уровень
-- Третий бой: Линия Зигфрида - X уровень
+- Первый бой: Прохоровка
+- Второй бой: Мурованка
+- Третий бой: Линия Зигфрида
+- Резервный бой: Рудники
 
 **О технике**
+- Бои проводятся на технике с **VIII по X** уровень.
 - Учитываются только те танки, которые были доступны во время патча 0.8.2. 
 
 [![hv1]({{ '/assets/img/bd25/ussr.png' | relative_url}}){: width="100%" }](/assets/img/bd25/ussr.png)
@@ -34,13 +37,30 @@ image: /assets/img/news/thumbnail/rush.png
 
 ## Как участвовать?
 
-Для участия в шоу-матче вам нужно оставить заявку в специальной форме, предварительно указав свой ник. 
+Для участия в шоу-матче вам нужно оставить заявку в специальной форме, предварительно указав свой ник.
 
-{% include button.html url='https://forms.gle/kgq4ucTYmBvgmwZA9' text='Подать заявку' %}
+{% include button.html disabled=true url='https://forms.gle/kgq4ucTYmBvgmwZA9' text='Подать заявку' %}
 
 ## Награды
 
-О наградах будет рассказано ближе к 14 декабря, но главное - ваше участие!
+О наградах будет рассказано на прямой трансляции, но главное - ваше участие!
+
+## Спонсоры
+
+И куда же без спонсоров? В наших начинаниях нас поддержат два блогера, знакомые вам DoctorOctopus и Drezdy!
+
+{% capture elements -%}
+/assets/img/avatars/yt/doctoroctopus.jpg | Doctor Octopus | https://www.youtube.com/@DoctorOctopus
+/assets/img/avatars/yt/drezdy.jpg | Drezdy | https://www.youtube.com/@drezdy
+{%- endcapture -%}
+
+<!-- Строки парсятся в массив -->
+{%- assign elements = elements | newline_to_br | strip_newlines | split: "<br />" -%}
+
+<!-- Переменная загружается в шаблон -->
+{% include image-grid.html elements=elements %}
+
+Так же наш шоу-матч станет одним из выпусков «Танкомахача» на канале DoctorOctopus, так что считайте, что это Ваш шанс показать себя!
 
 ---
 
