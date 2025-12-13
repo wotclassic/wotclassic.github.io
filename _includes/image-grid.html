@@ -1,0 +1,34 @@
+{%- comment %}
+
+Пример:
+=====================
+<!-- Создаётся переменная elements, в которую записываются следующие строки -->
+<!-- (формат: путь к картинке | надпись | опционально ссылка при нажатии) -->
+{% capture elements -%}
+/assets/img/avatars/bendy.jpg | Картинка 1 | https://example.com
+/assets/img/avatars/valberton.webp | Картинка 2 | https://wot-classic.ru
+/assets/img/avatars/pbody.webp | Картинка 3 | /mods/download
+/assets/img/avatars/a1asriel.webp | Картинка 4
+{%- endcapture -%}
+
+<!-- Строки парсятся в массив -->
+{%- assign elements = elements | newline_to_br | strip_newlines | split: "<br />" -%}
+
+<!-- Переменная загружается в шаблон -->
+{% include image-grid.html elements=elements %}
+=====================
+
+{% endcomment -%}
+
+<div class="image-grid">
+    {% for el in include.elements -%}
+    {%- assign par = el | split: "|" -%}
+    {%- assign img = par[0] | strip -%}
+    {%- assign label = par[1] | strip -%}
+    {%- assign url = par[2] | strip -%}
+    <span class="image-grid_el">
+        {% if url and url != "" %}<a href="{{ url | relative_url }}" target="_blank" rel="noreferrer noopener"><img src="{{ img | relative_url }}"></a>{% else %}<img src="{{ img | relative_url }}">{% endif %}
+        <p>{% if url and url != "" %}<a href="{{ url | relative_url }}" target="_blank" rel="noreferrer noopener">{{ label }}</a>{% else %}{{ label }}{% endif %}</p>
+    </span>
+    {%- endfor %}
+</div>

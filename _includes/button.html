@@ -1,5 +1,12 @@
+{% comment %}
+Пример:
+=============
+{% include button.html text='Кнопка с ссылкой' url='https://example.com' %}
+{% include button.html text='Выключенная кнопка' disabled=true %}
+=============
+{% endcomment %}
 <div style="text-align: center; margin-top: 5px;">
-    <span class="b-button b-button__colored">
-        <a class="b-button_right" href="{{ include.url }}" target="_blank">{{ include.text }}</a>
+    <span class="b-button{% unless include.disabled %} b-button__colored{% endunless %}">
+        <a class="b-button_right{% if include.disabled %} b-button_right__disabled{% endif %}"{% unless include.disabled %} href="{{ include.url }}" target="_blank"{% endunless %}>{{ include.text }}</a>
     </span>
 </div>
