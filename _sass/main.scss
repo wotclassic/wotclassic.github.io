@@ -2870,14 +2870,16 @@ table.wg-table p {
 }
 
 .image-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 30px;
-    row-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 30px;
 
     .image-grid_el {
         display: inline-block;
         text-align: center;
+        width: 208px;
+        // margin: 0 10px;
 
         img {
             display: block;
