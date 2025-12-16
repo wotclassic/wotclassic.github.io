@@ -22,21 +22,21 @@ image: /assets/img/news/thumbnail/6yd.png
 
 Ниже представлены некоторые обычные и уникальные SD-модели.
 
-[![hv1]({{ '/assets/img/news/screens/plans26/sd1.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd1.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd2.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd3.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd3.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd4.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd4.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd5.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd5.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd6.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd6.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd7.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd7.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd8.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd8.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd9.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd9.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd10.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd10.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/sd11.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd11.png)
+![hv1]({{ '/assets/img/news/screens/plans26/sd1.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd2.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd3.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd4.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd5.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd6.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd7.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd8.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd9.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd10.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/sd11.png' | relative_url}}){: .fancy-img }
 
 Также в декабрьском обновлении будут релизнуты SD-модели Китая.
 
-[![hv1]({{ '/assets/img/news/screens/plans26/sd_china.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/sd_china.png)
+![hv1]({{ '/assets/img/news/screens/plans26/sd_china.png' | relative_url}}){: .fancy-img }
 
 ### Карты
 
@@ -48,9 +48,9 @@ image: /assets/img/news/thumbnail/6yd.png
 - Линия Зигфрида
 - Песчаная река
 
-[![hv1]({{ '/assets/img/news/screens/plans26/rem_mur.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/rem_mur.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/rem_sig.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/rem_sig.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/rem_rek.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/rem_rek.png)
+![hv1]({{ '/assets/img/news/screens/plans26/rem_mur.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/rem_sig.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/rem_rek.png' | relative_url}}){: .fancy-img }
 
 И три зимних сюрприза, о которых будет рассказано и показано ближе к обновлению. ;p
 
@@ -62,9 +62,9 @@ image: /assets/img/news/thumbnail/6yd.png
 - Премиум 2011
 - Лесной 2012
 
-[![hv1]({{ '/assets/img/news/screens/plans26/12ny_hang1.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/12ny_hang1.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/12ny_hang2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/12ny_hang2.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/12ny_hang3.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/12ny_hang3.png)
+![hv1]({{ '/assets/img/news/screens/plans26/12ny_hang1.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/12ny_hang2.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/12ny_hang3.png' | relative_url}}){: .fancy-img }
 
 И ожидаем пополнение в лице новичка "Премиум 2010".
 
@@ -79,8 +79,8 @@ image: /assets/img/news/thumbnail/6yd.png
 
 После новогодних праздников базовый ангар немного преобразится.
 
-[![hv1]({{ '/assets/img/news/screens/plans26/hang821.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/hang821.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/hang822.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/hang822.png)
+![hv1]({{ '/assets/img/news/screens/plans26/hang821.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/hang822.png' | relative_url}}){: .fancy-img }
 
 ---
 
@@ -92,7 +92,7 @@ image: /assets/img/news/thumbnail/6yd.png
 
 Отметим 81 год со Дня Победы в Великой Отечественной Войны.
 
-И закроем год седьмым Днем рождения «WoT это Классика!», еще более масштабным и интересным. А после пойдем спокойно отмечать Новый Год и Рождество. 
+И закроем год седьмым Днем рождения «WoT это Классика!», еще более масштабным и интересным. А после пойдем спокойно отмечать Новый Год и Рождество.
 
 ---
 
@@ -108,7 +108,7 @@ image: /assets/img/news/thumbnail/6yd.png
 
 Ну а первым тестом станет проверка работоспособности того самого лаунчера, над которым мы активно ведем работу.
 
-[![hv1]({{ '/assets/img/news/screens/plans26/launcher.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/launcher.png)
+![hv1]({{ '/assets/img/news/screens/plans26/launcher.png' | relative_url}}){: .fancy-img }
 
 Не переживайте, если вы не попали в отряд «Песочница», то у вас еще будет возможность прикоснуться к лаунчеру раньше всех, но, это мы обсудим ближе к тестам.
 
@@ -118,15 +118,14 @@ image: /assets/img/news/thumbnail/6yd.png
 
 Мало чего, сейчас весь упор идет в доведение до идеала основной линейки модификаций. Но вы можете посмотреть на обновленный премиумный ангар из 0.7.0.
 
-[![hv1]({{ '/assets/img/news/screens/plans26/hang701.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/hang701.png)
-[![hv1]({{ '/assets/img/news/screens/plans26/hang702.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/plans26/hang702.png)
+![hv1]({{ '/assets/img/news/screens/plans26/hang701.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/news/screens/plans26/hang702.png' | relative_url}}){: .fancy-img }
 
 ---
 
 ## Шоу-матч
 
 Но звездой всего дня рождения и прямой трансляции является бесподобный и неповторимый шоу-матч, на котором произошло много интересных событий! И самое главное - запредельный уровень ностальгии и веселья. Огромное спасибо всем, кто поучаствовал, для нас это много значит.
-
 
 {% include content-image.html url1="/assets/img/news/screens/plans26/shot_3419.jpg" url2="/assets/img/news/screens/plans26/shot_3420.jpg" url3="/assets/img/news/screens/plans26/shot_3442.jpg" %}
 <br>

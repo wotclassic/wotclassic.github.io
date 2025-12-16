@@ -18,21 +18,23 @@ image: /assets/img/news/thumbnail/rush.png
 ## Регламент
 
 **Карты:**
+
 - Первый бой: Прохоровка
 - Второй бой: Мурованка
 - Третий бой: Линия Зигфрида
 - Резервный бой: Рудники
 
 **О технике**
-- Бои проводятся на технике с **VIII по X** уровень.
-- Учитываются только те танки, которые были доступны во время патча 0.8.2. 
 
-[![hv1]({{ '/assets/img/bd25/ussr.png' | relative_url}}){: width="100%" }](/assets/img/bd25/ussr.png)
-[![hv1]({{ '/assets/img/bd25/ger.png' | relative_url}}){: width="100%" }](/assets/img/bd25/ger.png)
-[![hv1]({{ '/assets/img/bd25/usa.png' | relative_url}}){: width="100%" }](/assets/img/bd25/usa.png)
-[![hv1]({{ '/assets/img/bd25/fr.png' | relative_url}}){: width="100%" }](/assets/img/bd25/fr.png)
-[![hv1]({{ '/assets/img/bd25/brit.png' | relative_url}}){: width="100%" }](/assets/img/bd25/brit.png)
-[![hv1]({{ '/assets/img/bd25/china.png' | relative_url}}){: width="100%" }](/assets/img/bd25/china.png)
+- Бои проводятся на технике с **VIII по X** уровень.
+- Учитываются только те танки, которые были доступны во время патча 0.8.2.
+
+![hv1]({{ '/assets/img/bd25/ussr.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/bd25/ger.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/bd25/usa.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/bd25/fr.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/bd25/brit.png' | relative_url}}){: .fancy-img }
+![hv1]({{ '/assets/img/bd25/china.png' | relative_url}}){: .fancy-img }
 
 
 ## Как участвовать?
@@ -53,17 +55,13 @@ image: /assets/img/news/thumbnail/rush.png
 /assets/img/avatars/yt/doctoroctopus.jpg | Doctor Octopus | https://www.youtube.com/@DoctorOctopus
 /assets/img/avatars/yt/drezdy.jpg | Drezdy | https://www.youtube.com/@drezdy
 {%- endcapture -%}
-
-<!-- Строки парсятся в массив -->
 {%- assign elements = elements | newline_to_br | strip_newlines | split: "<br />" -%}
-
-<!-- Переменная загружается в шаблон -->
 {% include image-grid.html elements=elements %}
 
 Так же наш шоу-матч станет одним из выпусков «Танкомахача» на канале DoctorOctopus, так что считайте, что это Ваш шанс показать себя!
 
 ---
 
-Это будет самая грандиозная заруба в «Мире танков» со времен 2012 года, по машинам! 
+Это будет самая грандиозная заруба в «Мире танков» со времен 2012 года, по машинам!
 
 До встречи на шоу-матче и удачи на полях сражений, танкисты!

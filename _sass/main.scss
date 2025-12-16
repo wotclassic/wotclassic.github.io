@@ -1039,7 +1039,6 @@ $yt-color: #cc181e;
     margin: 0;
     padding: 8px 14px 6px;
     position: relative;
-    z-index: 2;
     font-family: "WarHeliosCondC", "Arial Narrow", Arial, sans-serif;
     font-size: 21px;
     color: #fff;
@@ -1101,6 +1100,10 @@ $yt-color: #cc181e;
 .news-content {
     line-height: 1.33;
     word-wrap: break-word;
+
+    &.b-content img {
+        max-width: 100%;
+    }
 }
 
 .message-info {
@@ -2887,6 +2890,45 @@ table.wg-table p {
             margin-bottom: 8px;
         }
     }
+}
+
+.fancy-img_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/assets/img/waiting_bg.png);
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: calc(100vw - 64px);
+    height: calc(100vh - 64px);
+    padding: 32px;
+    transition: 0.5s ease-in-out opacity;
+
+    &.fade-out {
+        opacity: 0;
+    }
+}
+
+.fancy-img_wrapper .fancy-img_close-button {
+    background: url("/assets/img/close2.png") 100% 0px no-repeat;
+    width: 23px;
+    height: 23px;
+    top: -8px;
+    right: -8px;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-position: 0 100%;
+    }
+}
+
+.fancy-img_wrapwrapper {
+    position: relative;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
