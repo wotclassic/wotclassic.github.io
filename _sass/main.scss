@@ -1,8 +1,4 @@
-@use 'sandbox';
-@use 'indev';
-@use 'fan-page';
-@use 'leaders';
-
+@use "sass:meta";
 @font-face {
     font-family: robotocondensedbold;
     src: url('/assets/font/robotocondensed-bold-webfont.eot');
@@ -2934,3 +2930,9 @@ table.wg-table p {
     max-width: 100%;
     max-height: 100%;
 }
+
+
+@include meta.load-css('sandbox.scss');
+@include meta.load-css('indev.scss');
+@include meta.load-css('fan-page.scss');
+@include meta.load-css('leaders.scss');
