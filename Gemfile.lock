@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/A1Asriel/jekyll-auto-thumbnails.git
-  revision: be1191efe0ce2aeda54a45c6701a421991a1ac86
+  revision: a5b637138e0e7549f9fa4515c1c490bbdd24cc4b
   specs:
     jekyll-auto-thumbnails (0.3.0)
       jekyll (>= 4.0, < 5.0)
