@@ -117,3 +117,6 @@ sass:
 
 kramdown:
   transliterated_header_ids: true
+
+auto_thumbnails:
+  max_width: 686
