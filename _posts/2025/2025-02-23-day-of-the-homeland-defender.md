@@ -20,7 +20,7 @@ image: "/assets/img/news/thumbnail/23_feb.jpg"
 
 И конечно же мы не могли порадовать Вас подарком к такому дню. Для скачивания уже доступен праздничный ангар.
 
-[![1]({{ '/assets/img/news/screens/hangars/h_feb23_2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/hangars/h_feb23_2.png)
+![1]({{ '/assets/img/news/screens/hangars/h_feb23_2.png' | relative_url}}){: .fancy-img}
 
 {% include button.html url='https://download.wot-classic.ru/wek_install_lesta.exe' text='Скачать' %}
 

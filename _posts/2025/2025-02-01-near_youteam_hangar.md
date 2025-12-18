@@ -20,25 +20,25 @@ image_small: "/assets/img/news/image_small/nyt_hangar.png"
 
 Первое что вы увидите при входе в игру - большой город в стиле "Киберпанк", повсюду летающие машины, копы и различные агитационные вывески с порталами Near_You и «WoT это Классика!». Но еще есть куча граффити со своей небольшой историей, газеты с различными интересными историями и так далее, вам точно будет что изучить!
 
-[![1]({{ '/assets/img/news/screens/near_you/graf.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/near_you/graf.png)
+![1]({{ '/assets/img/news/screens/near_you/graf.png' | relative_url}}){: .fancy-img}
 
 За танком игрока вы увидите сцену, на которой находится пять телевизоров, каждый из них - отдельная сущность, ведущая на ресурсы блогеров, которые поддерживают Near_You Team в битве.
 
-[![1]({{ '/assets/img/news/screens/near_you/tv.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/near_you/tv.png)
+![1]({{ '/assets/img/news/screens/near_you/tv.png' | relative_url}}){: .fancy-img}
 
 И куда же без **совзводных**? В специальном гараже будут появляться танки тех, кто находится в вашем взводе. К слову о гараже, в нем можно заметить, как активно идет работа над ребалансом ИС-7! А может там не только работают над ИС'ом?..
 
-[![1]({{ '/assets/img/news/screens/near_you/vzvod.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/near_you/vzvod.png)
+![1]({{ '/assets/img/news/screens/near_you/vzvod.png' | relative_url}}){: .fancy-img}
 
 ### Кастомизационный ангар
 
 Наносить камуфляжи вы будете уже выше основного ангара, а точнее с места, откуда открываются виды на весь город, построенный нами! Практически впритык к игроку происходит задержание одного из нарушителей закона, за въезд на закрытую территорию. Над городом естественно летают машины, у нас ведь будущее.
 
-[![1]({{ '/assets/img/news/screens/near_you/camo.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/near_you/camo.png)
+![1]({{ '/assets/img/news/screens/near_you/camo.png' | relative_url}}){: .fancy-img}
 
 Но давайте поближе рассмотрим сцену с танком. "Кляксы" на полу дают понять, что в этом месте часто меняли краску у танков, ну и еще смотрели телевиденье, если там было что-то интересное. 
 
-[![1]({{ '/assets/img/news/screens/near_you/style.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/near_you/style.png)
+![1]({{ '/assets/img/news/screens/near_you/style.png' | relative_url}}){: .fancy-img}
 
 В этом ангаре впервые появляется возможность нажатия на различные баннеры с подсказкой и переходом на веб-ресурс.
 {: .message-info}

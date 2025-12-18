@@ -16,7 +16,7 @@ image: "/assets/img/news/thumbnail/birthday_127x.png"
 
 - «WoT это Классика!» стартовал с мода на "Старый экран логина", и тогда он выглядел как-то так.
 
-[![логин 2019 эдишон]({{ '/assets/img/news/screens/login_old.jpg' | relative_url}}){: height="540px" }](/assets/img/news/screens/login_old.jpg)
+![логин 2019 эдишон]({{ '/assets/img/news/screens/login_old.jpg' | relative_url}}){: .fancy-img height="540px" }
 
  Да... Тогда все только начиналось. Но стоит отметить что тогда мод становился популярным. За короткий срок мод достиг 100 скачиваний на WGmods, затем 200 и так далее...
 

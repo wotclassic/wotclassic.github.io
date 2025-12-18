@@ -37,7 +37,7 @@ published: false
 
 Открывает предстоящие изменения декабрьского обновления старый отсчёт до начала боя! Все верно, теперь таймер работает на собственной базе независимо от сторонних модификаций. Подробности о его работе будут опубликованы вместе с выходом обновления.
 
-[![1]({{ '/assets/img/birthday/timer.png' | relative_url}}){: width="100%" }](/assets/img/birthday/timer.png)
+![1]({{ '/assets/img/birthday/timer.png' | relative_url}}){: .fancy-img}
 
 ## Новогодние ангары
 {: style="text-align: center;" }

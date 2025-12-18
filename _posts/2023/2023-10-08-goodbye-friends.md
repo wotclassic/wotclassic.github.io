@@ -41,19 +41,19 @@ image_small: "/assets/img/news/image_small/discord.png"
 
 При первом входе на сервер вы увидите приветственный экран, который объявляет начало вашего ностальгического путешествия!
 
-[![приветствие]({{ '/assets/img/news/screens/discord/greet.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/greet.png)
+![приветствие]({{ '/assets/img/news/screens/discord/greet.png' | relative_url}}){: .fancy-img}
 
 Вам будет предложено выбрать роль, соответствующую версии игры, в которую вы играете, чтобы получать уведомления о новостях, связанных с вашим регионом.
 
-[![выбор региона]({{ '/assets/img/news/screens/discord/region.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/region.png)
+![выбор региона]({{ '/assets/img/news/screens/discord/region.png' | relative_url}}){: .fancy-img}
 
 Если вам не нравятся постоянные пинги в новостях, то специально для Вас была добавлена подписка на получение пингов, связанных с проектом.
 
-[![подписка]({{ '/assets/img/news/screens/discord/subscribe.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/subscribe.png)
+![подписка]({{ '/assets/img/news/screens/discord/subscribe.png' | relative_url}}){: .fancy-img}
 
 А дальше идет знакомство с сервером и его каналами.
 
-[![добро пожаловать]({{ '/assets/img/news/screens/discord/welcome.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/welcome.png)
+![добро пожаловать]({{ '/assets/img/news/screens/discord/welcome.png' | relative_url}}){: .fancy-img}
 
 ## Расширение пространства
 
@@ -61,9 +61,9 @@ image_small: "/assets/img/news/image_small/discord.png"
 
 В данном разделе (или, скорее, форуме) вы можете отслеживать известные проблемы в работе модов, а также оставлять найденные баги или ошибки в модах.
 
-[![баг репорт]({{ '/assets/img/news/screens/discord/bug-report.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/bug-report.png)
+![баг репорт]({{ '/assets/img/news/screens/discord/bug-report.png' | relative_url}}){: .fancy-img width="100%" }
 
-[![баг репорт2]({{ '/assets/img/news/screens/discord/bug-report2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/bug-report2.png)
+![баг репорт2]({{ '/assets/img/news/screens/discord/bug-report2.png' | relative_url}}){: .fancy-img width="100%" }
 
 ### Канал англоязычной техподдержки
 
@@ -76,9 +76,9 @@ image_small: "/assets/img/news/image_small/discord.png"
 
 **BendyBot** - что это? А это упрощение работы мододелов, и также помощь Вам! Бот, основанный на [Anastellos Engine](https://github.com/A1Asriel/anastellos) от [A1Asriel](https://a1asriel.github.io/about), поможет вам с установкой модов, а также с получением актуальных обновлений, разработок и прочего!
 
-[![бот1]({{ '/assets/img/news/screens/discord/bendybot1.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/bendybot1.png)
+![бот1]({{ '/assets/img/news/screens/discord/bendybot1.png' | relative_url}}){: .fancy-img}
 
-[![бот2]({{ '/assets/img/news/screens/discord/bendybot2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/discord/bendybot2.png)
+![бот2]({{ '/assets/img/news/screens/discord/bendybot2.png' | relative_url}}){: .fancy-img}
 
 ## Порядок в каналах и ролях
 

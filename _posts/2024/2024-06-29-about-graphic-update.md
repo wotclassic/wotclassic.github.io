@@ -42,7 +42,7 @@ image: "/assets/img/news/thumbnail/graphic.png"
 
 **GMM-текстура - используется для создания на танках отражающих поверхностей, таких как глянцевая краска, сколы на броне и т.д.*
 
-[![1]({{ '/assets/img/news/screens/is7_082.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/is7_082.jpg)
+![1]({{ '/assets/img/news/screens/is7_082.jpg' | relative_url}}){: .fancy-img}
 
 ### Скайбоксы - новые возможности
 
@@ -55,10 +55,10 @@ image: "/assets/img/news/thumbnail/graphic.png"
 **ColorCorrection - параметр, отвечающий за контрастность, яркость и цвета изображения.*  
 **cloudsShadow - движущиеся тени от облаков.*
 
-[![1]({{ '/assets/img/news/screens/ssb82.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/ssb82.jpg)
-[![2]({{ '/assets/img/news/screens/ssb82_1.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/ssb82_1.jpg)
-[![3]({{ '/assets/img/news/screens/ssb82_2.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/ssb82_2.jpg)
-[![4]({{ '/assets/img/news/screens/ssb82_3.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/ssb82_3.jpg)
+![1]({{ '/assets/img/news/screens/ssb82.jpg' | relative_url}}){: .fancy-img}
+![2]({{ '/assets/img/news/screens/ssb82_1.jpg' | relative_url}}){: .fancy-img}
+![3]({{ '/assets/img/news/screens/ssb82_2.jpg' | relative_url}}){: .fancy-img}
+![4]({{ '/assets/img/news/screens/ssb82_3.jpg' | relative_url}}){: .fancy-img}
 
 ---
 

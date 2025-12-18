@@ -19,15 +19,15 @@ image: "/assets/img/news/thumbnail/sd_grew.png"
 
 **До:**
 
-[![1]({{ '/assets/img/news/screens/shot_783.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/shot_783.jpg)
+![1]({{ '/assets/img/news/screens/shot_783.jpg' | relative_url}}){: .fancy-img}
 
 **После:**
 
-[![1]({{ '/assets/img/news/screens/shot_781.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/shot_781.jpg)
+![1]({{ '/assets/img/news/screens/shot_781.jpg' | relative_url}}){: .fancy-img}
 
 Помимо этого, SD-модели были доработаны в графическом аспекте, доработана технология создания моделей и их текстур. Благодаря этому, модели имеют внешний вид, приближенный к старым патчам.
 
-[![1]({{ '/assets/img/news/screens/E50M_rew.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/E50M_rew.png)
+![1]({{ '/assets/img/news/screens/E50M_rew.png' | relative_url}}){: .fancy-img}
 
 Также мы провели некое переосмысление некоторых машин. Теперь на место Pzkw. IV auf. H придет Pzkw. IV auf. J, а внешний вид Pzkw. VII будет приближен к старой версии модели без дульного тормоза,что вернёт его фишку со схожестью с VK.72.01 (K).
 

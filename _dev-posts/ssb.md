@@ -136,10 +136,10 @@ image: /assets/img/indev/thumb/ssb.png
 - Тундра
 - Руинберг
 
-[![классический лаунчер]({{ '/assets/img/indev/screens/shot_022.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/shot_022.jpg)
+![классический лаунчер]({{ '/assets/img/indev/screens/shot_022.jpg' | relative_url}}){: .fancy-img}
 
-[![классический лаунчер]({{ '/assets/img/indev/screens/shot_023.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/shot_023.jpg)
+![классический лаунчер]({{ '/assets/img/indev/screens/shot_023.jpg' | relative_url}}){: .fancy-img}
 
-[![классический лаунчер]({{ '/assets/img/indev/screens/old_ytes.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/old_ytes.png)
+![классический лаунчер]({{ '/assets/img/indev/screens/old_ytes.png' | relative_url}}){: .fancy-img}
 
 > Важное изменение для любителей графики. Данное обновление позволит работать скайбоксам не только на стандартном рендере, но и на улучшенном.

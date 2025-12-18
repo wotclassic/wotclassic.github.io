@@ -14,6 +14,6 @@ image: /assets/img/news/thumbnail/5y_stats.png
 
 За 5 лет мы, все же, немного смогли поднабрать аудиторию... Так давайте же теперь и вы узнаете, что за эти 5 лет произошло.
 
-[![1]({{ '/assets/img/birthday/wotc5_statist.png' | relative_url}}){: width="100%" }](/assets/img/birthday/wotc5_statist.png)
+![1]({{ '/assets/img/birthday/wotc5_statist.png' | relative_url}}){: .fancy-img}
 
 И спасибо тебе, игрок, который читает эту новость. Ты внёс неоценимый вклад в развитие проекта.

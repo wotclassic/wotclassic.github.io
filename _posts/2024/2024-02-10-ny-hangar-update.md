@@ -15,8 +15,8 @@ image: "/assets/img/news/thumbnail/ny_launcher_2013.png"
 
 В первую очередь, в ангаре изменено освещение. Из-за чего? Из-за новой, яркой, и такой красочной луны. К слову, небо тоже ярче, да и текстура его изменена. Деревья даже раскачивать начало из-за таких изменений, а снег еще сильнее падает... Но это все слова, взгляните сами!
 
-[![1]({{ '/assets/img/news/screens/ny_remaster1.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny_remaster1.png)
-[![2]({{ '/assets/img/news/screens/ny_remaster2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny_remaster2.png)
+![1]({{ '/assets/img/news/screens/ny_remaster1.png' | relative_url}}){: .fancy-img}
+![2]({{ '/assets/img/news/screens/ny_remaster2.png' | relative_url}}){: .fancy-img}
 
 Ангар уже доступен для скачивания! Также рекомендуем ознакомиться с данными темами на форуме Korean Random, в частности с интерфейсным модпаком от ____P_H_A_R_A_O_N____, поверьте, вам понравиться!
 

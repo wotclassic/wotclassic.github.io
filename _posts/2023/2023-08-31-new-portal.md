@@ -23,14 +23,14 @@ image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 Благодаря открытию нами новой особенности работы GitHub, мы смогли произвести перенос сайта проекта на новый красивый поддомен, соответствующий названию нашего проекта, а также избавляющий нас от дополнительного элемента в адресной строке после слэша. Это значит, что все новые посты будут размещены здесь.  
 Но не волнуйтесь, старый сайт отправляется в архив, поэтому все существующие ссылки останутся рабочими!
 
-[![]({{ '/assets/img/news/screens/domain-change.png' | relative_url }}){: width="auto" }]({{ '/assets/img/news/screens/domain-change.png' | relative_url }})
+![]({{ '/assets/img/news/screens/domain-change.png' | relative_url }}){: .fancy-img width="auto" }
 {: style="text-align: center" }
 
 #### Самое важное - автоматизация
 
 Одним из ключевых изменений стал процесс автоматизации доставки контента. Теперь редакторы портала могут сосредоточиться на создании более качественных и интересных статей, благодаря тому, что рутинные задачи по публикации новостей, обновлений, событий и т.д. будут автоматически обрабатываться современной системой управления контентом.
 
-[![]({{ '/assets/img/news/screens/new_code.png' | relative_url }}){: width="100%" }]({{ '/assets/img/news/screens/new_code.png' | relative_url }})
+![]({{ '/assets/img/news/screens/new_code.png' | relative_url }}){: .fancy-img}
 
 #### Структуризация
 
@@ -43,7 +43,7 @@ image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 Ну и всем уже надоевшие "[Важные новости]({{ "/news/important" | relative_url }})" никуда не делись.
 
 
-[![обновленные новости]({{ '/assets/img/news/screens/main.png' | relative_url}}){: height="270px" }](/assets/img/news/screens/main.png)
+![обновленные новости]({{ '/assets/img/news/screens/main.png' | relative_url}}){: .fancy-img height="270px" }
 
 ### Косметические изменения
 
@@ -59,13 +59,13 @@ image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 
 С приходом августовского обновления кнопка "[Скачать моды](/mods/download)" будет перенаправлять вас на страницу скачивания модов (логично ведь?), там можно выбрать, для какого региона вы хотите установить моды, ознакомиться с системными требованиями World of Tanks, узнать о дополнительном ПО для установки модов и получить альтернативные ссылки на их скачивание.
 
-[![обновленные новости]({{ '/assets/img/news/screens/download.png' | relative_url}}){: height="710px" }](/assets/img/news/screens/download.png)
+![обновленные новости]({{ '/assets/img/news/screens/download.png' | relative_url}}){: .fancy-img height="710px" }
 
 #### Возвращение «Архива разработки»
 
 Давным-давно мы хотели реализовать "Архив разработки" и даже смогли выпустить его в релиз, но поддерживать этот раздел было слишком ресурсозатратно, особенно со старым процессом написания статей, поэтому пришлось его удалить. Однако, с переходом на движок [Jekyll](https://jekyllrb.com/) мы все же вернули его, обновили информацию, и уже сейчас можно посмотреть, [что там происходит]({{ "/updates" | relative_url }}).
 
-[![обновленный раздел]({{ '/assets/img/news/screens/archive.png' | relative_url}}){: height="343px" }](/assets/img/news/screens/archive.png)
+![обновленный раздел]({{ '/assets/img/news/screens/archive.png' | relative_url}}){: .fancy-img height="343px" }
 
 ### Мелкие улучшения
 
@@ -73,16 +73,16 @@ image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 
 Пользователи Яндекс.Браузера теперь смогут увидеть логотип проекта на плитке нового портала в Табло.
 
-[![обновленные новости]({{ '/assets/img/news/screens/tableau-screenshot.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/tableau-screenshot.png)
+![обновленные новости]({{ '/assets/img/news/screens/tableau-screenshot.png' | relative_url}}){: .fancy-img width="100%" }
 
 #### Встраиваемые ссылки
 
 Теперь каждая ссылка на страницы портала отображает краткое содержание и картинку при отправке в различные мессенджеры, такие как Discord и Telegram, чтобы вы могли заранее ознакомиться с новостью.
 
-[![обновленные новости]({{ '/assets/img/news/screens/webhook.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/webhook.png)
+![обновленные новости]({{ '/assets/img/news/screens/webhook.png' | relative_url}}){: .fancy-img}
 *Discord*
 
-[![обновленные новости]({{ '/assets/img/news/screens/webhook-tg.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/webhook-tg.png)
+![обновленные новости]({{ '/assets/img/news/screens/webhook-tg.png' | relative_url}}){: .fancy-img width="100%" }
 *Telegram*
 
 ---

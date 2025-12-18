@@ -16,7 +16,7 @@ image_small: "/assets/img/news/image_small/ny.png"
 
 Отсчет до нового года пошел, а это значит, что самое время готовиться к новогодним праздникам! Самое интересное из наших приготовлений будет публиковаться прямо здесь! Поверьте, вас ждет много интересного контента, а пока...
 
-[![сюрпризы]({{ '/assets/img/news/screens/ny_sups.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny_sups.png)
+![сюрпризы]({{ '/assets/img/news/screens/ny_sups.png' | relative_url}}){: .fancy-img}
 
 Заглядывайте сюда почаще, Дед Мороз приготовил для вас много подарков!
 {: .message-warning}
@@ -25,7 +25,7 @@ image_small: "/assets/img/news/image_small/ny.png"
 
 Наш портал не мог не обойтись без праздничного оформления и даже кое-каких нововведений. Самое заметное - задний фон с чем-то до боли знакомым... Не беспокойтесь, аккурат к началу празднования тайное станет явным!
 
-[![сюрпризы]({{ '/assets/img/news/screens/ny_main.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny_main.png)
+![сюрпризы]({{ '/assets/img/news/screens/ny_main.png' | relative_url}}){: .fancy-img}
 
 К слову, с напоминанием до начала праздника поможет обратный отсчет на главной странице.
 
@@ -39,11 +39,11 @@ image_small: "/assets/img/news/image_small/ny.png"
 
 Обновленные новости теперь проще найти, так как мы специально помечаем их.
 
-[![сюрпризы]({{ '/assets/img/news/screens/news-upd.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/news-upd.png)
+![сюрпризы]({{ '/assets/img/news/screens/news-upd.png' | relative_url}}){: .fancy-img width="100%" }
 
 Раздел "В разработке" переехал из бокового меню в панель предложений.
 
-[![сюрпризы]({{ '/assets/img/news/screens/panel.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/panel.png)
+![сюрпризы]({{ '/assets/img/news/screens/panel.png' | relative_url}}){: .fancy-img}
 
 ---
 
@@ -57,13 +57,13 @@ image_small: "/assets/img/news/image_small/ny.png"
 
 Откроет праздник самый первый ангар, который разработчики украшали для игроков в далеком 2010. Мало кто помнит, что тогда было, но мы освежим ветеранам игры память, а для новичков это станет прекрасной возможностью познакомиться с самым первым празднованием нового года в нашей игре!
 
-[![сюрпризы]({{ '/assets/img/news/screens/ny10.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny10.png)
+![сюрпризы]({{ '/assets/img/news/screens/ny10.png' | relative_url}}){: .fancy-img}
 
 #### Премиум ангар 2011
 
 Здесь ещё интереснее: праздничная версия премиум ангара перенесет вас в теплый и уютный новогодний уголок. На улице гремят салюты, а внутри ангара играет приятная новогодняя музыка. Если вы хотите погреться в уютной обстановке - этот ангар как раз для вас!
 
-[![сюрпризы]({{ '/assets/img/news/screens/ny11.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny11.png)
+![сюрпризы]({{ '/assets/img/news/screens/ny11.png' | relative_url}}){: .fancy-img}
 
 #### Лесной ангар 2012
 
@@ -71,4 +71,4 @@ image_small: "/assets/img/news/image_small/ny.png"
 
 Мы попытались воссоздать ту самую атмосферу, которая была в далеком 2012, но, конечно же, со своими доработками. Надеемся, что этот ангар наполнит вас новогодним настроением!
 
-[![сюрпризы]({{ '/assets/img/news/screens/ny12.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/ny12.png)
+![сюрпризы]({{ '/assets/img/news/screens/ny12.png' | relative_url}}){: .fancy-img}

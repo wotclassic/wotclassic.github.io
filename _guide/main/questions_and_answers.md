@@ -66,10 +66,10 @@ permalink: /guide/main/questions_and_answers
 ##### **Ручная установка**
 
 1. Выделите две папки "Battle Interface" *и "Hangar Interface"* и нажмите кнопку **скачать**.
-[![настройка]({{ '/assets/img/guide/main/google-1.png' | relative_url }}){: width="70%" }]({{ '/assets/img/guide/main/google-1.png' | relative_url }})  
+![настройка]({{ '/assets/img/guide/main/google-1.png' | relative_url }}){: .fancy-img width="70%" }  
 После чего дождитесь скачивания файлов.
 2. Перетащите папки из архива на рабочий стол (или любое другое место).
-[![папки]({{ '/assets/img/guide/main/work.png' | relative_url }}){: width="70%" }]({{ '/assets/img/guide/main/work.png' | relative_url }})
+![папки]({{ '/assets/img/guide/main/work.png' | relative_url }}){: .fancy-img width="70%" }
 
 ##### Установка Battle Interface
 
@@ -186,13 +186,13 @@ permalink: /guide/main/questions_and_answers
 [Лесной ангар](https://tanki.su/ru/news/common/wot-beta-testing_stage2/#hangar) много кому не понравился после выхода обновления 1.0, и кто-то даже хотел вернуть *те самые ангары*...  
 Так что возрадуйтесь! Ангарные моды «WэК!» это как раз то, чего вы хотели. Вы можете вернуться в эпоху 2009-2014 годов, тогда были легендарные, простые, но такие приятные базовый и премиум ангар.
 
-[![ангары]({{ '/assets/img/guide/main/hangars.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/main/hangars.png' | relative_url }})  
+![ангары]({{ '/assets/img/guide/main/hangars.png' | relative_url }}){: .fancy-img}  
 
 Или же вы можете вернуться в эпоху 2014-2018 года, когда базовый ангар был подвальным помещением огромного цеха, в котором были проблемы с проводкой, у рабочих постоянно инструменты из рук валятся, и все в пыли.
 
 Ну а премиум ангар стал еще больше! Не только в плане пространства, но и звука, объема игроков, которые видели этот ангар и много чего еще...
 
-[![ангар_v2]({{ '/assets/img/guide/main/hangar_v2.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/main/hangar_v2.png' | relative_url }})  
+![ангар_v2]({{ '/assets/img/guide/main/hangar_v2.png' | relative_url }}){: .fancy-img}  
 
 #### **Какова роль интерфейсных модов?**
 

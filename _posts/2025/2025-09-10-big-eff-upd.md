@@ -25,13 +25,13 @@ image: /assets/img/news/thumbnail/eff2.0.png
 
 Но вычислить противника вам помогут измененные трассеры, которые чуть дольше остаются на карте, а так же имеют забытую фичу - трассера имеют разные цвета, которые зависят от типа снаряда, ББ имеет беловатый цвета, фугас и кумуль рыжеватый, а подкол имеет синеватый оттенок. Самое время подучить, кто каким снарядом стреляет!
 
-[![hv1]({{ '/assets/img/news/screens/eff/shots.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/eff/shots.jpg)
+![hv1]({{ '/assets/img/news/screens/eff/shots.jpg' | relative_url}}){: .fancy-img}
 
 ### Взрывы
 
 Теперь вы будете еще больше чувствовать страх и опасность от любого взрыва рядом с вашей техникой, ведь теперь еще больше песка, земли или железа вашего союзника окажется на вашем танке, эффект взрыва стал больше, шире и чувствительнее. Будьте осторожнее!
 
-[![hv1]({{ '/assets/img/news/screens/eff/boom.jpg' | relative_url}}){: width="100%" }](/assets/img/news/screens/eff/boom.jpg)
+![hv1]({{ '/assets/img/news/screens/eff/boom.jpg' | relative_url}}){: .fancy-img}
 
 ---
 

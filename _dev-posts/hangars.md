@@ -27,8 +27,8 @@ image: /assets/img/indev/thumb/hangars.png
 - Координаты танка и его тени были перемещены, физика камеры подвергнулась изменениям.
 - Включён движок Havok.
 
-[![ангар1]({{ '/assets/img/indev/screens/reworked_basicv2.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/reworked_basicv2.jpg)
-[![ангар]({{ '/assets/img/indev/screens/reworked_premv2.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/reworked_premv2.jpg)
+![ангар1]({{ '/assets/img/indev/screens/reworked_basicv2.jpg' | relative_url}}){: .fancy-img}
+![ангар]({{ '/assets/img/indev/screens/reworked_premv2.jpg' | relative_url}}){: .fancy-img}
 
 Информация о переработке будет пополняться постепенно.
 {: .message-info}
@@ -37,8 +37,8 @@ image: /assets/img/indev/thumb/hangars.png
 
 В предстоящем обновлении будет удалена тень под танком, что являлось проблемой.
 
-[![ангар]({{ '/assets/img/indev/screens/v1.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/v1.jpg)
-[![ангар1]({{ '/assets/img/indev/screens/pv1.jpg' | relative_url}}){: width="100%" }](/assets/img/indev/screens/pv1.jpg)
+![ангар]({{ '/assets/img/indev/screens/v1.jpg' | relative_url}}){: .fancy-img}
+![ангар1]({{ '/assets/img/indev/screens/pv1.jpg' | relative_url}}){: .fancy-img}
 
 {% include indev/status.html status="done" text="Доработки премиум ангара v2" date="24 декабря" %}
 
@@ -54,7 +54,7 @@ image: /assets/img/indev/thumb/hangars.png
 - Изменены и добавлены все звуковые ивенты;
 - Изменена работа камеры.
 
-[![ангар2]({{ '/assets/img/indev/screens/hpv2_2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hpv2_2.png)
+![ангар2]({{ '/assets/img/indev/screens/hpv2_2.png' | relative_url}}){: .fancy-img}
 
 {% include indev/status.html status="done" text="Воскрешение ангаров" date="30 сентября" %}
 
@@ -210,7 +210,7 @@ image: /assets/img/indev/thumb/hangars.png
 
 Мы полностью переработали освещение в базовом и премиум ангаре и теперь оно походит на патч 0.8.11, что позволит ностальгировать игрокам World of Tanks из 2014 года.
 
-[![обновленные новости]({{ '/assets/img/indev/screens/h1.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/h1.png)
-[![обновленные новости]({{ '/assets/img/indev/screens/h2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/h2.png)
-[![обновленные новости]({{ '/assets/img/indev/screens/hp1.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hp1.png)
-[![обновленные новости]({{ '/assets/img/indev/screens/hp2.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/hp2.png)
+![обновленные новости]({{ '/assets/img/indev/screens/h1.png' | relative_url}}){: .fancy-img}
+![обновленные новости]({{ '/assets/img/indev/screens/h2.png' | relative_url}}){: .fancy-img}
+![обновленные новости]({{ '/assets/img/indev/screens/hp1.png' | relative_url}}){: .fancy-img}
+![обновленные новости]({{ '/assets/img/indev/screens/hp2.png' | relative_url}}){: .fancy-img}

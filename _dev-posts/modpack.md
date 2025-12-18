@@ -20,8 +20,8 @@ image: /assets/img/indev/thumb/modpack.png
 
 
 1. Классическая
-[![классический лаунчер]({{ '/assets/img/indev/screens/1ep.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/1ep.png)
+![классический лаунчер]({{ '/assets/img/indev/screens/1ep.png' | relative_url}}){: .fancy-img}
 2. Модернистская
-[![классический лаунчер]({{ '/assets/img/indev/screens/2ep.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/2ep.png)
+![классический лаунчер]({{ '/assets/img/indev/screens/2ep.png' | relative_url}}){: .fancy-img}
 3. Пост-модернистская
-[![классический лаунчер]({{ '/assets/img/indev/screens/3ep.png' | relative_url}}){: width="100%" }](/assets/img/indev/screens/3ep.png)
+![классический лаунчер]({{ '/assets/img/indev/screens/3ep.png' | relative_url}}){: .fancy-img}

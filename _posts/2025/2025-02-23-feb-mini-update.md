@@ -36,7 +36,7 @@ image_small: "/assets/img/news/image_small/febmini25.png"
 **Обратите внимание**: данная "фича" не будет стабильно работать, если у вас отсутствует один из ангаров.
 {: .message-info}
 
-[![1]({{ '/assets/img/news/hrs/hangar_selector.png' | relative_url}}){: width="100%" }](/assets/img/news/hrs/hangar_selector.png)
+![1]({{ '/assets/img/news/hrs/hangar_selector.png' | relative_url}}){: .fancy-img}
 
 - Авторские и ивентовые ангары объединены в одну категорию - ивентовых.
 
@@ -54,7 +54,7 @@ image_small: "/assets/img/news/image_small/febmini25.png"
 - Ангары второго поколения переработаны и теперь точь-в-точь выглядят так, как в далеком 2017. Подробнее об этом [здесь]({{ "/development/hangars" | relative_url }}).
 - В честь 23-февраля добавлен соответствующий праздничный ангар.
 
-[![1]({{ '/assets/img/news/screens/hangars/h_feb23_1.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/hangars/h_feb23_1.png)
+![1]({{ '/assets/img/news/screens/hangars/h_feb23_1.png' | relative_url}}){: .fancy-img}
 
 ---
 

@@ -19,13 +19,13 @@ image: "/assets/img/news/thumbnail/login.png"
 
 Не нравится новый вариант загрузки? У нас есть для вас решение! Теперь он снова выглядит как прежде. Никакой лишней информации, только награды, прогресс загрузки и прочее. Все именно так, как вы помните и любите!
 
-[![1]({{ '/assets/img/news/screens/login.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/login.png)
+![1]({{ '/assets/img/news/screens/login.png' | relative_url}}){: .fancy-img}
 
 ### Экран логина
 
 Он полностью восстановлен! При попытке подключиться появляется всеми забытая "шестерёнка", поведение всего процесса подключения к серверу и перехода к ангару теперь очень похоже на то, что было в прошлом.
 
-[![2]({{ '/assets/img/news/screens/auth.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/auth.png)
+![2]({{ '/assets/img/news/screens/auth.png' | relative_url}}){: .fancy-img}
 
 Обратите внимание: это не законченный вариант экрана логина, итоговый вариант может отличаться.
 {: .message-info}

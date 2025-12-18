@@ -31,9 +31,9 @@ image_small: "/assets/img/news/image_small/dark_mars.png"
 
 Локацией для высадки станет Марс в стиле «[Лунопарка](https://wiki.wargaming.net/ru/Tank:%D0%9B%D1%83%D0%BD%D0%BE%D0%BF%D0%B0%D1%80%D0%BA)» из 2016 года, даже некоторые элементы окружения перенеслись сюда... Нет, ну вы только посмотрите!
 
-[![1]({{ '/assets/img/news/screens/moon_1.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon_1.png)
-[![2]({{ '/assets/img/news/screens/moon_2.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon_2.png)
-[![3]({{ '/assets/img/news/screens/moon_3.png' | relative_url}}){: width="100%" }](/assets/img/news/screens/moon_3.png)
+![1]({{ '/assets/img/news/screens/moon_1.png' | relative_url}}){: .fancy-img}
+![2]({{ '/assets/img/news/screens/moon_2.png' | relative_url}}){: .fancy-img}
+![3]({{ '/assets/img/news/screens/moon_3.png' | relative_url}}){: .fancy-img}
 
 ## Это шутка, да?
 

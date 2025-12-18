@@ -31,10 +31,10 @@ permalink: /guide/qs/mod-install
 ##### **Моды в папках:**
 
 1. Выделите две папки "Battle Interface" *и "Hangar Interface"* и нажмите кнопку **скачать**.
-[![настройка]({{ '/assets/img/guide/main/google-1.png' | relative_url }}){: width="70%" }]({{ '/assets/img/guide/main/google-1.png' | relative_url }})  
+![настройка]({{ '/assets/img/guide/main/google-1.png' | relative_url }}){: .fancy-img width="70%" }  
 После чего дождитесь скачивания файлов.
 2. Перетащите папки из архива на рабочий стол (или любое другое место).
-[![папки]({{ '/assets/img/guide/main/work.png' | relative_url }}){: width="70%" }]({{ '/assets/img/guide/main/work.png' | relative_url }})
+![папки]({{ '/assets/img/guide/main/work.png' | relative_url }}){: .fancy-img width="70%" }
 
 ##### Установка Battle Interface
 
