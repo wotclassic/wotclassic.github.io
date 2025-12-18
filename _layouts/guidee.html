@@ -1,16 +1,14 @@
 ---
 layout: default
 ---
-<div class="content">
-    <div class="l-content">
+<main class="content">
+    <article class="l-content">
         <h1>{{ page.title }}</h1>
-        <div class="news-content">
-            <div class="b-content">
-                {{ content }}
-            </div>
+        <div class="b-content news-content">
+            {{ content }}
         </div>
-    </div>
-    <div class="r-content">
+    </article>
+    <aside class="r-content">
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
         {% for post in site.guide %}
@@ -53,5 +51,5 @@ layout: default
                 text-decoration: none;
             }
         </style>
-    </div>
-</div>
+    </aside>
+</main>

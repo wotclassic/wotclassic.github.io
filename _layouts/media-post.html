@@ -4,36 +4,34 @@ layout: default
 
 {% assign data = site.data.media[page.type][page.entry] %}
 
-<div class="content">
-    <div class="l-content">
+<main class="content">
+    <article class="l-content">
         <h1>{{ page.title }}</h1>
         <div class="statist">
             <div class="news-time">{{ page.date | date: "%d.%m.%Y" | default: data.date }}</div>
         </div>
-        <div class="news-content">
-            <div class="b-content">
-                <img src="{{ data.image }}" alt="{{ data.text }}" width="100%"/>
+        <div class="b-content news-content">
+            <img class="fancy-img" src="{{ data.image }}" alt="{{ data.text }}" width="686">
 
-                <div class="b-hr-layoutfix">
-                    <div class="b-hr-block"><span></span></div>
-                </div>
-                {% for image-block in data.images %}
-                    {% assign img1 = image-block[0] %}
-                    {% assign img2 = image-block[1] %}
-                    {% assign img3 = image-block[2] %}
-                    {% include content-image.html url1=img1 url2=img2 url3=img3 %}
-                    {% unless forloop.last %}<br>{% endunless %}
-                {% endfor %}
-
-                <style>
-                .b-img-signature_img {
-                    background-size: 132%;
-                }
-                </style>
+            <div class="b-hr-layoutfix">
+                <div class="b-hr-block"><span></span></div>
             </div>
+            {% for image-block in data.images %}
+                {% assign img1 = image-block[0] %}
+                {% assign img2 = image-block[1] %}
+                {% assign img3 = image-block[2] %}
+                {% include content-image.html url1=img1 url2=img2 url3=img3 %}
+                {% unless forloop.last %}<br>{% endunless %}
+            {% endfor %}
+
+            <style>
+            .b-img-signature_img {
+                background-size: 132%;
+            }
+            </style>
         </div>
-    </div>
-    <div class="r-content">
+    </article>
+    <aside class="r-content">
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
         {% for post in site.media %}
@@ -43,5 +41,5 @@ layout: default
             {% assign category_urls = category_urls | concat: url %}
         {% endfor %}
         {% include categories-sidebar.html name="Список тэгов" category_names=category_names category_urls=category_urls %}
-    </div>
-</div>
+    </aside>
+</main>

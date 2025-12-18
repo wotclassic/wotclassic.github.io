@@ -9,7 +9,7 @@ permalink: /guide/newcomers/hangar-ui
 **Интерактивное изображение.** Наведите курсором на интересующий вас элемент и прочитайте подсказку.
 {: .message-money style="margin-bottom: 25px;"}
 
-<main>
+<div class="interactive">
   <div>
     <span tooltip="Это ваш игровой никнейм, при нажатии на него открывается современное окно профиля. Ниже находится статус вашего аккаунта." flow="down" style="top: -7px; left: 90px; padding: 0.5em 2.67em;"></span>
   </div>
@@ -21,7 +21,7 @@ permalink: /guide/newcomers/hangar-ui
     <span tooltip="Кнопка боевого обучения. При нажатии вас переносит на страницу руководства по игре прямо в клиенте." flow="right" style="top: -72px; left: -254px; padding: 0.8em 1.48em;"></span>
     <span tooltip="Кнопка боевых задач. При нажатии открывает страницу 'задач' в ангаре." flow="right" style="top: -72px; left: -352px; padding: 0.8em 1.88em;"></span>
   </div>
-</main>
+</div>
 
 <style>
  /* START TOOLTIP STYLES */
@@ -167,31 +167,22 @@ permalink: /guide/newcomers/hangar-ui
   animation: tooltips-horz 300ms ease-out forwards;
 }
 /* UNRELATED to tooltips */
-main {
+.interactive {
   margin-bottom: -125px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-aside {
-  flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #49b293;
-  color: #fff;
-  padding: 1em;
-}
-main div {
+.interactive div {
   text-align: center;
   color: #353539;
 }
-main span {
+.interactive span {
   padding: .5em 1em;
   margin: .5em;
   display: inline-block;
 }
 </style>
 
-![шапка]({{ '/assets/img/guide/newcomers/old_header.png' | relative_url }}){: width="100%" }
+![шапка]({{ '/assets/img/guide/newcomers/old_header.png' | relative_url }}){: width="686" }

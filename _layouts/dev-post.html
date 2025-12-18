@@ -1,36 +1,34 @@
 ---
 layout: default
 ---
-<div class="content">
-    <div class="l-content">
+<main class="content">
+    <article class="l-content">
         <h1>{{ page.title }}</h1>
         <div class="statist">
             <div class="news-time">{{ page.status }}</div>
             <a href="https://kr.cm/f/t/65511/" class="news-comment">Обсудить на форуме</a>
         </div>
-        <div class="news-content">
-            <div class="b-content">
-                {{ content }}
-                {% assign indev = site.pages | find: "url", "/development" %}
-                {% assign devposts = site.dev-posts | where_exp: "post", "post.title != page.title" | push: indev %}
-                <hr>
-                <h3>ДРУГИЕ СТАТЬИ</h3>
-                {% include indev/devnow.html blocks=devposts in_post=true %}
-                <style>
-                    .devNowBlock { width: 210px; }
-                    .devNowBlock a span { font-size: 16px; }
-                </style>
-                <div class="b-hr-layoutfix">
-                    <div class="b-hr-block"><span></span></div>
-                </div>
-                <div class="b-junction_forum">
-                    <a href="https://kr.cm/f/t/65511/"
-                        class="news-comment">Обсудить на форуме</a>
-                </div>
+        <div class="b-content news-content">
+            {{ content }}
+            {% assign indev = site.pages | find: "url", "/development" %}
+            {% assign devposts = site.dev-posts | where_exp: "post", "post.title != page.title" | push: indev %}
+            <hr>
+            <h3>ДРУГИЕ СТАТЬИ</h3>
+            {% include indev/devnow.html blocks=devposts in_post=true %}
+            <style>
+                .devNowBlock { width: 210px; }
+                .devNowBlock a span { font-size: 16px; }
+            </style>
+            <div class="b-hr-layoutfix">
+                <div class="b-hr-block"><span></span></div>
+            </div>
+            <div class="b-junction_forum">
+                <a href="https://kr.cm/f/t/65511/"
+                    class="news-comment">Обсудить на форуме</a>
             </div>
         </div>
-    </div>
-    <div class="r-content">
+    </article>
+    <aside class="r-content">
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
         {% for post in site.dev-posts %}
@@ -73,5 +71,5 @@ layout: default
                 text-decoration: none;
             }
         </style>
-    </div>
-</div>
+    </aside>
+</main>

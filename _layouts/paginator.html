@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="content">
+<main class="content">
     <div class="l-content">
         {% assign title = page.title %}
         {% assign path = page.url | split: "/" %}
@@ -48,7 +48,7 @@ layout: default
             </div>
         {% endif %}
     </div>
-    <div class="r-content">
+    <aside class="r-content">
         {% assign category_names = "" %}
         {% assign category_urls = "" %}
         {% for category in site.categories reversed %}
@@ -64,5 +64,5 @@ layout: default
         {% assign category_urls = category_urls | split: "|" %}
         {% include categories-sidebar.html category_names=category_names category_urls=category_urls %}
         {% include important_categories-sidebar.html %}
-    </div>
-</div>
+    </aside>
+</main>

@@ -30,7 +30,7 @@ permalink: /guide/newcomers/mods-changes
 
 ### Изменения в интерфейсе
 
-![ui]({{ '/assets/img/guide/newcomers/ui.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
+![ui]({{ '/assets/img/guide/newcomers/ui.png' | relative_url }}){: .fancy-img .pic-left width="243" }
 Интерфейс - самая важная часть <<Мира Танков>>, благодаря нему вы понимаете множество полезной информации. Но в последнее время там появляется множество мусора, поэтому мы готовы хоть неменого вернуть вам тот самый интерфейс, компактный и удобный.
 
 <br><br><br><br><br>
@@ -43,8 +43,8 @@ permalink: /guide/newcomers/mods-changes
 
 <!-- Дизайн загрузки отредактирован на новый лад, но с сохранением старого вида. Также при первом запуске мода вас ждет приветственное сообщение. -->
 
-[![скрин2]({{ '/assets/img/guide/newcomers/login_load.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/login_load.png' | relative_url }})
-[![логин]({{ '/assets/img/guide/newcomers/login.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/login.png' | relative_url }})
+![скрин2]({{ '/assets/img/guide/newcomers/login_load.png' | relative_url }}){: .fancy-img }
+![логин]({{ '/assets/img/guide/newcomers/login.png' | relative_url }}){: .fancy-img }
 
 #### Старый интерфейс ангара
 
@@ -72,12 +72,12 @@ permalink: /guide/newcomers/mods-changes
 - Экран ожидания боя
 - Экран тренировочной комнаты
 
-[![интерфейс ангара]({{ '/assets/img/guide/newcomers/hangar_ui.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/hangar_ui.png' | relative_url }})
+![интерфейс ангара]({{ '/assets/img/guide/newcomers/hangar_ui.png' | relative_url }}){: .fancy-img }
 
 **Интерактивное изображение.** Наведите курсором на интересующий вас элемент и прочитайте подсказку.
 {: .message-money style="margin-bottom: 25px;"}
 
-<main>
+<div class="interactive">
   <div>
     <span tooltip="Это ваш игровой никнейм, при нажатии на него открывается современное окно профиля. Ниже находится статус вашего аккаунта." flow="down" style="top: -7px; left: 90px; padding: 0.5em 2.67em;"></span>
   </div>
@@ -89,7 +89,7 @@ permalink: /guide/newcomers/mods-changes
     <span tooltip="Кнопка боевого обучения. При нажатии вас переносит на страницу руководства по игре прямо в клиенте." flow="right" style="top: -72px; left: -254px; padding: 0.8em 1.48em;"></span>
     <span tooltip="Кнопка боевых задач. При нажатии открывает страницу 'задач' в ангаре." flow="right" style="top: -72px; left: -352px; padding: 0.8em 1.88em;"></span>
   </div>
-</main>
+</div>
 
 <style>
  /* START TOOLTIP STYLES */
@@ -235,27 +235,18 @@ permalink: /guide/newcomers/mods-changes
   animation: tooltips-horz 300ms ease-out forwards;
 }
 /* UNRELATED to tooltips */
-main {
+.interactive {
   margin-bottom: -125px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-aside {
-  flex: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #49b293;
-  color: #fff;
-  padding: 1em;
-}
-main div {
+.interactive div {
   text-align: center;
   color: #353539;
 }
-main span {
+.interactive span {
   padding: .5em 1em;
   margin: .5em;
   display: inline-block;
@@ -273,7 +264,7 @@ main span {
   - Иконки режимов
   - Экраны карт
 
-[![загрузка]({{ '/assets/img/guide/newcomers/load_ui.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/load_ui.png' | relative_url }})
+![загрузка]({{ '/assets/img/guide/newcomers/load_ui.png' | relative_url }}){: .fancy-img }
 
 - Шапка боя
 - Счетчик FPS и пинга
@@ -288,13 +279,13 @@ main span {
 - Боевое меню
 - Быстрое руководство
 
-[![бой]({{ '/assets/img/guide/newcomers/battle_ui.png' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/battle_ui.png' | relative_url }})
+![бой]({{ '/assets/img/guide/newcomers/battle_ui.png' | relative_url }}){: .fancy-img }
 
 ---
 
 ### Ангары
 
-![hangars]({{ '/assets/img/guide/newcomers/hangar_premium_v2.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
+![hangars]({{ '/assets/img/guide/newcomers/hangar_premium_v2.png' | relative_url }}){: .fancy-img .pic-left width="243" }
 При входе в <<Мир Танков>>, игроки всегда оказываются в знакомой обстановке: танк стоит в лесу под открытым небом, недалеко видны военные палатки и на опушке леса солдаты устроили максимально комфортное и уютное место, похожее на дом, где можно отдохнуть перед предстоящими боями.
 Именно так выглядит ангар в наше время. Но моды «WoT это Классика!» возвращают Вам те самые ангары из 2009-2017, которые помогали еще больше расслабиться, и напоминали вам в какую игру Вы играете, так давайте посмотрим на них поближе!
 
@@ -304,25 +295,25 @@ main span {
 
 Первый ангар - это тот, который оставляет самое незабываемое впечатление и которому мы очень прикованы по душе. Мы не могли пройти мимо этого места. Многие танкисты до сих пор с огромной ностальгией вспоминают грязные стены этого маленького бункера.
 
-[![ангар]({{ '/assets/img/guide/newcomers/v1.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/v1.jpg' | relative_url }})
+![ангар]({{ '/assets/img/guide/newcomers/v1.jpg' | relative_url }}){: .fancy-img }
 
 #### Старый премиум ангар
 
 Более обеспеченные игроки предпочитали чистые, почти бесшумный премиум ангар. Внутри, сверкают лампочки, вентиляторы крутятся, а игроки активно прокачивают свои танки, создавая неповторимую атмосферу «тех самых танков».
 
-[![ангар прем]({{ '/assets/img/guide/newcomers/pv1.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/pv1.jpg' | relative_url }})
+![ангар прем]({{ '/assets/img/guide/newcomers/pv1.jpg' | relative_url }}){: .fancy-img }
 
 #### Старый базовый ангар 0.9.Х
 
 Шум огромного цеха, а если быть точнее - подвального помещения, сопровождал игроков до 2018 года. Но не шумом едины, ведь эта атмосфера... КВ-2 на ремонте, во всем здании пыльно, где-то перегорели лампочки, масло разлито. А танк игрока стоит и ждет, когда его отправят в бой.
 
-[![ангар]({{ '/assets/img/guide/newcomers/v2.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/v2.jpg' | relative_url }})
+![ангар]({{ '/assets/img/guide/newcomers/v2.jpg' | relative_url }}){: .fancy-img }
 
 #### Старый премиум ангар 0.9.X
 
 Просторный, тихий, интересный. Все что можно сказать про этот ангар. За окном зимний денек, танки ждут своего ремонта, а вы обслуживаете своего любимчика под атмосферный саундтрек и эмбиент.
 
-[![ангар 9.х]({{ '/assets/img/guide/newcomers/pv2.jpg' | relative_url }}){: width="100%" }]({{ '/assets/img/guide/newcomers/pv2.jpg' | relative_url }})
+![ангар 9.х]({{ '/assets/img/guide/newcomers/pv2.jpg' | relative_url }}){: .fancy-img }
 
 И самое важное - во всех этих ангарах, с нашим переключателем у вас есть возможность включить отслеживание статуса премиум-аккаунта, прямо как до обновления 1.0! Если у вас премиум аккаунт отсутствует - сидите в базовых ангарах. А вот игроки с премиумом уже могут позволить себе прибывание в просторных, премиумных ангарах.
 {: .message-info}
@@ -331,7 +322,7 @@ main span {
 
 ### Изменения на картах
 
-![maps]({{ '/assets/img/guide/newcomers/ssb.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
+![maps]({{ '/assets/img/guide/newcomers/ssb.png' | relative_url }}){: .fancy-img .pic-left width="243" }
 [Карты](https://tanki.su/ru/content/guide/map-guides/) являются неотъемлемой частью <<Мира Танков>>, и после обновления 1.0 они были кардинально [переработаны](https://tanki.su/ru/news/common/maps10part1/) в HD-версию.
 Моды серии «WoT это Классика!» возвращают на эти карты ощущение войны, которые было присуще старым версиям <<Мира Танков>>.
 
@@ -415,5 +406,5 @@ main span {
 
 ### Старые звуки
 
-![sounds]({{ '/assets/img/guide/newcomers/sound.png' | relative_url }}){: .pic-left .fancybox-gallery-wot .fancybox-image width="243" }
+![sounds]({{ '/assets/img/guide/newcomers/sound.png' | relative_url }}){: .fancy-img .pic-left width="243" }
 Звуковая модификация из серии модов "WoT это Классика!", позволяющая на собственных ушах ощутить тарахтение двигателей тогдашних танков, [гром](https://kr.cm/f/t/62100/)ыхание выстрелов, лязг гусениц и прочие до боли знакомые настоящим олдам звуки.

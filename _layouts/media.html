@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="content">
-    <div class="l-content">
+<main class="content">
+    <article class="l-content">
         {{ content }}
-    </div>
-    <div class="r-content">
+    </article>
+    <aside class="r-content">
         {% assign category_names = "|" | split: "|" %}
         {% assign category_urls = "|" | split: "|" %}
         {% for post in site.media %}
@@ -16,5 +16,5 @@ layout: default
             {% assign category_urls = category_urls | concat: url %}
         {% endfor %}
         {% include categories-sidebar.html name="Список тэгов" category_names=category_names category_urls=category_urls %}
-    </div>
-</div>
+    </aside>
+</main>

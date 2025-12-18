@@ -1,20 +1,18 @@
 ---
 layout: default
 ---
-<div class="content">
-    <div class="l-content">
+<main class="content">
+    <article class="l-content">
         <h1>{{ page.title }}</h1>
-        <div class="news-content">
-            <div class="b-content">
-                {{ content }}
-                <style>
-                    .devNowBlock { width: 210px; }
-                    .devNowBlock a span { font-size: 16px; }
-                </style>
-            </div>
+        <div class="b-content news-content">
+            {{ content }}
+            <style>
+                .devNowBlock { width: 210px; }
+                .devNowBlock a span { font-size: 16px; }
+            </style>
         </div>
-    </div>
-    <div class="r-content">
+    </article>
+    <aside class="r-content">
         {% include block.html text="СКАЧАТЬ ИГРУ" url="https://tanki.su/ru/game/" image="/assets/img/side/world_of_tanks_keyart.jpg" %}
         {% include block.html text="В РАЗРАБОТКЕ" url="/development" image="/assets/img/side/in_dev_92_1.jpg" %}
         {% assign category_names = "|" | split: "|" %}
@@ -62,5 +60,5 @@ layout: default
                 text-decoration: none;
             }
         </style>
-    </div>
-</div>
+    </aside>
+</main>

@@ -42,7 +42,7 @@ permalink: /guide/newcomers/about-mods
 }
 
 .t-table td {
-    background: url(./old-table/img/bg-hover.png) no-repeat 10000px 0 #0a0c0d;
+    background: url(/assets/img/bg-hover.png) no-repeat 10000px 0 #0a0c0d;
     border: 1px solid #2e3139;
     color: #9fa0a1;
     padding: 10px 13px 6px;
@@ -51,7 +51,7 @@ permalink: /guide/newcomers/about-mods
 
 .t-table th {
     color: #babcbf;
-    background: url(./old-table/img/th-bg.png) 0 100% repeat-x #090a0b;
+    background: url(/assets/img/th-bg.png) 0 100% repeat-x #090a0b;
     border: 1px solid #2e3139;
     border-top: 1px solid #545a69;
     font-weight: bold;
