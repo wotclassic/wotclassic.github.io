@@ -2227,7 +2227,6 @@ table {
 .b-img-signature {
     font-size: 12px;
     letter-spacing: normal;
-    line-height: normal;
     word-spacing: normal;
     display: inline-block;
     margin: 0 0 -15px 14px;
@@ -2251,16 +2250,14 @@ table {
 
 .b-img-signature_img {
     opacity: 0.85;
-    background-size: 300%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
     display: block;
     height: 161px;
     width: 215px;
     position: relative;
+    object-fit: cover;
 }
 
-.b-img-signature_img:after {
+.b-img-signature_link:after {
     bottom: 0;
     border: 1px solid rgba(255, 255, 255, 0.1);
     content: "";

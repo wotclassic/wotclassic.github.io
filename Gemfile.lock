@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/A1Asriel/jekyll-auto-thumbnails.git
-  revision: a5b637138e0e7549f9fa4515c1c490bbdd24cc4b
+  revision: fd350e0fc83785579ce6c2fe5912be69e10d376c
   specs:
     jekyll-auto-thumbnails (0.3.0)
       jekyll (>= 4.0, < 5.0)
@@ -19,7 +19,7 @@ GEM
     addressable (2.8.8)
       public_suffix (>= 2.0.2, < 8.0)
     base64 (0.3.0)
-    bigdecimal (4.0.0)
+    bigdecimal (4.0.1)
     colorator (1.1.0)
     concurrent-ruby (1.3.6)
     csv (3.3.5)

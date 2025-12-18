@@ -1,3 +1,5 @@
+var FANCYIMGEXPR = /_thumb-[a-z0-9]{6}-[0-9]*x[0-9]*.webp$/
+
 function OpenImgWindow(ev) {
     var wrapper = document.createElement('div');
     wrapper.className = 'fancy-img_wrapper';
@@ -10,7 +12,7 @@ function OpenImgWindow(ev) {
     wrapper.appendChild(wrapwrapper);
 
     var img = document.createElement('img');
-    img.src = this.children[0].src.replace(/_thumb-[a-z0-9]{6}-[0-9]+x.(png|jpg|jpeg|webp)$/, ".$1");
+    img.src = this.children[0].src.replace(FANCYIMGEXPR, "");
     img.style.maxWidth = "100%";
     img.style.maxHeight = "90vh";
     wrapwrapper.appendChild(img);
@@ -45,8 +47,11 @@ window.addEventListener('DOMContentLoaded', function () {
     for (var i = 0; i < fancy_imgs.length; i++) {
         var e = fancy_imgs[i];
         var wrap = this.document.createElement('a');
-        
-        wrap.href = e.src.replace(/_thumb-[a-z0-9]{6}-[0-9]+x.(png|jpg|jpeg|webp)$/, ".$1");
+
+        if (e.classList.contains("b-img-signature_img"))
+            wrap.className = "b-img-signature_link";
+
+        wrap.href = e.src.replace(FANCYIMGEXPR, "");
         e.parentElement.insertBefore(wrap, e);
         wrap.appendChild(e);
         wrap.onclick = OpenImgWindow;
