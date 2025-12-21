@@ -260,3 +260,17 @@ upd-rev:
   - text: «WoT это Классика!». Обзор апрельского обновления модов.
     url: https://www.youtube.com/watch?v=MD2xvhawMhs
     date: "07.04.2023"
+
+offers:
+  nostalgic_screen:
+    text: 'Накануне праздника: «Ностальгия через экран»'
+    url: /media/offers/nostalgic_screen
+    image: /assets/img/media/offers/screen_event/title.jpg
+    date: "28.09.2025"
+    images:
+      - [/assets/img/media/offers/screen_event/prosto4el.jpg,
+         /assets/img/media/offers/screen_event/zakatoon.jpg,
+         /assets/img/media/offers/screen_event/oguzok31ru.jpg]
+      - [/assets/img/media/offers/screen_event/Va_nnexx.jpg,
+         /assets/img/media/offers/screen_event/repik.jpg,
+         /assets/img/media/offers/screen_event/zakatoon2.jpg]
