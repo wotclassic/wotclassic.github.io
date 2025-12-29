@@ -27,10 +27,10 @@ lesta:
     - 1  #15    | Английская
 
 sd-models:
-  major: 38
+  major: 39
   middle: 0
   minor: 0
-  build: 9
+  build: 10
   link: https://download.wot-classic.ru/mto_install_sd.exe
   direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_sd_1.38.0.0_9.exe
   drive_link: https://drive.google.com/file/d/15E0wEm09MPrADb4-Hhuzat9QsOCulMKz/view?usp=sharing
