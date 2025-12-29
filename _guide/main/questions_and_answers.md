@@ -115,7 +115,7 @@ permalink: /guide/main/questions_and_answers
 
 | Основные&nbsp;моды | SD-модели | Примечания |
 |:-:|:-:|-|
-| [Прямая ссылка]({{ site.data.installer.lesta.sharing_link }}) | *Врем. недоступно* | Может быть медленным при большом трафике |
+| [Прямая&nbsp;ссылка]({{ site.data.installer.lesta.sharing_link }}) | [Прямая&nbsp;ссылка]({{ site.data.installer.sd-models.sharing_link }}) | Может быть медленным при большом трафике |
 | [Google&nbsp;Диск]({{ site.data.installer.lesta.drive_link }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.installer.sd-models.drive_link }}){: target="_blank" rel="noreferrer noopener" } | Быстро, работает в РФ/РБ, лимит на количество скачиваний |
 | [Cloudflare]({{ site.data.installer.lesta.link }}) | [Cloudflare]({{ site.data.installer.sd-models.link }}) | Быстро, низкий шанс работы в РФ/РБ |
 | [Oracle]({{ site.data.installer.lesta.direct_link }}) | [Oracle]({{ site.data.installer.sd-models.direct_link }}) | Медленнее, средний шанс работы в РФ/РБ |
@@ -124,6 +124,7 @@ permalink: /guide/main/questions_and_answers
 | Основные&nbsp;моды | SD-модели | Примечания |
 |:-:|:-:|-|
 | [Cloudflare]({{ site.data.installer.lesta.link }}) | [Cloudflare]({{ site.data.installer.sd-models.link }}) | Быстро -- самый оптимальный вариант |
+| [Прямая&nbsp;ссылка]({{ site.data.installer.lesta.sharing_link }}) | [Прямая&nbsp;ссылка]({{ site.data.installer.sd-models.sharing_link }}) | Может быть медленным при большом трафике |
 | [Google&nbsp;Диск]({{ site.data.installer.lesta.drive_link }}){: target="_blank" rel="noreferrer noopener" } | [Google&nbsp;Диск]({{ site.data.installer.sd-models.drive_link }}){: target="_blank" rel="noreferrer noopener" } | Быстро, лимит на количество скачиваний |
 | [Oracle]({{ site.data.installer.lesta.direct_link }}) | [Oracle]({{ site.data.installer.sd-models.direct_link }}) | Медленнее |
 {: .wg-table .geolimited style="table-layout: auto;" }
