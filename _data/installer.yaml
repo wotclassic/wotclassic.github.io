@@ -2,9 +2,9 @@ lesta:
   major: 39
   middle: 0
   minor: 0
-  build: 31
+  build: 32
   link: https://download.wot-classic.ru/mto_install.exe
-  direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_1.39.0.0_31.exe
+  direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_1.39.0.0_32.exe
   sharing_link: https://files.valspace.ru/mto_mods/installers/mto_install_1.39.0.0_31.exe
   drive_link: https://drive.google.com/file/d/15HnNfr1FQZPB2d6FMufg3JH_55sz6Dui/view?usp=sharing
   manual_link: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
@@ -30,9 +30,9 @@ sd-models:
   major: 39
   middle: 0
   minor: 0
-  build: 10
+  build: 11
   link: https://download.wot-classic.ru/mto_install_sd.exe
-  direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_sd_1.39.0.0_10.exe
+  direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_sd_1.39.0.0_11.exe
   sharing_link: https://files.valspace.ru/mto_mods/installers/mto_install_sd_1.39.0.0_10.exe
   drive_link: https://drive.google.com/file/d/1BNGaS2TZGtb1vJZMkLd3SoWozWiI52fE/view?usp=sharing
   mods:
