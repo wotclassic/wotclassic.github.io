@@ -6,7 +6,7 @@ lesta:
   link: https://download.wot-classic.ru/mto_install.exe
   direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_1.39.0.0_34.exe
   sharing_link: https://files.valspace.ru/mto_mods/installers/mto_install_1.39.0.0_34.exe
-  drive_link: https://drive.google.com/file/d/1YD6vXxOvtoHjRmm6pDI4DW3uIwlOBGfU/view?usp=sharing
+  drive_link: https://drive.google.com/file/d/1pfwgNtBMR4vP3vFH2BtItP2ShEHzNXvS/view?usp=sharing
   manual_link: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
   mods:  # Удалённое отключение модов в установщике: 1 - работает, 0 - не работает
     - 1  # 0  Звуки
@@ -34,7 +34,7 @@ sd-models:
   link: https://download.wot-classic.ru/mto_install_sd.exe
   direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_sd_1.39.0.0_12.exe
   sharing_link: https://files.valspace.ru/mto_mods/installers/mto_install_sd_1.39.0.0_12.exe
-  drive_link: https://drive.google.com/file/d/1e5nDWDVn0mdRFNNjwGzXWzpTAciErj5K/view?usp=sharing
+  drive_link: https://drive.google.com/file/d/1Rdnuzw0BPil4nCzwS4yqRsfYfX-mgeBv/view?usp=sharing
   mods:
     - 1  #1  Флаги
     - 1  #2  СССР
