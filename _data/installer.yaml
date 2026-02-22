@@ -6,7 +6,7 @@ lesta:
   link: https://download.wot-classic.ru/mto_install.exe
   direct_link: https://frtejmub9vny.compat.objectstorage.eu-frankfurt-1.oraclecloud.com/files/mto_install_1.40.0.0_36.exe
   sharing_link: https://files.valspace.ru/mto_mods/installers/mto_install_1.40.0.0_36.exe
-  drive_link: https://drive.google.com/file/d/1pfwgNtBMR4vP3vFH2BtItP2ShEHzNXvS/view?usp=sharing
+  drive_link: https://drive.google.com/file/d/1gsFoNejp4hY6YkZR1Jm62c3rWbRbbqf3/view?usp=sharing
   manual_link: https://drive.google.com/drive/folders/1vkYtXUimVdLH6o3OHYRkH3rKdirKo7MJ?usp=sharing
   mods:  # Удалённое отключение модов в установщике: 1 - работает, 0 - не работает
     - 1  # 0  Звуки
@@ -19,8 +19,8 @@ lesta:
     - 1  # 7    | Эффекты
     - 1  # 8  Ангары
     - 1  # 9    | Базовый V1
-    - 1 #10    | Премиум хэллоуин V1
-    - 1  #11    | Базовый хэллоуин V2
+    - 1  #10    | Премиум V1
+    - 1  #11    | Базовый V2
     - 1  #12    | Премиум V2
     - 1  #13  Локализация
     - 1  #14    | Русская
