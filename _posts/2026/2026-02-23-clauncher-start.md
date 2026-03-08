@@ -1,6 +1,7 @@
 ---
-title: 'CLauncher: набор на ЗБТ открыт!'
+title: 'CLauncher: набор на ЗБТ закрыт!'
 date: 2026-02-23 01:45:00 +0300
+last_modified_at: 2026-03-01
 category: announcements
 image: "/assets/img/news/thumbnail/cl_cbt_strt.png"
 image_small: "/assets/img/news/image_small/cl_cbt_strt.png"
@@ -10,6 +11,11 @@ tags: [important]
 {: style="display: none" }
 
 ![stream]({{ '/assets/img/news/header/cl_cbt_strt.png' | relative_url }})
+
+Внимание! Набор на тестирование завершен, если вам не пришло сообщение в Discord, значит вы не прошли. Спасибо всем за интерес, до встречи на релизе!
+{: .message-warning}
+
+---
 
 Танкисты!
 
