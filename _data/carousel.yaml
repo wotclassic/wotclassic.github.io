@@ -1,13 +1,8 @@
 home:
-- title: 'С 8 Марта!'
-  desc: 'Дорогие танкистки и артиллеристки, команда разработчиков «Мир Танков: Истоки» поздравляет вас с прекрасным праздником — Международным женским днем!'
-  url: /news/happy-8march/
-  image: /assets/img/news/header/8mrh.png
-
 - title: 'CLauncher: знакомство с новой частью нашей истории'
   desc: Что это? Как этим пользоваться? Украдут ли мой аккаунт? Отвечаем здесь.
   url: /news/what-is-clauncher/
-  image: /assets/img/carousel/clauncher.png
+  image: /assets/img/news/header/cl_what.png
 
 - title: «Песочница» - что это и как туда попасть?
   desc: Рассказываем в специальной статье.
