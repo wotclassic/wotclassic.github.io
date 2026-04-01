@@ -1,4 +1,9 @@
 home:
+- title: 'Грандиозное приключение в «Genshin Classic»'
+  desc: Пора отрправиться в масштабное путешествие!
+  url: /news/genshin_classic/
+  image: /assets/img/news/header/gensh.png
+
 - title: 'CLauncher: знакомство с новой частью нашей истории'
   desc: Что это? Как этим пользоваться? Украдут ли мой аккаунт? Отвечаем здесь.
   url: /news/what-is-clauncher/
