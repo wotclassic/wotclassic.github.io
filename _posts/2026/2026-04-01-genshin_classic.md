@@ -1,6 +1,7 @@
 ---
 title: 'Грандиозное приключение в «Genshin Classic»'
 date: 2026-04-01 16:01:00 +0300
+last_modified_at: 2025-04-12 14:00:00 +0300
 category: events
 image: "/assets/img/news/thumbnail/gensh.png"
 image_small: "/assets/img/news/image_small/gensh.png"
@@ -10,6 +11,10 @@ image_small: "/assets/img/news/image_small/gensh.png"
 {: style="display: none" }
 
 ![stream]({{ '/assets/img/news/header/gensh.png' | relative_url }})
+
+Перед тем, как читать данную новость, посмотрите на дату её изначального выхода.  
+Просим отнестись к этому с юмором. :)
+{: .message-info }
 
 Танкисты!
 
@@ -44,3 +49,13 @@ image_small: "/assets/img/news/image_small/gensh.png"
 Пока что мы смогли заставить работать только прототип мира Genshin Impact, но в ближайшем будущем мы планируем ускорить перенос модов за отмены разработки лаунчера модпака и перевода этой команды на новый проект. Пока что некоторые ссылки, руководства и картинки будут переводить на старые моды, сторонние сайты и не предоставлять актуальной информации, но мы уже работаем над исправлением данной ситуации.
 
 А на этом всё. Следите за новостями и до встречи на полях онлайн-сражений!
+
+<style>
+body {
+    background: url('/assets/img/back_gc.jpg') top no-repeat, url('/assets/img/sparkles_gc.png') 50% 0 #414141;
+}
+
+.wotc-logo {
+    background-image: url(/assets/img/gc_logo.png);
+}
+</style>
