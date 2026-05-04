@@ -32,28 +32,46 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
+
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1.229.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Not needed with a .ruby-version file
+          ruby-version: '4.0' # Not needed with a .ruby-version file
           bundler-cache: true # runs 'bundle install' and caches installed gems automatically
           cache-version: 0 # Increment this number if you need to re-download cached gems
+
       - name: Setup ImageMagick
         uses: mfinelli/setup-imagemagick@v7
         with:
           cache: true
+
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
+
+      - name: Restore thumbnail cache
+        id: restore-cache-thumb
+        uses: actions/cache/restore@v5
+        with:
+          path: .jekyll-cache/jekyll-auto-thumbnails
+          key: cache-thumb
+
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --future
         env:
           JEKYLL_ENV: production
+
+      - name: Save thumbnail cache
+        uses: actions/cache/save@v5
+        with:
+          path: .jekyll-cache/jekyll-auto-thumbnails
+          key: cache-thumb
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
 
   # Deployment job
   deploy:
@@ -65,4 +83,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

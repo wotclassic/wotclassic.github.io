@@ -34,8 +34,3 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
 
-gem 'kramdown-parser-gfm', :git => 'https://github.com/kramdown/parser-gfm.git'
-
-gem "stringex", "~> 2.8"
-
-gem "logger", "~> 1.7"
