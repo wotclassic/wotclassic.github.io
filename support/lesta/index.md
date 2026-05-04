@@ -5,6 +5,9 @@ title: Проблемные моды
 
 # Техподдержка
 
+Информация в разделе неактуальна. За поддержкой обращайтесь в [Discord-сервер]({{ site.data.socials.wek.discord }}){:target="_blank"} или [Telegram-чат](https://t.me/+Bw8CiblYExw0OTk6){:target="_blank"}.
+{:.message-error}
+
 ## Выберите проблемный мод
 
 {% include block.html url="/support/lesta/hangar-ui" image="/assets/img/support/hangar_ui.png" width="212" height="107" inline=true %}

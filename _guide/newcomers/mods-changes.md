@@ -4,27 +4,18 @@ title: Преображение клиента
 permalink: /guide/newcomers/mods-changes
 ---
 
-В «WoT это Классика!» существует десять ностальгических модов. Выбрать каждый мод можно в [соответствующем]({{ "/mods" | relative_url }}) разделе. Здесь вы узнаете какие моды отвечают за те или иные изменения клиента <<Мира Танков>>.
+В «WoT это Классика!» существует десять ностальгических модов. Здесь вы узнаете, какие из них отвечают за те или иные изменения клиента <<Мира Танков>>.
 
 <span class="geolimited">![раздел моды]({{ '/assets/img/guide/newcomers/mods.png' | relative_url }}){: width="100%" }</span>
 <span class="only_for_limited">![раздел моды]({{ '/assets/img/guide/newcomers/mods_lesta.png' | relative_url }}){: width="100%" }</span>
 
 Рассмотрим все моды поподробнее.
 
-- **[Изменения в интерфейсе](#izmienieniia-v-intierfieisie)**
-  - **[Старый экран логина](#staryi-ekran-loghina)**
-  - **[Старый интерфейс ангара](#staryi-intierfieis-anghara)**
-  - **[Старый интерфейс боя](#staryi-intierfieis-boia)**
-- **[Ангары](#anghary)**
-  - **[Старый базовый ангар](#staryi-bazovyi-anghar)**
-  - **[Старый премиум ангар](#staryi-priemium-anghar)**
-  - **[Старый базовый ангар 0.9.X](#staryi-bazovyi-anghar-09kh)**
-  - **[Старый премиум ангар 0.9.X](#staryi-priemium-anghar-09kh)**
-- **[Изменения на картах](#izmienieniia-na-kartakh)**
-  - **[Старые скайбоксы и террейны](#staryie-skaiboksy-i-tierrieiny)**
-  - **[SD-модели](#sd-modieli)**
-  - **[Старые эффекты](#staryie-effiekty)**
-- **[Старые звуки](#staryie-zvuki)**
+### Содержание:
+{: .no_toc}
+
+- 1
+{: toc}
 
 ---
 
