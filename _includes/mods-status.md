@@ -1,19 +1,18 @@
 ### СОСТОЯНИЕ МОДОВ
 
-Данные актуальны для версии клиента **«Мира Танков» --- 1.42**.
+Данные актуальны для версии клиента **«Мира Танков» -- {{ site.data.mods_status.confirmed_version }}**.
 
 <br>
 
+{% assign colors = "red|green|yellow" | split: "|" %}
 | Название мода | Работоспособность |
-| --- | --- |
-| Экран логина | <span class="green">Работает</span> |
-| Интерфейс ангара | <span class="green">Работает</span> |
-| Интерфейс боя | <span class="green">Работает</span> |
-| Ангары | <span class="green">Работают</span> |
-| Карты | <span class="green">Работают</span> |
-| SD-модели (альфа-тестирование) | <span class="green">Работают</span> |
-| Звуки | <span class="green">Работают</span> |
-| Эффекты | <span class="yellow">Временно недоступны</span> |
+|-|-|
+{%- for mod in site.data.mods_status.mods -%}
+{%- assign mod_name = mod[0] -%}
+{%- assign mod_status = mod[1] -%}
+{%- assign mod_plurality = site.data.mods_status.mods_meta.mods_plurality[mod_name] %}
+| {{ mod_name }} | <span class="{{ colors[mod_status] }}">{{ site.data.mods_status.mods_meta.def_text[mod_status][mod_plurality] }}</span> |
+{%- endfor %}
 {: .wg-table }
 
 <style>
