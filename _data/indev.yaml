@@ -6,7 +6,7 @@ main:
   - text: МОДПАК
     url: /development/modpack
     image: /assets/img/indev/main/devmodpackx465.png
-    date: 20 июня 2023
+    date: 4 мая 2026
   - text: ИНТЕРФЕЙС БОЯ
     url: /development/battle_gui
     image: /assets/img/indev/main/devbattleguix465.png
