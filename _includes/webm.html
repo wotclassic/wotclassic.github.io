@@ -1,0 +1,19 @@
+<div style="position: relative;">
+<style>
+#video_{{ include.unique_id }} {
+  pointer-events: none;
+}
+</style>
+
+
+<video 
+  id="video_{{ include.unique_id }}" 
+  autoplay 
+  muted 
+  loop 
+  playsinline 
+  crossorigin 
+  width="{{ include.width | default: 686 }}" 
+  src="{{ include.url | absolute_url }}">
+</video>
+</div>
