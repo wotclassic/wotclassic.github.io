@@ -1,19 +1,19 @@
 <div style="position: relative;">
 <style>
+/* Запрещаем клики мыши, чтобы пользователь не мог вызвать меню или поставить на паузу */
 #video_{{ include.unique_id }} {
   pointer-events: none;
 }
 </style>
 
-
+<!-- Убран атрибут crossorigin -->
 <video 
   id="video_{{ include.unique_id }}" 
   autoplay 
   muted 
   loop 
   playsinline 
-  crossorigin 
   width="{{ include.width | default: 686 }}" 
-  src="{{ include.url | absolute_url }}">
+  src="{{ include.url }}">
 </video>
 </div>
