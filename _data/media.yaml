@@ -153,6 +153,27 @@ gameplay:
          /assets/img/media/gameplay/westfield/westfield7.png]
 
 video:
+  - text: '«Мир Танков: Истоки». Новое начало.'
+    url: https://www.youtube.com/watch?v=T-htzaiAVlY
+    date: "16.07.2026"
+  - text: '«Мир Танков: Истоки». Набор на тест CLauncher открыт!'
+    url: https://www.youtube.com/watch?v=jndN2eCrv0I
+    date: "24.02.2026"
+  - text: '«Мир Танков: Истоки». Тот самый лаунчер.'
+    url: https://www.youtube.com/watch?v=Smx8ok3b0cA
+    date: "03.02.2026"
+  - text: '«Мир Танков: Истоки». Обзор Декабрьского обновления модов.'
+    url: https://www.youtube.com/watch?v=sRWTTkMrHHQ
+    date: "30.12.2025"
+  - text: '«Мир Танков: Истоки». Место встречи - центр.'
+    url: https://www.youtube.com/watch?v=BJV3Cz51rZo
+    date: "14.12.2025"
+  - text: '«Мир Танков: Истоки». 30 минут Хэллоуинских ангаров.'
+    url: https://www.youtube.com/watch?v=_3Be9r9RY2M
+    date: "29.10.2025"
+  - text: '«Мир Танков: Истоки». Обзор октябрьского микропатча модов.'
+    url: https://www.youtube.com/watch?v=aLHI6y3eDmQ
+    date: "26.10.2025"
   - text: '«Мир Танков: Истоки». Белый Тигр: Двойная Атака.'
     url: https://www.youtube.com/watch?v=VxegMPfqJeE
     date: "15.09.2025"
