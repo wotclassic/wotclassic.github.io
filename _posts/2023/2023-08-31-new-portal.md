@@ -89,7 +89,7 @@ image: "/assets/img/news/thumbnail/prtl_upd_aug_127x.png"
 
 ### Создатели нового портала
 
-- ![]({{ '/assets/img/news/secrets/save.gif' | relative_url}}){: id="savepoint" style="position: absolute; height: 19px; left: 2px; margin-top: -3px"}[A1Asriel](https://a1asriel.github.io/about) - ведущий разработчик обновления, создание логики автоматизации, компоновка стилей и шаблонов, воссоздание "карусели" с нуля в облегчённом коде.
+- ![]({{ '/assets/img/news/secrets/save.gif' | relative_url}}){: id="savepoint" style="position: absolute; height: 19px; left: 2px; margin-top: -3px"}A1Asriel - ведущий разработчик обновления, создание логики автоматизации, компоновка стилей и шаблонов, воссоздание "карусели" с нуля в облегчённом коде.
 - ![]({{ '/assets/img/MB_logo.png' | relative_url}}){: style="position: absolute; height: 16px; left: 4px; margin-top: -2px"}[Mr. Bendy](https://muramiha.github.io) - руководитель проекта, создатель оригинального сайта, создание статей, стилей и графики, адаптация старых ресурсов под новый портал.
 
 ---

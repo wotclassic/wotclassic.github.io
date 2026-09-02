@@ -44,23 +44,6 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ---
 
-<div style="float: right; text-align: right;"><img alt="A1Asriel" src="{{ '/assets/img/avatars/a1asriel.webp' | relative_url }}" class="pic">{% include socials.html person="a1asriel" %}</div>
-
-### A1Asriel
-
-*Технический специалист*
-{: style="margin-top: -12px;" }
-
-- {: .geolimited} **Игровой никнейм:** [A1Asriel](https://worldoftanks.eu/ru/community/accounts/595275807-A1Asriel/){: target="_blank" } (EU)
-- **Чем занимается:**
-  - обслуживание веб-портала и бекенда;
-  - поддержка установщика;
-  - обслуживание Discord-сервера.
-
-Создал веб-портал и установщик модов, в прошлом помогал с созданием старого выбора режима боя и организацией работы в команде.
-
----
-
 <div style="float: right; text-align: right;"><img alt="Pbody –iwnl–" src="{{ '/assets/img/avatars/pbody.webp' | relative_url }}" class="pic">{% include socials.html person="pbody" %}</div>
 
 ### Pbody –iwnl–
