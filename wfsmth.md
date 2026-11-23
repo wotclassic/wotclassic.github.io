@@ -14,6 +14,11 @@ wfsmth?
 ###### Come back here soon...
 {: style="text-align: center;"}
 
+###### This heart -  is a symbol of our life.
+{: style="text-align: center;color: #0e0e0e;"}
+###### It is blooming.
+{: style="text-align: center;color: #0e0e0e;"}
+
 <style>
   body {
     color: #b1b2b2;

@@ -104,19 +104,6 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 ---
 
-![test_account_01]({{ '/assets/img/avatars/test_account.jpg' | relative_url }}){: .pic }
-{: style="float: right;" }
-
-### test_account_01
-
-- **Игровой никнейм:** [test_account_01](https://tanki.su/ru/community/accounts/171982656-test_account_01/){: target="_blank" } (RUBY)
-- **Чем занимается:**
-  - создание SD-моделей;
-  - разработка ангаров;
-  - разработка старых карт.
-
----
-
 <div style="float: right; text-align: right;"><img alt="Dem" src="{{ '/assets/img/avatars/dem.webp' | relative_url }}" class="pic">{% include socials.html person="dem" %}</div>
 
 ### Dem / Find_muck
@@ -179,6 +166,7 @@ excerpt: Познакомьтесь с командой, стоящей за п�
 
 - **kinasura** --- создание оригинального звукового мода и первого зимнего ангара.
 - **_KILLER_2017** --- помощь со звуками и интерфейсом.
+- **test_account_01** --- Белый Тигр, Белый Тигр: Двойная Атака, Тёмная Сторона Марса: Запретная зона, Луганский Ангар, Ангары первого поколения, SD-Модели, а так же старые карты. 
 
 ---
 
